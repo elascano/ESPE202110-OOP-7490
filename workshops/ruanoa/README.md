@@ -1,2 +1,2 @@
-Edison Lascano's OOP workshops
-Michelle code
+Alexander Ruano's OOP workshops
+Alexander Ruano Code
