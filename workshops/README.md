@@ -1,1 +1,1 @@
-OOP assignments
+Edison Lascano's OOP workshops
