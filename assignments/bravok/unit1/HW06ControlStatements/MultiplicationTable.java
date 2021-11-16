@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
  
-public class JavaApplication219 {
+public class MultiplicationTable{
  
     public static void main(String[] args) {
  
