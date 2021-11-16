@@ -1,2 +1,2 @@
-Edison Lascano's OOP workshops
-Michelle code
+Leandro Quinga's OOP workshops
+
