@@ -3,50 +3,50 @@ import java.util.Scanner;
 public class MultiplicationtableEivar{
     public static void main(String[] ARGS)
     {
-        Scanner leer=new Scanner(System.in);
-		int opcion,numero,i,j;
+        Scanner read=new Scanner(System.in);
+		int option,number,i,j;
 		
-		System.out.println("Elija la funcion a realizar: \n");
-		System.out.println("1. Tabla de Multiplicar: \n");
-		System.out.println("2. Saber si es par o impar: \n");
-		System.out.println("3. Las 2 opiones: \n");
-		opcion = leer.nextInt();
+		System.out.println("choose a option: \n");
+		System.out.println("1. Multiplication table: \n");
+		System.out.println("2. know par or impar: \n");
+		System.out.println("3. Choose the two options: \n");
+		option = read.nextInt();
 		
-		switch(opcion){
+		switch(option){
 			case 1:
-				Scanner obtenerNumero = new Scanner(System.in);
-				System.out.print("indica la tabla de multiplicar: ");
-				numero = obtenerNumero.nextInt();
+				Scanner givenumber = new Scanner(System.in);
+				System.out.print("press the multiplication table: ");
+				number = givenumber.nextInt();
 				for(j = 1; j <= 10; j++)
 				{
-					System.out.println(numero + " X " + j + " = " + numero*j);
+					System.out.println(number + " X " + j + " = " + number*j);
 				}
 				System.out.println();
 			break;
 			case 2:
-				Scanner teclado = new Scanner( System.in );
-				System.out.printf( "Introduzca un numero entero: " );
-				numero = teclado.nextInt();
+				Scanner keyword = new Scanner( System.in );
+				System.out.printf( "Press a number: " );
+				number = keyword.nextInt();
 
-				if ( numero % 2 == 0 ){
-				System.out.printf( "ES PAR" );
+				if ( number % 2 == 0 ){
+				System.out.printf( " PAR" );
 				} else {
-				System.out.printf( "ES IMPAR" );
+				System.out.printf( " IMPAR" );
 				}
 			break;
 			case 3:
-				Scanner teclad2 = new Scanner(System.in);
-				System.out.printf( "Introduzca un numero entero: " );
-				numero = teclad2.nextInt();
+				Scanner keyword2 = new Scanner(System.in);
+				System.out.printf( "Press a enter number: " );
+				number = keyword2.nextInt();
 				for(j = 1; j <= 10; j++)
 				{
-					System.out.println(numero + " X " + j + " = " + numero*j);
+					System.out.println(number + " X " + j + " = " + number*j);
 				}
 				System.out.println();
-				if ( numero % 2 == 0 ){
-				System.out.printf( "ES PAR" );
+				if ( number % 2 == 0 ){
+				System.out.printf( "PAR" );
 				} else {
-				System.out.printf( "ES IMPAR" );
+				System.out.printf( "IMPAR" );
 				}
 			break;
 		}
