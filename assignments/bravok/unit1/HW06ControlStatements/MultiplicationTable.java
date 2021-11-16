@@ -1,13 +1,13 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
  
-public class JavaApplication219 {
+public class MultiplicationTable{
  
     public static void main(String[] args) {
  
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
-        int opcion; //Guardaremos la opcion del usuario
+        int opcion; //We will save the user's option 
  
         while (!salir) {
  
