@@ -21,3 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/mantuanol/unit1/HS07Helloworld/HelloOOP/nbproject/private/
+/workshops/mantuanol/unit1/HS07Helloworld/HelloOOP/build/
+/workshops/mantuanol/unit1/New Folder/ec.edu.espe.farm.model/nbproject/private/
+/workshops/mantuanol/unit1/WH08Classes/FarmSimulator/nbproject/private/
