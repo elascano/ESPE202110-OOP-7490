@@ -21,6 +21,50 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 /workshops/guamana/unit1/WSO7HellowWorld/HelloOOP/nbproject/private/
 /workshops/guamana/unit1/WSO7HellowWorld/HelloOOP/build/
 /workshops/guamana/unit1/WSO8Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/maisinchor/unit1/WS08Clases/FarmSimulator/nbproject/private/
+/workshops/maisinchor/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/maisinchor/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/maisinchor/unit1/WS08Clases/ec.edu.espe.farm.model/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/calderona/unit1/HW07Helloworld/HelloOOP/nbproject/private/
+/workshops/calderona/unit1/HW07Helloworld/HelloOOP/build/
+/workshops/calderona/unit1/HW08Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/mantuanol/unit1/HS07Helloworld/HelloOOP/nbproject/private/
+/workshops/mantuanol/unit1/HS07Helloworld/HelloOOP/build/
+/workshops/mantuanol/unit1/New Folder/ec.edu.espe.farm.model/nbproject/private/
+/workshops/mantuanol/unit1/WH08Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/landazurim/unit1/WS07Helloworld/HelloOOP/nbproject/private/
+/workshops/landazurim/unit1/WS07Helloworld/HelloOOP/build/
+/workshops/landazurim/unit1/WS08Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/workshops/sanchezj/unit1/WS07Helloworld/HelloOOP/nbproject/private/
+/workshops/sanchezj/unit1/WS07Helloworld/HelloOOP/build/
+/workshops/sanchezj/unit1/New Folder/Farmsimulator/nbproject/private/
+=======
+/workshops/lincangoj/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/lincangoj/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/lincangoj/unit1/HS08Classes/FamrSimulator/nbproject/private/
+>>>>>>> 6a85f4bcdb3402f32511d69fe4d966102c07b26d
+=======
+/workshops/ruanoa/unit1/New Folder/HelloOOP/nbproject/private/
+/workshops/ruanoa/unit1/New Folder/HelloOOP/build/
+/workshops/ruanoa/unit1/New Folder (2)/FarmSimulator/nbproject/private/
+>>>>>>> 8e8fd868b3b0f0da3033bd0c88c246a7fd3238ba
+>>>>>>> d61de5c8405193fe71629a40e9b0839c69ae3f84
+>>>>>>> dc541b8b7652681c2bf597e288445b688d714339
+>>>>>>> 46fbb731405f1480f1acacca8a5a545a2244635a
+>>>>>>> 0b697ce08bc699690b016ad53d89c3477bd2396c
+>>>>>>> 2069982eb54fa6f1c996ea3447ca486c868169fe
