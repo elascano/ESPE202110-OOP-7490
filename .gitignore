@@ -21,6 +21,24 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 /workshops/landazurim/unit1/WS07Helloworld/HelloOOP/nbproject/private/
 /workshops/landazurim/unit1/WS07Helloworld/HelloOOP/build/
 /workshops/landazurim/unit1/WS08Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/workshops/sanchezj/unit1/WS07Helloworld/HelloOOP/nbproject/private/
+/workshops/sanchezj/unit1/WS07Helloworld/HelloOOP/build/
+/workshops/sanchezj/unit1/New Folder/Farmsimulator/nbproject/private/
+=======
+/workshops/lincangoj/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/lincangoj/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/lincangoj/unit1/HS08Classes/FamrSimulator/nbproject/private/
+>>>>>>> 6a85f4bcdb3402f32511d69fe4d966102c07b26d
+=======
+/workshops/ruanoa/unit1/New Folder/HelloOOP/nbproject/private/
+/workshops/ruanoa/unit1/New Folder/HelloOOP/build/
+/workshops/ruanoa/unit1/New Folder (2)/FarmSimulator/nbproject/private/
+>>>>>>> 8e8fd868b3b0f0da3033bd0c88c246a7fd3238ba
+>>>>>>> d61de5c8405193fe71629a40e9b0839c69ae3f84
