@@ -21,3 +21,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/moralesa/unit1/New Folder/HelloOOP/nbproject/private/
+/workshops/moralesa/unit1/New Folder/HelloOOP/build/
+/workshops/moralesa/unit1/HW07Helloworld/HelloOOP/nbproject/private/
+/workshops/moralesa/unit1/HW07Helloworld/HelloOOP/build/
+/workshops/moralesa/unit1/WS08Classes/FarmSimulator/nbproject/private/
