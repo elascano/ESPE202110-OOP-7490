@@ -5,7 +5,6 @@ package hellooop;
  * @author USER
  */
 public class HelloOOP {
-
     /**
      * @param args the command line arguments
      */
