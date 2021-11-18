@@ -21,3 +21,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/guamana/unit1/WSO7HellowWorld/HelloOOP/nbproject/private/
+/workshops/guamana/unit1/WSO7HellowWorld/HelloOOP/build/
+/workshops/guamana/unit1/WSO8Classes/FarmSimulator/nbproject/private/
