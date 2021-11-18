@@ -7,7 +7,7 @@ public class MultiplicationTable{
  
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
-        int opcion; //Guardaremos la opcion del usuario
+        int opcion; //We will save the user's option 
  
         while (!salir) {
  
