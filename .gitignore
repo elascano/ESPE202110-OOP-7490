@@ -21,3 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/tecac/unit1/HW07HelloWorld/Hello/nbproject/private/
+/workshops/tecac/unit1/HW07HelloWorld/Hello/build/
+/workshops/tecac/unit1/HW08Classes/FarmSimulation/nbproject/private/
+/workshops/tecac/unit1/HW08Classes/FarmSimulation/build/
