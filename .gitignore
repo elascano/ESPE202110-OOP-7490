@@ -21,3 +21,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/altamiranoc/Unit1/HelloWorld/nbproject/private/
+/workshops/altamiranoc/Unit1/HelloWorld/build/
+/workshops/altamiranoc/Unit1/WS08Classes/FarmSimulator/nbproject/private/
