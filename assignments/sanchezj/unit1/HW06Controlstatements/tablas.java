@@ -8,7 +8,7 @@ public class Deber1Oop {
         Scanner scanner=new Scanner (System.in);
         //scanner.next permite leer los datos desde la consola
         String opcionTexto=scanner.next();
-        //convertir de texto a numero
+        //text to number
         Integer number = Integer.parseInt(opcionTexto);
 ////////////////////1ra parte////////////////////////
         Integer repeat = 1;
