@@ -22,10 +22,25 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 <<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/cruzd/unit1/WS07HelloWord/HelloOOP/nbproject/private/
 /workshops/cruzd/unit1/WS08Classes/FarmSimulator/nbproject/private/
 /workshops/cruzd/unit1/WS07HelloWord/HelloOOP/build/
 /workshops/cruzd/unit1/WS08Classes/FarmSimulator/build/
+=======
+/workshops/bravok/unit1/JavaAplications1/nbproject/private/
+/workshops/bravok/unit1/WS07HelloWorld/JavaAplications1/nbproject/private/
+/workshops/bravok/unit1/JavaApplication1/nbproject/private/
+/workshops/bravok/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/bravok/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/bravok/unit1/WS08Classes/FarmSimulator/nbproject/private/
+/workshops/bravok/unit1/WS08Classes/FarmSimulator/build/
+=======
+<<<<<<< HEAD
+/workshops/tapiaa/Unit1/WS07HelloWorld/HelloOPOP/nbproject/private/
+/workshops/tapiaa/Unit1/WS07HelloWorld/HelloOPOP/build/
+/workshops/tapiaa/Unit1/WS08Classes/FarmSimulator/nbproject/private/
+>>>>>>> 7671e1c1e19aced02065db3fbab1588b67a07e8a
 =======
 <<<<<<< HEAD
 /workshops/teranm/unit1/New Folder/HelloOOP/nbproject/private/
@@ -185,3 +200,7 @@ hs_err_pid*
 >>>>>>> 6df518e2374d2be487ccbf4aa5b8273e3fb3297f
 >>>>>>> f6c3ab71878e45627ed9ed76c8648ac642214fd7
 >>>>>>> c0927b53f8648fab04272fd55ddbc530589ee8b7
+<<<<<<< HEAD
+=======
+>>>>>>> 10abff92c6173202c4cb1fe825de567473f22369
+>>>>>>> 7671e1c1e19aced02065db3fbab1588b67a07e8a
