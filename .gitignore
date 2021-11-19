@@ -21,3 +21,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/shugulia/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/shugulia/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/shugulia/unit1/WS08class/Farmsimulator/nbproject/private/
+/workshops/shugulia/unit1/WS08class/chiken/nbproject/private/
+/workshops/shugulia/unit1/WS08classes/farmsimulator/nbproject/private/
