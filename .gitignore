@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/workshops/bravok/unit1/JavaAplications1/nbproject/private/
+/workshops/bravok/unit1/WS07HelloWorld/JavaAplications1/nbproject/private/
+/workshops/bravok/unit1/JavaApplication1/nbproject/private/
+/workshops/bravok/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/bravok/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/bravok/unit1/WS08Classes/FarmSimulator/nbproject/private/
+/workshops/bravok/unit1/WS08Classes/FarmSimulator/build/
