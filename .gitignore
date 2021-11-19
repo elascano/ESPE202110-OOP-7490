@@ -20,7 +20,68 @@
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+<<<<<<< HEAD
 hs_err_pid*
+<<<<<<< HEAD
+/workshops/saltosp/unit1/WS07 HelloWord/HelloOPP/nbproject/private/
+/workshops/saltosp/unit1/WS07 HelloWord/HelloOPP/build/
+/workshops/saltosp/unit1/WS08 Clasess/FarmSimulator/nbproject/private/
+=======
+/workshops/andrangoa/UNIT 1/WS08CLASS/Chicken/nbproject/private/
+/workshops/andrangoa/UNIT 1/WS08CLASS/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+hs_err_pid*
+<<<<<<< HEAD
+<<<<<<< HEAD
+/workshops/almachea/Unit1/WS07HelloWord/HelloOOP/nbproject/private/
+/workshops/almachea/Unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/almachea/Unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/almachea/Unit1/New Folder/FarmSimulator/nbproject/private/
+/workshops/almachea/Unit1/WS08Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/workshops/asumazad/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/asumazad/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/asumazad/unit1/WS08Classes/FarmSimulator/nbproject/private/
+=======
+=======
+/workshops/zeasj/unit1/HW07HelloWorld/HelloOOP/nbproject/private/
+/workshops/zeasj/unit1/HW07HelloWorld/HelloOOP/build/
+/workshops/zeasj/unit1/WS08Classes/FarmSimulator/nbproject/private/
+/workshops/zeasj/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/zeasj/unit1/WS07HelloWorld/HelloOOP/build/
+=======
+<<<<<<< HEAD
+/workshops/altamiranoc/Unit1/HelloWorld/nbproject/private/
+/workshops/altamiranoc/Unit1/HelloWorld/build/
+/workshops/altamiranoc/Unit1/WS08Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/workshops/garciam/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/garciam/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/garciam/unit1/WS08Classes/FarmSimulater/nbproject/private/
+=======
+/workshops/bravoc/unit1/New Folder/HelloOOP/nbproject/private/
+/workshops/bravoc/unit1/New Folder/HelloOOP/build/
+/workshops/bravoc/unit1/WS08Classes/FarmSimulator/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/shugulia/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/shugulia/unit1/WS07HelloWorld/HelloOOP/build/
+/workshops/shugulia/unit1/WS08class/Farmsimulator/nbproject/private/
+/workshops/shugulia/unit1/WS08class/chiken/nbproject/private/
+/workshops/shugulia/unit1/WS08classes/farmsimulator/nbproject/private/
+>>>>>>> c9bfbe2ae40bb77a3ada3776d1ae8f8e1b7d6598
+=======
+<<<<<<< HEAD
+/workshops/andradea/Unit 1/HelloOOP/nbproject/private/
+/workshops/andradea/Unit 1/HelloOOP/build/
+/workshops/andradea/Unit 1/HW08CLASSES/nbproject/private/
+/workshops/andradea/Unit 1/FarmSimulator/nbproject/private/
+=======
 <<<<<<< HEAD
 /workshops/arrobac/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
 /workshops/arrobac/unit1/WS07HelloWorld/HelloOOP/build/
@@ -78,9 +139,11 @@ hs_err_pid*
 /workshops/bustillosp/unit1/New Folder (2)/FarmSimulator/nbproject/private/
 =======
 <<<<<<< HEAD
+>>>>>>> 094ce07fe787ce78b9e47ab7a2df385b0602843a
 /workshops/palaciosd/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
 /workshops/palaciosd/unit1/WS07HelloWorld/HelloOOP/build/
 /workshops/palaciosd/unit1/WS08Classes/FarmSimulator/nbproject/private/
+>>>>>>> 87339db4ad73cf32373a94f941599736c792b0f1
 =======
 <<<<<<< HEAD
 /workshops/quingal/unit1/HelloOOP/nbproject/private/
@@ -89,6 +152,7 @@ hs_err_pid*
 /workshops/quingal/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
 /workshops/quingal/unit1/WS08Classes/FarmSimulator/nbproject/private/
 /workshops/quingal/unit1/WS07HelloWorld/HelloOOP/build/
+>>>>>>> b55c3bc8495f4da46a223a61e3290a5e532c0a39
 =======
 <<<<<<< HEAD
 /workshops/tecac/unit1/HW07HelloWorld/Hello/nbproject/private/
@@ -209,6 +273,9 @@ hs_err_pid*
 >>>>>>> 1b80db830d512ec78da71c936c5d105a4ba00e10
 >>>>>>> 0809876e2cb77b666f5840868bdf3980e4add930
 >>>>>>> 614dd146e7a4a8b12c798625a54d06e22ecc79ea
+<<<<<<< HEAD
+/workshops/almachea/Unit1/WS08Classes/FarmSimulator/build/
+=======
 >>>>>>> 54db53e90787d4af982aec4753b493b7405bb8ee
 >>>>>>> 87339db4ad73cf32373a94f941599736c792b0f1
 >>>>>>> 6df518e2374d2be487ccbf4aa5b8273e3fb3297f
@@ -219,3 +286,21 @@ hs_err_pid*
 >>>>>>> 10abff92c6173202c4cb1fe825de567473f22369
 >>>>>>> 7671e1c1e19aced02065db3fbab1588b67a07e8a
 >>>>>>> 58f2e84f2d06ecf25bd186001734a504a2b5083d
+>>>>>>> f41be951345f415a119d500947ca8c17555bf333
+>>>>>>> 875e9a4ab80486aa5adbb265010612e4ec8a195e
+<<<<<<< HEAD
+=======
+>>>>>>> a41fc959cf1a6f6442752f042266369221f105f7
+<<<<<<< HEAD
+/workshops/bravoc/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/bravoc/unit1/WS07HelloWorld/HelloOOP/build/
+=======
+>>>>>>> c9bfbe2ae40bb77a3ada3776d1ae8f8e1b7d6598
+>>>>>>> eef5bf2a0ca31d4c145adcba64d987b181e07319
+>>>>>>> 5e8f59551444050cfa3b01ae664126eb86ef9895
+=======
+hs_err_pid*
+>>>>>>> effdbff8e432e1f2ce389efe2c828de58cc52b1b
+>>>>>>> 4aeed6253516bad1cd9ba008e2a71827c64b07e9
+>>>>>>> b55c3bc8495f4da46a223a61e3290a5e532c0a39
+>>>>>>> d685c8d337ce6ccae39beb31afa929ccf1114f7d
