@@ -3,9 +3,10 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author ASUS
+ * @author ALexander Ruano
  */
 public class Chicken {
+    
     private String name;
     private String color;
     private int age;
@@ -37,5 +38,9 @@ public class Chicken {
     
     private void layAnEgg(){
         
+    }
+    
+    private Poop poop(){
+        return new Poop;     
     }
 }
