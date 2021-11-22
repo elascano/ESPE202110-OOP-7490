@@ -18,6 +18,7 @@
 *.zip
 *.tar.gz
 *.rar
+<<<<<<< HEAD
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -83,3 +84,5 @@ hs_err_pid*
 >>>>>>> f797c77b10525a61939c655499190d0b08d33557
 >>>>>>> 762aa0ad763ed4b03ce64a92ec7bccac2c2be960
 /workshops/villegass/unit1/WS08Classes/FarmSimulator/build/
+=======
+>>>>>>> 2e5c25b4481cfc2075a6a0887182a6aa3ef8c6fb
