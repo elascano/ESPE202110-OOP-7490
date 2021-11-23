@@ -2,13 +2,11 @@ package hellooop;
 
 /**
  *
- * @author javie
+ * @author PAUCAR JAVIER
  */
 public class HelloOOP {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         System.out.println("*****Hello From Javier Paucar*****");
         
