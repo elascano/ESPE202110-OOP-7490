@@ -18,67 +18,13 @@
 *.zip
 *.tar.gz
 *.rar
+<<<<<<< HEAD
+/assignments/sanchezj/unit1/HW07CLASSES/ControlWeapon/nbproject/private/
+=======
+<<<<<<< HEAD
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-<<<<<<< HEAD
-/workshops/quingal/unit1/HelloOOP/nbproject/private/
-/workshops/quingal/unit1/HW07/HelloOOP/nbproject/private/
-/workshops/quingal/unit1/WS07HelloOOP/HelloOOP/nbproject/private/
-/workshops/quingal/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
-/workshops/quingal/unit1/WS08Classes/FarmSimulator/nbproject/private/
-/workshops/quingal/unit1/WS07HelloWorld/HelloOOP/build/
-=======
-<<<<<<< HEAD
-/workshops/tecac/unit1/HW07HelloWorld/Hello/nbproject/private/
-/workshops/tecac/unit1/HW07HelloWorld/Hello/build/
-/workshops/tecac/unit1/HW08Classes/FarmSimulation/nbproject/private/
-/workshops/tecac/unit1/HW08Classes/FarmSimulation/build/
-=======
-<<<<<<< HEAD
-/workshops/paucara/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
-/workshops/paucara/unit1/WS07HelloWorld/HelloOOP/build/
-/workshops/paucara/unit1/WS08Classes/FarmSimulator/nbproject/private/
-=======
-<<<<<<< HEAD
-/workshops/correak/Unit1/HWS07HelloWorld/HelloOOP/nbproject/private/
-/workshops/correak/Unit1/HWS07HelloWorld/HelloOOP/build/
-/workshops/correak/Unit1/HWS08Classes/FarmSimulator/nbproject/private/
-/workshops/correak/Unit1/HWS08Classes/FarmSimulator/build/
-=======
-<<<<<<< HEAD
-/workshops/moralesa/unit1/New Folder/HelloOOP/nbproject/private/
-/workshops/moralesa/unit1/New Folder/HelloOOP/build/
-/workshops/moralesa/unit1/HW07Helloworld/HelloOOP/nbproject/private/
-/workshops/moralesa/unit1/HW07Helloworld/HelloOOP/build/
-/workshops/moralesa/unit1/WS08Classes/FarmSimulator/nbproject/private/
-=======
-<<<<<<< HEAD
-/workshops/delacruza/workshop07/HelloOOP/nbproject/private/
-/workshops/delacruza/Unit I/New Folder/HelloOOP/nbproject/private/
-/workshops/delacruza/Unit I/New Folder/HelloOOP/build/
-/workshops/delacruza/Unit I/WSO8HelloWorld/FarmSimulator/nbproject/private/
-/workshops/delacruza/Unit I/WSO8Classes/FarmSimulator/nbproject/private/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-/workshops/tayos/UNIDAD 1/New Folder/HelloOOP/JavaApplication1/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS07/HelloOOP/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS07/HelloOOP/build/
-/workshops/tayos/UNIDAD 1/WS08Classes/FarmSimulator/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS08Classes/FarmSimulator/build/
-=======
-/workshops/guzmanj/HelloOOP/nbproject/private/
-/workshops/guzmanj/HelloOOP/build/
-/workshops/guzmanj/Unit1/FarmSimulator/nbproject/private/
->>>>>>> 0391748ccf1263dbd345a0656b412adf4c352caa
-=======
-<<<<<<< HEAD
-/workshops/maldonadom/unit1/WSO7HelloWorld/HelloOOP/nbproject/private/
-/workshops/maldonadom/unit1/WSO7HelloWorld/HelloOOP/build/
-/workshops/maldonadom/unit1/NewFolder/FarmSimulator/nbproject/private/
-/workshops/maldonadom/unit1/NewFolder/FarmSimulator/build/
-=======
 <<<<<<< HEAD
 /workshops/villegass/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
 /workshops/villegass/unit1/WS07HelloWorld/HelloOOP/build/
@@ -140,6 +86,7 @@ hs_err_pid*
 >>>>>>> 2069982eb54fa6f1c996ea3447ca486c868169fe
 >>>>>>> f797c77b10525a61939c655499190d0b08d33557
 >>>>>>> 762aa0ad763ed4b03ce64a92ec7bccac2c2be960
+<<<<<<< HEAD
 >>>>>>> d15065fbd5c34792d5217a5ea39705171f18e327
 >>>>>>> dd288ac3e1c29d664579ccf4cdcddf3f85415cb5
 >>>>>>> 9644058766fdb71407c3a73f7cc408f6d5d73432
@@ -149,3 +96,16 @@ hs_err_pid*
 >>>>>>> 0809876e2cb77b666f5840868bdf3980e4add930
 >>>>>>> 614dd146e7a4a8b12c798625a54d06e22ecc79ea
 /assignments/quingal/unit1/HW07Project/GroupProject/nbproject/private/
+=======
+/workshops/villegass/unit1/WS08Classes/FarmSimulator/build/
+=======
+>>>>>>> 2e5c25b4481cfc2075a6a0887182a6aa3ef8c6fb
+<<<<<<< HEAD
+/assignments/ruanoa/unit1/HW07Project/JavaApplication4/nbproject/private/
+/assignments/ruanoa/unit1/HW07Project/GroupProject/nbproject/private/
+/assignments/ruanoa/unit1/HW07Project/GroupProject/build/
+/assignments/ruanoa/unit1/HW07Project/GroupProject/dist/
+=======
+>>>>>>> 78aef411b0756d1c66e71c0a9df35d5f2ed666cc
+>>>>>>> dcd06221048e8bc6cf7f35eddc55a8c4fbaff90f
+>>>>>>> 71a63a205d04f9904641e0b6010d54c58b7b032c
