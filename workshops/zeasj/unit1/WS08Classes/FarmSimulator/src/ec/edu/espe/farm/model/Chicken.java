@@ -5,7 +5,7 @@ package ec.edu.espe.farm.model;
  * @author Zeas Joel
  */
 public class Chicken {
-
+ 
     private String name;
     private String color;
     private int age;

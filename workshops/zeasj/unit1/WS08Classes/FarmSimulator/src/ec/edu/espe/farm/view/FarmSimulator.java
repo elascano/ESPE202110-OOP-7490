@@ -4,7 +4,7 @@ package ec.edu.espe.farm.view;
  *
  * @author Zeas Joel
  */
-public class FarmSimulator {
+public class FarmSimulator { 
 
     /**
      * @param args the command line arguments

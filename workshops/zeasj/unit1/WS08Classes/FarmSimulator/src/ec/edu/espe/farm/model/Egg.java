@@ -7,3 +7,4 @@ package ec.edu.espe.farm.model;
 class Egg {
 
 }
+ 
