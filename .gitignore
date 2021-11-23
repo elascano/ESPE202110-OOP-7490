@@ -18,15 +18,13 @@
 *.zip
 *.tar.gz
 *.rar
+<<<<<<< HEAD
+/assignments/sanchezj/unit1/HW07CLASSES/ControlWeapon/nbproject/private/
+=======
+<<<<<<< HEAD
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-<<<<<<< HEAD
-/workshops/maldonadom/unit1/WSO7HelloWorld/HelloOOP/nbproject/private/
-/workshops/maldonadom/unit1/WSO7HelloWorld/HelloOOP/build/
-/workshops/maldonadom/unit1/NewFolder/FarmSimulator/nbproject/private/
-/workshops/maldonadom/unit1/NewFolder/FarmSimulator/build/
-=======
 <<<<<<< HEAD
 /workshops/villegass/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
 /workshops/villegass/unit1/WS07HelloWorld/HelloOOP/build/
@@ -88,4 +86,14 @@ hs_err_pid*
 >>>>>>> 2069982eb54fa6f1c996ea3447ca486c868169fe
 >>>>>>> f797c77b10525a61939c655499190d0b08d33557
 >>>>>>> 762aa0ad763ed4b03ce64a92ec7bccac2c2be960
->>>>>>> d15065fbd5c34792d5217a5ea39705171f18e327
+/workshops/villegass/unit1/WS08Classes/FarmSimulator/build/
+=======
+>>>>>>> 2e5c25b4481cfc2075a6a0887182a6aa3ef8c6fb
+<<<<<<< HEAD
+/assignments/ruanoa/unit1/HW07Project/JavaApplication4/nbproject/private/
+/assignments/ruanoa/unit1/HW07Project/GroupProject/nbproject/private/
+/assignments/ruanoa/unit1/HW07Project/GroupProject/build/
+/assignments/ruanoa/unit1/HW07Project/GroupProject/dist/
+=======
+>>>>>>> 78aef411b0756d1c66e71c0a9df35d5f2ed666cc
+>>>>>>> dcd06221048e8bc6cf7f35eddc55a8c4fbaff90f
