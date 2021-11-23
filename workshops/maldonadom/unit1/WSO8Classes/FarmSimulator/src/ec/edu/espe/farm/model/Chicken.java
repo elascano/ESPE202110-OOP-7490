@@ -9,6 +9,7 @@ package ec.edu.espe.farm.model;
  * @author MateoMaldonado
  */
 public class Chicken {
+    
     private String name;
     private String color;
     private int age;
