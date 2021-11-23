@@ -1,34 +1,42 @@
 package ec.edu.espe.farm.model;
+
 /**
  *
- * @author jhona
+ * @author GUITARRA JHON
  */
 public class Chicken {
+
     private String name;
     private String color;
     private int age;
     private boolean isMolting;
-    
-    public void doSuff(){
-    
+
+    public void doSuff() {
+
     }
-    public void cluck(){
-    
+
+    public void cluck() {
+
     }
-    public void wander(){
-    
+
+    public void wander() {
+
     }
-    public void eat(){
-    
+
+    public void eat() {
+
     }
-    public void drink(){
-    
+
+    public void drink() {
+
     }
-    public Poop poop(){
+
+    public Poop poop() {
         return new Poop();
     }
-    public Egg LayAnEgg(){
-        return new Egg();  
+
+    public Egg LayAnEgg() {
+        return new Egg();
     }
-    
+
 }
