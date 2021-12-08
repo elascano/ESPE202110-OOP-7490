@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ec.edu.espe.farm.model;
+package ec.espe.edu.farm.model;
 
 /**
  *
@@ -15,6 +15,13 @@ public class Chicken {
     private int age;
     private boolean isMolting;
 
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", isMolting=" + isMolting + '}';
+    }
+
+    
+    
     public void doStuff(int forTime){
         cluck();
         wander();

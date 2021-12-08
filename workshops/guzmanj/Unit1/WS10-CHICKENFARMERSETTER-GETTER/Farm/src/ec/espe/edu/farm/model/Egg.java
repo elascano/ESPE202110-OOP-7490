@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ec.edu.espe.farm.model;
+package ec.espe.edu.farm.model;
 
 /**
  *
@@ -10,8 +10,11 @@ package ec.edu.espe.farm.model;
  */
 public class Egg {
     private int id;
-    
-    
+    @Override
+    public String toString() {
+        return "Egg{" + "id=" + id + '}';
+    }
+        
 
     /**
      * @return the id
@@ -26,5 +29,4 @@ public class Egg {
     public void setId(int id) {
         this.id = id;
     }
-    
 }
