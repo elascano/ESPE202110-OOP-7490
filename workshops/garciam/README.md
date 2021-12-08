@@ -1,1 +1,0 @@
-Mayerly Garcia OOP workshops

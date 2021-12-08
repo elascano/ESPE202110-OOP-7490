@@ -1,10 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package ec.edu.espe.farm.model;
 
+package ec.edu.espe.farm.model;
 /**
  *
  * @author USUARIO
@@ -14,6 +9,10 @@ public class Chicken {
     private String color;
     private int age;
     private boolean isMolting;
+    
+    int is_running;
+    
+    //snake_case cammelCase,lower case upper case,small leter, camelCase
     
     public void doStuff(){
         

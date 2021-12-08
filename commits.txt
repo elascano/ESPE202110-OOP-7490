@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1da4e55 fixing commits
 a71baff fixing commits
 d6b2388 Association
@@ -62,6 +63,8 @@ a3924cf WSArchives
 ce608cd Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
 c998c96 WSArchives
 b468511 WS08CLASSES
+=======
+>>>>>>> 1da4e555c5939ca68a342a1a6df219c7026bb8be
 2e5c25b reviewing code of WS08
 9175f62 HW07 Hellow World in Netbeans
 c2a656b WS07HelloWorld
