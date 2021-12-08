@@ -28,6 +28,56 @@ public class HelloOOP {
             System.out.println("This is a negative addend");
         }
 
+        //primitive data types
+        int numberOfwheels;
+
+        //DT  variable 
+        float salary;
+        char option;
+        //long short boolean ...
+        
+        String name;
+
+        //ADT (class)    variable (object)
+        Employer         employer;
+        Owner            owner;
+        Address          address;
+        Vehicle          vehicle; //declaring the object
+        Manufacturer     manufacturer;
+        MpgRating        mpgRating;
+        
+        
+        vehicle = new Vehicle(); //intance (instantiation)
+        f(x)
+        
+        //class object        contructor
+        //ADT   variable      method to instantiate         
+        Vehicle vehicle = new Vehicle();
+        
+        
+        
+        
+        
+        
+        
+        Address address = new Address("montecristi","123");
+        
+        
+        
+        
+        System.out.println(vehicle);
+        vehicle.getModel();
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 
 }
