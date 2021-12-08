@@ -19,6 +19,7 @@
 *.tar.gz
 *.rar
 
+<<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 <<<<<<< HEAD
@@ -96,3 +97,7 @@ hs_err_pid*
 >>>>>>> d15065fbd5c34792d5217a5ea39705171f18e327
 >>>>>>> dd288ac3e1c29d664579ccf4cdcddf3f85415cb5
 /workshops/guzmanj/Unit1/WS08OChickenAttributes/FarmSimulator/build/
+=======
+#vpp temporal files
+*.bak_*
+>>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
