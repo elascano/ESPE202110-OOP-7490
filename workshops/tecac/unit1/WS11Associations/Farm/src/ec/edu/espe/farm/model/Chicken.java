@@ -1,5 +1,8 @@
+
 package ec.edu.espe.farm.model;
+
 /**
+ *
  * @author Camila
  */
 public class Chicken {
@@ -8,33 +11,62 @@ public class Chicken {
     private String color;
     private int age;
     private boolean isMolting;
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", isMolting=" + isMolting + '}';
+    }
+
     
-    public void doStuff(){
+    public void doStuff(int forTime){
         
     }
+    
     private void cluck(){
         
     }
+    
     private void wander(){
         
     }
+    
     private void eat(){
         
     }
+    
     private void drink(){
         
     }
+    
     private Poop poop(){
         
         return new Poop();
         
     }
-    private Egg IayAnEgg(){
+    
+    private Egg lanyAndEgg(){
         
-        return new Egg();
+        return new Egg(1);
         
     }
-
+    
+    public Chicken() {
+        id = 0;
+        name = "ch";
+        color = "white";
+        age = 0;
+        isMolting = true;
+    }
+    
+    
+    public Chicken(int id, String name, String color, int age, boolean isMolting) {
+        this.id = id;
+        this.name = name;
+        this.color = color;
+        this.age = age;
+        this.isMolting = isMolting;
+    }
+    
     /**
      * @return the id
      */
@@ -104,4 +136,5 @@ public class Chicken {
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
+    
 }

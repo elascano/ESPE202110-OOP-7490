@@ -1,12 +1,21 @@
+
 package ec.edu.espe.farm.model;
 
 /**
  *
  * @author Camila
  */
-class Egg {
-
+public class Egg {
     private int id;
+
+    @Override
+    public String toString() {
+        return "Egg{" + "id=" + id + '}';
+    }
+
+    public Egg(int id) {
+        this.id = id;
+    }
 
     /**
      * @return the id
