@@ -1,3 +1,73 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+1da4e55 fixing commits
+a71baff fixing commits
+d6b2388 Association
+45a3d52 Association
+20d5ab9 ESPE202110-OOP-7490
+06b48a7 HW07Project
+320b7e1 HW07Project_Team09
+328d6c3 HW07Project_Team09
+9097b66 HW07Project_Team09
+c6b61ba Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+8156987 HW07Project_Team09
+8fb17e8 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+95a02e1 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+a8aebb6 HW07Proyect
+35a62f5 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+0f756be HW07Project_Team09
+ac53f33 HW07Proyect
+c136e70 HW07Proyect
+b557b50 GRUPO2
+606f398 CLASESGRUPO2
+a7b32d5 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+9d93d81 Project
+a7ef9c8 HW07ClassObject
+4afaee2 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+d471734 Workshops
+0f00a0f Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+18de7cc Unit1
+ee9e2d9 HW07ProjectClassObject
+3cedb22 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+37d97b4 WS01GitHub
+1615455 Workshops
+1a5a38b changes
+ebb5b3b Workshops
+10409f4 Project
+1f997a1 Project
+ddf829a Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+9dc2a72 HW07Proyect
+bd1bb9b GroupProject
+7500382 GroupProject
+71a63a2 Workshops 1-5.pdf
+83fb403 Workshops1-5.
+7e1ce6d Workshops 1-5
+83a299b Project v1.1
+b96844c Project
+b3f7166 Project
+dcd0622 HW06TESTING
+634c5f1 WS05CONTROL
+20190f5 WS04JAVA,JAVAC
+e04b67b WS03GITCLONE
+8dc63c0 WS02USERGITHUB
+a72adbc HWO7CLASSES
+765a9c5 HW07CLASSES
+78aef41 HW06
+a28ede5 WS07yWS08
+2b4de45 WS07andWS08
+fb1a48d Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+1e40bbc Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+cda30f0 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+a057f86 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+a3924cf WSArchives
+57cc236 WSArchives
+ce608cd Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+c998c96 WSArchives
+b468511 WS08CLASSES
+=======
+>>>>>>> 1da4e555c5939ca68a342a1a6df219c7026bb8be
+>>>>>>> 71e5e8b2b0648453044b8a599bb95bd5471b7942
 2e5c25b reviewing code of WS08
 9175f62 HW07 Hellow World in Netbeans
 c2a656b WS07HelloWorld
