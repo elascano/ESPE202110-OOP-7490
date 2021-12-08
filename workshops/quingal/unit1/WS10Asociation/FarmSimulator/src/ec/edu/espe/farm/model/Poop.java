@@ -9,23 +9,15 @@ package ec.edu.espe.farm.model;
  *
  * @author Usuario
  */
-class Egg {
-    private int id;
-
-    /**
-     * @return the id
-     */
-    public int getId() {
-        return id;
+public class Poop {
+    
+    public Poop(){
+        
     }
 
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-    
-    
+    @Override
+    public String toString() {
+        return "Poop{" + '}';
+    }   
     
 }

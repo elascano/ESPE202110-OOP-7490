@@ -7,7 +7,7 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author Usuario
+ * @author Leandro Quinga
  */
 public class Chicken {
     private int id;
@@ -15,15 +15,19 @@ public class Chicken {
     private String color;
     private int age;
     private boolean isMolting;
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", isMolting=" + isMolting + '}';
+    }
     
     public void doStuff(){
         cluck();
         wander();
         eat();
-        
     }
     private void cluck(){
-        System.out.println("This chincken in clucking...");
+        System.out.println("This chincken is clucking...");
     }
     private void wander(){
         System.out.println("This chicken is wandering...");
@@ -32,7 +36,7 @@ public class Chicken {
         System.out.println("This chicken is eating...");
     }
     private void drink(){
-        System.out.println("This chicken is drinking...");
+        System.out.println("This chicken is drinking");
     }
     private Poop poop(){
         
@@ -47,10 +51,10 @@ public class Chicken {
     
     public Chicken(){
         id = 0;
-        name="Ch";
-        color="write";
-        age=0;
-        isMolting=false;
+        name = "ch";
+        color = "white";
+        age = 0;
+        isMolting = false;
     }
 
     public Chicken(int id, String name, String color, int age, boolean isMolting) {
@@ -60,6 +64,8 @@ public class Chicken {
         this.age = age;
         this.isMolting = isMolting;
     }
+    
+    
 
     /**
      * @return the id
@@ -131,8 +137,5 @@ public class Chicken {
         this.isMolting = isMolting;
     }
     
-    
-    
-
     
 }

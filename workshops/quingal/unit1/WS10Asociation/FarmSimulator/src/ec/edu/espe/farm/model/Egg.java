@@ -9,7 +9,7 @@ package ec.edu.espe.farm.model;
  *
  * @author Usuario
  */
-class Egg {
+public class Egg {
     private int id;
 
     /**
