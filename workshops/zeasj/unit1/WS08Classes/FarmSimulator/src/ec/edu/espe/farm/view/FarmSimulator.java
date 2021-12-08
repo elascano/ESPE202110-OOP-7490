@@ -1,14 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package ec.edu.espe.farm.view;
 
 /**
  *
- * @author Joel
+ * @author Zeas Joel
  */
-public class FarmSimulator {
+public class FarmSimulator { 
 
     /**
      * @param args the command line arguments
@@ -16,5 +12,5 @@ public class FarmSimulator {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+
 }

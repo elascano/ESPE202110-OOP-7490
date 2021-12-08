@@ -18,3 +18,14 @@
 *.zip
 *.tar.gz
 *.rar
+/workshops/elascano/unit1/WS10Associations/or/nbproject/private/
+/workshops/elascano/unit1/WS10Associations/FarmSimulator/nbproject/private/
+/workshops/elascano/unit1/WS10Associations/FarmSimulator/build/
+/workshops/elascano/unit1/WS08Classes/FarmSimulator/build/
+/workshops/elascano/unit1/WS11Associations/Farm/nbproject/private/
+/workshops/elascano/unit1/WS11Associations/Farm/build/
+/workshops/elascano/unit1/WS12FromUmlToCode/Exercise/nbproject/private/
+/workshops/elascano/unit1/WS12FromUmlToCode/UmlExercise/nbproject/private/
+/workshops/elascano/unit1/WS12FromUmlToCode/UmlExercise/build/
+/workshops/elascano/unit2/WS14ExamInspection/Q33/nbproject/private/
+/workshops/elascano/unit2/WS14ExamInspection/Q33/build/
