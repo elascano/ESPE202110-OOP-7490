@@ -1,15 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.farm.model;
 
 /**
  *
- * @author Sebas
+ * @author SETayoRuiz
  */
-public class Chiken {
-    private String name;
+public class Chicken {
+   private String name;
    private String color;
    private int age;
    private boolean isMolting;
