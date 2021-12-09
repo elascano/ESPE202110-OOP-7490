@@ -10,15 +10,14 @@ public class TabalDeMultiplicarYParOImpar {
 
     public static void main(String[] args) {
    
-       
-        int opcion = 0;
+           int opcion = 0;
             do {
 
-            System.out.println("\n Bienvenio/a al siguiente menu de opciones");
-            System.out.println("\n Digite --1-- para conocer la tabla de multiplicar  de cualquier numero ");
-            System.out.println("\n Digite --2-- para conocer si es par o impar ");
-            System.out.println("\n Digite --3-- para salir");
-                System.out.println("\n Porfavor ingrese la opcion");
+            System.out.println("\n Welcome to the following options menu");
+            System.out.println("\n Type --1-- to know the multiplication table of any number");
+            System.out.println("\n Type --2-- to find out if it is odd or even");
+            System.out.println("\n Type --3-- to exit");
+                System.out.println("\n Please enter the option");
                opcion= scanner.nextInt();
                 
             
@@ -33,15 +32,15 @@ public class TabalDeMultiplicarYParOImpar {
                  }
                 
             } while(opcion!=3);
-            System.out.println("\n El programa ha finalizado ....gracias");
+            System.out.println("\n The program has ended .... thank you");
              
             
     }
         static void mostrar() {
         
-        System.out.println("\n Porfavor ingrese que el numero de la tabla que quiere conocer ");
+        System.out.println("\n Please enter the number of the table you want to know ");
         int numero1 = scanner.nextInt();
-            System.out.println("\n La tabla del numero  ingresado es ----->");
+            System.out.println("\n The table of the number entered is ----->");
             int i;
             for(i=1;i<=11;i++)
             {
@@ -51,14 +50,14 @@ public class TabalDeMultiplicarYParOImpar {
             }
         static void par() {
             int n;
-            System.out.println("\n Porfavor ingresar el un numero a ser evaluado");
+            System.out.println("\nPlease enter the number to be evaluated");
             n = scanner.nextInt();
             if(n % 2 ==0) {
-                System.out.println("\n El numerop es par 2");
+                System.out.println("\n The number is even");
                 
             }
             if (n%3 ==0) {
-                System.out.println("\n EL numero es Impar");
+                System.out.println("\n The number is Odd");
             }
             
             
