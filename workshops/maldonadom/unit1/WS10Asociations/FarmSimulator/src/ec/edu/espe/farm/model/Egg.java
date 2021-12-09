@@ -1,13 +1,13 @@
-
 package ec.edu.espe.farm.model;
 
 /**
  *
- * @author MateoMaldonado
+ * @author andresmaldonado
  */
-class Egg {
+public class Egg {
     private int id;
 
+    
     /**
      * @return the id
      */
