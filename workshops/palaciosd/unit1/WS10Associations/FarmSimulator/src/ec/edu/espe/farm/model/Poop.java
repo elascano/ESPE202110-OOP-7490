@@ -6,7 +6,7 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author ASUS
+ * @author USER
  */
 public class Poop {
     

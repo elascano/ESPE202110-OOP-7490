@@ -6,11 +6,23 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author ASUS
+ * @author USER
  */
 public class Egg {
     private int id;
 
+    @Override
+    public String toString() {
+        return "Egg{" + "id=" + id + '}';
+    }
+    
+    
+
+    public Egg(int id) {
+        this.id = id;
+    }
+    
+    
     /**
      * @return the id
      */
@@ -24,6 +36,6 @@ public class Egg {
     public void setId(int id) {
         this.id = id;
     }
-     
+    
     
 }

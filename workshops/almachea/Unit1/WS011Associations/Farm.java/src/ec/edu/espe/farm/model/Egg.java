@@ -9,21 +9,24 @@ package ec.edu.espe.farm.model;
  * @author ASUS
  */
 public class Egg {
-    private int id;
+    private int id; 
 
-    /**
-     * @return the id
-     */
+    public Egg(int id) {
+        this.id = id;
+    }
+
     public int getId() {
         return id;
     }
 
-    /**
-     * @param id the id to set
-     */
     public void setId(int id) {
         this.id = id;
     }
-     
+
+    @Override
+    public String toString() {
+        return "Egg{" + "id=" + id + '}';
+    }
+    
     
 }

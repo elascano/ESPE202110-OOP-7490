@@ -6,52 +6,54 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author ASUS
+ * @author USER
  */
 public class Chicken {
-    private int id; 
+    private int id;
     private String name;
     private String color;
     private int age;
     private boolean isMolting;
     
     public void doStuff(int forTime){
-        cluck();
-        wander();
-        eat();
+      cluck();
+      wander();
+      eat();
     }
-    private void cluck() {
-        System.out.println("This Chicken is Clucking");
+    
+    private void cluck(){
+        System.out.println("This chicken is cluking...");
     }
+    
     private void wander(){
-        System.out.println("Thhis Chicken is wandering...");
+        System.out.println("This chicken is wandering...");
     }
+    
     private void eat(){
-        System.out.println("This Chicken is eating...");
+        System.out.println("This chicken is eating...");
     }
+    
     private void drink(){
-        System.out.println("This chicken is drinking");
+        System.out.println("This chicken is drinking...");
     }
+    
     private Poop poop(){
         
         return new Poop();
-        
     }
     
     private Egg layAnEgg(){
         
         return new Egg();
-        
     }
 
     public Chicken() {
-        id=0;
-        name="ch";
-        color="white";
-        age=0;
-        isMolting=false;
+        id = 0;
+        name = "ch";
+        color = "white";
+        age = 0;
+        isMolting = false;
     }
-
     public Chicken(int id, String name, String color, int age, boolean isMolting) {
         this.id = id;
         this.name = name;
@@ -59,8 +61,8 @@ public class Chicken {
         this.age = age;
         this.isMolting = isMolting;
     }
+        
     
-
     /**
      * @return the id
      */
@@ -118,16 +120,17 @@ public class Chicken {
     }
 
     /**
-     * @return the asMolting
+     * @return the isMolting
      */
-    public boolean isAsMolting() {
+    public boolean isIsMolting() {
         return isMolting;
     }
 
     /**
-     * @param isMolting the asMolting to set
+     * @param isMolting the isMolting to set
      */
-    public void setAsMolting(boolean isMolting) {
+    public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
+  
 }
