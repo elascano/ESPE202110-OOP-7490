@@ -19,34 +19,13 @@
 *.tar.gz
 *.rar
 
+<<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 <<<<<<< HEAD
-/workshops/moralesa/unit1/New Folder/HelloOOP/nbproject/private/
-/workshops/moralesa/unit1/New Folder/HelloOOP/build/
-/workshops/moralesa/unit1/HW07Helloworld/HelloOOP/nbproject/private/
-/workshops/moralesa/unit1/HW07Helloworld/HelloOOP/build/
-/workshops/moralesa/unit1/WS08Classes/FarmSimulator/nbproject/private/
-=======
-<<<<<<< HEAD
-/workshops/delacruza/workshop07/HelloOOP/nbproject/private/
-/workshops/delacruza/Unit I/New Folder/HelloOOP/nbproject/private/
-/workshops/delacruza/Unit I/New Folder/HelloOOP/build/
-/workshops/delacruza/Unit I/WSO8HelloWorld/FarmSimulator/nbproject/private/
-/workshops/delacruza/Unit I/WSO8Classes/FarmSimulator/nbproject/private/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-/workshops/tayos/UNIDAD 1/New Folder/HelloOOP/JavaApplication1/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS07/HelloOOP/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS07/HelloOOP/build/
-/workshops/tayos/UNIDAD 1/WS08Classes/FarmSimulator/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS08Classes/FarmSimulator/build/
-=======
 /workshops/guzmanj/HelloOOP/nbproject/private/
 /workshops/guzmanj/HelloOOP/build/
 /workshops/guzmanj/Unit1/FarmSimulator/nbproject/private/
->>>>>>> 0391748ccf1263dbd345a0656b412adf4c352caa
 =======
 <<<<<<< HEAD
 /workshops/maldonadom/unit1/WSO7HelloWorld/HelloOOP/nbproject/private/
@@ -113,12 +92,34 @@ hs_err_pid*
 >>>>>>> 46fbb731405f1480f1acacca8a5a545a2244635a
 >>>>>>> 0b697ce08bc699690b016ad53d89c3477bd2396c
 >>>>>>> 2069982eb54fa6f1c996ea3447ca486c868169fe
+<<<<<<< HEAD
+/workshops/guamana/unit1/WS10Associations/FarmSimulator/nbproject/private/
+/workshops/guamana/unit1/WSO8Classes/FarmSimulator/build/
+/workshops/guamana/unit1/WS10Associations/FarmSimulator_1/nbproject/private/
+/workshops/guamana/unit1/WS11Assciations/Farm/nbproject/private/
+/workshops/guamana/unit1/WS11Assciations/Farm/build/
+/workshops/guamana/unit1/WS12From/JavaApplication14/nbproject/private/
+/workshops/guamana/unit1/WS12From/UmlExercise/build/
+/workshops/guamana/unit1/WS12From/UmlExercise/nbproject/private/
+/exams/guamana/Unit 1/Question number 33/Examen1/nbproject/private/
+=======
 >>>>>>> f797c77b10525a61939c655499190d0b08d33557
+<<<<<<< HEAD
+/workshops/caisatoas/Unit 1/WS08Classes/New Folder/FarmSimulator/build/
+/workshops/caisatoas/Unit 1/WH11Assosiation/WH11Assosiation/nbproject/private/
+/workshops/caisatoas/Unit 1/WS10Assosiation/FarmSimulator/build/
+/workshops/caisatoas/Unit 1/WS10Assosiation/FarmSimulator/nbproject/private/
+/workshops/caisatoas/Unit 1/WH11Assosiation/WH11Assosiation/build/
+/workshops/caisatoas/Unit 1/New Folder/UmlExercise/nbproject/private/
+/workshops/caisatoas/Unit 1/New Folder/UmlExercise/build/
+=======
 >>>>>>> 762aa0ad763ed4b03ce64a92ec7bccac2c2be960
 >>>>>>> d15065fbd5c34792d5217a5ea39705171f18e327
 >>>>>>> dd288ac3e1c29d664579ccf4cdcddf3f85415cb5
+<<<<<<< HEAD
 >>>>>>> 9644058766fdb71407c3a73f7cc408f6d5d73432
 >>>>>>> 0fe5b2ff594c6ae32f0d7ce9b454083b59c862a5
+<<<<<<< HEAD
 /workshops/moralesa/unit1/WS11Associations/JavaApplication8/nbproject/private/
 /workshops/moralesa/unit1/WS11Associations/JavaApplication8/build/
 /workshops/moralesa/unit1/WS12FromUmlToCode/exercise/nbproject/private/
@@ -127,3 +128,58 @@ hs_err_pid*
 /exams/moralesa/unit1/Exam01 Books/bookStore/build/
 /assignments/moralesa/unit1/HW04FarmIntroduce/FarmIntroduce/nbproject/private/
 /assignments/moralesa/unit1/HW04FarmIntroduce/FarmIntroduce/build/
+=======
+/workshops/tayos/UNIDAD 1/ws10Associations/FarmSimulator/nbproject/private/
+/workshops/tayos/UNIDAD 1/WS10Associations/FarmSimulator/nbproject/private/
+/workshops/tayos/UNIDAD 1/WS11Associations/Farm/nbproject/private/
+/workshops/tayos/UNIDAD 1/WS11Associations/Farm/build/
+/workshops/tayos/UNIDAD 1/WS10Associations/FarmSimulator/build/
+/workshops/tayos/UNIDAD 1/WS12FromUmlToCode/UmlExercise/nbproject/private/
+/workshops/tayos/UNIDAD 1/WS12FromUmlToCode/UmlExercise/build/
+/assignments/tayos/UNIDAD 1/HW04IntroduceData/FarmData/nbproject/private/
+/assignments/tayos/UNIDAD 1/HW04IntroduceData/FarmData/build/
+/exams/tayos/Bookstore/nbproject/private/
+/exams/tayos/BookStore/BookStore/nbproject/private/
+/exams/tayos/BookStore/BookStore/build/
+=======
+/workshops/guzmanj/Unit1/WS08OChickenAttributes/FarmSimulator/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 78aef411b0756d1c66e71c0a9df35d5f2ed666cc
+>>>>>>> dcd06221048e8bc6cf7f35eddc55a8c4fbaff90f
+>>>>>>> 71a63a205d04f9904641e0b6010d54c58b7b032c
+>>>>>>> ddf829ae802d2c026dbb888ea360e91d6a54866d
+>>>>>>> 10409f4ba8063ed8b2e2052fae38d56e4521b97c
+<<<<<<< HEAD
+>>>>>>> a7b32d5fb875dfc8f1be96b36940ddb673eca6ae
+/workshops/zeasj/unit1/New Folder/FarmSimulator/nbproject/private/
+/workshops/zeasj/unit1/New Folder/FarmSimulator/build/
+/workshops/zeasj/unit1/WS10Associations/FarmSimulatorOk/nbproject/private/
+/workshops/zeasj/unit1/WS10Associations/FarmSimulatorOk/build/
+/workshops/zeasj/unit1/WS10Associations/FarmSimulator/nbproject/private/
+/workshops/zeasj/unit1/WS10Associations/FarmSimulator/build/
+/workshops/zeasj/unit1/WS11Associations/Farm/nbproject/private/
+/workshops/zeasj/unit1/WS11Associations/Farm/build/
+/workshops/zeasj/unit1/WS11Associations/Farm/dist/
+/workshops/zeasj/unit1/WS12FromUmlToCode/UmlExercise/nbproject/private/
+/workshops/zeasj/unit1/WS12FromUmlToCode/UmlExercise/build/
+/exams/zeasj/unit1/Exam1_Question33/BookStore/nbproject/private/
+/exams/zeasj/unit1/Exam1_Question33/BookStore/build/
+/exams/zeasj/unit1/Exam1_Question33/BookStore/dist/
+=======
+/workshops/lincangoj/unit1/HS08Classes/FamrSimulator/build/
+=======
+#vpp temporal files
+*.bak_*
+>>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
+>>>>>>> b27ea4c2aa80c1f9f36eb76d547a9fbe3e3eff8d
+>>>>>>> 28e0c3787fc8b9b87fb3bdf4091ee4ac267a5bd2
+>>>>>>> a4d360de23803aa89bdf828611377899b4b88939
+<<<<<<< HEAD
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/build/
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/nbproject/private/
+=======
+>>>>>>> 9bd1606941f2232628f2f6548985311d93c2bf8a
+>>>>>>> 994208a21947a107ed30d9340943dbb343acf49f
+>>>>>>> c5e5af007da2905ca84d08cb4953bdad0e1c1215
+>>>>>>> ed5de2ab864d1af2aba6d7a120e7f4c868b7ecc1

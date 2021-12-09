@@ -1,2 +1,1 @@
-Edison Lascano's OOP workshops
-Michelle code
+Guitarra Jhon's OOP workshops
