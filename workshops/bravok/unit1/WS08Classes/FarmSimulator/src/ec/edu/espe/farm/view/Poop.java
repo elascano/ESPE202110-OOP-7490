@@ -3,22 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.farm.model;
+package ec.edu.espe.farm.view;
 
 /**
  *
  * @author Kathy
  */
-public class Poop {
-    public Poop(){      
-    }
-
-    @Override
-    public String toString() {
-        return "Poop{" + '}';
-    }
-    
-    
-    
+class Poop {
     
 }
