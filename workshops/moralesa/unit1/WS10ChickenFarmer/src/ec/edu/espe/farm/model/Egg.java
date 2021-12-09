@@ -5,8 +5,8 @@ package ec.edu.espe.farm.model;
  *
  * @author Anthony Morales
  */
-class Egg {
-    private int id;
+public class Egg {
+   private int id;
 
     /**
      * @return the id
@@ -21,5 +21,5 @@ class Egg {
     public void setId(int id) {
         this.id = id;
     }
-    
+   
 }

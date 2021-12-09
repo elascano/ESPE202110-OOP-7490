@@ -1,12 +1,21 @@
 
-package ec.edu.espe.farm.model;
+package ec.edu.espe.introduce.model;
 
 /**
  *
  * @author Anthony Morales
  */
-class Egg {
+public class Egg {
     private int id;
+    
+    @Override
+    public String toString() {
+        return "Egg{" + "id=" + id + '}';
+    }
+
+    public Egg(int id) {
+        this.id = id;
+    }
 
     /**
      * @return the id
@@ -21,5 +30,4 @@ class Egg {
     public void setId(int id) {
         this.id = id;
     }
-    
 }
