@@ -10,9 +10,9 @@ package ec.edu.espe.farm.model;
  */
 public class Chicken {
     private String name;
-     private String color;
-      private int age;
-     private boolean isMolting;
+    private String color;
+    private int age;
+    private boolean isMolting;
     
     private  void doStuff(){
         
@@ -30,10 +30,10 @@ public class Chicken {
         
     }
     private  Poop poop(){
-        return new Poop();
+      return new Poop();
     }
     
     private Egg layAnEGG(){
-        return new EGG();
+        return new Egg();
     }
 }

@@ -2,7 +2,7 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author javie
+ * @author PAUCAR JAVIER
  */
 public class Chicken {
     String name;

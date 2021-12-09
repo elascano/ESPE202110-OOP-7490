@@ -3,7 +3,7 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author LENOVO
+ * @author Anthony Morales
  */
 public class Chicken {
    private String name;
@@ -33,5 +33,6 @@ public class Chicken {
    private Egg layAnEgg(){
        return new Egg();
    }
+}
    
    
