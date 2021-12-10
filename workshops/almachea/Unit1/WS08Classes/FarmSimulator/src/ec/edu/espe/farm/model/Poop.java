@@ -8,6 +8,6 @@ package ec.edu.espe.farm.model;
  *
  * @author ASUS
  */
-class Poop {
+public class Poop {
     
 }
