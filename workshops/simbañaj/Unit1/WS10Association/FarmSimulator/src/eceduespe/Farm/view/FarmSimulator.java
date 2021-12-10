@@ -24,9 +24,6 @@ public class FarmSimulator {
         
         System.out.println("the chicken");
         System.out.println("-->" + chicken);
-        
-            
-                
     }
     
 }
