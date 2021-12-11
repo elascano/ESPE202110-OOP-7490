@@ -2,7 +2,7 @@ package hellooop;
 
 /**
  *
- * @author LENOVO
+ * @author Anthony Morales
  */
 public class HelloOOP {
 
