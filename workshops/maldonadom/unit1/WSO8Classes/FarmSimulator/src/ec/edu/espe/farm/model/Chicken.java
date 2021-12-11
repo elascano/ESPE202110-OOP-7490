@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.farm.model;
 
 /**
@@ -15,6 +11,20 @@ public class Chicken {
     private int age;
     private boolean isMolting;
     
+    int is_running;
+    int inrunning; //lower case
+    int ISRUNNING; //capital case
+    int Isrunning; //
+    
+    int numberOfWheels; //java          lower camel case
+    int NumberOFWheels; //class         upper camel case
+    int numberofwheels;    //packages   lower case
+    int number_of_wheels;   //C or phyton       snake case
+    int NUMBEROFWHEELS; // constant   upper case
+    int NUMBER_OF_WHEELS; //constant   upper snake case
+    
+    int a; // small case letter
+    int A; // capital letter
     public void doStuff(){
         
     }
