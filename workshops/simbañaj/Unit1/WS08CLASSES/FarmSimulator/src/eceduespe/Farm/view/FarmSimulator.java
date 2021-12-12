@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eceduespe.Farm.view;
+
+/**
+ *
+ * @author TOSHIBA
+ */
+public class FarmSimulator {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+=======
 
 package eceduespe.Farm.view;
 
@@ -27,6 +46,7 @@ public class FarmSimulator {
         
             
                 
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     }
     
 }
