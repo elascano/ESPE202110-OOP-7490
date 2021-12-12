@@ -1,4 +1,3 @@
-
 package ec.edu.espe.farm.model;
 
 /**
@@ -8,7 +7,14 @@ package ec.edu.espe.farm.model;
 public class Egg {
     private int id;
 
-    
+    public Egg(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Egg{" + "id=" + id + '}';
+    }
     
     /**
      * @return the id
@@ -23,5 +29,6 @@ public class Egg {
     public void setId(int id) {
         this.id = id;
     }
+    
     
 }
