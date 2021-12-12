@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -380,3 +381,55 @@ hs_err_pid*
 >>>>>>> e82404e8fbb26e106e3a7fc00575475201c36178
 >>>>>>> 373b9ad036a226914617f5411aa7475df1a148ae
 >>>>>>> 68daa37bce2dffe6801999de35a4f628f46996da
+=======
+/workshops/eivarj/unit1/WS-Casses/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS10-Asociattion/JavaApplication7/nbproject/private/
+/workshops/eivarj/unit1/WS10-Asociattion/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS10-Asociattion/FarmSimulator/build/
+/workshops/eivarj/unit1/WS11-Asociattion/Farm/nbproject/private/
+/workshops/eivarj/unit1/WS11-Asociattion/Farm/build/
+/workshops/eivarj/unit1/WS12-Asociattion/JavaApplication11/nbproject/private/
+/workshops/eivarj/unit1/WS14-examen/JavaApplication12/nbproject/private/
+/workshops/eivarj/unit1/WS16-examen/Collections/nbproject/private/
+/workshops/eivarj/unit1/WS16-examen/Collections/build/
+/workshops/eivarj/unit1/WS16-examen/WS12UMLCODE/nbproject/private/
+/workshops/eivarj/unit1/WS16-examen/WS12UMLCODE/build/
+/workshops/eivarj/unit1/WS10-ChickenFarmer/FarmSimulator/build/
+/workshops/eivarj/unit1/WS10-ChickenFarmer/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS12-UmlExercise/JavaApplication11/nbproject/private/
+/workshops/eivarj/unit1/WS10ChickenFarmer/FarmSimulator/build/
+/workshops/eivarj/unit1/WS10ChickenFarmer/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS12UmlExercise/JavaApplication11/nbproject/private/
+/workshops/eivarj/unit1/WS12UMLCODE/WS12UMLCODE/nbproject/private/
+/assignments/asumazad/unit1/HW04FarmIntroduceData/Farm/build/
+/assignments/asumazad/unit1/HW04FarmIntroduceData/Farm/nbproject/private/
+/assignments/caisatoas/Unit1/HW04Chicken/build/
+/assignments/caisatoas/Unit1/HW04Chicken/nbproject/private/
+/assignments/delacruza/unit1/HW04- FARM INTRODUCE DATA/FarmSimulator/build/
+/assignments/delacruza/unit1/HW04- FARM INTRODUCE DATA/FarmSimulator/nbproject/private/
+/assignments/guamana/unit1/HW01-ControlStatements/Multiplication table even and odd/build/
+/assignments/guamana/unit1/HW01-ControlStatements/Multiplication table even and odd/nbproject/private/
+/assignments/guamana/unit1/HW04-Farm-Introduce-Data/Farm/build/
+/assignments/guamana/unit1/HW04-Farm-Introduce-Data/Farm/nbproject/private/
+/assignments/guitarraj/unit1/HW04-FARM-INTRODUCE-DATA/farm/target/
+/assignments/guitarraj/unit1/HW07ClassesObjects/MedicalPro/build/
+/assignments/guitarraj/unit1/HW07ClassesObjects/MedicalPro/nbproject/private/
+/assignments/lincangoj/unit1/HW07Project/MedicalPro/build/
+/assignments/lincangoj/unit1/HW07Project/MedicalPro/nbproject/private/
+/assignments/maldonadom/unit1/HW04FarmIntroduceData/Farm/build/
+/assignments/maldonadom/unit1/HW04FarmIntroduceData/Farm/nbproject/private/
+/assignments/paucara/unit1/HW07Proyect/ClassSimulator/nbproject/private/
+/assignments/saltosp/unit1/HW07 Project/GroupProject/nbproject/private/
+/assignments/sanchezj/unit1/HW07CLASSES/ControlWeapon/nbproject/private/
+/assignments/shugulia/unit1/HW07Proyect/BankingPlan/nbproject/private/
+/assignments/simbañaj/unit1/HW07Proyect/BankingPlan/nbproject/private/
+/assignments/tecac/unit1/HW05Proyect/BankingPlan/nbproject/private/
+/assignments/teranm/unit1/HW04FarmDataImput/DataInputFarm/build/
+/assignments/teranm/unit1/HW04FarmDataImput/DataInputFarm/dist/
+/assignments/teranm/unit1/HW04FarmDataImput/DataInputFarm/nbproject/private/
+/assignments/teranm/unit1/HW07Project_Team09/01CateringPlanner/SimulationProjectCatering/build/
+/assignments/teranm/unit1/HW07Project_Team09/01CateringPlanner/SimulationProjectCatering/nbproject/private/
+/assignments/zeasj/unit1/HW05Project_Team09/01CateringPlanner/SimulationProjectCatering/nbproject/private/
+/workshops/eivarj/unit1/WS07-HelloWorld/HelloWorldOOP/build/
+/workshops/eivarj/unit1/WS07-HelloWorld/HelloWorldOOP/nbproject/private/
+>>>>>>> 2b8892aa8395b4fef267e949fcb9b6abceae0cf9
