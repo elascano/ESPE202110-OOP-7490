@@ -1,49 +1,47 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//removing previous lines
 package ec.edu.espe.farm.model;
 
 /**
  *
- * @author LENOVO I5 10MA
+ * @author Bravo Cristian // author name is not OK
  */
 public class Chicken {
-   private String name;
-   private String color;
-   private int age;
-   private boolean isMolting;
-    
-    public void doStuff(){
-    
-    }
-    
-    private void cluck(){
-        
-    }
-    
-    private void wander(){
-    
+
+    private String name;
+    private String color;
+    private int age;
+    private boolean isMolting;
+
+    public void doStuff() {
+
     }
 
-    private void eat(){
-        
+    private void cluck() {
+
     }
 
-    private void drink(){
-        
-    }
-    
-     private Poop poop(){
-    
-       return new Poop();
-    
+    private void wander() {
+
     }
 
-    private Egg layAnEgg(){
-        
-       return new Egg();
-        
-    }    
+    private void eat() {
+
     }
-}
+
+    private void drink() {
+
+    }
+
+    private Poop poop() {
+
+        return new Poop();
+
+    }
+
+    private Egg layAnEgg() {
+
+        return new Egg();
+
+    }
+} 
+//} one extra curly brace

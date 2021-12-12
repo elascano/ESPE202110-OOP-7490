@@ -18,7 +18,32 @@ public class chicken {
                 
     }
     
-    private void cluck
+    private void cluck(){
+        
+    }
     
-   
+    private void wander(){
+        
+    }
+    
+    private void eat(){
+        
+    }
+    
+    private void drink(){
+        
+    }
+    
+    private Poop poop(){
+        
+        return new Poop();
+        
+    }
+    
+    private Egg layAnEgg(){
+        
+        return new Egg();
+        
+    }
+    
 }
