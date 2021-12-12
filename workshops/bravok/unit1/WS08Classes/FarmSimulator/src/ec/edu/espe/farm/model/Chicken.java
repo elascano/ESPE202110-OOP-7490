@@ -6,12 +6,39 @@ package ec.edu.espe.farm.model;
  * @author Kathy
  */
 public class Chicken {
+<<<<<<< HEAD
+=======
     
     private int id;
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     private String name;
     private String color;
     private int age;
     private boolean isMolting;
+<<<<<<< HEAD
+    
+    public void doSuff(){
+    
+    }
+    public void cluck(){
+    
+    }
+    public void wander(){
+    
+    }
+    public void eat(){
+    
+    }
+    public void drink(){
+    
+    }
+    public Poop poop(){
+        return new Poop();
+    }
+    public Egg LayAnEgg(){
+        return new Egg();  
+    }
+=======
 
     @Override
     public String toString() {
@@ -134,5 +161,6 @@ public class Chicken {
     }
     
     
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     
 }
