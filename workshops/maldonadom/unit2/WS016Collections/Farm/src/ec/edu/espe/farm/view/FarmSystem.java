@@ -8,6 +8,7 @@ import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.ChickenCoop;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Scanner;
 
 /**
  *
@@ -19,9 +20,19 @@ public class FarmSystem {
         ChickenCoop chickenCoop;
         ArrayList<Chicken> chickens = new ArrayList<>();
         
-        chicken = new Chicken(0, "Lucy", "White and brown" , 0, true);
+        Scanner scanner = new Scanner(System.in);
+        int id = 0;
+        String name = null;
+        String color = null;
+        int age = 0;
+        boolean molting = false;
+        
+        chicken = new Chicken(id, name, color, age, molting);
         chickenCoop = new ChickenCoop(0, chickens);
         
+        System.out.println("Enter chicken information");
+        
+        id = scanner.nextInt();
         System.out.println("chicken -> " + chicken);
         System.out.println("Chickens in the Chicekn coop -> " + chickenCoop.countChickens());
         System.out.println("chicken coop -> " + chickenCoop);
