@@ -9,6 +9,20 @@ package ec.edu.espe.farm.model;
  *
  * @author Kathy
  */
+<<<<<<< HEAD
 class Poop {
+=======
+public class Poop {
+    public Poop(){      
+    }
+
+    @Override
+    public String toString() {
+        return "Poop{" + '}';
+    }
+    
+    
+    
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     
 }
