@@ -16,7 +16,10 @@ public class ChickenCoop {
         chickens.add(chicken);    
     }
     
-   
+   /* public void lookFor(int idRemove){ 
+       chickens[3]. 
+    }*/
+    
     public void remove(Chicken chicken){
         chickens.remove(chicken);   
         chickens.remove(id); 
