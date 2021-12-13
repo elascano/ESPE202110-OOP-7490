@@ -101,3 +101,5 @@ hs_err_pid*
 #vpp temporal files
 *.bak_*
 >>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
+/workshops/correak/Unit2/WS16 Collection/Farm/nbproject/private/
+/workshops/correak/Unit2/WS16 Collection/Farm/build/
