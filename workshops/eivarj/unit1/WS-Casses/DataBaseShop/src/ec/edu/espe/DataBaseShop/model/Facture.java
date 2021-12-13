@@ -13,7 +13,6 @@ public class Facture {
     private LocalDate date;
     private int Product_Id;
     
-    
     public void Facture(){
             }
     public void AboutFacture (){
