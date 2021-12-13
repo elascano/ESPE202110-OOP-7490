@@ -38,8 +38,8 @@ public class FarmSystem {
        System.out.println("chicken coop ->" + chickenCoop);
        
        chickenCoop.remove(chicken);
-        System.out.println("Chickens in the Chicken coop -> " + chickenCoop.countChickens());
-        System.out.println("chicken coop -> " + chickenCoop);
+       System.out.println("Chickens in the Chicken coop -> " + chickenCoop.countChickens());
+       System.out.println("chicken coop -> " + chickenCoop);
        
         
        
