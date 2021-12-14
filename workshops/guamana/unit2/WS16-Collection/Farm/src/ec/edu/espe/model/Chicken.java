@@ -1,26 +1,37 @@
-package es.edu.espe.farm.model;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package ec.edu.espe.model;
 
 /**
  *
- * @author dylanasumaza
+ * @author Casa
  */
 public class Chicken {
-
     private int id;
     private String name;
     private String color;
     private int age;
     private boolean molting;
 
+    
+    
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", molting=" + isMolting() + '}';
+        return "\n \t\tChicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
     }
-<<<<<<< HEAD
     
-=======
+    public Chicken(int id, String name, String color, int age, boolean molting) {
+        this.id = id;
+        this.name = name;
+        this.color = color;
+        this.age = age;
+        this.molting = molting;
+    }
+    
+    
 
->>>>>>> 5ee4e2fd0909fd14ec655d2d239a2917017c9d7b
     /**
      * @return the id
      */
@@ -89,16 +100,7 @@ public class Chicken {
      */
     public void setMolting(boolean molting) {
         this.molting = molting;
-<<<<<<< HEAD
-        
     }
     
+    
 }
-
-
-=======
-
-    }
-
-}
->>>>>>> 5ee4e2fd0909fd14ec655d2d239a2917017c9d7b

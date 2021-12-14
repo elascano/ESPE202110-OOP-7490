@@ -1,11 +1,10 @@
-package es.edu.espe.farm.model;
+package ec.edu.espe.farm.model;
 
 /**
  *
  * @author dylanasumaza
  */
 public class Chicken {
-
     private int id;
     private String name;
     private String color;
@@ -16,11 +15,7 @@ public class Chicken {
     public String toString() {
         return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", molting=" + isMolting() + '}';
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 5ee4e2fd0909fd14ec655d2d239a2917017c9d7b
     /**
      * @return the id
      */
@@ -89,16 +84,6 @@ public class Chicken {
      */
     public void setMolting(boolean molting) {
         this.molting = molting;
-<<<<<<< HEAD
         
     }
-    
 }
-
-
-=======
-
-    }
-
-}
->>>>>>> 5ee4e2fd0909fd14ec655d2d239a2917017c9d7b
