@@ -12,9 +12,8 @@ public class Product {
     int Stock;
     int Invoice_Id;
     
-    
     public void AboutProduct(){
             }
     public void sell (){
     }  
-  }
+}
