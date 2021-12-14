@@ -30,14 +30,14 @@ public class FarmSystem {
         chickenCoop = new ChickenCoop(id, chickens);
         
         System.out.println("--> HW05 from Mateo Maldonado <-- ");
-        System.out.println("What do you want to do? -> Open Menu for the Farm System: Yes(1) / No (0)");
+        System.out.println("What do you want to do? -> Open Menu for the Farm System: Yes = 1 / No = 0");
         firstOption = scanner.nextInt();
         while (firstOption == 1) {
             System.out.println("1.Add Chickens to the coop\n2.Remove Chickens from the coop\n3.Show Chickens in the coop\n4.Show the amount of chickens in the coop\n5.Exit\n");
             secondOption = scanner.nextInt();
 
             if (secondOption == 1) {
-                System.out.println("--> Enter data of the chicken <-- ");
+                System.out.println("Enter data of the chicken");
 
                 System.out.println("Id --> ");
                 id = scanner.nextInt();
@@ -68,17 +68,17 @@ public class FarmSystem {
                 System.out.println("\n");
             }
             if (secondOption == 3) {
-                System.out.println("--> Chickens in the coop <-- ");
+                System.out.println("Chickens in the coop");
                 System.out.println("chicken coop -> " + chickenCoop);
                 System.out.println("\n");
             }
             if (secondOption == 4) {
-                System.out.println("--> Amount of chickens <-- ");
+                System.out.println("Amount of chickens");
                 System.out.println("Chickens in the Chicken coop -> " + chickenCoop.countChickens());
                 System.out.println("\n");
             }
             if (secondOption == 5) {
-                break;
+                firstOption = 0;
             }
         }
     }
