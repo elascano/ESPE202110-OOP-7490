@@ -9,8 +9,8 @@ package es.edu.espe.farm.model;
  * @author dylanasumaza
  */
 public class ChickenCoop {
-    int id;
-  
-    //arryas have a limeted size
 
+    int id;
+
+    //arryas have a limeted size
 }
