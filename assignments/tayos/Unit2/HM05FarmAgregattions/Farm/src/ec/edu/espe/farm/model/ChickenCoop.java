@@ -1,11 +1,11 @@
 package ec.edu.espe.farm.model;
+
 import java.util.ArrayList;
 
 /**
  *
  * @author SETayoRuiz
  */
-
 public class ChickenCoop {
 
     private int id;
