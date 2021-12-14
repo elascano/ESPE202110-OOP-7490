@@ -120,13 +120,41 @@ hs_err_pid*
 #vpp temporal files
 *.bak_*
 >>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
+<<<<<<< HEAD
+/workshops/correak/Unit2/WS16 Collection/Farm/nbproject/private/
+/workshops/correak/Unit2/WS16 Collection/Farm/build/
+=======
 >>>>>>> b27ea4c2aa80c1f9f36eb76d547a9fbe3e3eff8d
 >>>>>>> 28e0c3787fc8b9b87fb3bdf4091ee4ac267a5bd2
+<<<<<<< HEAD
+>>>>>>> a4d360de23803aa89bdf828611377899b4b88939
+<<<<<<< HEAD
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/build/
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/nbproject/private/
+=======
+>>>>>>> 9bd1606941f2232628f2f6548985311d93c2bf8a
+<<<<<<< HEAD
+/workshops/tayos/UNIDAD 1/New Folder/Farm/nbproject/private/
+/workshops/tayos/UNIDAD2/WS16Controller/Farm/nbproject/private/
+/workshops/tayos/UNIDAD2/WS16Controller/Farm/build/
+/assignments/tayos/Unit2/HM05FarmAgregattions/Farm/nbproject/private/
+/assignments/tayos/Unit2/HM05FarmAgregattions/Farm/build/
+=======
+>>>>>>> 994208a21947a107ed30d9340943dbb343acf49f
+>>>>>>> c5e5af007da2905ca84d08cb4953bdad0e1c1215
+/workshops/zeasj/unit2/WS16Collections/Farm/nbproject/private/
+/workshops/zeasj/unit2/WS16Collections/Farm/build/
+/workshops/zeasj/unit2/WS16Collections/Farm/dist/
+=======
 /assignments/tecac/unit2/HW05Collections/HW05Collections/nbproject/private/
 /assignments/tecac/unit2/HW05Collections/HW05Collections/build/
 =======
 <<<<<<< HEAD
 >>>>>>> 90ed29e1888985547756e5cfa6bf4dcbc7323d9b
+<<<<<<< HEAD
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/build/
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/nbproject/private/
+=======
 >>>>>>> e82404e8fbb26e106e3a7fc00575475201c36178
 >>>>>>> 373b9ad036a226914617f5411aa7475df1a148ae
 >>>>>>> 68daa37bce2dffe6801999de35a4f628f46996da
@@ -140,3 +168,22 @@ hs_err_pid*
 =======
 >>>>>>> f551c67af8abba7c6f7169da653e57556852449a
 >>>>>>> c1cf6e08d2c049b2fb474f1f3bdc78d93e1566d5
+<<<<<<< HEAD
+>>>>>>> dcb2bde3c37dce9bed511d0b4f36884065709e71
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/nbproject/private/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/build/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/dist/
+=======
+<<<<<<< HEAD
+>>>>>>> e10d23939b55ddafc78c584b88631536d5cc655d
+>>>>>>> 0112b04791ffe615e29c79d8d9645f496e11ecdb
+>>>>>>> 4a9ef3df4b05823d53dc20a76bce41e6db48f809
+/assignments/moralesa/unit2/HW05/ChikenFarm/nbproject/private/
+/assignments/moralesa/unit2/HW05/ChikenFarm/build/
+/assignments/moralesa/unit2/HW05/ChikenFarm/dist/
+=======
+>>>>>>> 961800f462bd09db6bf55e7c87fe13454c2c2bd4
+>>>>>>> f195c60a2fa03b694132b17916bdb540f0b6d8d0
+>>>>>>> fbfe7f4f9a51f709911fd7f780d3d52f1a54fdda
+>>>>>>> dad851794d465451e4777650b991101b148ce82a
+>>>>>>> fa2c7bf969da7cc884d647d58960d823a5393289
