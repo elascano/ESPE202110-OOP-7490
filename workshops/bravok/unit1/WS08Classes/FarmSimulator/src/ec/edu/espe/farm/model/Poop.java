@@ -9,6 +9,9 @@ package ec.edu.espe.farm.model;
  *
  * @author Kathy
  */
+<<<<<<< HEAD
+class Poop {
+=======
 public class Poop {
     public Poop(){      
     }
@@ -20,5 +23,6 @@ public class Poop {
     
     
     
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     
 }
