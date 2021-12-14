@@ -120,9 +120,33 @@ hs_err_pid*
 #vpp temporal files
 *.bak_*
 >>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
+<<<<<<< HEAD
+/workshops/correak/Unit2/WS16 Collection/Farm/nbproject/private/
+/workshops/correak/Unit2/WS16 Collection/Farm/build/
+=======
 >>>>>>> b27ea4c2aa80c1f9f36eb76d547a9fbe3e3eff8d
 >>>>>>> 28e0c3787fc8b9b87fb3bdf4091ee4ac267a5bd2
 /assignments/tecac/unit2/HW05Collections/HW05Collections/nbproject/private/
 /assignments/tecac/unit2/HW05Collections/HW05Collections/build/
 =======
+<<<<<<< HEAD
+>>>>>>> 90ed29e1888985547756e5cfa6bf4dcbc7323d9b
+<<<<<<< HEAD
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/build/
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/nbproject/private/
+=======
+>>>>>>> e82404e8fbb26e106e3a7fc00575475201c36178
+>>>>>>> 373b9ad036a226914617f5411aa7475df1a148ae
+>>>>>>> 68daa37bce2dffe6801999de35a4f628f46996da
+>>>>>>> d730e2b2ae6ba704c38374d9110f2fa349b975ca
+>>>>>>> 902581fd29c2316331a8b4d42624cd822dd44be0
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
+/workshops/sanchezj/unit2/WS016CONECTIONS/Farmsimulator/nbproject/private/
+/workshops/sanchezj/unit2/WS016CONECTIONS/Farmsimulator/build/
+/assignments/sanchezj/unit2/HW05ArrayList/Farm/nbproject/private/
+/assignments/sanchezj/unit2/HW05ArrayList/Farm/build/
+=======
 >>>>>>> f551c67af8abba7c6f7169da653e57556852449a
+>>>>>>> c1cf6e08d2c049b2fb474f1f3bdc78d93e1566d5
+>>>>>>> 961800f462bd09db6bf55e7c87fe13454c2c2bd4
+>>>>>>> f195c60a2fa03b694132b17916bdb540f0b6d8d0
