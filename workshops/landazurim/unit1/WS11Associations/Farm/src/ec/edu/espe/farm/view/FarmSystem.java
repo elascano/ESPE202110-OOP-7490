@@ -4,16 +4,18 @@
  */
 package ec.edu.espe.farm.view;
 
+
 import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.Egg;
 import ec.edu.espe.farm.model.Poop;
+import ec.edu.espe.farm.model.;
 import java.util.Scanner;
 
 /**
  *
  * @author mateo
  */
-public class Farm {
+public class FarmSystem {
     public static void main(String[] args) {
         Egg egg =new Egg(1);
         Poop poop= new Poop();
