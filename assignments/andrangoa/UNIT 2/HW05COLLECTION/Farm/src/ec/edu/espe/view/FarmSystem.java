@@ -4,7 +4,6 @@ import ec.edu.espe.model.Chicken;
 import ec.edu.espe.model.ChickenCoop;
 import java.util.ArrayList;
 import java.util.Scanner;
-import static javax.swing.UIManager.get;
 
 /**
  *
@@ -58,6 +57,7 @@ public class FarmSystem {
         chicken = new Chicken(id, name, color, age, isMolting);
         chickenCoop.add(chicken);
         System.out.println("chicken coop ->" + chickenCoop);
+        
         
                                 
         break;

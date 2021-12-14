@@ -18,6 +18,7 @@
 *.ear
 *.zip
 *.tar.gz
+<<<<<<< HEAD
 *.rar
 
 <<<<<<< HEAD
@@ -192,3 +193,6 @@ hs_err_pid*
 /assignments/paucara/unit2/HW05Collection/Farm/nbproject/private/
 /assignments/paucara/unit2/HW05Collection/Farm/build/
 /assignments/paucara/unit2/HW05Collection/Farm/dist/
+=======
+*.rar
+>>>>>>> 40659156e5bf31362fd670d86a00035aabc21ba6
