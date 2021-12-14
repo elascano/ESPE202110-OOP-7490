@@ -18,6 +18,7 @@
 *.ear
 *.zip
 *.tar.gz
+<<<<<<< HEAD
 *.rar
 
 <<<<<<< HEAD
@@ -115,6 +116,24 @@ hs_err_pid*
 >>>>>>> 71a63a205d04f9904641e0b6010d54c58b7b032c
 >>>>>>> ddf829ae802d2c026dbb888ea360e91d6a54866d
 >>>>>>> 10409f4ba8063ed8b2e2052fae38d56e4521b97c
+<<<<<<< HEAD
+>>>>>>> a7b32d5fb875dfc8f1be96b36940ddb673eca6ae
+/workshops/garciam/unit1/WS08Classes/FarmSimulater/build/
+/workshops/garciam/unit1/WS11association/JavaApplication3/nbproject/private/
+/workshops/garciam/unit1/WS11association/Farm/nbproject/private/
+/workshops/garciam/unit1/WS11association/Farm/build/
+/workshops/garciam/unit1/WS12fromUML to code/Exorcise/nbproject/private/
+/workshops/garciam/unit1/WS12fromUML to code/Exorcise/build/
+/assignments/garciam/unit1/HWChickenFarm/farm/nbproject/private/
+/assignments/garciam/unit1/HWChickenFarm/farm/build/
+/exams/garciam/Exams1Garcia.unit1question27/Exams1Garciaunit1/nbproject/private/
+/exams/garciam/Exams1Garcia.unit1question27/Exams1Garciaunit1/build/
+/workshops/garciam/unit2/New Folder/Farm/nbproject/private/
+/workshops/garciam/unit2/New Folder/Farm/build/
+/workshops/garciam/unit2/WS15/Farm/dist/
+/assignments/garciam/unit2/HW05 Chickens Farm/FarmSystem/nbproject/private/
+/assignments/garciam/unit2/HW05 Chickens Farm/FarmSystem/build/
+=======
 /workshops/lincangoj/unit1/HS08Classes/FamrSimulator/build/
 =======
 #vpp temporal files
@@ -126,6 +145,26 @@ hs_err_pid*
 =======
 >>>>>>> b27ea4c2aa80c1f9f36eb76d547a9fbe3e3eff8d
 >>>>>>> 28e0c3787fc8b9b87fb3bdf4091ee4ac267a5bd2
+<<<<<<< HEAD
+>>>>>>> a4d360de23803aa89bdf828611377899b4b88939
+<<<<<<< HEAD
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/build/
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/nbproject/private/
+=======
+>>>>>>> 9bd1606941f2232628f2f6548985311d93c2bf8a
+<<<<<<< HEAD
+/workshops/tayos/UNIDAD 1/New Folder/Farm/nbproject/private/
+/workshops/tayos/UNIDAD2/WS16Controller/Farm/nbproject/private/
+/workshops/tayos/UNIDAD2/WS16Controller/Farm/build/
+/assignments/tayos/Unit2/HM05FarmAgregattions/Farm/nbproject/private/
+/assignments/tayos/Unit2/HM05FarmAgregattions/Farm/build/
+=======
+>>>>>>> 994208a21947a107ed30d9340943dbb343acf49f
+>>>>>>> c5e5af007da2905ca84d08cb4953bdad0e1c1215
+/workshops/zeasj/unit2/WS16Collections/Farm/nbproject/private/
+/workshops/zeasj/unit2/WS16Collections/Farm/build/
+/workshops/zeasj/unit2/WS16Collections/Farm/dist/
+=======
 /assignments/tecac/unit2/HW05Collections/HW05Collections/nbproject/private/
 /assignments/tecac/unit2/HW05Collections/HW05Collections/build/
 =======
@@ -148,5 +187,34 @@ hs_err_pid*
 =======
 >>>>>>> f551c67af8abba7c6f7169da653e57556852449a
 >>>>>>> c1cf6e08d2c049b2fb474f1f3bdc78d93e1566d5
+<<<<<<< HEAD
+>>>>>>> 961800f462bd09db6bf55e7c87fe13454c2c2bd4
+=======
+<<<<<<< HEAD
+>>>>>>> dcb2bde3c37dce9bed511d0b4f36884065709e71
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/nbproject/private/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/build/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/dist/
+=======
+<<<<<<< HEAD
+>>>>>>> e10d23939b55ddafc78c584b88631536d5cc655d
+>>>>>>> 0112b04791ffe615e29c79d8d9645f496e11ecdb
+>>>>>>> 4a9ef3df4b05823d53dc20a76bce41e6db48f809
+/assignments/moralesa/unit2/HW05/ChikenFarm/nbproject/private/
+/assignments/moralesa/unit2/HW05/ChikenFarm/build/
+/assignments/moralesa/unit2/HW05/ChikenFarm/dist/
+=======
 >>>>>>> 961800f462bd09db6bf55e7c87fe13454c2c2bd4
 >>>>>>> f195c60a2fa03b694132b17916bdb540f0b6d8d0
+>>>>>>> fbfe7f4f9a51f709911fd7f780d3d52f1a54fdda
+>>>>>>> dad851794d465451e4777650b991101b148ce82a
+>>>>>>> fa2c7bf969da7cc884d647d58960d823a5393289
+/assignments/paucara/unit2/HW05Collections/Farm Simulator/nbproject/private/
+/assignments/paucara/unit2/HW05Collections/FarmSimulator/nbproject/private/
+/assignments/paucara/unit2/HW05Collection/Farm/nbproject/private/
+/assignments/paucara/unit2/HW05Collection/Farm/build/
+/assignments/paucara/unit2/HW05Collection/Farm/dist/
+=======
+*.rar
+>>>>>>> 40659156e5bf31362fd670d86a00035aabc21ba6
+>>>>>>> d17210c6323a3612a0c650896524ed232528ae55
