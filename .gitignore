@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -19,6 +20,7 @@
 *.tar.gz
 *.rar
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -92,17 +94,6 @@ hs_err_pid*
 >>>>>>> 46fbb731405f1480f1acacca8a5a545a2244635a
 >>>>>>> 0b697ce08bc699690b016ad53d89c3477bd2396c
 >>>>>>> 2069982eb54fa6f1c996ea3447ca486c868169fe
-<<<<<<< HEAD
-/workshops/guamana/unit1/WS10Associations/FarmSimulator/nbproject/private/
-/workshops/guamana/unit1/WSO8Classes/FarmSimulator/build/
-/workshops/guamana/unit1/WS10Associations/FarmSimulator_1/nbproject/private/
-/workshops/guamana/unit1/WS11Assciations/Farm/nbproject/private/
-/workshops/guamana/unit1/WS11Assciations/Farm/build/
-/workshops/guamana/unit1/WS12From/JavaApplication14/nbproject/private/
-/workshops/guamana/unit1/WS12From/UmlExercise/build/
-/workshops/guamana/unit1/WS12From/UmlExercise/nbproject/private/
-/exams/guamana/Unit 1/Question number 33/Examen1/nbproject/private/
-=======
 >>>>>>> f797c77b10525a61939c655499190d0b08d33557
 <<<<<<< HEAD
 /workshops/caisatoas/Unit 1/WS08Classes/New Folder/FarmSimulator/build/
@@ -116,22 +107,6 @@ hs_err_pid*
 >>>>>>> 762aa0ad763ed4b03ce64a92ec7bccac2c2be960
 >>>>>>> d15065fbd5c34792d5217a5ea39705171f18e327
 >>>>>>> dd288ac3e1c29d664579ccf4cdcddf3f85415cb5
-<<<<<<< HEAD
->>>>>>> 9644058766fdb71407c3a73f7cc408f6d5d73432
->>>>>>> 0fe5b2ff594c6ae32f0d7ce9b454083b59c862a5
-/workshops/tayos/UNIDAD 1/ws10Associations/FarmSimulator/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS10Associations/FarmSimulator/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS11Associations/Farm/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS11Associations/Farm/build/
-/workshops/tayos/UNIDAD 1/WS10Associations/FarmSimulator/build/
-/workshops/tayos/UNIDAD 1/WS12FromUmlToCode/UmlExercise/nbproject/private/
-/workshops/tayos/UNIDAD 1/WS12FromUmlToCode/UmlExercise/build/
-/assignments/tayos/UNIDAD 1/HW04IntroduceData/FarmData/nbproject/private/
-/assignments/tayos/UNIDAD 1/HW04IntroduceData/FarmData/build/
-/exams/tayos/Bookstore/nbproject/private/
-/exams/tayos/BookStore/BookStore/nbproject/private/
-/exams/tayos/BookStore/BookStore/build/
-=======
 /workshops/guzmanj/Unit1/WS08OChickenAttributes/FarmSimulator/build/
 =======
 <<<<<<< HEAD
@@ -145,12 +120,70 @@ hs_err_pid*
 #vpp temporal files
 *.bak_*
 >>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
+<<<<<<< HEAD
+/workshops/correak/Unit2/WS16 Collection/Farm/nbproject/private/
+/workshops/correak/Unit2/WS16 Collection/Farm/build/
+=======
 >>>>>>> b27ea4c2aa80c1f9f36eb76d547a9fbe3e3eff8d
 >>>>>>> 28e0c3787fc8b9b87fb3bdf4091ee4ac267a5bd2
+<<<<<<< HEAD
 >>>>>>> a4d360de23803aa89bdf828611377899b4b88939
+<<<<<<< HEAD
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/build/
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/nbproject/private/
+=======
 >>>>>>> 9bd1606941f2232628f2f6548985311d93c2bf8a
+<<<<<<< HEAD
 /workshops/tayos/UNIDAD 1/New Folder/Farm/nbproject/private/
 /workshops/tayos/UNIDAD2/WS16Controller/Farm/nbproject/private/
 /workshops/tayos/UNIDAD2/WS16Controller/Farm/build/
 /assignments/tayos/Unit2/HM05FarmAgregattions/Farm/nbproject/private/
 /assignments/tayos/Unit2/HM05FarmAgregattions/Farm/build/
+=======
+>>>>>>> 994208a21947a107ed30d9340943dbb343acf49f
+>>>>>>> c5e5af007da2905ca84d08cb4953bdad0e1c1215
+/workshops/zeasj/unit2/WS16Collections/Farm/nbproject/private/
+/workshops/zeasj/unit2/WS16Collections/Farm/build/
+/workshops/zeasj/unit2/WS16Collections/Farm/dist/
+=======
+/assignments/tecac/unit2/HW05Collections/HW05Collections/nbproject/private/
+/assignments/tecac/unit2/HW05Collections/HW05Collections/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 90ed29e1888985547756e5cfa6bf4dcbc7323d9b
+<<<<<<< HEAD
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/build/
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/nbproject/private/
+=======
+>>>>>>> e82404e8fbb26e106e3a7fc00575475201c36178
+>>>>>>> 373b9ad036a226914617f5411aa7475df1a148ae
+>>>>>>> 68daa37bce2dffe6801999de35a4f628f46996da
+>>>>>>> d730e2b2ae6ba704c38374d9110f2fa349b975ca
+>>>>>>> 902581fd29c2316331a8b4d42624cd822dd44be0
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
+/workshops/sanchezj/unit2/WS016CONECTIONS/Farmsimulator/nbproject/private/
+/workshops/sanchezj/unit2/WS016CONECTIONS/Farmsimulator/build/
+/assignments/sanchezj/unit2/HW05ArrayList/Farm/nbproject/private/
+/assignments/sanchezj/unit2/HW05ArrayList/Farm/build/
+=======
+>>>>>>> f551c67af8abba7c6f7169da653e57556852449a
+>>>>>>> c1cf6e08d2c049b2fb474f1f3bdc78d93e1566d5
+<<<<<<< HEAD
+>>>>>>> dcb2bde3c37dce9bed511d0b4f36884065709e71
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/nbproject/private/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/build/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/dist/
+=======
+<<<<<<< HEAD
+>>>>>>> e10d23939b55ddafc78c584b88631536d5cc655d
+>>>>>>> 0112b04791ffe615e29c79d8d9645f496e11ecdb
+>>>>>>> 4a9ef3df4b05823d53dc20a76bce41e6db48f809
+/assignments/moralesa/unit2/HW05/ChikenFarm/nbproject/private/
+/assignments/moralesa/unit2/HW05/ChikenFarm/build/
+/assignments/moralesa/unit2/HW05/ChikenFarm/dist/
+=======
+>>>>>>> 961800f462bd09db6bf55e7c87fe13454c2c2bd4
+>>>>>>> f195c60a2fa03b694132b17916bdb540f0b6d8d0
+>>>>>>> fbfe7f4f9a51f709911fd7f780d3d52f1a54fdda
+>>>>>>> dad851794d465451e4777650b991101b148ce82a
+>>>>>>> fa2c7bf969da7cc884d647d58960d823a5393289
