@@ -51,9 +51,7 @@ public class Farm {
         
         
         System.out.println("\n\nPlease enter data for chiken --> ");        
-        
-        
-        
+
         System.out.println("Enter ID --->");
         id = scanner.nextInt();
         

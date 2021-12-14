@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+=======
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
 package ec.edu.espe.farm.model;
 
 /**
@@ -11,6 +18,8 @@ public class Chicken {
     private int age;
     private boolean isMolting;
     
+<<<<<<< HEAD
+=======
     int is_running;
     int inrunning; //lower case
     int ISRUNNING; //capital case
@@ -25,6 +34,7 @@ public class Chicken {
     
     int a; // small case letter
     int A; // capital letter
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     public void doStuff(){
         
     }

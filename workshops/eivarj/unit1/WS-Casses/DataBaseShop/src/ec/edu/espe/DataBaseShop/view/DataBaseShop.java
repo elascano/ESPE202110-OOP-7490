@@ -6,7 +6,7 @@ package ec.edu.espe.DataBaseShop.view;
 
 /**
  *
- * @author LENOVO
+ * @author Grupo2
  */
 public class DataBaseShop {
 
