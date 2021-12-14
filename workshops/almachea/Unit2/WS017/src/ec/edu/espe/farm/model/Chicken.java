@@ -1,8 +1,8 @@
-package es.edu.espe.farm.model;
+package ec.edu.espe.farm.model;
 
 /**
  *
- * @author dylanasumaza
+ * @author ANDERSON
  */
 public class Chicken {
 
@@ -14,7 +14,15 @@ public class Chicken {
 
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", molting=" + isMolting() + '}';
+        return "\n\t\t Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
+    }
+
+    public Chicken(int id, String name, String color, int age, boolean molting) {
+        this.id = id;
+        this.name = name;
+        this.color = color;
+        this.age = age;
+        this.molting = molting;
     }
 
     /**
@@ -85,7 +93,6 @@ public class Chicken {
      */
     public void setMolting(boolean molting) {
         this.molting = molting;
-
     }
 
 }
