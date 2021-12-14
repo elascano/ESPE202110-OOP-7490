@@ -1,0 +1,303 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+1da4e55 fixing commits
+a71baff fixing commits
+d6b2388 Association
+45a3d52 Association
+20d5ab9 ESPE202110-OOP-7490
+06b48a7 HW07Project
+320b7e1 HW07Project_Team09
+328d6c3 HW07Project_Team09
+9097b66 HW07Project_Team09
+c6b61ba Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+8156987 HW07Project_Team09
+8fb17e8 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+95a02e1 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+a8aebb6 HW07Proyect
+35a62f5 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+0f756be HW07Project_Team09
+ac53f33 HW07Proyect
+c136e70 HW07Proyect
+b557b50 GRUPO2
+606f398 CLASESGRUPO2
+a7b32d5 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+9d93d81 Project
+a7ef9c8 HW07ClassObject
+4afaee2 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+d471734 Workshops
+0f00a0f Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+18de7cc Unit1
+ee9e2d9 HW07ProjectClassObject
+3cedb22 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+37d97b4 WS01GitHub
+1615455 Workshops
+1a5a38b changes
+ebb5b3b Workshops
+10409f4 Project
+1f997a1 Project
+ddf829a Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+9dc2a72 HW07Proyect
+bd1bb9b GroupProject
+7500382 GroupProject
+71a63a2 Workshops 1-5.pdf
+83fb403 Workshops1-5.
+7e1ce6d Workshops 1-5
+83a299b Project v1.1
+b96844c Project
+b3f7166 Project
+dcd0622 HW06TESTING
+634c5f1 WS05CONTROL
+20190f5 WS04JAVA,JAVAC
+e04b67b WS03GITCLONE
+8dc63c0 WS02USERGITHUB
+a72adbc HWO7CLASSES
+765a9c5 HW07CLASSES
+78aef41 HW06
+a28ede5 WS07yWS08
+2b4de45 WS07andWS08
+fb1a48d Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+1e40bbc Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+cda30f0 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+a057f86 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+a3924cf WSArchives
+57cc236 WSArchives
+ce608cd Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+c998c96 WSArchives
+b468511 WS08CLASSES
+=======
+>>>>>>> 1da4e555c5939ca68a342a1a6df219c7026bb8be
+>>>>>>> 71e5e8b2b0648453044b8a599bb95bd5471b7942
+2e5c25b reviewing code of WS08
+9175f62 HW07 Hellow World in Netbeans
+c2a656b WS07HelloWorld
+344bfab WS07HelloWorld
+c3c4132 hello files from Saltos removed
+dfe8c61 .gitignore fixed
+3604668 .gitignore fixed
+e3b2f1e WS07HelloWorld
+6fe42ba Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+8079020 HS07HelloWorld
+4e373a2 WS07HelloWord y WS08Clasess
+0cef0e9 WS07HelloWord y WS08Clasess
+c82de7d version
+d685c8d HWS07
+b55c3bc HS08
+4b8a2b7 HS08
+4aeed62 WS07Hello
+28b1979 WS07
+effdbff WS07HelloWorld
+b5de437 WS06
+7667884 WS07HelooWorld
+c0835f9 WS06
+fc64358 WS07HelooWorld
+ca524b7 HS07HelloWorldOOP
+094ce07 WS07HelloWorld
+ae25ef6 HS07HelloWorldOOP
+d106761 WS07HelloWorld
+5e8f595 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+0ec08e3 Vrsion
+447fe11 WS08Classes
+174fbcb Version
+d23944f WS08Classes
+eef5bf2 WS08classes
+450d3e0 WS07HelloWorld
+a172112 WS07HelloWorld
+c9bfbe2 HW07HelloWorld
+a41fc95 WS07HelloWorld
+4a14794 WS07HelloWorld
+cc2b588 WS07HelloWorld
+6d268ac HW07HelloWorld
+875e9a4 Ws07helloword
+84a97f7 Ws07helloword
+f41be95 HS07HelloWorld
+4782dab HS07HelloWorld
+58f2e84 WS07HelloWord
+a24ed89 WS07HelloWord
+05fda54 WS07HelloWord
+6029f12 WS07HelloWord
+7671e1c WS07HelloWorld
+10abff9 WS
+014e338 WS
+8ddb3e0 WS07HelloWord
+5adac39 WS07HelloWorld
+a450934 WS07HelloWord
+1be7ded version_1
+c0927b5 WS07HelloWorld
+f6c3ab7 HW07HelloWord
+6c8bcff WS07HelloWorld
+d296ce4 HW07HelloWord
+585aae6 WS07HelloWorld
+6df518e WS07HelloWorld
+f3ccea4 unit1
+e5dc0d1 H07HelloWorld
+87339db WS07HelloWorld
+cec4253 WS07HelloWorld
+878b363 WS07HelloWorld
+8405aca W07HelloWorld
+54db53e WS07HelloWorld
+da733ec WS07HelloWorld
+9278e85 WS07HelloWorld
+614dd14 WS07HelloWorld
+960eb20 WS07HelloWorld
+0809876 HW07andHW08
+0516619 HW07andHW08
+1b80db8 HWS07HelloWorld
+a60face HWS07HelloWorld
+18a8eec HW07HelloWorld
+517f6d0 WS07Helloworld
+6983b80 WS07Helloworld
+0fe5b2f WS07HelloWorld
+c454d28 WS07HelloWorld
+9644058 WS07AndWS08Classes
+875e5d2 WS07AndWS08Classes
+0391748 Netbeans Workshops V1.0
+60ac75a Netbeans Workshops V1.0
+dd288ac HW07-06HelloChickenv1.01
+dabc16d HW07-08HelloChicken
+896c943 HW07-08HelloChicken
+d15065f HW06ControlStatements
+8fbed9e WS07HellOOP
+6621e59 WS07HelloWorld
+0974608 WS07HelloWorld
+762aa0a WS08Classes
+6df7c2d WS07HelloWorld
+f797c77 HW07HellowWorld
+06d9ab0 WS07HelloWorld
+c6fc0d6 HW07HellowWorld
+2069982 WS07HelloWorld
+8311403 WS07HelloWorld
+0b697ce HW07Helloworld
+0bd99c8 HW07Helloworld
+46fbb73 HS07Helloworld
+f310083 HS07Helloworld
+dc541b8 unit1
+159d667 WS07Helloworld
+d61de5c Update README.md
+3ea76c9 Update README.md
+96b202a Update README.md
+ed73356 WS08CLASSES
+f105464 WS07Helloworld
+6a85f4b WS07HellowWorld filesv1.1
+0a892ff WS07Helloworld
+944e5a1 WS07HELLOWORLD
+fe68ed4 WS07HELLOWORLD
+8e8fd86 WS07HellowWorld filesv1.1
+eeb3745 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+2e32a82 WS07Helloworld
+0ab8e02 H06WControlStatements
+6118caf HW06ControlStatements
+2203f8e Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+bac010b HW06ControlStatements
+fee8676 version
+e7f44e0 HW06 ControlStatements
+b0351db Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+2edac20 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+a23980b HW06ControlStatements
+95e51ba HW06ControlStatements
+b57a0f2 HW06 ControlStatements
+e1f3536 HW06CGITHUBTESTING
+e893965 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+805d3c2 HW06CGITHUBTESTING
+1641c2b Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+eab468b HW06ControlStatements
+e117620 WS06GitHub
+b9e52b5 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490 into main hw06
+28e9d53 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+c9fc388 HW06ControlStatements
+f628803 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490 into main hw06
+680b5c9 WS06GitHub
+bb376fb HW06ControlStructures
+e730ac9 HW06ControlStatements
+4258ef6 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+6c28826 HW06ControlStatements
+dec3132 HW06ControlStatements
+657cfc5 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+0cded86 HW06ControlStatements
+448001e Homwork06
+7723771 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+007fcf7 homwork06
+c8bc95e Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+6463c82 HW06ControlStatements
+d7039c0 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+905ff2f version01
+f492038 HW06ControlStatements
+06a118f HW06ControlStatements
+dadf1e2 HW06ControlStatements
+8912325 multiplications.java
+319d13a HW06ControlStatements
+672b350 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+f62a5ae HW06ControlStatements
+37d8e66 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+e91070c Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+7cc7867 HW06ControlStatements
+942227c HW06ControlStatements
+ba7dde1 HW06ControlStatements
+4da75b4 HW06ControlStatements
+c2017fe Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+73c23ac HW06ControlStatements
+14a5748 version1
+fad9220 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+3cc3bd3 HW06ControlStatements
+1f8add6 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+fcd9964 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+21a6195 WH06ControlStatements
+8239e65 version_1
+a75afc2 V.01
+4b9b2cd HW06ControlStatement
+6ced511 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+81c47bc HW06ControlStatements
+392f5c4 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+69fc0dd V.0.1
+7ee3907 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+7e2435f Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+4df7798 HW06ControlStatements
+a7b28ae Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+32275aa Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+9ea11cc HW06ControlStatements
+fa0f4ec HW06ControlStatements
+9f48cdc HW06ControlStatements
+300d91b HW06ControlStructures
+81bf01b Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-TC-7490
+8f022ed HW06ControlStatements
+dd72a9b HW06ControlStatements
+144d5f1 HW06ControlStatements
+469b942 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+a0547b3 HW06ControlStatements files v1.1
+556d409 WH06ControlStatements
+95772b0 ControlStatements
+8858993 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+06ed54e HW06ControlStatements
+f08f0e2 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+8e7da57 HW06ControlStatements
+9d4c87e Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+7cb1e4b Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+adb3055 HW06ControlStatements
+938ceed HW06ControlStatements
+78117ed Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+d00ad9d Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+b9388d4 HW06ControlStatements
+07326db Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+8de8432 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+ec9bc63 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+28793d1 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+2a63ee3 HW06ControlStatements
+dfbe08f Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+7b263f2 HW05ControlStatements
+e6ffe88 Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+89c641a Merge branch 'main' of https://github.com/elascano/ESPE202110-OOP-7490
+0ee403b HW06ControlStatements
+66b384a HW06Controlstatements
+0671fb1 HWO6ControlStatemets
+3db895f ControlStatements
+036b79e HW06ControlStatements
+067e45a HW06ControlStatements
+464d4a2 HW06ControlStatements
+11f8a8f HW06ControlStatements
+58211e9 folders creation V1.0
+a019f78 Workshop 06: testing Git folder for unit1
+b6e959a Workshop 06: testing Git
+887615e Readme version Michelle
+260f99e README files V1.1
+e07c15e README v0.1
+ede4afe Initial commit
