@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ec.edu.espe.DataBaseShop.model;
+
+import java.time.LocalDate;
 
 /**
  *
- * @author LENOVO
+ * Grupo2
  */
 public class GrainsPastaSides {
+    private int Product_Id;
+    private String Category;
+    private String NameOfTheProduct;
+    private int Availability;
+    private Float Price;
+    private LocalDate expiration;
     
+    public void AboutProduct(){
+            }
+    public void sell (){
+            }
 }
