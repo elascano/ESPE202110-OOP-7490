@@ -16,7 +16,7 @@ public class Chicken {
     public String toString() {
         return "Chicken{" + "id=" + getId() + ", name=" + getName() + ", color=" + getColor() + ", age=" + getAge() + ", molting=" + isMolting() + '}';
     }
-    
+
     /**
      * @return the id
      */
@@ -85,9 +85,7 @@ public class Chicken {
      */
     public void setMolting(boolean molting) {
         this.molting = molting;
-        
+
     }
-    
+
 }
-
-
