@@ -110,3 +110,5 @@ hs_err_pid*
 *.bak_*
 >>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
 >>>>>>> b27ea4c2aa80c1f9f36eb76d547a9fbe3e3eff8d
+/workshops/lincangoj/unit2/WS16Collections/nbproject/private/
+/workshops/lincangoj/unit2/WS16Collections/build/
