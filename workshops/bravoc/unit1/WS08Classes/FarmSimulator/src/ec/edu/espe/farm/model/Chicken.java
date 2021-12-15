@@ -1,20 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//removing previous lines
 package ec.edu.espe.farm.model;
 
 /**
  *
+<<<<<<< HEAD
  * @author Christian Bravo
  */
 public class Chicken {
 
     private int id;
+=======
+ * @author Bravo Cristian // author name is not OK
+ */
+public class Chicken {
+
+>>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
     private String name;
     private String color;
     private int age;
     private boolean isMolting;
+<<<<<<< HEAD
     
     public void doStuff() {
         cluck();
@@ -24,15 +29,27 @@ public class Chicken {
 
     private void cluck() {
         System.out.println("This chicken is clucking");
+=======
+
+    public void doStuff() {
+
+    }
+
+    private void cluck() {
+>>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
 
     }
 
     private void wander() {
+<<<<<<< HEAD
         System.out.println("This chicken is wandering...");
+=======
+>>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
 
     }
 
     private void eat() {
+<<<<<<< HEAD
         System.out.println("This chicken is eating...");
 
     }
@@ -141,3 +158,25 @@ public class Chicken {
         this.isMolting = isMolting;
     }
 }
+=======
+
+    }
+
+    private void drink() {
+
+    }
+
+    private Poop poop() {
+
+        return new Poop();
+
+    }
+
+    private Egg layAnEgg() {
+
+        return new Egg();
+
+    }
+} 
+//} one extra curly brace
+>>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
