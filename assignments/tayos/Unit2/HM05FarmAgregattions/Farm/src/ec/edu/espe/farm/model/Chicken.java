@@ -5,6 +5,7 @@ package ec.edu.espe.farm.model;
  * @author SETayoRuiz
  */
 public class Chicken {
+
     private int id;
     private String name;
     private String color;
@@ -23,8 +24,8 @@ public class Chicken {
         this.age = age;
         this.molting = molting;
     }
-    
-        public Chicken() {
+
+    public Chicken() {
     }
 
     /**
@@ -96,7 +97,5 @@ public class Chicken {
     public void setMolting(boolean molting) {
         this.molting = molting;
     }
-            
-    
-}
 
+}
