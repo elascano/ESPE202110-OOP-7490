@@ -30,4 +30,10 @@ public class System {
 
     }
 
+    static class out {
+
+        public out() {
+        }
+    }
+
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -17,8 +18,10 @@
 *.ear
 *.zip
 *.tar.gz
+<<<<<<< HEAD
 *.rar
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -90,9 +93,22 @@ hs_err_pid*
 >>>>>>> d61de5c8405193fe71629a40e9b0839c69ae3f84
 >>>>>>> dc541b8b7652681c2bf597e288445b688d714339
 >>>>>>> 46fbb731405f1480f1acacca8a5a545a2244635a
+<<<<<<< HEAD
+/workshops/calderona/unit1/HW08Classes/FarmSimulator/build/
+/workshops/calderona/unit1/HW08Classes/Bookstore/target/
+=======
 >>>>>>> 0b697ce08bc699690b016ad53d89c3477bd2396c
 >>>>>>> 2069982eb54fa6f1c996ea3447ca486c868169fe
 >>>>>>> f797c77b10525a61939c655499190d0b08d33557
+<<<<<<< HEAD
+/workshops/caisatoas/Unit 1/WS08Classes/New Folder/FarmSimulator/build/
+/workshops/caisatoas/Unit 1/WH11Assosiation/WH11Assosiation/nbproject/private/
+/workshops/caisatoas/Unit 1/WS10Assosiation/FarmSimulator/build/
+/workshops/caisatoas/Unit 1/WS10Assosiation/FarmSimulator/nbproject/private/
+/workshops/caisatoas/Unit 1/WH11Assosiation/WH11Assosiation/build/
+/workshops/caisatoas/Unit 1/New Folder/UmlExercise/nbproject/private/
+/workshops/caisatoas/Unit 1/New Folder/UmlExercise/build/
+=======
 >>>>>>> 762aa0ad763ed4b03ce64a92ec7bccac2c2be960
 >>>>>>> d15065fbd5c34792d5217a5ea39705171f18e327
 >>>>>>> dd288ac3e1c29d664579ccf4cdcddf3f85415cb5
@@ -104,11 +120,248 @@ hs_err_pid*
 >>>>>>> 71a63a205d04f9904641e0b6010d54c58b7b032c
 >>>>>>> ddf829ae802d2c026dbb888ea360e91d6a54866d
 >>>>>>> 10409f4ba8063ed8b2e2052fae38d56e4521b97c
+<<<<<<< HEAD
+>>>>>>> a7b32d5fb875dfc8f1be96b36940ddb673eca6ae
+/workshops/garciam/unit1/WS08Classes/FarmSimulater/build/
+/workshops/garciam/unit1/WS11association/JavaApplication3/nbproject/private/
+/workshops/garciam/unit1/WS11association/Farm/nbproject/private/
+/workshops/garciam/unit1/WS11association/Farm/build/
+/workshops/garciam/unit1/WS12fromUML to code/Exorcise/nbproject/private/
+/workshops/garciam/unit1/WS12fromUML to code/Exorcise/build/
+/assignments/garciam/unit1/HWChickenFarm/farm/nbproject/private/
+/assignments/garciam/unit1/HWChickenFarm/farm/build/
+/exams/garciam/Exams1Garcia.unit1question27/Exams1Garciaunit1/nbproject/private/
+/exams/garciam/Exams1Garcia.unit1question27/Exams1Garciaunit1/build/
+/workshops/garciam/unit2/New Folder/Farm/nbproject/private/
+/workshops/garciam/unit2/New Folder/Farm/build/
+/workshops/garciam/unit2/WS15/Farm/dist/
+/assignments/garciam/unit2/HW05 Chickens Farm/FarmSystem/nbproject/private/
+/assignments/garciam/unit2/HW05 Chickens Farm/FarmSystem/build/
+=======
 /workshops/lincangoj/unit1/HS08Classes/FamrSimulator/build/
 =======
 #vpp temporal files
 *.bak_*
 >>>>>>> aeb2d87635e5b2724d531ccc9ec79f5662bf3043
+<<<<<<< HEAD
+/workshops/correak/Unit2/WS16 Collection/Farm/nbproject/private/
+/workshops/correak/Unit2/WS16 Collection/Farm/build/
+=======
 >>>>>>> b27ea4c2aa80c1f9f36eb76d547a9fbe3e3eff8d
+<<<<<<< HEAD
 /workshops/lincangoj/unit2/WS16Collections/nbproject/private/
 /workshops/lincangoj/unit2/WS16Collections/build/
+=======
+>>>>>>> 28e0c3787fc8b9b87fb3bdf4091ee4ac267a5bd2
+<<<<<<< HEAD
+>>>>>>> a4d360de23803aa89bdf828611377899b4b88939
+<<<<<<< HEAD
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/build/
+/workshops/guamana/unit1/WS06-GitHub Testing/Multiplication table even and odd/nbproject/private/
+=======
+>>>>>>> 9bd1606941f2232628f2f6548985311d93c2bf8a
+<<<<<<< HEAD
+/workshops/tayos/UNIDAD 1/New Folder/Farm/nbproject/private/
+/workshops/tayos/UNIDAD2/WS16Controller/Farm/nbproject/private/
+/workshops/tayos/UNIDAD2/WS16Controller/Farm/build/
+/assignments/tayos/Unit2/HM05FarmAgregattions/Farm/nbproject/private/
+/assignments/tayos/Unit2/HM05FarmAgregattions/Farm/build/
+=======
+>>>>>>> 994208a21947a107ed30d9340943dbb343acf49f
+>>>>>>> c5e5af007da2905ca84d08cb4953bdad0e1c1215
+<<<<<<< HEAD
+>>>>>>> ed5de2ab864d1af2aba6d7a120e7f4c868b7ecc1
+>>>>>>> c0f4e9320e1b78d99284aad3accf4290129f9422
+>>>>>>> e28d8346d3c5330bb82a6237c23fbe9cb3a555f4
+/workshops/almachea/Unit2/WS016Collection/nbproject/private/
+/workshops/almachea/Unit2/WS016Collection/build/
+/workshops/almachea/Unit2/WS017/nbproject/private/
+/workshops/almachea/Unit2/WS017/build/
+/workshops/almachea/Unit2/WS017/dist/
+=======
+/workshops/zeasj/unit2/WS16Collections/Farm/nbproject/private/
+/workshops/zeasj/unit2/WS16Collections/Farm/build/
+/workshops/zeasj/unit2/WS16Collections/Farm/dist/
+=======
+/assignments/tecac/unit2/HW05Collections/HW05Collections/nbproject/private/
+/assignments/tecac/unit2/HW05Collections/HW05Collections/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 90ed29e1888985547756e5cfa6bf4dcbc7323d9b
+<<<<<<< HEAD
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/build/
+/assignments/caisatoas/Unit2/WS07ImplementationArrayList/InventoryControlinaTireStore/InventoryControlinaTireStore/nbproject/private/
+=======
+>>>>>>> e82404e8fbb26e106e3a7fc00575475201c36178
+>>>>>>> 373b9ad036a226914617f5411aa7475df1a148ae
+>>>>>>> 68daa37bce2dffe6801999de35a4f628f46996da
+>>>>>>> d730e2b2ae6ba704c38374d9110f2fa349b975ca
+>>>>>>> 902581fd29c2316331a8b4d42624cd822dd44be0
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
+/workshops/sanchezj/unit2/WS016CONECTIONS/Farmsimulator/nbproject/private/
+/workshops/sanchezj/unit2/WS016CONECTIONS/Farmsimulator/build/
+/assignments/sanchezj/unit2/HW05ArrayList/Farm/nbproject/private/
+/assignments/sanchezj/unit2/HW05ArrayList/Farm/build/
+=======
+>>>>>>> f551c67af8abba7c6f7169da653e57556852449a
+>>>>>>> c1cf6e08d2c049b2fb474f1f3bdc78d93e1566d5
+<<<<<<< HEAD
+>>>>>>> 961800f462bd09db6bf55e7c87fe13454c2c2bd4
+=======
+<<<<<<< HEAD
+>>>>>>> dcb2bde3c37dce9bed511d0b4f36884065709e71
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/nbproject/private/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/build/
+/assignments/zeasj/unit2/HW05MenuChicken/MenuChicken/dist/
+=======
+<<<<<<< HEAD
+>>>>>>> e10d23939b55ddafc78c584b88631536d5cc655d
+>>>>>>> 0112b04791ffe615e29c79d8d9645f496e11ecdb
+<<<<<<< HEAD
+<<<<<<< HEAD
+/workshops/altamiranoc/Unit2/WS16Collections/Farm/nbproject/private/
+/workshops/altamiranoc/Unit2/WS16Collections/Farm/build/
+/workshops/altamiranoc/Unit2/WS16Collections/Farm/dist/
+/assignments/altamiranoc/Unit2/HW05FarmSystem/Farm/build/
+/assignments/altamiranoc/Unit2/HW05FarmSystem/Farm/dist/
+/assignments/altamiranoc/Unit2/HW05FarmSystem/Farm/nbproject/private/
+=======
+/workshops/tapiaa/Unit2/WS016Associations/JavaApplication11/nbproject/private/
+/workshops/tapiaa/Unit2/WS016Associations/JavaApplication11/build/
+>>>>>>> 05000f1e942b3a0e0cd87a37f80e8c7c085251a4
+=======
+>>>>>>> 4a9ef3df4b05823d53dc20a76bce41e6db48f809
+/assignments/moralesa/unit2/HW05/ChikenFarm/nbproject/private/
+/assignments/moralesa/unit2/HW05/ChikenFarm/build/
+/assignments/moralesa/unit2/HW05/ChikenFarm/dist/
+=======
+>>>>>>> 961800f462bd09db6bf55e7c87fe13454c2c2bd4
+>>>>>>> f195c60a2fa03b694132b17916bdb540f0b6d8d0
+>>>>>>> fbfe7f4f9a51f709911fd7f780d3d52f1a54fdda
+>>>>>>> dad851794d465451e4777650b991101b148ce82a
+>>>>>>> fa2c7bf969da7cc884d647d58960d823a5393289
+<<<<<<< HEAD
+/workshops/landazurim/unit2/FarmmenuWS15/nbproject/private/
+/workshops/landazurim/unit2/FarmMenu/nbproject/private/
+/workshops/landazurim/unit2/FarmMenu/build/
+=======
+/assignments/paucara/unit2/HW05Collections/Farm Simulator/nbproject/private/
+/assignments/paucara/unit2/HW05Collections/FarmSimulator/nbproject/private/
+/assignments/paucara/unit2/HW05Collection/Farm/nbproject/private/
+/assignments/paucara/unit2/HW05Collection/Farm/build/
+/assignments/paucara/unit2/HW05Collection/Farm/dist/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/workshops/eivarj/unit1/WS-Casses/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS10-Asociattion/JavaApplication7/nbproject/private/
+/workshops/eivarj/unit1/WS10-Asociattion/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS10-Asociattion/FarmSimulator/build/
+/workshops/eivarj/unit1/WS11-Asociattion/Farm/nbproject/private/
+/workshops/eivarj/unit1/WS11-Asociattion/Farm/build/
+/workshops/eivarj/unit1/WS12-Asociattion/JavaApplication11/nbproject/private/
+/workshops/eivarj/unit1/WS14-examen/JavaApplication12/nbproject/private/
+/workshops/eivarj/unit1/WS16-examen/Collections/nbproject/private/
+/workshops/eivarj/unit1/WS16-examen/Collections/build/
+/workshops/eivarj/unit1/WS16-examen/WS12UMLCODE/nbproject/private/
+/workshops/eivarj/unit1/WS16-examen/WS12UMLCODE/build/
+/workshops/eivarj/unit1/WS10-ChickenFarmer/FarmSimulator/build/
+/workshops/eivarj/unit1/WS10-ChickenFarmer/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS12-UmlExercise/JavaApplication11/nbproject/private/
+/workshops/eivarj/unit1/WS10ChickenFarmer/FarmSimulator/build/
+/workshops/eivarj/unit1/WS10ChickenFarmer/FarmSimulator/nbproject/private/
+/workshops/eivarj/unit1/WS12UmlExercise/JavaApplication11/nbproject/private/
+/workshops/eivarj/unit1/WS12UMLCODE/WS12UMLCODE/nbproject/private/
+/assignments/asumazad/unit1/HW04FarmIntroduceData/Farm/build/
+/assignments/asumazad/unit1/HW04FarmIntroduceData/Farm/nbproject/private/
+/assignments/caisatoas/Unit1/HW04Chicken/build/
+/assignments/caisatoas/Unit1/HW04Chicken/nbproject/private/
+/assignments/delacruza/unit1/HW04- FARM INTRODUCE DATA/FarmSimulator/build/
+/assignments/delacruza/unit1/HW04- FARM INTRODUCE DATA/FarmSimulator/nbproject/private/
+/assignments/guamana/unit1/HW01-ControlStatements/Multiplication table even and odd/build/
+/assignments/guamana/unit1/HW01-ControlStatements/Multiplication table even and odd/nbproject/private/
+/assignments/guamana/unit1/HW04-Farm-Introduce-Data/Farm/build/
+/assignments/guamana/unit1/HW04-Farm-Introduce-Data/Farm/nbproject/private/
+/assignments/guitarraj/unit1/HW04-FARM-INTRODUCE-DATA/farm/target/
+/assignments/guitarraj/unit1/HW07ClassesObjects/MedicalPro/build/
+/assignments/guitarraj/unit1/HW07ClassesObjects/MedicalPro/nbproject/private/
+/assignments/lincangoj/unit1/HW07Project/MedicalPro/build/
+/assignments/lincangoj/unit1/HW07Project/MedicalPro/nbproject/private/
+/assignments/maldonadom/unit1/HW04FarmIntroduceData/Farm/build/
+/assignments/maldonadom/unit1/HW04FarmIntroduceData/Farm/nbproject/private/
+/assignments/paucara/unit1/HW07Proyect/ClassSimulator/nbproject/private/
+/assignments/saltosp/unit1/HW07 Project/GroupProject/nbproject/private/
+/assignments/sanchezj/unit1/HW07CLASSES/ControlWeapon/nbproject/private/
+/assignments/shugulia/unit1/HW07Proyect/BankingPlan/nbproject/private/
+/assignments/simbañaj/unit1/HW07Proyect/BankingPlan/nbproject/private/
+/assignments/tecac/unit1/HW05Proyect/BankingPlan/nbproject/private/
+/assignments/teranm/unit1/HW04FarmDataImput/DataInputFarm/build/
+/assignments/teranm/unit1/HW04FarmDataImput/DataInputFarm/dist/
+/assignments/teranm/unit1/HW04FarmDataImput/DataInputFarm/nbproject/private/
+/assignments/teranm/unit1/HW07Project_Team09/01CateringPlanner/SimulationProjectCatering/build/
+/assignments/teranm/unit1/HW07Project_Team09/01CateringPlanner/SimulationProjectCatering/nbproject/private/
+/assignments/zeasj/unit1/HW05Project_Team09/01CateringPlanner/SimulationProjectCatering/nbproject/private/
+/workshops/eivarj/unit1/WS07-HelloWorld/HelloWorldOOP/build/
+/workshops/eivarj/unit1/WS07-HelloWorld/HelloWorldOOP/nbproject/private/
+>>>>>>> 2b8892aa8395b4fef267e949fcb9b6abceae0cf9
+>>>>>>> f743d3cf50647b656754190f02330294760b31c7
+>>>>>>> 8dfc3535afaf954847da79cdc3d3280f3ba09797
+>>>>>>> a4ecc64540f68f8bbba15de3c885024505512fa3
+/assignments/bravok/unit2/FARM/Farm/nbproject/private/
+/assignments/bravok/unit2/FARM/Farm/build/
+/assignments/bravok/unit2/HW05Farm/Farm/nbproject/private/
+/assignments/bravok/unit2/HW05Farm/Farm/build/
+/assignments/bravok/unit2/HW07ImplementArrayListsProject/InventoryBillingProject/nbproject/private/
+/assignments/bravok/unit2/HW07ImplementArrayListsProject/InventoryBillingProject/build/
+=======
+>>>>>>> 90ed29e1888985547756e5cfa6bf4dcbc7323d9b
+>>>>>>> e82404e8fbb26e106e3a7fc00575475201c36178
+/workshops/guamana/unit2/WS16-Collection/Farm/nbproject/private/
+/workshops/guamana/unit2/WS16-Collection/Farm/build/
+>>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
+=======
+*.rar
+>>>>>>> 40659156e5bf31362fd670d86a00035aabc21ba6
+>>>>>>> d17210c6323a3612a0c650896524ed232528ae55
+>>>>>>> 46a4bf7e2962f24d08f0b89b58f8b835ef70e831
+/workshops/landazurim/unit2/Nueva Carpeta/FarmSimulator/nbproject/private/
+/workshops/landazurim/unit2/WS016CONECTIONS/FarmSimulator1/nbproject/private/
+>>>>>>> 60f32b236a7463a1cbe0ad4e68c5da7f5b14af70
+>>>>>>> 132441ca3422b164973ea9828625b5d2ad4c441f
+<<<<<<< HEAD
+>>>>>>> 4ad6a6b4902558ff03e292bab0756d29d7d3f098
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 5ee4e2fd0909fd14ec655d2d239a2917017c9d7b
+<<<<<<< HEAD
+/exams/guamana/Unit 1/Question number 33/Examen1/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> a41fc959cf1a6f6442752f042266369221f105f7
+<<<<<<< HEAD
+/workshops/bravoc/unit1/WS07HelloWorld/HelloOOP/nbproject/private/
+/workshops/bravoc/unit1/WS07HelloWorld/HelloOOP/build/
+=======
+>>>>>>> c9bfbe2ae40bb77a3ada3776d1ae8f8e1b7d6598
+>>>>>>> eef5bf2a0ca31d4c145adcba64d987b181e07319
+/workshops/bravoc/unit1/WS08Classes/FarmSimulator/build/
+/workshops/bravoc/unit1/WS11Associations/Farm/nbproject/private/
+/workshops/bravoc/unit1/WS11Associations/Farm/build/
+/assignments/bravoc/unit1/HW04Farm2/Farm2/nbproject/private/
+/assignments/bravoc/unit1/HW04Farm2/Farm2/build/
+/exams/bravoc/unit1/New Folder/Exam1/nbproject/private/
+/exams/bravoc/unit1/Exam1.1/Exam1_Question33/nbproject/private/
+/exams/bravoc/unit1/Exam1.1/Exam1BravoC/nbproject/private/
+=======
+/assignments/gomezm/Unit 2/HW07 ImplementArrayProject/Farm_2U/nbproject/private/
+/assignments/gomezm/Unit 2/HW07 ImplementArrayProject/Farm_2U/build/
+/assignments/gomezm/Unit 1/HW04 FarmIntroduceData/Farm/nbproject/private/
+/workshops/gomezm/Unit 1/WS07 Hello Word/Hello_OOP/nbproject/private/
+/workshops/gomezm/Unit 1/WS08 Chicken Class/Farm_Simulator/nbproject/private/
+/workshops/gomezm/Unit 1/WS10 Chicken Farm Setter-Getter/Farm_Simulator/nbproject/private/
+/workshops/gomezm/Unit 1/WS12 Uml Exercises/UmlExercise/nbproject/private/
+>>>>>>> 3dae895697abfd388bafcd4cace3b710889cd636
+>>>>>>> 024c4f463c9a50026d5af2edbf82ac9e81444aea
+>>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
+>>>>>>> ddd8a13c5d1a7153223b46d2a6b1a693beca53d4

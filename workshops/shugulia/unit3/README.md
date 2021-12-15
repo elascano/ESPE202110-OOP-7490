@@ -1,1 +1,1 @@
-Alan Shuguli's OOP workshops
+Mayerly Garcia OOP assignments 
