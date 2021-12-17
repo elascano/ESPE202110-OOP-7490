@@ -20,3 +20,5 @@
 *.tar.gz
 *.rar
 
+/workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
+/workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
