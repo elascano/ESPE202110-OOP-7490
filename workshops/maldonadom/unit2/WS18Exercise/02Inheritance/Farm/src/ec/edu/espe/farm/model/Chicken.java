@@ -1,10 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.farm.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  *
@@ -13,12 +9,10 @@ import java.util.Date;
 public class Chicken extends FarmAnimal{
     private boolean isMolting;
 
-    public Chicken(boolean isMolting, int id, String breed, Date bornOn) {
-        super(id, breed, bornOn);
-        
+    public Chicken(boolean isMolting, int id, String streed, LocalDate bornon) {
+        super(id, streed, bornon);
         this.isMolting = isMolting;
     }
-
     
     /**
      * @return the isMolting

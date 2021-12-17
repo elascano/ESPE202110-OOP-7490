@@ -4,19 +4,33 @@
  */
 package ec.edu.espe.farm.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  *
- * @author andresmaldonado
+ * @author MateoMaldonado
  */
 public class Sheep extends FarmAnimal{
-    Date last Sheering;
+    private LocalDate lastSheering;
 
-    public Sheep(Date last, Sheering , int id, String breed, Date bornOn) {
-        super(id, breed, bornOn);
-        this.last = last;
-        this.<error> = <error>;
+    public Sheep(LocalDate lastSheering, int id, String streed, LocalDate bornon) {
+        super(id, streed, bornon);
+        this.lastSheering = lastSheering;
     }
+        
+    /**
+     * @return the lastSheering
+     */
+    public LocalDate getLastSheering() {
+        return lastSheering;
+    }
+
+    /**
+     * @param lastSheering the lastSheering to set
+     */
+    public void setLastSheering(LocalDate lastSheering) {
+        this.lastSheering = lastSheering;
+    }
+    
     
 }

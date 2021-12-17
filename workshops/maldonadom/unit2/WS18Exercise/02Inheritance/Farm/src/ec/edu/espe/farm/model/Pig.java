@@ -1,20 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.farm.model;
+
+import java.time.LocalDate;
 
 /**
  *
- * @author andresmaldonado
+ * @author MateoMaldonado
  */
 public class Pig extends FarmAnimal{
     private float weight;
 
-    public Pig(float weight) {
+    public Pig(float weight, int id, String streed, LocalDate bornon) {
+        super(id, streed, bornon);
         this.weight = weight;
     }
-
+    
+    
+    
     /**
      * @return the weight
      */

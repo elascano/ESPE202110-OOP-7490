@@ -3,8 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ec.edu.espe.farm.model;
-
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.LocalDate;
 
 /**
  *
@@ -12,19 +12,20 @@ import java.util.Date;
  */
 public class FarmAnimal {
     private int id;
-    private String breed;
-    private Date bornOn;
+    private String streed;
+    private LocalDate bornon;
 
     public int getAgeInMonths(){
         return 0;
     }
     
-    public FarmAnimal(int id, String breed, Date bornOn) {
+    public FarmAnimal(int id, String streed, LocalDate bornon) {
         this.id = id;
-        this.breed = breed;
-        this.bornOn = bornOn;
+        this.streed = streed;
+        this.bornon = bornon;
     }
 
+    
     /**
      * @return the id
      */
@@ -40,32 +41,33 @@ public class FarmAnimal {
     }
 
     /**
-     * @return the breed
+     * @return the streed
      */
-    public String getBreed() {
-        return breed;
+    public String getStreed() {
+        return streed;
     }
 
     /**
-     * @param breed the breed to set
+     * @param streed the streed to set
      */
-    public void setBreed(String breed) {
-        this.breed = breed;
+    public void setStreed(String streed) {
+        this.streed = streed;
     }
 
     /**
-     * @return the bornOn
+     * @return the bornon
      */
-    public Date getBornOn() {
-        return bornOn;
+    public LocalDate getBornon() {
+        return bornon;
     }
 
     /**
-     * @param bornOn the bornOn to set
+     * @param bornon the bornon to set
      */
-    public void setBornOn(Date bornOn) {
-        this.bornOn = bornOn;
+    public void setBornon(LocalDate bornon) {
+        this.bornon = bornon;
     }
     
     
 }
+

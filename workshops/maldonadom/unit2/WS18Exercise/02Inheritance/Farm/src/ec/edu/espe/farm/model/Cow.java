@@ -1,23 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.farm.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  *
- * @author andresmaldonado
+ * @author MateoMaldonado
  */
 public class Cow extends FarmAnimal{
     private boolean isProducingMilk;
 
-    public Cow(boolean isProducingMilk, int id, String breed, Date bornOn) {
-        super(id, breed, bornOn);
+    public Cow(boolean isProducingMilk, int id, String streed, LocalDate bornon) {
+        super(id, streed, bornon);
         this.isProducingMilk = isProducingMilk;
     }
 
+        
     /**
      * @return the isProducingMilk
      */
@@ -31,7 +28,6 @@ public class Cow extends FarmAnimal{
     public void setIsProducingMilk(boolean isProducingMilk) {
         this.isProducingMilk = isProducingMilk;
     }
-    
     
     
 }
