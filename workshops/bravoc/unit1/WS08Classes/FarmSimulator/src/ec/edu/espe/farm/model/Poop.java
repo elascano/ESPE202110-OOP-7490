@@ -6,8 +6,8 @@ package ec.edu.espe.farm.model;
 
 /**
  *
- * @author LENOVO I5 10MA
+ * @author Christian Bravo
  */
-class Poop {
+public class Poop {
     
 }
