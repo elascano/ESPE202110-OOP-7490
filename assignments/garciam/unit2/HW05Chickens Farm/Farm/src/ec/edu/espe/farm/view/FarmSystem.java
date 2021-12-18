@@ -52,7 +52,7 @@ public class FarmSystem {
                 System.out.println(" Color->");
                 color  = read.next();
 
-                System.out.println(" Egg->");
+                System.out.println(" Age->");
                 age = read.nextInt();
                 
                chickencoop.AddChicken(id, name, color, age);
