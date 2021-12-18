@@ -6,7 +6,7 @@ import java.util.Date;
 
 /**
  *
- * @author dylanasumaza
+ * @author Anderson Almache
  */
 public class FarmAnimal {
     private int id;

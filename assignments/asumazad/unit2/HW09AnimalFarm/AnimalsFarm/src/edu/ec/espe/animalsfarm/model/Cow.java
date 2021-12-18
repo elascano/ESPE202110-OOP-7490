@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 /**
  *
- * @author dylanasumaza
+ * @author Anderson Almache
  */
 public class Cow extends FarmAnimal {
     private boolean isProducingMilk;

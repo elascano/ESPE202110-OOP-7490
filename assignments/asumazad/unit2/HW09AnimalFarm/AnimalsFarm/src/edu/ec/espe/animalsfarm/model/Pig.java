@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 /**
  *
- * @author dylanasumaza
+ * @author Anderson Almache
  */
 public class Pig extends FarmAnimal {
     float weight;

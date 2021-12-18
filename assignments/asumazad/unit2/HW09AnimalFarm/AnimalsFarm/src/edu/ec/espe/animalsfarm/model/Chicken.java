@@ -1,19 +1,21 @@
+
 package edu.ec.espe.animalsfarm.model;
 
 import java.time.LocalDate;
 
 /**
  *
- * @author dylanasumaza
+ * @author Anderson Almache
  */
 public class Chicken extends FarmAnimal {
 
-    private boolean isMolting;
+private boolean isMolting;
 
     public Chicken(boolean isMolting, int id, String breed, LocalDate borOn) {
         super(id, breed, borOn);
         this.isMolting = isMolting;
     }
+
 
     /**
      * @return the isMolting

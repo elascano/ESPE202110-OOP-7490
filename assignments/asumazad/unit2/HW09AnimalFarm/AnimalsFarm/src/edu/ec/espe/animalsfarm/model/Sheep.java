@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 /**
  *
- * @author dylanasumaza
+ * @author Anderson Almache
  */
 public class Sheep extends FarmAnimal {
     LocalDate lastSheering;
