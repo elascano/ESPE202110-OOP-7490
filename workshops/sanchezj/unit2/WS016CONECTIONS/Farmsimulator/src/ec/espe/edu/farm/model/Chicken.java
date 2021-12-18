@@ -1,11 +1,14 @@
-package ec.edu.espe.collection.model;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package ec.espe.edu.farm.model;
 
 /**
  *
- * @author Melanie
+ * @author José
  */
 public class Chicken {
-
     private int id;
     private String name;
     private String color;
@@ -94,5 +97,5 @@ public class Chicken {
     public void setMolting(boolean molting) {
         this.molting = molting;
     }
-
+    
 }
