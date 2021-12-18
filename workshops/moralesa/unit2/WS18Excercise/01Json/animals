@@ -1,0 +1,37 @@
+001,Holstein,12/12/2020,true (cow)
+002,Plymouth,06/27/2020,false (chicken)
+003,Dorper,01/30/2019,10/10/2021
+004,Large White,09/25/2021,50
+
+{"animals":
+[
+		{
+		"what animal it is":"cow",
+		"int":"001",
+		"name":"Holstein",
+		"bornOn":"12/12/2020",
+		"isProducingMilk":"true" 
+		},
+				{
+		"what animal it is":"chicken",
+		"int":"002",
+		"name":"Plymouth",
+		"bornOn":"06/27/2020",
+		"isMolting":"false" 
+		},
+		{
+		"what animal it is":"sheep",
+		"int":"003",
+		"name":"Dorper",
+		"bornOn":"01/30/2019",
+		"date":"10/10/2021" 
+		},
+		{
+		"what animal it is":"pig",
+		"int":"004",
+		"name":"Large White",
+		"bornOn":"09/25/2021",
+		"weight":"50" 
+		}
+]
+}
