@@ -29,8 +29,6 @@ public class Chicken {
         System.out.println("The color is --> " + color);
         System.out.println("The age is --> " + age);
     }
-
-
     
     /**
      * @return the id

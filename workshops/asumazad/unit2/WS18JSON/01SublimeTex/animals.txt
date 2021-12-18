@@ -1,0 +1,30 @@
+
+{ "Animals":[
+{
+	"number": "001",
+	"name": "Holstein",
+	"dateOfBirth": "12/12/2020",
+	"isProducingMilk": "true"
+}
+
+{
+	"number": "002",
+	"name": "Plymouth",
+	"dateOfBirth": "06/27/2020",
+	"isProducingMilk": "false"
+}
+{
+	"number": "003",
+	"name": "Dorper",
+	"dateOfBirth": "01/30/2019",
+	"isProducingMilk": "10/10/2021"
+}
+{
+	"number": "004",
+	"name": "LargeWhite",
+	"dateOfBirth": "09/25/2021",
+	"isProducingMilk": "50"
+}
+
+	]
+}
