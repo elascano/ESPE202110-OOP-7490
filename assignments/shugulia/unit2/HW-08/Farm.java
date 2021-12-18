@@ -1,7 +1,6 @@
 
 package ec.edu.espe.farm.view;
 
-import ec.edu.espe.farm.model.FarmAnimal;
 import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.FarmSystem;
 import java.time.LocalDate;
@@ -16,15 +15,11 @@ public class Farm {
     /**
      * @param args the command line arguments
      */
-
-        
-        public static void main(String[] args) {
-
+       public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
 
         System.out.println("HW08 Alan Shuguli");
 
-        FarmAnimal farmAnimal;
         int option;
         int id = 0;
         String name;
@@ -46,6 +41,8 @@ public class Farm {
 
             System.out.println("Choose the any options ");
             opcion = sn.nextInt();
-    }
-    
+        }
+       }
 }
+    
+
