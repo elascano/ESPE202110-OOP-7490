@@ -1,12 +1,8 @@
+
 package ec.edu.espe.farm.view;
-
-
-
 
 import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.ChickenCoop;
-/*import java.util.ArrayList;
-import java.util.Collections; */
 import java.util.Scanner;
 
 
@@ -32,7 +28,7 @@ public class FarmSystem {
         
 	do{
 	System.out.println("\n*******************Assigment 5*******************\n");
-	System.out.println("******Sebastian Bernardo Caisatoa Ramirez******");
+	System.out.println("******Alan******");
 	System.out.println("\n\tOption menu: \n");
 	System.out.println("\t1. Add chicken: \n");
 	System.out.println("\t2. Remove chickens: \n");
