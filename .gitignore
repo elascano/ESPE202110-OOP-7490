@@ -22,6 +22,10 @@
 *.rar
 
 <<<<<<< HEAD
+/workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
+/workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
@@ -362,7 +366,133 @@ hs_err_pid*
 /workshops/gomezm/Unit 1/WS10 Chicken Farm Setter-Getter/Farm_Simulator/nbproject/private/
 /workshops/gomezm/Unit 1/WS12 Uml Exercises/UmlExercise/nbproject/private/
 >>>>>>> 3dae895697abfd388bafcd4cace3b710889cd636
+<<<<<<< HEAD
+/workshops/almachea/Unit2/WS018/Farm/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/altamiranoc/Unit2/WS18/Farm/nbproject/private/
+/workshops/altamiranoc/Unit2/WS18/Farm/build/
+=======
+<<<<<<< HEAD
+/workshops/delacruza/unit2/WS18/JavaApplication16/nbproject/private/
+/workshops/delacruza/unit2/WS18/Farmanimals/nbproject/private/
+/workshops/delacruza/unit2/WS18/farm/build/
+/workshops/delacruza/unit2/WS18/farm/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/caisatoas/Unit2/WS18Exercise/02Inheritance/JavaApplication12/nbproject/private/
+/workshops/caisatoas/Unit2/WS18Exercise/02Inheritance/farm/nbproject/private/
+/workshops/caisatoas/Unit2/WS18Exercise/02Inheritance/farm/build/
+=======
+<<<<<<< HEAD
+/workshops/landazurim/unit2/WS18Exercise/02Intheriance/nbproject/private/
+/workshops/landazurim/unit2/WS18Exercise/02Intheriance/Farm/nbproject/private/
+/workshops/landazurim/unit2/WS18Exercise/02Intheriance/Farm/build/
+=======
+<<<<<<< HEAD
+/workshops/shugulia/unit2/WS18/Farm/nbproject/private/
+/workshops/shugulia/unit2/WS18/Farm/build/
+/workshops/shugulia/unit2/WS18/Farm/dist/
+=======
 >>>>>>> 024c4f463c9a50026d5af2edbf82ac9e81444aea
+<<<<<<< HEAD
+/workshops/guamana/unit2/WS018-Interheritance Exercise/Farm/nbproject/private/
+/workshops/guamana/unit2/WS018-Interheritance Exercise/Farm/build/
+=======
 >>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
+<<<<<<< HEAD
+/workshops/garciam/unit2/WS18Json/02Inheretence/Farm/nbproject/private/
+/workshops/garciam/unit2/WS18Json/02inherence/Farm/nbproject/private/
+/workshops/garciam/unit2/WS18Json/02inherence/Farm/build/
+/assignments/garciam/unit2/HW07Json/02inherence/Farm/build/
+/assignments/garciam/unit2/HW07Json/02inherence/Farm/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/bravok/unit2/WS18JSON/03Inheritance/Farm/nbproject/private/
+/workshops/bravok/unit2/WS18JSON/02Inheritance/Farm/nbproject/private/
+/workshops/bravok/unit2/WS18JSON/02Inheritance/Farm/build/
+=======
 >>>>>>> ddd8a13c5d1a7153223b46d2a6b1a693beca53d4
+<<<<<<< HEAD
 /workshops/bustillosp/unit2/WS18/EXCERSICE 1/EXCERCISE 1/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/sanchezj/unit2/WS18/Aniimalfarm/nbproject/private/
+/workshops/sanchezj/unit2/WS18/AnimalFarm/nbproject/private/
+/workshops/sanchezj/unit2/WS18/FARMFINAL/FARM/FARM/nbproject/private/
+/assignments/sanchezj/unit2/HW09FARM/HW09-Menu Chicken first part/HW09-CHICKEN/farm/build/
+/assignments/sanchezj/unit2/HW09FARM/HW09-Menu Chicken first part/HW09-CHICKEN/farm/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/palaciosd/unit2/WS161Collections/JavaApplication17/nbproject/private/
+/workshops/palaciosd/unit2/WS161Collections/Farm/nbproject/private/
+/workshops/palaciosd/unit2/WS18 EXORCISE/INTHERITANCE/Farm/nbproject/private/
+/workshops/palaciosd/unit2/WS18 EXORCISE/INTHERITANCE/Farm/build/
+=======
+<<<<<<< HEAD
+/workshops/lincangoj/unit2/Farm/nbproject/private/
+/workshops/lincangoj/unit2/Farm1/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/asumazad/unit2/WS18JSON/02Inheritance/Farm/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/zeasj/unit2/WS18/New Folder/Farm/nbproject/private/
+/workshops/zeasj/unit2/WS18/New Folder/Farm/build/
+=======
+<<<<<<< HEAD
+/workshops/moralesa/unit2/WS18Excercise/02/Farm/nbproject/private/
+/workshops/moralesa/unit2/WS18Excercise/02/Farm/build/
+=======
+<<<<<<< HEAD
+/workshops/tayos/Unit2/WS18Json/inheritanceFarm/Farm/nbproject/private/
+/workshops/tayos/Unit2/WS18Json/inheritanceFarm/Farm/build/
+=======
+<<<<<<< HEAD
+/workshops/paucara/unit2/WS18Exercise/02Inheritance/Farm/nbproject/private/
+/workshops/paucara/unit2/WS18Exercise/02Inheritance/Farm/build/
+=======
+<<<<<<< HEAD
+/workshops/maldonadom/unit2/WS18Exercise/02Inheritance/Farm/nbproject/private/
+=======
+/assignments/gomezm/Unit 2/HW07 ImplementArrayProject/InventaryData/nbproject/private/
+>>>>>>> 069fdd94b8ea7e80fcd710e6d5b74bf1c14e138b
+>>>>>>> e31be01672c2e3d8beada3e7cf6b208d9b51347a
+<<<<<<< HEAD
+/workshops/maldonadom/unit2/WS18Exercise/02Inheritance/Farm/build/
+=======
+>>>>>>> d3eb9a6e16552252335b6bf7661fed2d3ef87173
+<<<<<<< HEAD
+/assignments/caisatoas/Unit2/WS09Exercises/farm/build/
+/assignments/caisatoas/Unit2/WS09Exercises/farm/nbproject/private/
+=======
+>>>>>>> c52a1a7f7f02db6a8067738814e3dcf6d5009f8d
+>>>>>>> b7a88dc0188b2f4b1354b4ac68273446059cfb5a
+>>>>>>> db9ba9fdae57c277e519ed0c51f3321182676c2b
+>>>>>>> c447c7bb259a8034a4fe2a574cf3539cce0532ef
+>>>>>>> cbd7af16209b16393346a61e3d69d9473d68e1ef
+>>>>>>> bc3f40e40bb949c9f0cae182b7bb07a94195bda6
+<<<<<<< HEAD
+/assignments/moralesa/unit2/HW09/FarmMenu/nbproject/private/
+=======
+>>>>>>> 2dacfd8dc37f41b675928d8ba040e814110aad9c
+>>>>>>> da8444eae88d7a50a36ef991ffd39dbb737e8b0a
+>>>>>>> d39d74f9ce7319940a709f7a4514d64129511922
+>>>>>>> 6d102de24d580c4f9184595e8f121e998782e093
+>>>>>>> c2389525328235f43c6e773835656ed05ce274bc
+<<<<<<< HEAD
+/assignments/bravok/unit2/HW09Farm/Farm/nbproject/private/
+/assignments/bravok/unit2/HW09Farm/Farm/build/
+=======
+>>>>>>> 1ef334d80adb199eea533ca76f476573589b947a
+>>>>>>> f79a0f6a7c7aa61951fd793c8984b8d87c51f06a
+>>>>>>> 3401602eb573f41186e826ee0db10280bc8e53d3
+<<<<<<< HEAD
+/workshops/zeasj/unit2/WS18Inheritance/02Inheritance/Farm/dist/
+=======
+>>>>>>> 62226d111c7cab8a37349457ef212f4e219dd31f
+>>>>>>> 28c557a06626c4bfb8f1c4bdfa515489b584a3a2
+>>>>>>> 030cddf12b31bc6f39f5f9f988cfe496ecf9557f
+>>>>>>> 384b6af27824fb28f021250d3dd33e0f3bace8a0
+>>>>>>> b055f29c9fba5bb8de240ee8e1480df001b83a14
+>>>>>>> f0444c8cf3e94fc21e099cc288f1659eb474dc24
