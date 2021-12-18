@@ -57,7 +57,5 @@ public class Chicken extends FarmAnimal{
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
-    public Chicken() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+
 }
