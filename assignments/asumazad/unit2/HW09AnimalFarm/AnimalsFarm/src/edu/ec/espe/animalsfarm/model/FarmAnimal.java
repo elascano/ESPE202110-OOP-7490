@@ -1,4 +1,3 @@
-
 package edu.ec.espe.animalsfarm.model;
 
 import java.time.LocalDate;
@@ -6,21 +5,20 @@ import java.util.Date;
 
 /**
  *
- * @author Anderson Almache
+ * @author dylanasumaza
  */
 public class FarmAnimal {
+
     private int id;
     private String breed;
     private LocalDate borOn;
-    
-    
 
     public FarmAnimal(int id, String breed, LocalDate borOn) {
         this.id = id;
         this.breed = breed;
         this.borOn = borOn;
     }
-    
+
     /**
      * @return the id
      */

@@ -1,20 +1,19 @@
-
 package edu.ec.espe.animalsfarm.model;
-import java.time.LocalDate;
 
+import java.time.LocalDate;
 
 /**
  *
- * @author Anderson Almache
+ * @author dylanasumaza
  */
 public class Cow extends FarmAnimal {
+
     private boolean isProducingMilk;
 
-    public Cow(int id, String breed, LocalDate borOn,boolean isProducingMilk ) {
+    public Cow(int id, String breed, LocalDate borOn, boolean isProducingMilk) {
         super(id, breed, borOn);
-        this.isProducingMilk =  isProducingMilk;
-        
-        
+        this.isProducingMilk = isProducingMilk;
+
     }
 
     /**
@@ -30,5 +29,5 @@ public class Cow extends FarmAnimal {
     public void setIsProducingMilk(boolean isProducingMilk) {
         this.isProducingMilk = isProducingMilk;
     }
-    
+
 }

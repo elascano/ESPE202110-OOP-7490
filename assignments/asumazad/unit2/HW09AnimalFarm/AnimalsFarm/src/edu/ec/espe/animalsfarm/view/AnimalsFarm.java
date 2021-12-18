@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Anderson Almache
+ * @author dylanasumaza
  */
 public class AnimalsFarm {
 
@@ -26,23 +26,23 @@ public class AnimalsFarm {
         Integer option = 0;
 
         while (!exit) {
-            
+
             System.out.println("Welcome to the Farm System");
-            
+
             System.out.println("What animal do you want enter?");
-           
+
             System.out.println("Type the number");
-            
+
             System.out.println("1. Chicken ");
-            
+
             System.out.println("2. Cow");
-            
+
             System.out.println("3. Pig");
-           
+
             System.out.println("4. Sheep");
-            
+
             System.out.println("5. Exit");
-            
+
             option = sc.nextInt();
             switch (option) {
                 case 1:
@@ -54,10 +54,10 @@ public class AnimalsFarm {
                     System.out.println("bornOn: ");
                     System.out.println("isMolting:");
                     break;
-case 2:
+                case 2:
                     System.out.println("Enter the data for the Cow ");
                     System.out.println("id: ");
-                    id= sc.nextInt();
+                    id = sc.nextInt();
                     System.out.println("Breed: ");
                     breed = sc.next();
                     System.out.println("bornOn: ");
@@ -66,7 +66,7 @@ case 2:
                 case 3:
                     System.out.println("Enter the data for the Pig ");
                     System.out.println("id: ");
-                    id= sc.nextInt();
+                    id = sc.nextInt();
                     System.out.println("Breed: ");
                     breed = sc.next();
                     System.out.println("bornOn: ");
@@ -75,7 +75,7 @@ case 2:
                 case 4:
                     System.out.println("Enter the data for the Sheep ");
                     System.out.println("id: ");
-                    id= sc.nextInt();
+                    id = sc.nextInt();
                     System.out.println("Breed: ");
                     breed = sc.next();
                     System.out.println("bornOn: ");

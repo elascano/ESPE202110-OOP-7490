@@ -1,14 +1,13 @@
-
 package edu.ec.espe.animalsfarm.model;
 
 import java.time.LocalDate;
 
-
 /**
  *
- * @author Anderson Almache
+ * @author dylanasumaza
  */
 public class Sheep extends FarmAnimal {
+
     LocalDate lastSheering;
 
     public Sheep(LocalDate lastSheering, int id, String breed, LocalDate borOn) {
@@ -23,6 +22,5 @@ public class Sheep extends FarmAnimal {
     public void setLastSheering(LocalDate lastSheering) {
         this.lastSheering = lastSheering;
     }
-    
-    
+
 }

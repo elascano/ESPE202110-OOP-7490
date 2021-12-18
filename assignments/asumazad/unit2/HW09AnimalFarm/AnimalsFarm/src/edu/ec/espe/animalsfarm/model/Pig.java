@@ -1,13 +1,13 @@
-
 package edu.ec.espe.animalsfarm.model;
-import java.time.LocalDate;
 
+import java.time.LocalDate;
 
 /**
  *
- * @author Anderson Almache
+ * @author dylanasumaza
  */
 public class Pig extends FarmAnimal {
+
     float weight;
 
     public Pig(float weight, int id, String breed, LocalDate borOn) {
@@ -22,6 +22,5 @@ public class Pig extends FarmAnimal {
     public void setWeight(float weight) {
         this.weight = weight;
     }
-    
-    
+
 }
