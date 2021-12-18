@@ -178,7 +178,7 @@ public class Farm {
             System.out.println("Enter a Number from 1 to 5."); 
             }
             System.out.println("\n\tDo you want to do any other option?\n");
-            System.out.println("\t\t1. If you enter the 'y'");
+            System.out.println("\t\t1. If you enter the 's'");
             System.out.println("\t\t2. Do not enter the 'n'");
             System.out.println("Thank you for visit the farm from Angel");
 		
