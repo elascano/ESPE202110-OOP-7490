@@ -1,0 +1,4 @@
+ec\edu\espe\farm\model\Egg.class
+ec\edu\espe\farm\model\Poop.class
+ec\edu\espe\farm\model\Chicken.class
+ec\edu\espe\farm\view\FarmSystem.class
