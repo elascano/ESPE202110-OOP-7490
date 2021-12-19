@@ -33,6 +33,16 @@ public class Chicken {
     private void drink(){
         
     }
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:workshops/sanchezj/unit1/WS08CLASSES/Farmsimulator/src/ec/edu/espe/farm/model/Chicken.java
+    private  Poop poop(){
+      return new Poop();
+    }
+    
+    private Egg layAnEGG(){
+========
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     
     private Poop poop(){
         return new Poop();
@@ -40,6 +50,10 @@ public class Chicken {
     }
     
     private Egg layAnEgg(){
+<<<<<<< HEAD
+=======
+>>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319:workshops/alvarezm/unit1/WS08Classes/FarmSimulator/src/ec/edu/espe/farm/model/Chicken.java
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
         return new Egg();
     }
     

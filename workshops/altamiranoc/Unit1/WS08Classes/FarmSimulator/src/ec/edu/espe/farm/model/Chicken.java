@@ -1,15 +1,36 @@
+<<<<<<< HEAD
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+=======
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
 package ec.edu.espe.farm.model;
 
 /**
  *
+<<<<<<< HEAD
+ * @author pc
+ */
+public class Chicken {
+=======
  * @author Cristhian
  */
 public class Chicken {
     private int id;
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     private String name;
     private String color;
     private int age;
     private boolean isMolting;
+<<<<<<< HEAD
+    
+    public void doStuff(){
+        
+    }
+    
+    private void cluck(){
+=======
 
     public Chicken() {
         id=0;
@@ -38,10 +59,22 @@ public class Chicken {
     
     private void cluck(){
         System.out.println("This Chicken is clucking ...");
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
         
     }
     
     private void wander(){
+<<<<<<< HEAD
+        
+    }
+    
+    private void eat(){
+        
+    }
+    
+    private void drink(){
+        
+=======
         System.out.println("This chicken is wandering ...");
     }
     
@@ -51,6 +84,7 @@ public class Chicken {
     
     private void drink(){
         System.out.println("This chicken is drinking ...");
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     }
     private Poop poop(){
         
@@ -63,6 +97,8 @@ public class Chicken {
         return new Egg();
         
     }
+<<<<<<< HEAD
+=======
 
     /**
      * @return the name
@@ -119,5 +155,6 @@ public class Chicken {
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     
 }

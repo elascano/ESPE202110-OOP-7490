@@ -9,6 +9,9 @@ package ec.edu.espe.farm.model;
  *
  * @author Kathy
  */
+<<<<<<< HEAD
+class Egg {
+=======
 public class Egg {
     private int id;
 
@@ -37,5 +40,6 @@ public class Egg {
         this.id = id;
     }
     
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
     
 }
