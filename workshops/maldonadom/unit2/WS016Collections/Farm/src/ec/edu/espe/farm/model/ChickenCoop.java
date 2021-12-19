@@ -7,22 +7,22 @@ import java.util.ArrayList;
  * @author MateoMaldonado
  */
 public class ChickenCoop {
+
     private int id;
     private ArrayList<Chicken> chickens;
-    
-    public void add(Chicken chicken){
+
+    public void add(Chicken chicken) {
         chickens.add(chicken);
     }
-    
-    public int countChickens(){
+
+    public void remove(int id) {
+        chickens.removeIf(chicken -> chicken.getId() == id);
+    }
+
+    public int countChickens() {
         return chickens.size();
     }
-    
-    public void remove(Chicken chicken){
-        chickens.remove(chicken);
-        chickens.remove(id);
-    }
-    
+
     public ChickenCoop(int id, ArrayList<Chicken> chickens) {
         this.id = id;
         this.chickens = chickens;
@@ -30,7 +30,7 @@ public class ChickenCoop {
 
     @Override
     public String toString() {
-        return "ChickenCoop{" + "id=" + getId() + ", chickens=" + getChickens() + '}';
+        return "ChickenCoop{" + "id=" + getId() + ", chicken=" + getChickens() + '}';
     }
 
     /**
@@ -60,5 +60,5 @@ public class ChickenCoop {
     public void setChickens(ArrayList<Chicken> chickens) {
         this.chickens = chickens;
     }
-        
+
 }
