@@ -4,24 +4,13 @@ package ec.edu.espe.farm.model;
  *
  * @author Guitarra Jhon
  */
-public abstract class Device {
+public class Device {
     private int id;
     private String description;
     private String room;
     private boolean status;
     private int workingData; 
-    
-    public void turnOn(){
-        if (status == false) {
-            status = true;
-        }
-    }
 
-    public void turnOff(){
-        if (status == true) {
-            status = false;
-        }
-    }
     public Device(int id, String description, String room, boolean status, int workingData) {
         this.id = id;
         this.description = description;
@@ -29,7 +18,8 @@ public abstract class Device {
         this.status = status;
         this.workingData = workingData;
     }
-  
+
+    
     
     /**
      * @return the id
