@@ -21,7 +21,7 @@ public class Chicken extends FarmAnimal {
 
     }
 
-    public Chicken(boolean isMolting, int id, String breed, LocalDate bornOn) {
+    public Chicken(int id, String breed, LocalDate bornOn) {
         super(id, breed, bornOn);
         this.isMolting = isMolting;
     }
@@ -39,7 +39,7 @@ public class Chicken extends FarmAnimal {
 
     }
 
-    public Chicken(int id, String breed, LocalDate bornOn) {
+    public Chicken(int id, String breed, LocalDate bornOn, boolean isMolting) {
         super(id, breed, bornOn);
         this.isMolting = isMolting;
     }
