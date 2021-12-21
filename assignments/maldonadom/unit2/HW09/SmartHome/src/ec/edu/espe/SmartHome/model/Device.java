@@ -5,13 +5,15 @@ package ec.edu.espe.SmartHome.model;
  *
  * @author MateoMaldonado
  */
-public class Device {
+public abstract class Device {
     private int id;
     private String description;
     private String room;
     private boolean status; // true -if the device is on, false -if the device is off
     private int workingData; //tv,radio -volume, microwave -time, refrigerator -temperature
 
+    public abstract void sleep(int time);
+    
     public Device(int id, String description, String room, boolean status, int workingData) {
         this.id = id;
         this.description = description;
@@ -20,7 +22,17 @@ public class Device {
         this.workingData = workingData;
     }
 
+    public void tuntOn(){
+        if(status==false){
+            status=true;
+        }
+    }
     
+    public void tuntOff(){
+        if(status==true){
+            status=false;
+        }
+    }
     
     /**
      * @return the id
