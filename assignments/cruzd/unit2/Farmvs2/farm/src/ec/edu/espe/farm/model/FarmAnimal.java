@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Caisatoa
+ * @author darling.cruz
  */
 public class FarmAnimal {
     int id;
