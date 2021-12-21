@@ -38,7 +38,7 @@ public class SmartHome {
         System.out.println("Device volume ---> "+tvBox.getVolume());
         tvBox.sleep(20);
         
-        MicrowaveOven microwaveOven = new MicrowaveOven(0, 0, 0, 0, "", "", true, 0);
+        MicrowaveOven microwaveOven = new MicrowaveOven(0, 0, 0, 0, "", "", true)
         
         /*System.out.println("list of devices from my home");
         String devices;
