@@ -51,7 +51,7 @@ public class FarmSystem {
                 System.out.println("Age of Chicken --->   ");
                 age = read.nextInt();
                 
-                chicken =new Chicken(id,name,color,age,true);
+                chicken = new Chicken(id,name,color,age,true);
                 chickenCoop.add(chicken);
                 }
             
