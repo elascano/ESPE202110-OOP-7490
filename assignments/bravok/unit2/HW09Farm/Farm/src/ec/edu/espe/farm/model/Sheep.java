@@ -16,11 +16,6 @@ public class Sheep extends FarmAnimal {
         this.lastSheering = lastSheering;
     }
 
-    
-
-    
-
-
     /**
      * @return the lastSheering
      */
@@ -38,4 +33,3 @@ public class Sheep extends FarmAnimal {
     
     
 }
-
