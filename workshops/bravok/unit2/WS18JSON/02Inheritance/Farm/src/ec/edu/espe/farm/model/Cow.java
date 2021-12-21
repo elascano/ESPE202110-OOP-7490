@@ -17,6 +17,14 @@ public class Cow extends FarmAnimal {
         this.isProducingMilk = isProducingMilk;
     }
 
+    public Cow(boolean molting, int idCow, String breedCow, LocalDate bornOnCow) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Cow(boolean molting, int idCow, String breedCow, LocalDate bornOnCow) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /**
      * @return the isProducingMilk
      */
