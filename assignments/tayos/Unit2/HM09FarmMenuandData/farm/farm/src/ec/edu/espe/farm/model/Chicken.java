@@ -14,7 +14,7 @@ public class Chicken extends FarmAnimal {
     private ArrayList<Chicken> chickens = new ArrayList<Chicken>();
 
     public String generaLineaCSV() {
-        return String.format("%s;%s;%s;%s\n", id, breed, bornOn);
+        return String.format("%s;%s;%s;%s\n", id, breed, bornOn, isMolting);
     }
 
     public void Chicken() {
