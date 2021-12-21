@@ -1,7 +1,11 @@
 package ec.edu.espe.farm.view;
 
 import ec.edu.espe.farm.model.Chicken;
+import ec.edu.espe.farm.model.Cow;
 import ec.edu.espe.farm.model.FarmAnimal;
+import ec.edu.espe.farm.model.Pig;
+import ec.edu.espe.farm.model.Sheep;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,7 +20,7 @@ public class Farm {
      */
     public static void main(String[] args) {
         
-        System.out.println("---> HW09Farm VERSION 02 BRAVO KATHERIN <---");
+        System.out.println("-> HW09Farm-VERSION02-BRAVO KATHERIN");
         
         Scanner sc = new Scanner(System.in);
         int id = 0;
@@ -29,11 +33,11 @@ public class Farm {
         while (!exit) {  
             
             System.out.println("MENU");
-            System.out.println("1. Add Chicken");
-            System.out.println("2. Add Cow");
-            System.out.println("3. Add Pig");
-            System.out.println("4. Add Sheep");
-            System.out.println("5. Exit");
+            System.out.println("Add Chicken ");
+            System.out.println("Add Cow");
+            System.out.println("Add Pig");
+            System.out.println("Add Sheep");
+            System.out.println("Exit");
             option = sc.nextInt();
             switch (option) {
                 case 1:
@@ -79,3 +83,10 @@ public class Farm {
         }
     }
 }
+
+            
+        
+
+     
+        
+        

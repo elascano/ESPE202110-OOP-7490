@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author Katherin Bravo
  */
-public class Farm {
+public class Farm02 {
 
     /**
      * @param args the command line arguments
@@ -22,10 +22,10 @@ public class Farm {
         int id = 0;
         String breed = "";
         boolean isProducingMilk = true;
+        
         ArrayList<Chicken> chickens = new ArrayList<>();
         boolean exit = false;
-        Integer option = 0;
-               
+        Integer option = 0;             
         while (!exit) {  
             
             System.out.println("MENU");
