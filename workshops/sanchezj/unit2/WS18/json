@@ -2,4 +2,31 @@
 002,Plymouth,06/27/2020
 003,Dorpe,01/30/2029,10/10/2021
 004,Large White, 09/25/2021,50
+{
+<animal>
+    "id":"001"
+    "breed": "Holstein"
+    "bornOn": "12/12/20"
+    "molting": true
+}
+{
+ <farmanimal>
+    "id":"002"
+    "breed": "Plymouth"
+    "bornOn": "12/12/20"
+ 	"molting": false
+ }
+ <farmanimal>
+    "id":"003"
+    "breed": "Dorpe"
+    "bornOn": "10/10/2021"
+ 	"molting": false
+ }
+<farmanimal>
+    "id":"002"
+    "breed": "Large White"
+    "bornOn": "09/25/2021"
+ 	"molting": false
+}
+
 
