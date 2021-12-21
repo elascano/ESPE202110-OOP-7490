@@ -1,59 +1,43 @@
 package ec.edu.espe.smart.view;
 
-import com.google.gson.Gson;
-import ec.edu.espe.smart.model.Device;
+import ec.edu.espe.smart.model.MicrowaveOven;
+import ec.edu.espe.smart.model.TvBox;
 import java.util.ArrayList;
-import utils.FileManager;
 
 /**
  *
- * @author Joel
+ * @author Joel Zeas
  */
 public class SmartHome {
    
 public static void main(String[] args){
-    System.out.println("List of devices from my home");
-    String devices;
-    String fileName = "data/devices.csv";
-    devices = FileManager.read(fileName);
-    System.out.println(" --> DEVICES \n " + devices);
     
-    String device = "{\"id\":\"03\",\"description\":\"fridge\",\"room\":\"bedroom\",\"status\":\"true\",\"workingData\":10";
-        FileManager.save(fileName, device);
-        devices = FileManager.read(fileName);
-        System.out.println(" --> DEVICES \n "+ devices);
-         
-        Device device;
-        device = new Device(01, "printer","study room",true,120);
+    ArrayList<String>channels = new ArrayList<>();
+    TvBox tvBox;
+    tvBox = new TvBox(100, 50, channels, 1, "samsung 52 inches","bedroom",true,5);
+    String status = "";
+    
+    System.out.println("device class       --> " + tvBox.getClass());
+    System.out.println("Device id          --> " + tvBox.getId());
+    System.out.println("Device Description --> " + tvBox.getDescription());
 
-        Gson gson;
-        gson = new Gson();
-
-        String jsonDevice= gson.toJson(device);
-        FileManager.save(fileName, jsonDevice);
-        
-        ArrayList<Device> devicesList = new ArrayList<>();
-        
-        devices = new ArrayList<>();
-        fileName = "data/devices.json";
-        devices = FileManager.read(fileName);
-        System.out.println(" --> DEVICES \n "+ devices);
-        
-        for(String deviceString : devices){
-            System.out.println("device String --> " + deviceString + " <--");
-            devicesList.add(device);
-            device = gson.fromJson(deviceString, Device.class);
-            System.out.println("device id -> " + device.getId());
-            
-        }
-
-        System.out.println("The ArrayList of Devices is [][][][][] \n ");
-        System.out.println(devicesList);
-        
-        String devicesListJson;
-        devicesListJson = gson.toJson(devicesList);
-        System.out.println("The json array created using gson library is -> ");
-        System.out.println(devicesListJson);
+    if(tvBox.isStatus()){
+        status = "on";
+        } else {
+        status = "off";
+    }
+    
+    System.out.println("Device " + tvBox.getClass().getSimpleName() + "is    --> " + status);
+    
+    System.out.println("Device volumen     --> " + tvBox.getVolumen());
+    System.out.println("tv is sleeping");
+    tvBox.sleep(20);
+    
+    MicrowaveOven microwaveOven = new MicrowaveOven (0, 0, 0, 0, "", "", true, 0);
+    System.out.println("microwave is sleeping");
+    microwaveOven.sleep(20);
+    
+    
    }
 }
 

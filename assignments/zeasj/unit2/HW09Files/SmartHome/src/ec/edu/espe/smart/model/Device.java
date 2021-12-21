@@ -4,13 +4,27 @@ package ec.edu.espe.smart.model;
  *
  * @author Joel Zeas
  */
-public class Device {
+public abstract class Device {
     private int id;
     private String description;
     private String room;
     private boolean status; //true -if the device in on ; false -if the device is off 
     private int workingData; //tv, radio -volumen ; microware -time, refrigerator - temperature  
 
+    public abstract void sleep(int time);
+    
+    public void turnOn(){
+        if(status==false){
+            status = true;
+        }
+    }
+    
+    public void turnOff(){
+        if(status==true){
+            status = false;
+        }
+}
+    
     public Device(int id, String description, String room, boolean status, int workingData) {
         this.id = id;
         this.description = description;
@@ -88,6 +102,5 @@ public class Device {
     public void setWorkingData(int workingData) {
         this.workingData = workingData;
     }
-    
-    
+
 }
