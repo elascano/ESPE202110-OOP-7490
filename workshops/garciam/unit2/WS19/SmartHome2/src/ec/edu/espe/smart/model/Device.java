@@ -1,46 +1,39 @@
 package ec.edu.espe.smart.model;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 /**
  *
  * @author mayerly
  */
-public class Device {
+public abstract class Device {
     private int id;
     private String description;
     private String room;
     private boolean status;// true- if the device is on, false -if the device is off
-    private int WorkingDate; //tv,radio-volume, microwave-time, refrigerator-temperature
+    int WorkingData; //tv,radio-volume, microwave-time, refrigerator-temperature
 
+  public abstract void sleep(int time);
+  
+  
+     public void turnOn(){
+            if(status==false){
+                status=true;
+            }
+        }
+     public void turnOff(){
+         if(status==true){
+             status=false;
+         }
+     }
+    
+   
     public Device(int id, String description, String room, boolean status, int WorkingDate) {
         this.id = id;
         this.description = description;
         this.room = room;
         this.status = status;
-        this.WorkingDate = WorkingDate;
+        this.WorkingData = WorkingData;
         
     }
-private ArrayList<Device>devices;
-
-public void add(Device device){
-    devices.add(device);
-    }
-    
-    public void remove(Device device){
-        Scanner read = new Scanner(System.in);
-        System.out.println("Enter the device to delete it: ");
-        int id=read.nextInt();
-        for(int i=0; i<devices.size(); i++){
-            if(devices.get(i).getId()== id){
-            } else {
-                devices.remove(i);
-            }
-        }
-    }
-
-
     
     /**
      * @return the id
@@ -101,20 +94,17 @@ public void add(Device device){
     /**
      * @return the WorkingDate
      */
-    public int getWorkingDate() {
-        return WorkingDate;
+    public int getWorkingData() {
+        return WorkingData;
     }
 
     /**
      * @param WorkingDate the WorkingDate to set
      */
-    public void setWorkingDate(int WorkingDate) {
-        this.WorkingDate = WorkingDate;
+    public void setWorkingData(int WorkingDate) {
+        this.WorkingData = WorkingDate;
     }
 
-    public void remove(int id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
 
 }
