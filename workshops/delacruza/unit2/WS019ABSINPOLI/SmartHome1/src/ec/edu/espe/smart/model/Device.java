@@ -2,27 +2,28 @@ package ec.edu.espe.smart.model;
 
 /**
  *
- * @author Anthony Morales
+ * @author ALEJANDRO DELACRUZ
  */
 public abstract class Device {
 
     private int id;
     private String description;
     private String room;
-    private boolean status; // true --> if the devices is on, falso --> if the device is off
-    private int workingdata; //tv and radio --> volumen, microwave --> time, refrigerator --> temperatura
-
+    private boolean status;   //true -if the device is on, false -if the device is off
+    private int workingData;   //tv,radio -volumen, microwave -time, refrigerator -temperature
+    
     public abstract void sleep(int time);
-
-    public void turnOn() {
-        if (status == false) {
-            status = true;
+    
+    
+    public void turOn(){
+        if(status==false){
+            status=true;
         }
     }
-
-    public void turnOff() {
-        if (status == true) {
-            status = false;
+    
+    public void turnOff(){
+        if(status==true){
+            status=false;
         }
     }
 
@@ -31,7 +32,7 @@ public abstract class Device {
         this.description = description;
         this.room = room;
         this.status = status;
-        this.workingdata = workingData;
+        this.workingData = workingData;
     }
 
     /**
@@ -91,16 +92,17 @@ public abstract class Device {
     }
 
     /**
-     * @return the workingdata
+     * @return the workingData
      */
-    public int getWorkingdata() {
-        return workingdata;
+    public int getWorkingData() {
+        return workingData;
     }
 
     /**
-     * @param workingdata the workingdata to set
+     * @param workingData the workingData to set
      */
-    public void setWorkingdata(int workingdata) {
-        this.workingdata = workingdata;
+    public void setWorkingData(int workingData) {
+        this.workingData = workingData;
     }
+
 }
