@@ -17,6 +17,14 @@ public class Sheep extends FarmAnimal {
         this.lastSheering = lastSheering;
     }
 
+    public Sheep(LocalDate lastSheering, int idSheep, String breedSheep, LocalDate bornOnSheep) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Sheep(LocalDate lastSheering, int idSheep, String breedSheep, LocalDate bornOnSheep) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /**
      * @return the lastSheering
      */
