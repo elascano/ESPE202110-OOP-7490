@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author USUARIO
+ * @author KERLY
  */
 public class FarmSystem {
     

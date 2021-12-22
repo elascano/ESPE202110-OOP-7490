@@ -17,7 +17,8 @@ public class Farm {
         LocalDate bornOn = LocalDate.of(2020, 12, 15);
         farmAnimal = new FarmAnimal(0, breed, bornOn);
 
-        System.out.println("Joel Zeas HW08");
+        System.out.println("   ---> WS18 <--- ");
+        System.out.println("Author: Joel Zeas ");
         System.out.println("farmAnimal -> ");
         System.out.println("id -> " + farmAnimal.getId());
         System.out.println("breed -> " + farmAnimal.getBreed());
