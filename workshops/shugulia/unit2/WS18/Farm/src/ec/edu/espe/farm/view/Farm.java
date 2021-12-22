@@ -1,9 +1,11 @@
 
 package ec.edu.espe.farm.view;
 
+import ec.edu.espe.farm.model.FarmAnimal;
 import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.FarmSystem;
 import java.time.LocalDate;
+import java.util.Scanner;
 
 /**
  *
@@ -14,37 +16,36 @@ public class Farm {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        FarmSystem farmAnimal;
+
+        
+        public static void main(String[] args) {
+
+        Scanner read = new Scanner(System.in);
+
+        System.out.println("HW08 Alan Shuguli");
+
+        FarmAnimal farmAnimal;
+        int option;
         int id = 0;
+        String name;
+        String color;
+        int age;
+        String tecla = null;
+
         String breed = "any";
-        LocalDate born0n = LocalDate.of(2021,12,15);
-        
-        FarmSystem farmSystem = new FarmSystem(0, breed, born0n);
-        
-        System.out.println("farmSystem is a " + farmSystem.getId());
-        System.out.println("farmSystem ->");
-        System.out.println("id         ->" + farmSystem.getId());
-        System.out.println("breed      ->" + farmSystem.getBreed());
-        System.out.println("born 0n    ->" + farmSystem.getBorn0n());
-        
-        id = 1;
-        breed = "Playmount";
-        born0n = LocalDate.of(2020,06,20);
-        boolean isMolting = true;
-        
-        farmSystem = new Chicken(true, id, breed, born0n); 
-        System.out.println("farmSystem is a " + farmSystem.getClass());
-        
-        Chicken chicken = new Chicken(isMolting, id, breed, born0n);
-        
-        System.out.println("farmSystem is a " + chicken.getClass());
-        
-        System.out.println("farmSystem ->");
-        System.out.println("id         ->" + farmSystem.getId());
-        System.out.println("breed      ->" + farmSystem.getBreed());
-        System.out.println("born 0n    ->" + farmSystem.getBorn0n());
-        System.out.println("isMolting  ->" + farmSystem.getisMolting());
+        LocalDate bornOn = LocalDate.of(2021, 12, 15);
+        Scanner sn = new Scanner(System.in);
+        boolean salir = false;
+        int opcion;
+
+        while (!salir) {
+            System.out.println("1. Chicken 1");
+            System.out.println("2. Chicken 2");
+            System.out.println("3. Chicken 3");
+            System.out.println("4. out");
+
+            System.out.println("Choose the any options ");
+            opcion = sn.nextInt();
     }
     
 }

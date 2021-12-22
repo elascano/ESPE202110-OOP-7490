@@ -1,6 +1,7 @@
 
 package ec.edu.espe.InventoryBilling.view;
 
+import ec.edu.espe.InventoryBilling.model.Customer;
 import ec.edu.espe.InventoryBilling.model.Product;
 import ec.edu.espe.InventoryBilling.model.Supplier;
 import java.util.Scanner;
@@ -11,65 +12,57 @@ import java.util.ArrayList;
  */
 public class InventoryBilling {
     public static void main(String[] args) {
+        String name = null;
+    int id = 0;
+    String direction = null;
+    String email = null;
+    
+           Scanner scanner = new Scanner(System.in);
+           
+        System.out.println("User data");
+        Customer customer = new Customer(name,id,  direction, email);
+        System.out.println("Please insert the information of the new customer");
+        System.out.println("Enter the name of the costumer");
+        name = scanner.next();
+        System.out.println("Enter the identification card ");
+        id = scanner.nextInt();
+        System.out.println("Enter the direction");
+        direction = scanner.next();
+        System.out.println("register the email");
+        email =  scanner.next();
         
-        Supplier supplier = null;
-        Product product = null;
-        ArrayList<Supplier> suppliers = new ArrayList<>(); 
         
-         product= new Product("a","a",0,"a","a",suppliers);
-         
-        OUTER:
-        while (true) {
-            System.out.println("INVENTORY BILLING");
-            System.out.println("List");
-            System.out.println("1 .-  Add Costumer");
-            System.out.println("2 .-  Remove Costumer");
-            System.out.println("3 .-  Show Costumer");
-            System.out.println("4 .-  Show the amount of Costumer");
-            System.out.println("5 .-  Exit");
-            Scanner read = new Scanner(System.in);
-            int option = read.nextInt();
-            switch (option) {
-                case 1:
-                    System.out.println("Database");
-                    System.out.println("name of Costumer --->   ");
-                    String name = read.next();
-                    System.out.println("age of Costumer --->   ");
-                    int age = read.nextInt();
-                    System.out.println("customer identification --->   ");
-                    float customr = read.nextFloat();
-                    System.out.println("customer Address--->   ");
-                    float customer = read.nextFloat();
-                    System.out.println("phone ---> ");
-                    int phone = read.nextInt();
-                    supplier =new Supplier(name,age,customer,customer,phone);
-                    list.add(supplier);
-                    break;
-                case 2:
-                    list.remove(supplier);
-                    break;
-                case 3:
-                    {
-                        String list = null;
-                        System.out.println("Customer address -->" + list);
-                        break;
-                    }
-                case 4:
-                    System.out.println("Customer's age -->" + list.countSuppliers());
-                    break;
-                case 5:
-                    break OUTER;
-                default:
-                    break;
-            }
-        }
+        System.out.println("The costumer is-->\n"+name);
+        System.out.println("The identification Card is-->\n"+id);
+        System.out.println("The direction of the costumer is-->\n"+direction);
+        System.out.println("The email is-->\n"+email);
+        
+        
+        String priceForMayority;
+        int amount;
+        String mark;
+        
+        System.out.println("Please insert the information of the product");
+        System.out.println("Enter the priceForMayority");
+        priceForMayority = scanner.next();
+        System.out.println("Enter the identification amount ");
+        amount= scanner.nextInt();
+        System.out.println("Enter the mark");
+        mark = scanner.next();
+        
+        System.out.println("The price for mayority is-->\n"+priceForMayority);
+        System.out.println("The amount is-->\n"+amount);
+        System.out.println("The mark is-->\n"+mark);
+        
+       
+           
+           
+           
+ 
     }
+    
 }
 
-
-        
-   
-        
-        
     
-
+        
+        
