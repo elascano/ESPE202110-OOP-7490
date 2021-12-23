@@ -14,9 +14,7 @@ public class Cow extends FarmAnimal {
     public Cow(int id, String breed, LocalDate bornOn, boolean isProducingMilk) {
         super(id, breed, bornOn);
         this.isProducingMilk = isProducingMilk;
-
-   
-    
+    }
 
     /**
      * @return the isProducingMilk

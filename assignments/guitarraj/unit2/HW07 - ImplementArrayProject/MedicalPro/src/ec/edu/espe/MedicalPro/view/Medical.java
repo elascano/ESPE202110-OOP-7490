@@ -40,11 +40,11 @@ public class Medical {
                 String name = read.next();
                 System.out.println("Age of Patient --->   ");
                 int age = read.nextInt();
-                System.out.println("weight of Chicken --->   ");
+                System.out.println("weight of Patient --->   ");
                 float weight = read.nextFloat();
-                System.out.println("meight of Chicken --->   ");
+                System.out.println("meight of Patient --->   ");
                 float meight = read.nextFloat();
-                System.out.println("telephone of Chicken --->   ");
+                System.out.println("telephone of Patient --->   ");
                 int telephone = read.nextInt();
                 
                 patient =new Patient(name,age,weight,meight,telephone);
@@ -55,10 +55,10 @@ public class Medical {
                 list.remove(patient);
             }
             else if(option==3){
-                System.out.println("chicken in the coop -->" + list);
+                System.out.println("chicken in the clinic -->" + list);
             }
             else if(option==4){
-                System.out.println("Amount of Chicken  -->" + list.countPatients());
+                System.out.println("Amount of Patient  -->" + list.countPatients());
             }
             else if(option==5){
                 break;
