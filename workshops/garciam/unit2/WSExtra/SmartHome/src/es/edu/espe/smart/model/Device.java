@@ -10,14 +10,14 @@ public class Device {
     private String description;
     private String room;
     private boolean status;// true- if the device is on, false -if the device is off
-    private int WorkingDate; //tv,radio-volume, microwave-time, refrigerator-temperature
+    private int WorkingData; //tv,radio-volume, microwave-time, refrigerator-temperature
 
     public Device(int id, String description, String room, boolean status, int WorkingDate) {
         this.id = id;
         this.description = description;
         this.room = room;
         this.status = status;
-        this.WorkingDate = WorkingDate;
+        this.WorkingData = WorkingData;
     }
 
     
@@ -82,15 +82,15 @@ public class Device {
     /**
      * @return the WorkingDate
      */
-    public int getWorkingDate() {
-        return WorkingDate;
+    public int getWorkingData() {
+        return WorkingData;
     }
 
     /**
-     * @param WorkingDate the WorkingDate to set
+     * @param WorkingData the WorkingData to set
      */
-    public void setWorkingDate(int WorkingDate) {
-        this.WorkingDate = WorkingDate;
+    public void setWorkingData(int WorkingData) {
+        this.WorkingData = WorkingData;
     }
     
     

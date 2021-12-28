@@ -18,8 +18,6 @@ public class TvBox extends Device{
         this.Channels = Channels;
     }
     
-    
-
     /**
      * @return the volume
      */
@@ -62,5 +60,8 @@ public class TvBox extends Device{
         this.Channels = Channels;
     }
     
+    public void sleep(int time) {
+        System.out.println("seet the time for the sleeping a TvBox in" + time + "seconds");
+    }
     
 }
