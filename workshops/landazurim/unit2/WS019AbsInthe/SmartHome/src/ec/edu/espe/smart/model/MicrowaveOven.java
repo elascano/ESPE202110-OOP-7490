@@ -17,7 +17,7 @@ public class MicrowaveOven extends Device{
     
 @Override
     public void sleep(int time) {
-        System.out.println("");
+        System.out.println("Sleeping");
     }
 
        public MicrowaveOven(int time, float supportedWeight, float cc, int id, String description, String room, boolean status, int workingData) {
