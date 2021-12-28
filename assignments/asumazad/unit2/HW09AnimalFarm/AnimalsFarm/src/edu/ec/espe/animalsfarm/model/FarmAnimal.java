@@ -1,0 +1,129 @@
+<<<<<<< HEAD
+package edu.ec.espe.animalsfarm.model;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+/**
+ *
+ * @author dylanasumaza
+ */
+public class FarmAnimal {
+
+    private int id;
+    private String breed;
+    private LocalDate borOn;
+
+    public FarmAnimal(int id, String breed, LocalDate borOn) {
+        this.id = id;
+        this.breed = breed;
+        this.borOn = borOn;
+    }
+
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the breed
+     */
+    public String getBreed() {
+        return breed;
+    }
+
+    /**
+     * @param breed the breed to set
+     */
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    /**
+     * @return the borOn
+     */
+    public LocalDate getBorOn() {
+        return borOn;
+    }
+
+    /**
+     * @param borOn the borOn to set
+     */
+    public void setBorOn(LocalDate borOn) {
+        this.borOn = borOn;
+    }
+}
+=======
+package edu.ec.espe.animalsfarm.model;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+/**
+ *
+ * @author dylanasumaza
+ */
+public class FarmAnimal {
+
+    private int id;
+    private String breed;
+    private LocalDate borOn;
+
+    public FarmAnimal(int id, String breed, LocalDate borOn) {
+        this.id = id;
+        this.breed = breed;
+        this.borOn = borOn;
+    }
+
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the breed
+     */
+    public String getBreed() {
+        return breed;
+    }
+
+    /**
+     * @param breed the breed to set
+     */
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    /**
+     * @return the borOn
+     */
+    public LocalDate getBorOn() {
+        return borOn;
+    }
+
+    /**
+     * @param borOn the borOn to set
+     */
+    public void setBorOn(LocalDate borOn) {
+        this.borOn = borOn;
+    }
+}
+>>>>>>> 466fcee97c9470e8d3d0c4ffc518fa7f80e38b4c
