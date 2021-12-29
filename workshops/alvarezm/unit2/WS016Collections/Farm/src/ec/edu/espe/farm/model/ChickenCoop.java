@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class ChickenCoop {
     
     private int id;
+<<<<<<< HEAD
     private ArrayList<Chicken> chickens;
     
     public void add(Chicken chicken){
@@ -23,6 +24,20 @@ public class ChickenCoop {
     }
     
     
+=======
+    private ArrayList<Chicken> chickens;  
+    
+    public void add(Chicken chicken){ 
+        chickens.add(chicken);    
+    }
+    
+   
+    public void remove(Chicken chicken){
+        chickens.remove(chicken);   
+        chickens.remove(id); 
+    }
+    
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
     public int countChickens(){
         return chickens.size();
     }
