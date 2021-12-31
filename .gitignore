@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -18,17 +17,11 @@
 *.ear
 *.zip
 *.tar.gz
-<<<<<<< HEAD
 *.rar
 
-<<<<<<< HEAD
-/workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
-/workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/guzmanj/HelloOOP/nbproject/private/
 /workshops/guzmanj/HelloOOP/build/
@@ -669,3 +662,6 @@ hs_err_pid*
 /workshops/garciam/unit2/WS16Collection/Farm/build/
 /workshops/garciam/unit2/WS16Collection/Farm/dist/
 /workshops/garciam/unit2/WS16Collection/Farm/nbproject/private/
+=======
+
+>>>>>>> 16996045d2a6dadcd207c2ce3557dc1ad931968c
