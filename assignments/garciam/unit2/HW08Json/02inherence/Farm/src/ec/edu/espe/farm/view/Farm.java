@@ -19,7 +19,7 @@ public class Farm {
 
         Scanner read = new Scanner(System.in);
 
-        System.out.println("HW08 by Mayerly Garcia");
+        System.out.println("HW09 by Mayerly Garcia");
 
         FarmAnimal farmAnimal;
         int option;
@@ -32,13 +32,13 @@ public class Farm {
         String breed = "any";
         LocalDate bornOn = LocalDate.of(2021, 12, 15);
         Scanner sn = new Scanner(System.in);
-        boolean salir = false;
+        boolean Exit = false;
         int opcion;
 
-        while (!salir) {
-            System.out.println("1. Chicken 1");
-            System.out.println("2. Chicken 2");
-            System.out.println("3. Chicken 3");
+        while (!Exit) {
+            System.out.println("1. Add Chicken 1");
+            System.out.println("2. Add Chicken 2");
+            System.out.println("3. Add Chicken 3");
             System.out.println("4. out");
 
             System.out.println("Choose the any options ");
@@ -81,36 +81,14 @@ public class Farm {
                     age = read.nextInt();
                     break;
                 case 4:
-                    salir = true;
+                    Exit = true;
                     break;
                 default:
                     System.out.println("only numbers between 1 & 4");
 
             }
 
-            farmAnimal = new FarmAnimal(0, breed, LocalDate.MIN);
-            System.out.println("farmAnimal is a " + farmAnimal.getClass());
-            System.out.println("FarmAnimal ->");
-            System.out.println("id ->" + farmAnimal.getId());
-            System.out.println("breed ->" + farmAnimal.getBreed());
-            System.out.println("Born On ->" + farmAnimal.getBornOn());
-
-            id = 1;
-            breed = "Playmount";
-            bornOn = LocalDate.of(2020, 06, 20);
-            boolean isMolting = true;
-
-            farmAnimal = new Chicken(isMolting, id, breed, bornOn);
-            System.out.println("farmAnimal is a" + farmAnimal.getClass());
-
-            Chicken chicken = new Chicken(true, id, breed, bornOn);
-
-            System.out.println("FarmAnimal ->");
-            System.out.println("id ->" + chicken.getId());
-            System.out.println("breed ->" + chicken.getBreed());
-            System.out.println("Born On ->" + chicken.getBornOn());
-            System.out.println("isMolting ->" + chicken.isIsMolting());
         }
-
     }
 }
+
