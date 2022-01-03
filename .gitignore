@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -18,17 +17,11 @@
 *.ear
 *.zip
 *.tar.gz
-<<<<<<< HEAD
 *.rar
 
-<<<<<<< HEAD
-/workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
-/workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/guzmanj/HelloOOP/nbproject/private/
 /workshops/guzmanj/HelloOOP/build/
@@ -510,16 +503,6 @@ hs_err_pid*
 >>>>>>> 6d102de24d580c4f9184595e8f121e998782e093
 >>>>>>> c2389525328235f43c6e773835656ed05ce274bc
 <<<<<<< HEAD
-/workshops/alvarezm/unit2/WSExtraClass/JavaApplication14/nbproject/private/
-/workshops/alvarezm/unit2/WSExtraClass/JavaApplication14/build/
-/workshops/alvarezm/unit2/WSExtraClass/JavaApplication14/dist/
-/workshops/alvarezm/unit2/WSExtraClass/SmartHome/nbproject/private/
-/workshops/alvarezm/unit2/WSExtraClass/SmartHome/build/
-/workshops/alvarezm/unit2/WSExtraClass/SmartHome/dist/
-/workshops/alvarezm/unit2/WS19SmartHome/SmartHome/build/
-/workshops/alvarezm/unit2/WS19SmartHome/SmartHome/nbproject/private/
-=======
-<<<<<<< HEAD
 /workshops/garciam/unit2/WSExtra/SmartHome/nbproject/private/
 /workshops/garciam/unit2/WSExtra/SmartHome/build/
 /workshops/garciam/unit2/WSExtra/WSExtra2/nbproject/private/
@@ -598,9 +581,6 @@ hs_err_pid*
 =======
 >>>>>>> d7ba705c3a5f341192c0fd69eb6d685025eb5bcb
 <<<<<<< HEAD
-/workshops/caisatoas/Unit2/WS19Inheritance/SmartHome/nbproject/private/
-=======
-<<<<<<< HEAD
 /assignments/landazurim/unit2/HW09Files/FARM/farm/nbproject/private/
 /assignments/landazurim/unit2/HW09Files/FARM/nbproject/private/
 /assignments/landazurim/unit2/HW09Files/farm/nbproject/private/
@@ -655,16 +635,6 @@ hs_err_pid*
 >>>>>>> 99519e0cc00b77b56c6dbcbc30cd3bb18805346a
 >>>>>>> 99e8422cf7ba8b603423b9af69b0e852283d2117
 <<<<<<< HEAD
-/workshops/zeasj/unit2/WS19AbstractInhPolym/SmartHome/nbproject/private/
-/workshops/zeasj/unit2/WS19AbstractInhPolym/SmartHome/build/
-/assignments/zeasj/unit2/HW09Files_SmartHome/SmartHome/build/
-/assignments/zeasj/unit2/HW09Files_SmartHome/SmartHome/nbproject/private/
-/assignments/zeasj/unit2/HW10ProyectImplementations/SimulationProjectCatering/nbproject/private/
-=======
-<<<<<<< HEAD
-/assignments/moralesa/unit2/HW09/FarmMenu/build/
-=======
-<<<<<<< HEAD
 /assignments/guitarraj/unit2/HW09 - InheritanceJsonfarm/farm/target/
 =======
 /assignments/delacruza/unit2/HW07/InventaryData/build/
@@ -677,9 +647,11 @@ hs_err_pid*
 >>>>>>> e828caaf873bd65b1bba91832795804cb07538be
 >>>>>>> edcb3a1a24b1c7f8a44edb308f0fb7c23b4f91af
 >>>>>>> ca70ee7719272ddf6dffb46ae047d6e4defccc6e
+<<<<<<< HEAD
 >>>>>>> 26ed122708c410352098d7efa01b515bd38bfa41
 >>>>>>> fee1ac8ecc7479b5de7bb35e719523c9f9eca3f9
 >>>>>>> 9ca6f499b827e0db0707c6d2a793eac10972bf94
+<<<<<<< HEAD
 >>>>>>> e7ef5194131645398c1a2f396ea46110037e6025
 /assignments/caisatoas/Unit2/HW09Files/SmartHome/SmartHome/build/
 /assignments/caisatoas/Unit2/HW09Files/SmartHome/SmartHome/nbproject/private/
@@ -691,3 +663,29 @@ hs_err_pid*
 /assignments/caisatoas/Unit2/HW14CrudOperations/Proyect/FrmInventoryTireStore/build/
 /assignments/caisatoas/Unit2/HW11ProyectClassJson/Exercises Proyect/InventoryTireStore/nbproject/private/
 /assignments/caisatoas/Unit2/HW11ProyectClassJson/Exercises Proyect/InventoryTireStore/build/
+=======
+/workshops/alvarezm/unit2/WS21MongoDBCompass/ContactsBook/nbproject/private/
+/workshops/alvarezm/unit2/WS21MongoDBCompass - GUI/ContactsBook/nbproject/private/
+/workshops/alvarezm/unit2/WS22MenuExtraClass/CateringPlanner/nbproject/private/
+/workshops/alvarezm/unit2/WS22MenuExtraClass/CateringPlanner/build/
+=======
+/assignments/garciam/unit2/HW09 Farm/Farm/nbproject/private/
+/assignments/garciam/unit2/HW09 Farm/Farm/build/
+/workshops/garciam/unit2/New Folder/ContactsBook/nbproject/private/
+/workshops/garciam/unit2/New Folder/ContactsBook/build/
+/workshops/garciam/unit2/WS22Extra/CateringPlanner/nbproject/private/
+/workshops/garciam/unit2/WS22Extra/CateringPlanner/build/
+/workshops/garciam/unit2/WSExtra/SmartHome/dist/
+/assignments/garciam/unit2/HW09 Farm/Farm/dist/
+/assignments/garciam/unit2/HW05Chickens Farm/Farm/dist/
+/assignments/garciam/unit2/HW05MenuAddRemove/Farm/build/
+/assignments/garciam/unit2/HW05MenuAddRemove/Farm/dist/
+/assignments/garciam/unit2/HW05MenuAddRemove/Farm/nbproject/private/
+/workshops/garciam/unit2/WS16Collection/Farm/build/
+/workshops/garciam/unit2/WS16Collection/Farm/dist/
+/workshops/garciam/unit2/WS16Collection/Farm/nbproject/private/
+=======
+
+>>>>>>> 16996045d2a6dadcd207c2ce3557dc1ad931968c
+>>>>>>> c6fbdc0e618a4ef8cbc0bee61eccb3fe91794087
+>>>>>>> 0d350f8107481bc3bbd93ed6833e365415839607
