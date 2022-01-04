@@ -23,6 +23,11 @@
 *.rar
 
 <<<<<<< HEAD
+/assignments/delacruza/unit2/HW14 CRUD OPERATIONS/ContactsBook/build/
+/assignments/delacruza/unit2/HW14 CRUD OPERATIONS/ContactsBook/dist/
+/assignments/delacruza/unit2/HW14 CRUD OPERATIONS/ContactsBook/nbproject/private/
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
@@ -485,6 +490,15 @@ hs_err_pid*
 /assignments/bravok/unit2/HW09Farm/Farm/build/
 =======
 >>>>>>> 1ef334d80adb199eea533ca76f476573589b947a
+<<<<<<< HEAD
+/assignments/lincangoj/unit2/HW09file/SmartHome/nbproject/private/
+/assignments/lincangoj/unit2/HW09file/SmartHome/build/
+/assignments/lincangoj/unit2/HW09file/Farm1/nbproject/private/
+/assignments/lincangoj/unit2/HW09file/Farm1/build/
+/assignments/lincangoj/unit2/HW09file/ContactsBook/nbproject/private/
+/assignments/lincangoj/unit2/HW09file/CreatingPlanner/nbproject/private/
+/assignments/lincangoj/unit2/HW09file/CreatingPlanner/build/
+=======
 >>>>>>> f79a0f6a7c7aa61951fd793c8984b8d87c51f06a
 >>>>>>> 3401602eb573f41186e826ee0db10280bc8e53d3
 >>>>>>> 62226d111c7cab8a37349457ef212f4e219dd31f
@@ -575,6 +589,14 @@ hs_err_pid*
 /assignments/delacruza/unit2/HW09/farm/build/
 >>>>>>> 0e7cd5de7a9b9922b1b1aaffd4b8ef4e121394e5
 >>>>>>> afc51bd1ac3f13dc9a5947eca9013f1eb213975d
+<<<<<<< HEAD
+/workshops/tayos/Unit2/WS20/SmartHouse/nbproject/private/
+/workshops/tayos/Unit2/WS20/SmartHouse/build/
+/workshops/tayos/Unit2/WS21GUI/ContactsBook/nbproject/private/
+/workshops/tayos/Unit2/WS21GUI/ContactsBook/build/
+/assignments/tayos/Unit2/HW13MongoDBCompass/ContactsBook/build/
+/assignments/tayos/Unit2/HW13MongoDBCompass/ContactsBook/nbproject/private/
+=======
 >>>>>>> e828caaf873bd65b1bba91832795804cb07538be
 /workshops/altamiranoc/Unit2/New Folder/ContactsBook/nbproject/private/
 /workshops/altamiranoc/Unit2/New Folder/ContactsBook/build/
@@ -623,5 +645,11 @@ hs_err_pid*
 /assignments/garciam/unit2/HW09 Farm/Farm/dist/
 /assignments/garciam/unit2/HW09 Farm/Farm/build/
 >>>>>>> 0c75ececc7778688c6553ed79f589d22092886c0
+<<<<<<< HEAD
 /assignments/maisinchor/unit2/HW14_CRUD_OPERATIONS/Crudoperations/nbproject/private/
 /assignments/maisinchor/unit2/HW14_CRUD_OPERATIONS/Crudoperations/build/
+=======
+>>>>>>> 15d010d67e8895d5a47f3862601d04cabe0923cf
+>>>>>>> afafc124f6d8fe4bae9a566e030604c8ec236d68
+>>>>>>> b70d40c15a27b77db20af9960ce52d09ad771a07
+>>>>>>> 17c4ecbb1d4a338739f85998fccb67aeb09f1866
