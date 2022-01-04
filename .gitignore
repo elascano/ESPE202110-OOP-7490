@@ -22,3 +22,6 @@
 *.tar.gz
 *.rar
 
+/assignments/delacruza/unit2/HW14 CRUD OPERATIONS/ContactsBook/build/
+/assignments/delacruza/unit2/HW14 CRUD OPERATIONS/ContactsBook/dist/
+/assignments/delacruza/unit2/HW14 CRUD OPERATIONS/ContactsBook/nbproject/private/
