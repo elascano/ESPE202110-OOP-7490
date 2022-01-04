@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Caisatoa
+ * @author Sanchez Jose
  */
 public class SmartHome {
      public static void main(String[] args) throws IOException {
@@ -20,11 +20,11 @@ public class SmartHome {
 	System.out.println("******Sebastian Bernardo Caisatoa Ramirez******");
         System.out.println("\t\t Tire Data Management\n\n");
         
-	System.out.println("1 ===> Add New Tires ");
-	System.out.println("2 ===> View All Tires ");	
-	System.out.println("3 ===> Delete All Data in CSV ");
-	System.out.println("4 ===> Search Tire by ID ");
-	System.out.println("5 ===> Update Tire Data ");	        
+	System.out.println("1 ===> Add New Weapon ");
+	System.out.println("2 ===> View All weapon ");	
+	System.out.println("3 ===> Delete All weapon in CSV ");
+	System.out.println("4 ===> Search weapon by ID ");
+	System.out.println("5 ===> Update weapon Data ");	        
 	    
 	System.out.print("\n\n");
 	System.out.println("Enter your choice: ");
