@@ -24,17 +24,22 @@ public abstract class Device {
             status=false;
         }
     }
-    
-    public Device(int id, String description, String Room, boolean status, int workingData) {
-        this.id = id;
-        this.description = description;
-        this.Room = Room;
-        this.status = status;
-        this.workingData = workingData;
+        
+    public Device() {
+        this.id = 0;
+        this.description = "";
+        this.Room = "";
+        this.status = false;
+        this.workingData = 0;
     }
     
-   
-    
+   public Device(int id, String description, String room, boolean status, int workingData) {
+        this.id = id;
+        this.description = description;
+        this.Room = room;
+        this.status = status;
+        this.workingData = workingData;
+        }
     /**
      * @return the id
      */
