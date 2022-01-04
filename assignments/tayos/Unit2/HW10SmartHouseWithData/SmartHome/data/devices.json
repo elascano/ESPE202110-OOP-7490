@@ -1,0 +1,40 @@
+{"devices":[{
+  "id": "01",
+  "description":"tv",
+  "room": "room",
+  "status":"off",
+  "workingData":"10"
+
+},
+
+{
+  "id": "02",
+  "description":"radio",
+  "room":"hallroom",
+  "status":"off",
+  "workingData": "90"
+
+},
+{
+  "id": "03",
+  "description":"refrigerator",
+  "room":"kitchen",
+  "status":"on",
+  "workingData": "03"
+
+},
+{
+  "id": "04",
+  "description":"microwave",
+  "room":"kitchen",
+  "status":"on",
+  "workingData": "25"
+
+}]
+}
+
+
+{"id":4,"description":"computer","room":"dormitory","status":true,"workingdata":0}
+{"id":4,"description":"computer","room":"dormitory","status":true,"workingdata":15}
+{"id":4,"description":"computer","room":"dormitory","status":true,"workingdata":85}
+{"id":5,"description":"cellphone","room":"dormitory","status":false,"workingdata":60}

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -11,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#visual paradigm temporals
+*.vpp.bak_*
+
 # Package Files #
 *.jar
 *.war
@@ -18,9 +20,10 @@
 *.ear
 *.zip
 *.tar.gz
-<<<<<<< HEAD
 *.rar
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
@@ -488,6 +491,7 @@ hs_err_pid*
 >>>>>>> 28c557a06626c4bfb8f1c4bdfa515489b584a3a2
 >>>>>>> 030cddf12b31bc6f39f5f9f988cfe496ecf9557f
 >>>>>>> 384b6af27824fb28f021250d3dd33e0f3bace8a0
+<<<<<<< HEAD
 /assignments/almachea/Unit2/HW09/Intelligent House/nbproject/private/
 /assignments/almachea/Unit2/HW09/Intelligent House/build/
 /assignments/almachea/Unit2/HW09/Smart House/build/
@@ -497,3 +501,21 @@ hs_err_pid*
 /workshops/almachea/Unit2/WS019/Smart Home/nbproject/private/
 /workshops/almachea/Unit2/WS022/CateringPlanner/build/
 /workshops/almachea/Unit2/WS022/CateringPlanner/nbproject/private/
+=======
+/assignments/asumazad/unit2/HW10Extraclass/SmartHome/nbproject/private/
+/assignments/asumazad/unit2/HW10Extraclass/SmartHome/build/
+/assignments/asumazad/unit2/HW10Extraclass/SmartHouse/build/
+/workshops/asumazad/unit2/WS21/ContactsBook/nbproject/private/
+/workshops/asumazad/unit2/WS22MenuExtraClass/CateringPlanner/nbproject/private/
+/workshops/asumazad/unit2/WS22MenuExtraClass/CateringPlanner/build/
+=======
+
+>>>>>>> 86ee1c1f135fdb657200991741285df7f822a842
+/workshops/bustillosp/unit2/WS16 COLLECTIONS/Farm/nbproject/private/
+/assignments/bustillosp/unit2/HW10 PROJECT/ProjectInventoryBilling/nbproject/private/
+/assignments/bustillosp/unit2/HW07 ARRAY LIST PROJECT/InventoryBillingProject/nbproject/private/
+/assignments/bustillosp/unit2/HW07 ARRAY LIST PROJECT/InventoryBillingProject/build/
+/assignments/bustillosp/unit2/HW10 PROJECT/ProjectInventoryBilling/build/
+=======
+>>>>>>> e51b55a94d3c768a74ed5fb730cbf9d763fb4554
+>>>>>>> 83ee168312cb8ba06ca9b19bbf8d772ea4422810
