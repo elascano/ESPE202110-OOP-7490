@@ -1,10 +1,10 @@
 package ec.edu.espe.farm.view;
 
-import ec.edu.espe.farm.model.Worker;
-import ec.edu.espe.farm.model.Order;
-import ec.edu.espe.farm.model.Time;
-import ec.edu.espe.farm.model.Payrole;
-import ec.edu.espe.farm.model.Transportation;
+import ec.edu.espe.farm.model.Chicken;
+import ec.edu.espe.farm.model.Cow;
+import ec.edu.espe.farm.model.FarmAnimal;
+import ec.edu.espe.farm.model.Pig;
+import ec.edu.espe.farm.model.Sheep;
 import java.util.Scanner;
 import java.util.ArrayList;
 /*import comcsvreader.CsvWriter;*/
@@ -23,7 +23,7 @@ public class Farm {
         Scanner read = new Scanner(System.in);
         FarmAnimal farmAnimal;
         int chicken;
-        //Chicken chicken = new Worker();
+        //Chicken chicken = new Chicken();
         
         int id = 0;
         String breed = "any";
@@ -40,20 +40,20 @@ public class Farm {
         System.out.println("Born On --> " + farmAnimal.getBornOn());
 
         do{
-	System.out.println("\n*******************Assigment 5*******************\n");
-	System.out.println("******Sebastian Bernardo Caisatoa Ramirez******");
-	System.out.println("\n\tOption menu: \n");
-	System.out.println("\t1. Add Chicken and add them to a CSV file: \n");
-	System.out.println("\t2. Add Sheep and add them to a CSV file: \n");
-	System.out.println("\t3. Add Pig and add them to a CSV file: \n");
-	System.out.println("\t4. Add Cow and add them to a CSV file: \n");
+    System.out.println("\n*******************Assigment 5*******************\n");
+    System.out.println("******Sebastian Bernardo Caisatoa Ramirez******");
+    System.out.println("\n\tOption menu: \n");
+    System.out.println("\t1. Add Chicken and add them to a CSV file: \n");
+    System.out.println("\t2. Add Sheep and add them to a CSV file: \n");
+    System.out.println("\t3. Add Pig and add them to a CSV file: \n");
+    System.out.println("\t4. Add Cow and add them to a CSV file: \n");
         
         int option;
         option = read.nextInt();
         DateTimeFormatter formatter =  DateTimeFormatter.ofPattern("d/MM/yyyy");
 
-	boolean opc = (option <= 4);
-	if (opc) {
+    boolean opc = (option <= 4);
+    if (opc) {
             
             switch(option){                
             case 1:
@@ -151,7 +151,7 @@ public class Farm {
                     String [] csv = pig.toCsvPig();
                     csvWriterPig.writeRecord(csv);
                 }
-                csvWriterPig.close();		
+                csvWriterPig.close();       
             break;
             case 4:
                 int idCow = 0;
@@ -180,7 +180,7 @@ public class Farm {
                     String [] csv = cow.toCsvCow();
                     csvWriterCow.writeRecord(csv);
                 }
-                csvWriterCow.close();	
+                csvWriterCow.close();   
                 
             break;
             }
@@ -190,8 +190,8 @@ public class Farm {
             System.out.println("\n\tDo you want to do any other option?\n");
             System.out.println("\t\t1. If you enter the 's'");
             System.out.println("\t\t2. Do not enter the 'n'");
-		
+        
             tecla = new Scanner(System.in).nextLine();
- 	} while (tecla.equals("s") || tecla.equals("S"));
+    } while (tecla.equals("s") || tecla.equals("S"));
     }   
 }
