@@ -1,10 +1,10 @@
 package ec.edu.espe.farm.view;
 
-import ec.edu.espe.farm.model.Chicken;
-import ec.edu.espe.farm.model.Cow;
-import ec.edu.espe.farm.model.FarmAnimal;
-import ec.edu.espe.farm.model.Pig;
-import ec.edu.espe.farm.model.Sheep;
+import ec.edu.espe.farm.model.Worker;
+import ec.edu.espe.farm.model.Order;
+import ec.edu.espe.farm.model.Time;
+import ec.edu.espe.farm.model.Payrole;
+import ec.edu.espe.farm.model.Transportation;
 import java.util.Scanner;
 import java.util.ArrayList;
 /*import comcsvreader.CsvWriter;*/
@@ -23,7 +23,7 @@ public class Farm {
         Scanner read = new Scanner(System.in);
         FarmAnimal farmAnimal;
         int chicken;
-        //Chicken chicken = new Chicken();
+        //Chicken chicken = new Worker();
         
         int id = 0;
         String breed = "any";
