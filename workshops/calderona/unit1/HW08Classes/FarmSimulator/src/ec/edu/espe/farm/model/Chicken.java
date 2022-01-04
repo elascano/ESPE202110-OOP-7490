@@ -6,6 +6,45 @@ package ec.edu.espe.farm.model;
 
 /**
  *
+<<<<<<< HEAD
+ * @author Cesar Calderon
+ */
+public class Chicken {
+   private String name;
+    private String color;
+    private int age;
+    private boolean isMolting;
+    
+    private void doStuff(){
+    }
+    private void cluck(){
+    }
+    private void wander(){
+    }
+    private void eat(){
+    }
+    private void drink(){
+    }
+    private Poop poop(){
+        return new Poop();
+    }
+
+    private static class Poop {
+
+        public Poop() {
+        }
+    }
+    private Egg layAntgg(){
+        return new Egg();
+    }
+
+    private static class Egg {
+
+        public Egg() {
+        }
+    } 
+}
+=======
  * @author Andy Calderon
  */
 public class Chicken {
@@ -131,3 +170,4 @@ public class Chicken {
         this.molting = molting;
     }
     }
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c

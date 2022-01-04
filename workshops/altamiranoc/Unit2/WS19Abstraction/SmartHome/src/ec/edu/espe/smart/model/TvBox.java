@@ -16,6 +16,12 @@ public class TvBox extends Device{
         System.out.println("Sleeping a tvbox in "+ time + " minutes ");
     }
     
+    
+    
+    public void sleep(){
+        System.out.println("sleeping for 30 minutes");
+    }
+    
 
     public TvBox(int volume, int channelisQuantity, ArrayList<String> channels, int id, String description, String room, boolean status, int workingData) {
         super(id, description, room, status, workingData);
