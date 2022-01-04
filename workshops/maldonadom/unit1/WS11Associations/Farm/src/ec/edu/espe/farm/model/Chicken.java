@@ -1,11 +1,19 @@
+<<<<<<< HEAD
+package ec.edu.espe.farm.model;
+=======
 package ec.edu.espe.menu.model;
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 
 /**
  *
  * @author MateoMaldonado
  */
 public class Chicken {
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
     private int id;
     private String name;
     private String color;
@@ -14,17 +22,67 @@ public class Chicken {
 
     @Override
     public String toString() {
+<<<<<<< HEAD
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
+    }
+    
+    
+    public void doStuff(int forTime){
+        
+    }
+    
+    private void cluck(){
+        
+    }
+    
+    private void wander(){
+        
+    }
+    
+    private void eat(){
+        
+    }
+    
+    private void drink(){
+        
+    }
+    
+    private Poop poop(){
+        
+        return new Poop();
+    }
+    
+    private Egg layAnEgg(){
+        
+        return new Egg(1);
+    }
+
+    public Chicken() {
+        id=0;
+        name="ch";
+        color="white";
+        age=0;
+        molting=false;
+    }
+    
+    public Chicken(int id, String name, String color, int age, boolean isMolting) {
+=======
         return "\n\tChicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
     }
 
     public Chicken(int id, String name, String color, int age, boolean molting) {
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
         this.id = id;
         this.name = name;
         this.color = color;
         this.age = age;
         this.molting = molting;
     }
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
     /**
      * @return the id
      */
@@ -94,5 +152,8 @@ public class Chicken {
     public void setMolting(boolean molting) {
         this.molting = molting;
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 }

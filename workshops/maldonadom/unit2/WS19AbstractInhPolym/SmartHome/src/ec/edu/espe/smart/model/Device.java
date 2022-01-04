@@ -25,6 +25,14 @@ public abstract class Device {
             status = false;
         }
     }
+    
+    public Device() {
+        this.id = 0;
+        this.description = "";
+        this.room = "room";
+        this.status = false;
+        this.workingdata = 0;
+    }
 
     public Device(int id, String description, String room, boolean status, int workingData) {
         this.id = id;
