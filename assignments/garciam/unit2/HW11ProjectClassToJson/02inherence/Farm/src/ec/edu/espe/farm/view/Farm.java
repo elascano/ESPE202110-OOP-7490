@@ -19,7 +19,7 @@ public class Farm {
 
         Scanner read = new Scanner(System.in);
 
-        System.out.println("HW09 by Mayerly Garcia");
+        System.out.println("HW11 by Mayerly Garcia");
 
         FarmAnimal farmAnimal;
         int option;
