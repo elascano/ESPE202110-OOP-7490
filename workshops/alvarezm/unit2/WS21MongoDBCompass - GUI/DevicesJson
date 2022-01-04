@@ -1,0 +1,7 @@
+{"id":"01", "description" : "tv box","room":"bedroom", "status":"true","workingdata":10}
+
+{"id": "02", "description":"radio", "room":"hallroom", "status":"off", "workingData": "90"}
+
+{"id":"03","description":"fridge","room":"bedroom","status":"true","workingData":10}
+
+{"id":"04", "description" :,"microwaveoven","room":"kitchen", "status":"true","workingdata":20}
