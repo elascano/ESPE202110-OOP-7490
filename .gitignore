@@ -10,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#visual paradigm temporals
+*.vpp.bak_*
+
 # Package Files #
 *.jar
 *.war
@@ -19,6 +22,4 @@
 *.tar.gz
 *.rar
 
-#visual paradigm temporals
-*.bak_*
 
