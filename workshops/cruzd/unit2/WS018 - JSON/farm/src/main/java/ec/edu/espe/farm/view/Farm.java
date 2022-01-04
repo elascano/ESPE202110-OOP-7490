@@ -13,7 +13,7 @@ import java.time.LocalDate;
 
 /**
  *
- * @author darling.Cruzz
+ * @author darling.Cruz
  */
 
 public class Farm {

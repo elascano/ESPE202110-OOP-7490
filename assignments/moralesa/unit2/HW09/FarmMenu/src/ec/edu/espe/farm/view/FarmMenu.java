@@ -21,7 +21,7 @@ public class FarmMenu {
         Scanner show = new Scanner(System.in);
 
         FarmAnimal farmAnimal;
-        
+        System.out.println("--> HW09 from Anthony Morales <--");
         int id = 0;
         String breed = "any";
         LocalDate bornOn = LocalDate.of(2021,12,05);    
@@ -32,20 +32,18 @@ public class FarmMenu {
         
         System.out.println("FarmAnimal is a " + farmAnimal.getClass());
         System.out.println("\nFarmAnimal --> ");
-        System.out.println("ID --> " + farmAnimal.getId());
-        System.out.println("Breed --> " + farmAnimal.getBreed());
-        System.out.println("Born On --> " + farmAnimal.getBornOn());
+        System.out.println("Id:  " + farmAnimal.getId());
+        System.out.println("Breed: " + farmAnimal.getBreed());
+        System.out.println("Born On: " + farmAnimal.getBornOn());
 
         do{
-	
-        System.out.println("----->Anthony's Farm<-----");
-        System.out.println("These are the menu options");
-	System.out.println("\n\tOption menu: \n");
-	System.out.println("\t1. Add Chicken: \n");
-	System.out.println("\t2. Add Sheep: \n");
-	System.out.println("\t3. Add Pig: \n");
-	System.out.println("\t4. Add Cow: \n");
-        System.out.println("\t5. Show chickens in the coop: \n");
+        System.out.println("These are the farm menu options --> ");
+	System.out.println("\n\tFarm menu: \n");
+	System.out.println("1. Add Chicken --> \n");
+	System.out.println("2. Add Sheep --> \n");
+	System.out.println("3. Add Pig --> \n");
+	System.out.println("4. Add Cow --> \n");
+        System.out.println("5. Show chickens in the coop --> \n");
         
         int option;
         
