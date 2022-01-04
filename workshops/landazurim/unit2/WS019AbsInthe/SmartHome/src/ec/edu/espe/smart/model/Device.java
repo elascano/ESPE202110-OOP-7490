@@ -17,10 +17,7 @@ public abstract class Device {
 
     
     public abstract void sleep(int time);
-    
-    
-    
-    
+  
     
     
     public String toCsv(){
