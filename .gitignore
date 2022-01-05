@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -11,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#visual paradigm temporals
+*.vpp.bak_*
+
 # Package Files #
 *.jar
 *.war
@@ -18,9 +20,9 @@
 *.ear
 *.zip
 *.tar.gz
-<<<<<<< HEAD
 *.rar
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
@@ -661,3 +663,9 @@ hs_err_pid*
 /workshops/shugulia/unit2/WS21/ContactsBook/nbproject/private/
 /workshops/shugulia/unit2/WS21/ContactsBook/build/
 /workshops/shugulia/unit2/WS21/ContactsBook/dist/
+=======
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/build/
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/nbproject/private/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/build/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/nbproject/private/
+>>>>>>> 0e1421cc8db2b8945f58908008c2786c25f77eeb
