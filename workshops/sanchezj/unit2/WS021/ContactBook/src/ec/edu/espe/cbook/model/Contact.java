@@ -21,6 +21,8 @@ public class Contact {
     private LocalDate birthDate;
     private String comments;
 
+    
+    
     public Contact(int id, String name, String hobby, String cellPhoneNumber, String sex, String group, float salary, LocalDate birthDate, String comments) {
         this.id = id;
         this.name = name;
