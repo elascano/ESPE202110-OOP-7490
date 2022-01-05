@@ -1,36 +1,36 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.cbook.model;
 
 import java.time.LocalDate;
 
 /**
  *
- * @author LENOVO
+ * @author Anthony Morales
  */
 public class Contact {
     private int id;
     private String name;
     private String hobby;
-    private String cllPhoneNumber;
+    private String cellPhoneNumber;
     private String sex;
     private String group;
     private float salary;
-    private LocalDate birthDate;
+    private String birthdate;
     private String comments;
 
-    public Contact(int id, String name, String hobby, String cllPhoneNumber, String sex, String group, float salary, LocalDate birthDate, String comments) {
+    public Contact(int id, String name, String hobby, String cellPhoneNumber, String sex, String group, float salary, String birthdate, String comments) {
         this.id = id;
         this.name = name;
         this.hobby = hobby;
-        this.cllPhoneNumber = cllPhoneNumber;
+        this.cellPhoneNumber = cellPhoneNumber;
         this.sex = sex;
         this.group = group;
         this.salary = salary;
-        this.birthDate = birthDate;
+        this.birthdate = birthdate;
         this.comments = comments;
+    }
+
+    public Contact() {
+        
     }
     
     /**
@@ -76,17 +76,17 @@ public class Contact {
     }
 
     /**
-     * @return the cllPhoneNumber
+     * @return the cellPhoneNumber
      */
-    public String getCllPhoneNumber() {
-        return cllPhoneNumber;
+    public String getCellPhoneNumber() {
+        return cellPhoneNumber;
     }
 
     /**
-     * @param cllPhoneNumber the cllPhoneNumber to set
+     * @param cellPhoneNumber the cellPhoneNumber to set
      */
-    public void setCllPhoneNumber(String cllPhoneNumber) {
-        this.cllPhoneNumber = cllPhoneNumber;
+    public void setCellPhoneNumber(String cellPhoneNumber) {
+        this.cellPhoneNumber = cellPhoneNumber;
     }
 
     /**
@@ -132,17 +132,17 @@ public class Contact {
     }
 
     /**
-     * @return the birthDate
+     * @return the birthdate
      */
-    public LocalDate getBirthDate() {
-        return birthDate;
+    public String getBirthdate() {
+        return birthdate;
     }
 
     /**
-     * @param birthDate the birthDate to set
+     * @param birthdate the birthdate to set
      */
-    public void setBirthDate(LocalDate birthDate) {
-        this.birthDate = birthDate;
+    public void setBirthdate(String birthdate) {
+        this.birthdate = birthdate;
     }
 
     /**

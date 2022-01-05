@@ -1,0 +1,15 @@
+{id:10, name:"Sebastian", age:19, group:"University",comments:"Hello my name is Sebastian Caisatoa" }
+
+[{
+	id: 20,
+	name: "Juan",
+	age: 45,
+	group: "Jobs",
+	comments: "Hello my name is Juan"
+}, {
+	id: 30,
+	name: "Esteban",
+	age: 45,
+	group: "School",
+	comments: "Hello my name is Esteban"
+}]

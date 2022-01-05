@@ -1,15 +1,31 @@
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 package ec.edu.espe.farm.view;
 
 import ec.edu.espe.farm.model.Chicken;
 import ec.edu.espe.farm.model.ChickenCoop;
 import java.util.ArrayList;
+<<<<<<< HEAD
+=======
 import java.util.Scanner;
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 
 /**
  *
  * @author malvarez
+<<<<<<< HEAD
+ */
+public class FarmSystem {
+    public static void main(String[] args) {
+        
+        Chicken chicken;
+        ChickenCoop chickenCoop;
+        ArrayList<Chicken> chickens = new ArrayList<>();
+        
+=======
  */ 
 public class FarmSystem {
     public static void main(String[] args) {
@@ -80,11 +96,39 @@ public class FarmSystem {
         
    /*
                         WORKSHOP  -  MADE IN CLASS
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
         chicken = new Chicken(0, "Lucy", "White and brown", 0, true);
         chickenCoop = new ChickenCoop(0, chickens);
         
         System.out.println("chicken --> " + chicken);
         System.out.println("Chickens in the chicken coop " + chickenCoop.countChickens());
+<<<<<<< HEAD
+        System.out.println("chicken coop --> " +chickenCoop);
+        
+        chickenCoop.add(chicken);
+        System.out.println("Chickens in the chicken coop " + chickenCoop.countChickens());
+        System.out.println("chicken coop --> " +chickenCoop);
+        
+        chickenCoop.add(new Chicken(1, "Daysi", "white", 0, false));
+        System.out.println("Chickens in the chicken coop " + chickenCoop.countChickens());
+        System.out.println("chicken coop --> " +chickenCoop);        
+               
+        chickenCoop.add(new Chicken(2, "Renata", "black", 0, false));
+        System.out.println("Chickens in the chicken coop " + chickenCoop.countChickens());
+        System.out.println("chicken coop --> " +chickenCoop);       
+        
+        chickenCoop.remove(chicken);
+        System.out.println("Chickens in the chicken coop " + chickenCoop.countChickens());
+        System.out.println("chicken coop --> " +chickenCoop);           
+        
+        
+        
+        
+        
+        
+
+        
+=======
         System.out.println("chicken coop --> " + chickenCoop);
         
         chickenCoop.add(chicken);
@@ -115,6 +159,7 @@ public class FarmSystem {
   
 */
        
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
     }
     
 }

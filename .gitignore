@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -11,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#visual paradigm temporals
+*.vpp.bak_*
+
 # Package Files #
 *.jar
 *.war
@@ -18,9 +20,9 @@
 *.ear
 *.zip
 *.tar.gz
-<<<<<<< HEAD
 *.rar
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
@@ -465,6 +467,22 @@ hs_err_pid*
 >>>>>>> 90ed29e1888985547756e5cfa6bf4dcbc7323d9b
 >>>>>>> e82404e8fbb26e106e3a7fc00575475201c36178
 >>>>>>> 373b9ad036a226914617f5411aa7475df1a148ae
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 68daa37bce2dffe6801999de35a4f628f46996da
+>>>>>>> d730e2b2ae6ba704c38374d9110f2fa349b975ca
+>>>>>>> 902581fd29c2316331a8b4d42624cd822dd44be0
+>>>>>>> 4831ce890352d3db89b46ad54ac599ceaa0e4319
+/workshops/saltosp/unit2/WS18/Farm1/nbproject/private/
+/workshops/saltosp/unit2/WS18/Farm1/build/
+/assignments/saltosp/unit2/HW09files/SmartHome/nbproject/private/
+/assignments/saltosp/unit2/HW09files/WS21CUI/nbproject/private/
+/workshops/saltosp/unit2/WS21CUI/JavaApplication17/nbproject/private/
+/workshops/saltosp/unit2/Ws22/CateringPlanner/nbproject/private/
+/workshops/saltosp/unit2/Ws22/CateringPlanner/build/
+=======
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
 /workshops/simbañaj/unit1/WS11Association/Farm/dist/
 /workshops/simbañaj/unit1/WS12UMLExercise/UmlExercise/build/
 /workshops/simbañaj/unit1/WS12UMLExercise/UmlExercise/nbproject/private/
@@ -510,6 +528,7 @@ hs_err_pid*
 >>>>>>> 6d102de24d580c4f9184595e8f121e998782e093
 >>>>>>> c2389525328235f43c6e773835656ed05ce274bc
 <<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/alvarezm/unit2/WSExtraClass/JavaApplication14/nbproject/private/
 /workshops/alvarezm/unit2/WSExtraClass/JavaApplication14/build/
 /workshops/alvarezm/unit2/WSExtraClass/JavaApplication14/dist/
@@ -520,6 +539,8 @@ hs_err_pid*
 /workshops/alvarezm/unit2/WS19SmartHome/SmartHome/nbproject/private/
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
 /workshops/garciam/unit2/WSExtra/SmartHome/nbproject/private/
 /workshops/garciam/unit2/WSExtra/SmartHome/build/
 /workshops/garciam/unit2/WSExtra/WSExtra2/nbproject/private/
@@ -533,6 +554,7 @@ hs_err_pid*
 /assignments/bravok/unit2/HW09Farm/Farm/build/
 =======
 >>>>>>> 1ef334d80adb199eea533ca76f476573589b947a
+<<<<<<< HEAD
 <<<<<<< HEAD
 /assignments/palaciosd/unit2/HW09 FARM/Farm/nbproject/private/
 /workshops/palaciosd/unit2/WS19 SmarthHome/SmarthHome/nbproject/private/
@@ -549,6 +571,8 @@ hs_err_pid*
 /workshops/palaciosd/unit2/WS22 MenusExtraClass/CateringPlanner/dist/
 /workshops/palaciosd/unit2/WS22 MenusExtraClass/CateringPlanner/nbproject/private/
 =======
+=======
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
 >>>>>>> f79a0f6a7c7aa61951fd793c8984b8d87c51f06a
 <<<<<<< HEAD
 /workshops/guamana/unit2/WS19/SmartHome/nbproject/private/
@@ -603,6 +627,7 @@ hs_err_pid*
 /assignments/zeasj/unit2/ExtraClass/SmartHome/build/
 /assignments/zeasj/unit2/ExtraClass/SmartHome/dist/
 =======
+<<<<<<< HEAD
 >>>>>>> f0444c8cf3e94fc21e099cc288f1659eb474dc24
 >>>>>>> 96f41549edfa0c47fe2a8686896113ef4fd883d5
 <<<<<<< HEAD
@@ -610,6 +635,31 @@ hs_err_pid*
 /assignments/simbañaj/unit2/HW9/SmarthHome/build/
 /assignments/simbañaj/unit2/HW9/SmarthHome/dist/
 =======
+=======
+<<<<<<< HEAD
+
+>>>>>>> 86ee1c1f135fdb657200991741285df7f822a842
+<<<<<<< HEAD
+/workshops/bustillosp/unit2/WS16 COLLECTIONS/Farm/nbproject/private/
+/assignments/bustillosp/unit2/HW10 PROJECT/ProjectInventoryBilling/nbproject/private/
+/assignments/bustillosp/unit2/HW07 ARRAY LIST PROJECT/InventoryBillingProject/nbproject/private/
+/assignments/bustillosp/unit2/HW07 ARRAY LIST PROJECT/InventoryBillingProject/build/
+/assignments/bustillosp/unit2/HW10 PROJECT/ProjectInventoryBilling/build/
+=======
+>>>>>>> e51b55a94d3c768a74ed5fb730cbf9d763fb4554
+>>>>>>> 83ee168312cb8ba06ca9b19bbf8d772ea4422810
+/assignments/almachea/Unit2/HW09/FarmAnimals/build/
+/assignments/almachea/Unit2/HW09/FarmAnimals/nbproject/private/
+/assignments/almachea/Unit2/HW010CsvProyect/Smart House/build/
+/assignments/almachea/Unit2/HW010CsvProyect/Smart House/nbproject/private/
+/assignments/almachea/Unit2/HW09CsvFilesFarm/FarmAnimals/build/
+/assignments/almachea/Unit2/HW09CsvFilesFarm/FarmAnimals/nbproject/private/
+=======
+/assignments/alvarezm/unit2/HW14-CrudOperations/ContactsBook/ContactsBook/dist/
+=======
+>>>>>>> f0444c8cf3e94fc21e099cc288f1659eb474dc24
+>>>>>>> 96f41549edfa0c47fe2a8686896113ef4fd883d5
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
 >>>>>>> 466fcee97c9470e8d3d0c4ffc518fa7f80e38b4c
 <<<<<<< HEAD
 /workshops/bravok/unit2/WSExtraClass/SmartHome/nbproject/private/
@@ -619,14 +669,42 @@ hs_err_pid*
 =======
 >>>>>>> d7ba705c3a5f341192c0fd69eb6d685025eb5bcb
 <<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/caisatoas/Unit2/WS19Inheritance/SmartHome/nbproject/private/
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
 /assignments/landazurim/unit2/HW09Files/FARM/farm/nbproject/private/
 /assignments/landazurim/unit2/HW09Files/FARM/nbproject/private/
 /assignments/landazurim/unit2/HW09Files/farm/nbproject/private/
 =======
 >>>>>>> 93cd4dc97bac56aff351cc7fd7de7ae98a65bd66
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/workshops/guamana/unit2/WS20/SmartHome_1/nbproject/private/
+/workshops/guamana/unit2/WS20/SmartHome/build/
+/workshops/guamana/unit2/WS20/SmartHome/nbproject/private/
+/workshops/guamana/unit2/WS20/SmartHome_N1/build/
+/workshops/guamana/unit2/WS20/SmartHome_N1/nbproject/private/
+/workshops/guamana/unit2/WS20-AbslnhPoly/SmartHome/build/
+/workshops/guamana/unit2/WS20-AbslnhPoly/SmartHome/nbproject/private/
+/workshops/guamana/unit2/WS21/SmartHomen2_Class/nbproject/private/
+/workshops/guamana/unit2/WS22/ContactsBook/nbproject/private/
+/workshops/guamana/unit2/New Folder/CateringPlanner/nbproject/private/
+/workshops/guamana/unit2/WS22-Mongo DB Compass/ContactsBook/nbproject/private/
+/assignments/guamana/unit2/WH12-DataBase -Operation-CRUD/DataBase/nbproject/private/
+/assignments/guamana/unit2/WH12-DataBase -Operation-CRUD/DataBase/build/
+/assignments/guamana/unit2/WH12-DataBase -Operation-CRUD/Tabla001/nbproject/private/
+/assignments/guamana/unit2/WH12-DataBase -Operation-CRUD/Tabla001/build/
+/assignments/guamana/unit2/HW14-MongolDb CRUD Operation/ContactsBook/dist/
+/workshops/guamana/unit2/Nueva carpeta/ContactsBook/nbproject/private/
+/workshops/guamana/unit2/WS22-Mongo DB Compass/ContactsBook/build/
+/assignments/guamana/unit2/HW11-Proyect/Exercises Proyect/InventoryTireStore/build/
+/assignments/guamana/unit2/HW11-Proyect/Exercises Proyect/InventoryTireStore/nbproject/private/
+=======
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
 >>>>>>> ee5f78c87a4fc4781174cfea2ae929fd451dc5a1
 <<<<<<< HEAD
 >>>>>>> 84db2ff18d83cc2b6e8133334611cf12e7c9ddc1
@@ -675,6 +753,7 @@ hs_err_pid*
 >>>>>>> 83f7e1e08ea77a7e4bd9e52e20c06f6544e0e433
 >>>>>>> 99519e0cc00b77b56c6dbcbc30cd3bb18805346a
 <<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/sanchezj/unit2/WS19ABSTRATIONANDPOLIMORFISM/SmartHome1/SmartHome1/build/
 /workshops/sanchezj/unit2/WS19ABSTRATIONANDPOLIMORFISM/SmartHome1/SmartHome1/nbproject/private/
 /workshops/sanchezj/unit2/ws021/ContactBook/nbproject/private/
@@ -688,6 +767,10 @@ hs_err_pid*
 /assignments/zeasj/unit2/HW10ProyectImplementations/SimulationProjectCatering/nbproject/private/
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 99e8422cf7ba8b603423b9af69b0e852283d2117
+<<<<<<< HEAD
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
 /assignments/moralesa/unit2/HW09/FarmMenu/build/
 =======
 <<<<<<< HEAD
@@ -705,6 +788,7 @@ hs_err_pid*
 >>>>>>> ca70ee7719272ddf6dffb46ae047d6e4defccc6e
 >>>>>>> 26ed122708c410352098d7efa01b515bd38bfa41
 <<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/maldonadom/unit2/WS21GUI/ContactsBook/nbproject/private/
 /workshops/maldonadom/unit2/WS22Menus/CateringPlanner/nbproject/private/
 /workshops/maldonadom/unit2/WS22Menus/CateringPlanner/build/
@@ -712,10 +796,6 @@ hs_err_pid*
 >>>>>>> fee1ac8ecc7479b5de7bb35e719523c9f9eca3f9
 >>>>>>> 9ca6f499b827e0db0707c6d2a793eac10972bf94
 >>>>>>> e7ef5194131645398c1a2f396ea46110037e6025
-<<<<<<< HEAD
-/workshops/bravok/unit2/WS22MenuExtraClass/CateringPlanner/nbproject/private/
-/workshops/bravok/unit2/WS22MenuExtraClass/CateringPlanner/build/
-=======
 <<<<<<< HEAD
 /workshops/moralesa/WS21/ContactsBook/nbproject/private/
 =======
@@ -732,9 +812,81 @@ hs_err_pid*
 >>>>>>> d54c1aeb05b2885900e3b2f1c5bd93927a544b9d
 >>>>>>> 24b4c6cfcf1916c92f08aab027594e47629009fa
 >>>>>>> 7a94ee28e9586d7ce7a3c1b38af6f811b7bec4b1
+<<<<<<< HEAD
+/workshops/moralesa/unit2/WS21/ContactsBook/build/
+=======
+>>>>>>> 16996045d2a6dadcd207c2ce3557dc1ad931968c
+/assignments/garciam/unit2/HW11ProjectClassToJson/02inherence/Farm/build/
+/workshops/garciam/unit2/WorkS/ContactsBook/dist/
+=======
+>>>>>>> 86ee1c1f135fdb657200991741285df7f822a842
+/workshops/bustillosp/unit2/WS16 COLLECTIONS/Farm/nbproject/private/
+/assignments/bustillosp/unit2/HW10 PROJECT/ProjectInventoryBilling/nbproject/private/
+/assignments/bustillosp/unit2/HW07 ARRAY LIST PROJECT/InventoryBillingProject/nbproject/private/
+/assignments/bustillosp/unit2/HW07 ARRAY LIST PROJECT/InventoryBillingProject/build/
+/assignments/bustillosp/unit2/HW10 PROJECT/ProjectInventoryBilling/build/
+=======
+>>>>>>> e51b55a94d3c768a74ed5fb730cbf9d763fb4554
+>>>>>>> 83ee168312cb8ba06ca9b19bbf8d772ea4422810
+>>>>>>> 837436a72e0b00e799710f1305e7bd0dacd2c5a5
+>>>>>>> 10afa95b8a6244f64aeefa81ed87c8ec13a54a1e
+/workshops/garciam/unit2/WS16Collection/Farm/build/
+/workshops/garciam/unit2/WS16Collection/Farm/dist/
+/workshops/garciam/unit2/WS16Collection/Farm/nbproject/private/
+/assignments/garciam/unit2/HW05MenuAddRemove/Farm/nbproject/private/
+/workshops/garciam/unit2/WS22Extra/CateringPlanner/build/
+/assignments/garciam/unit2/HW05MenuAddRemove/Farm/dist/
+/assignments/garciam/unit2/HW05MenuAddRemove/Farm/build/
+/workshops/garciam/unit2/WS22Extra/CateringPlanner/nbproject/private/
+/assignments/garciam/unit2/HW09 Farm/Farm/nbproject/private/
+/assignments/garciam/unit2/HW09 Farm/Farm/dist/
+/assignments/garciam/unit2/HW09 Farm/Farm/build/
+>>>>>>> 0c75ececc7778688c6553ed79f589d22092886c0
+>>>>>>> 15d010d67e8895d5a47f3862601d04cabe0923cf
+/assignments/lincangoj/unit2/HW09file/JavaMongo/nbproject/private/
+=======
 >>>>>>> f1253cb5a9f402a013b26ebd4c16c0f5d4279cec
+<<<<<<< HEAD
 >>>>>>> 90ddf5e88c4ebcce515d8dd938acc955547d4dec
 /workshops/bravok/unit2/WS21MongoDBCompass/ContactsBook/nbproject/private/
 /workshops/bravok/unit2/WS21MongoDBCompass/ContactsBook/build/
 /assignments/bravok/unit2/HW11ProjectClassToJson/InventoryBillingProject1/nbproject/private/
 /assignments/bravok/unit2/HW11ProjectClassToJson/InventoryBillingProject1/build/
+=======
+/assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/nbproject/private/
+/assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/build/
+/assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/dist/
+/assignments/palaciosd/unit2/HW09 MENU TO ADD ANIMALS-FARM/Farm/build/
+=======
+/workshops/shugulia/unit2/WS21/ContactsBook/nbproject/private/
+/workshops/shugulia/unit2/WS21/ContactsBook/build/
+/workshops/shugulia/unit2/WS21/ContactsBook/dist/
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
+=======
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/build/
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/nbproject/private/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/build/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/nbproject/private/
+<<<<<<< HEAD
+/assignments/quingal/unit2/HW10FilesProject/SmartHome/build/
+/assignments/quingal/unit2/HW10FilesProject/SmartHome/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> 2bbf14769450c15e1e1cfba3512639dca98a8861
+=======
+>>>>>>> 0e1421cc8db2b8945f58908008c2786c25f77eeb
+>>>>>>> 25960bfe229e33866a03b1b512d711d9edbf2429
+>>>>>>> 17a895b40381cf52ba87061f2f3508a537f1a85c
+<<<<<<< HEAD
+/assignments/alvarezm/unit2/HW10ProjectFiles/House/nbproject/private/
+/assignments/alvarezm/unit2/HW10ProjectFiles/House/build/
+/assignments/alvarezm/unit2/HW11ProjectFilesToJson/House/build/
+=======
+>>>>>>> 545e0eb6d2a92f3dd6a1d966f8c3ef2258c05d4e
+>>>>>>> b84b98eff92e91fa59156ae4d10e151ffdddf973
+>>>>>>> 343f09567f53190358823187b5181d46f5f30403
+/assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactBookCrud/nbproject/private/
+>>>>>>> 38b511d862a75f72696a1fd52019ddb51ad7ae91
+>>>>>>> 8abf2bcec4db18ff9dfcdc94f942373ba0893f48
+>>>>>>> 96f9fedd985bb765250149ab6c8f1dc1402328c6
+>>>>>>> 3900bd5d4aafdac5f12665e9c15e0129cfb049c8

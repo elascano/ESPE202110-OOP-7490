@@ -1,0 +1,16 @@
+[
+	{
+	"id":"001", 
+	"description":"laptop",
+	"room": "studing room", 
+	"status": "true", 
+	"workingdata": "assigment"
+	},
+	{
+	"id":"002", 
+	"description":"cellphone",
+	"room": "studing room", 
+	"status": "false", 
+	"workingdata": "assigment"
+	}
+]
