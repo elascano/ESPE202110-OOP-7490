@@ -1,13 +1,12 @@
 import java.util.Scanner;
  
-public class Javaapplication25
+public class multiplication2
 {
-    public static void main(String[] ARGS)
-    {
+    public static void main(String[] ARGS) {
         Scanner getNumber= new Scanner(System.in);
         int number,i,n;
 
-        System.out.println("Please enter a whole number: ");
+        System.out.println("enter any number: ");
         number = getNumber.nextInt();
         if(number % 2 == 0) {
             System.out.println("The number is even");
