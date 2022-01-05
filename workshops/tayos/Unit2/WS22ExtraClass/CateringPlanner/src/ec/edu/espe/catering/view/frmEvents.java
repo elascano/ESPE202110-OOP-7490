@@ -6,7 +6,7 @@ package ec.edu.espe.catering.view;
 
 /**
  *
- * @author Caisatoa
+ * @author Sebas
  */
 public class frmEvents extends javax.swing.JFrame {
 
