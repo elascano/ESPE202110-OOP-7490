@@ -1,0 +1,28 @@
+{
+	"animals": [{
+			"Chicken1": "Holstein",
+			"birthdayHolstein": "12/12/2020",
+			"molting": true
+		},
+		{
+			"Cow1": "Plymouth",
+			"bithdayPlymouth": "06/27/2020",
+			"producingMilk": false
+		},
+
+
+		{
+
+			"Pig1": "Dorper",
+			"birthdayDorper": "01/30/2019"
+		},
+
+		{
+			"Sheep1": "null",
+			"color": "White",
+			"birthday": "09/25/2021",
+			"weight": "50"
+		}
+	]
+}
+

@@ -1,0 +1,27 @@
+{"Animals":[
+	{
+	"id":"001",
+	"name":"Holstein",
+	"bornday":"12/12/2020",
+	"isProducingMilk":"True"
+	},
+	{
+	"id":"002",
+	"name":"Plymouth",
+	"bornday":"06/27/2020",
+	"isMolting":"False"
+	},
+	{
+	"id":"003",
+	"name":"Dorper",
+	"bornday":"01/30/2019",
+	"lastshear":"10/10/2021"
+	},
+	{
+	"id":"004",
+	"name":"Large White",
+	"bornday":"09/25/2021",
+	"pound":"50"
+	}
+	]
+}
