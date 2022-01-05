@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -11,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#visual paradigm temporals
+*.vpp.bak_*
+
 # Package Files #
 *.jar
 *.war
@@ -18,9 +20,9 @@
 *.ear
 *.zip
 *.tar.gz
-<<<<<<< HEAD
 *.rar
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
@@ -733,3 +735,9 @@ hs_err_pid*
 /assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/build/
 /assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/dist/
 /assignments/palaciosd/unit2/HW09 MENU TO ADD ANIMALS-FARM/Farm/build/
+=======
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/build/
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/nbproject/private/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/build/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/nbproject/private/
+>>>>>>> 2bbf14769450c15e1e1cfba3512639dca98a8861

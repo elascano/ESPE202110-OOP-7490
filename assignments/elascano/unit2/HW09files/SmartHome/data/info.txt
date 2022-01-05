@@ -1,0 +1,7 @@
+BACK-END   : nodejs, PHP
+FRONT-END  : HTML, css, javascript, bootstrap
+
+
+Loopback 4 node -> REST, web applications, SOAP, ...
+React           -> web pages... progressive, simple web pages, ...
+

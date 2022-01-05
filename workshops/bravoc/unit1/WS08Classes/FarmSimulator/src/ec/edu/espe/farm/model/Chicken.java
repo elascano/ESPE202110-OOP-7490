@@ -4,21 +4,29 @@ package ec.edu.espe.farm.model;
 /**
  *
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
  * @author Christian Bravo
  */
 public class Chicken {
 
     private int id;
 =======
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
  * @author Bravo Cristian // author name is not OK
  */
 public class Chicken {
 
+<<<<<<< HEAD
+=======
 >>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
     private String name;
     private String color;
     private int age;
     private boolean isMolting;
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     
     public void doStuff() {
@@ -30,25 +38,34 @@ public class Chicken {
     private void cluck() {
         System.out.println("This chicken is clucking");
 =======
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 
     public void doStuff() {
 
     }
 
     private void cluck() {
+<<<<<<< HEAD
+=======
 >>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 
     }
 
     private void wander() {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
         System.out.println("This chicken is wandering...");
 =======
 >>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 
     }
 
     private void eat() {
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
         System.out.println("This chicken is eating...");
 
@@ -159,6 +176,7 @@ public class Chicken {
     }
 }
 =======
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c
 
     }
 
@@ -179,4 +197,7 @@ public class Chicken {
     }
 } 
 //} one extra curly brace
+<<<<<<< HEAD
+=======
 >>>>>>> a3f3e222ddea96ae9091c947c91578ea1ba5c540
+>>>>>>> 71e45a7ee083858baea8f637f5e58720acfe5d6c

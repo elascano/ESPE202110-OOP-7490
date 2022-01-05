@@ -13,6 +13,8 @@ public class MicrowaveOven extends Device{
     public void sleep(int time) {
         System.out.println("Sleeping a microwave in " + time + " seconds");
     }
+    
+    
 
     public MicrowaveOven(int time, float supportedWeight, float cc, int id, String description, String room, boolean status, int workingData) {
         super(id, description, room, status, workingData);
