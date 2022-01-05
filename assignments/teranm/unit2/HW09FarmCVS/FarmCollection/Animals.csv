@@ -1,0 +1,10 @@
+id,breed,bornOn,isMolting
+1,plymouth,2020-02-02,true
+id,breed,bornOn,isMolting
+2,leghom,2020-02-01,false
+id,breed,bornOn,isProducingMilk
+3,holstein,2019-02-04,true
+id,breed,bornOn,weight
+4,duroc,2018-09-01,50.0
+id,breed,bornOn,lastSheering
+5,texel,2019-04-04,2021-12-12
