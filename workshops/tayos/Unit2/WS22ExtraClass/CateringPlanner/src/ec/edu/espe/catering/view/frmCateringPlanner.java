@@ -6,7 +6,7 @@ package ec.edu.espe.catering.view;
 
 /**
  *
- * @author Caisatoa
+ * @author Sebas
  */
 public class frmCateringPlanner extends javax.swing.JFrame {
 
