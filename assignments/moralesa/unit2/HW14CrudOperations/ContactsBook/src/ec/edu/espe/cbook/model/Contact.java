@@ -15,10 +15,10 @@ public class Contact {
     private String sex;
     private String group;
     private float salary;
-    private LocalDate birthDate;
+    private String birthdate;
     private String comments;
 
-    public Contact(int id, String name, String hobby, String cellPhoneNumber, String sex, String group, float salary, LocalDate birthDate, String comments) {
+    public Contact(int id, String name, String hobby, String cellPhoneNumber, String sex, String group, float salary, String birthdate, String comments) {
         this.id = id;
         this.name = name;
         this.hobby = hobby;
@@ -26,8 +26,12 @@ public class Contact {
         this.sex = sex;
         this.group = group;
         this.salary = salary;
-        this.birthDate = birthDate;
+        this.birthdate = birthdate;
         this.comments = comments;
+    }
+
+    public Contact() {
+        
     }
     
     /**
@@ -73,7 +77,7 @@ public class Contact {
     }
 
     /**
-     * @return the cllPhoneNumber
+     * @return the cellPhoneNumber
      */
     public String getCellPhoneNumber() {
         return cellPhoneNumber;
@@ -82,7 +86,7 @@ public class Contact {
     /**
      * @param cellPhoneNumber the cellPhoneNumber to set
      */
-    public void seteCllPhoneNumber(String cellPhoneNumber) {
+    public void setCellPhoneNumber(String cellPhoneNumber) {
         this.cellPhoneNumber = cellPhoneNumber;
     }
 
@@ -129,17 +133,17 @@ public class Contact {
     }
 
     /**
-     * @return the birthDate
+     * @return the birthdate
      */
-    public LocalDate getBirthDate() {
-        return birthDate;
+    public String getBirthdate() {
+        return birthdate;
     }
 
     /**
-     * @param birthDate the birthDate to set
+     * @param birthdate the birthdate to set
      */
-    public void setBirthDate(LocalDate birthDate) {
-        this.birthDate = birthDate;
+    public void setBirthdate(String birthdate) {
+        this.birthdate = birthdate;
     }
 
     /**
@@ -154,5 +158,6 @@ public class Contact {
      */
     public void setComments(String comments) {
         this.comments = comments;
-    } 
+    }
+
 }
