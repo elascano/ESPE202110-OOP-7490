@@ -26,6 +26,7 @@ public class FarmSystem {
         ArrayList<Chicken> chickens = new ArrayList<>();
         chickenCoop = new ChickenCoop(id, chickens);
 
+        System.out.println("    --> HW05 Array List <--  ");
         System.out.println("Autor: Joel Zeas ");
         System.out.println("    --> Welcome to the farm registration menu <--    ");
         System.out.println("Please, choose an option: ");
@@ -42,19 +43,14 @@ public class FarmSystem {
 
             if (option == 1) {
                 System.out.println("     --> Data of the chicken <--     ");
-
                 System.out.println("--> Enter id = ");
                 id = teclado.nextInt();
-
                 System.out.println("--> Enter name = ");
                 name = teclado.next();
-
                 System.out.println("--> Enter color = ");
                 color = teclado.next();
-
                 System.out.println("--> Enter age = ");
                 age = teclado.nextInt();
-
                 System.out.println("--> Enter isMolting = ");
                 isMolting = teclado.nextBoolean();
 
