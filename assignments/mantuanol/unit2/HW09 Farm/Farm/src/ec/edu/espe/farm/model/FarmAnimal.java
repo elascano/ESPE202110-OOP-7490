@@ -11,11 +11,11 @@ public class FarmAnimal {
     int id;
     String breed;
     LocalDate bornOn;
-    private ArrayList<Chicken> chickens = new ArrayList<Chicken>();
+    private ArrayList<Worker> chickens = new ArrayList<Worker>();
 
     public void AddChicken(int id, String name, LocalDate bornOn) 
     {
-        chickens.add(new Chicken(id, name, bornOn));
+        chickens.add(new Worker(id, name, bornOn));
     }
     
     public void Print()
