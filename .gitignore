@@ -837,6 +837,10 @@ hs_err_pid*
 >>>>>>> d6e132ed1e7a9d3bd593e8617df74f68b2e8cebf
 >>>>>>> d54c1aeb05b2885900e3b2f1c5bd93927a544b9d
 >>>>>>> 24b4c6cfcf1916c92f08aab027594e47629009fa
+<<<<<<< HEAD
+/assignments/maldonadom/unit2/Hw14/ContactsBook/build/
+/assignments/maldonadom/unit2/Hw14/ContactsBook/nbproject/private/
+=======
 >>>>>>> 7a94ee28e9586d7ce7a3c1b38af6f811b7bec4b1
 <<<<<<< HEAD
 /workshops/moralesa/unit2/WS21/ContactsBook/build/
@@ -872,6 +876,13 @@ hs_err_pid*
 /assignments/lincangoj/unit2/HW09file/JavaMongo/nbproject/private/
 =======
 >>>>>>> f1253cb5a9f402a013b26ebd4c16c0f5d4279cec
+<<<<<<< HEAD
+>>>>>>> 90ddf5e88c4ebcce515d8dd938acc955547d4dec
+/workshops/bravok/unit2/WS21MongoDBCompass/ContactsBook/nbproject/private/
+/workshops/bravok/unit2/WS21MongoDBCompass/ContactsBook/build/
+/assignments/bravok/unit2/HW11ProjectClassToJson/InventoryBillingProject1/nbproject/private/
+/assignments/bravok/unit2/HW11ProjectClassToJson/InventoryBillingProject1/build/
+=======
 /assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/nbproject/private/
 /assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/build/
 /assignments/palaciosd/unit2/HW05 MENU ADD REMOVE/Farm/dist/
@@ -895,13 +906,31 @@ hs_err_pid*
 =======
 >>>>>>> 0e1421cc8db2b8945f58908008c2786c25f77eeb
 >>>>>>> 25960bfe229e33866a03b1b512d711d9edbf2429
+<<<<<<< HEAD
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistenceLib/nbproject/private/
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/build/
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/nbproject/private/
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/dist/
+=======
 >>>>>>> 17a895b40381cf52ba87061f2f3508a537f1a85c
+<<<<<<< HEAD
+/workshops/sanchezj/unit2/ws23interface/PersistenceLib/nbproject/private/
+/workshops/sanchezj/unit2/ws23interface/PersistenceLib/dist/
+/workshops/sanchezj/unit2/ws23interface/PersistenceLib/build/
+=======
 <<<<<<< HEAD
 /assignments/alvarezm/unit2/HW10ProjectFiles/House/nbproject/private/
 /assignments/alvarezm/unit2/HW10ProjectFiles/House/build/
 /assignments/alvarezm/unit2/HW11ProjectFilesToJson/House/build/
 =======
 >>>>>>> 545e0eb6d2a92f3dd6a1d966f8c3ef2258c05d4e
+<<<<<<< HEAD
+/assignments/saltosp/unit2/HW05MenuAddRemove/Chickenc/nbproject/private/
+/assignments/saltosp/unit2/HW05MenuAddRemove/Chickenc/build/
+/assignments/saltosp/unit2/HW07ProjectArrayLst/GroupProject/nbproject/private/
+/assignments/saltosp/unit2/HW07ProjectArrayLst/HW07GrupoProject/nbproject/private/
+/assignments/saltosp/unit2/HW09FarMenu/FarmMenu/nbproject/private/
+=======
 >>>>>>> b84b98eff92e91fa59156ae4d10e151ffdddf973
 >>>>>>> 343f09567f53190358823187b5181d46f5f30403
 /assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactBookCrud/nbproject/private/
@@ -909,6 +938,7 @@ hs_err_pid*
 >>>>>>> 8abf2bcec4db18ff9dfcdc94f942373ba0893f48
 >>>>>>> 96f9fedd985bb765250149ab6c8f1dc1402328c6
 >>>>>>> 3900bd5d4aafdac5f12665e9c15e0129cfb049c8
+<<<<<<< HEAD
 /workshops/paucara/unit2/WS23InterfacesLibraries/Persistance/nbproject/private/
 /workshops/paucara/unit2/WS23InterfacesLibraries/PersistanceLib/nbproject/private/
 /workshops/paucara/unit2/WS23InterfacesLibraries/PersistanceLib/build/
@@ -916,3 +946,11 @@ hs_err_pid*
 /assignments/paucara/unit2/HW15InterfacesLibraries/PersistanceLib/build/
 /assignments/paucara/unit2/HW15InterfacesLibraries/PersistanceLib/nbproject/private/
 /assignments/paucara/unit2/HW15InterfacesLibraries/PersistanceLib/dist/
+=======
+>>>>>>> d51cb3b37ec2388e289a9bbe99655f0f79be85cf
+>>>>>>> b5719c0d653f6d981031c6ee5b0d40476cccade8
+/assignments/maldonadom/unit2/HW14CrudOperations/ContactsBook/build/
+/assignments/maldonadom/unit2/HW14CrudOperations/ContactsBook/nbproject/private/
+>>>>>>> 23bc2c4ad5ec5eab0e2a68903a331b209cbf2caa
+>>>>>>> 2c5cf69fbaad07489de46079415d200d88756d48
+>>>>>>> 96b30f274fe7156b2c7592f44bb58d7368f1e0cd
