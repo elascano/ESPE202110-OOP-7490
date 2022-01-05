@@ -5,6 +5,7 @@
 package ec.edu.espe.ContactsBook.view;
 
 import com.google.gson.Gson;
+import ec.edu.espe.ContactsBook.model.CConexion;
 import ec.edu.espe.ContactsBook.model.Contact;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -18,7 +19,9 @@ public class FrmContacts extends javax.swing.JFrame {
 
     /**
      * Creates new form FrmContacts
-     */
+     */    
+    
+    
     public FrmContacts() {
         initComponents();
     }
@@ -52,9 +55,10 @@ public class FrmContacts extends javax.swing.JFrame {
         txtComments = new javax.swing.JTextArea();
         bMale = new javax.swing.JRadioButton();
         bFemale = new javax.swing.JRadioButton();
-        GroupComboBox = new javax.swing.JComboBox<>();
+        CBGroup = new javax.swing.JComboBox<>();
         jScrollPane2 = new javax.swing.JScrollPane();
         listHobbys = new javax.swing.JList<>();
+        bOther = new javax.swing.JRadioButton();
         jPanel2 = new javax.swing.JPanel();
         btmAdd = new javax.swing.JButton();
         btmRemove = new javax.swing.JButton();
@@ -93,7 +97,7 @@ public class FrmContacts extends javax.swing.JFrame {
 
         bFemale.setText("Female");
 
-        GroupComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Family", "Friends", "Companiors", " " }));
+        CBGroup.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Family", "Friends", "Companiors", " " }));
 
         listHobbys.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "play soccer", "play instruments", "sing", "read book", "play videogames" };
@@ -101,6 +105,8 @@ public class FrmContacts extends javax.swing.JFrame {
             public String getElementAt(int i) { return strings[i]; }
         });
         jScrollPane2.setViewportView(listHobbys);
+
+        bOther.setText("Other");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -137,7 +143,7 @@ public class FrmContacts extends javax.swing.JFrame {
                                                 .addGap(17, 17, 17)
                                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                     .addComponent(txtSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(GroupComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                    .addComponent(CBGroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                             .addGroup(jPanel1Layout.createSequentialGroup()
                                                 .addGap(18, 18, 18)
                                                 .addComponent(BirthDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
@@ -148,7 +154,9 @@ public class FrmContacts extends javax.swing.JFrame {
                                 .addGap(46, 46, 46)
                                 .addComponent(bMale)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(bFemale)))
+                                .addComponent(bFemale)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(bOther)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(64, Short.MAX_VALUE))
@@ -180,11 +188,12 @@ public class FrmContacts extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(bMale)
-                    .addComponent(bFemale))
+                    .addComponent(bFemale)
+                    .addComponent(bOther))
                 .addGap(6, 6, 6)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
-                    .addComponent(GroupComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(CBGroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(9, 9, 9)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8)
@@ -280,16 +289,24 @@ public class FrmContacts extends javax.swing.JFrame {
         DateFormat formatter = new SimpleDateFormat("dd/MM");
         String Birthdate = formatter.format(BirthDate.getValue());
         
+        String[]sex=new String[1];
         bSex.add(bMale);
         bSex.add(bFemale);
-        if(bMale.isSelected()){String sex="Male";}
-        else if(bFemale.isSelected()){String sex="Female";}
-        else {String sex="";}
+        bSex.add(bOther);
+        if(bMale.isSelected()){sex[0]="Male";}
+        else if(bFemale.isSelected()){sex[0]="Female";}
+        else if(bOther.isSelected()){sex[0]="Other";}
+        else {sex[0]="";}
+        
+        String group=CBGroup.getSelectedItem().toString();
+        
+        String hobby=listHobbys.getSelectedValue();
+        
         
         Gson gson;
         gson= new Gson();
         
-        Contact contact= new Contact(id,name,"read",cellPhone,"Male","Family",salary,Birthdate,comments);
+        Contact contact= new Contact(id,name,hobby,cellPhone,sex[0],group,salary,Birthdate,comments);
         String jsonContact=gson.toJson(contact);
         FileManager.save("data/contacts.json", jsonContact);
         
@@ -304,6 +321,7 @@ public class FrmContacts extends javax.swing.JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
+        
         
         
         try {
@@ -323,7 +341,8 @@ public class FrmContacts extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(FrmContacts.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        //CConexion conect= new CConexion();
+        //conect.crearConexion();
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -334,9 +353,10 @@ public class FrmContacts extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JSpinner BirthDate;
-    private javax.swing.JComboBox<String> GroupComboBox;
+    private javax.swing.JComboBox<String> CBGroup;
     private javax.swing.JRadioButton bFemale;
     private javax.swing.JRadioButton bMale;
+    private javax.swing.JRadioButton bOther;
     private javax.swing.ButtonGroup bSex;
     private javax.swing.JButton btmAdd;
     private javax.swing.JButton btmFind;
