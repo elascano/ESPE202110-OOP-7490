@@ -4,7 +4,7 @@ package ec.edu.espe.smart.model;
  *
  * @author Camila
  */
-public class Device {
+public abstract class Device {
 
     private int id;
     private String description;
@@ -12,6 +12,21 @@ public class Device {
     private boolean status; //true: if the device is on, false: if the device is off
     private int workingData; //tv, radio: volume, microwave: time, refrigerator: temperature
 
+    public abstract void sleep(int time);
+    
+    
+    public void turnOn(){
+        if(status == false){
+            status=true;
+        }
+    }
+    
+    public void turnOff(){
+        if(status == true){
+            status = false;
+        }
+    }
+    
     public Device(int id, String description, String room, boolean status, int workingData) {
         this.id = id;
         this.description = description;
