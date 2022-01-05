@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -11,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#visual paradigm temporals
+*.vpp.bak_*
+
 # Package Files #
 *.jar
 *.war
@@ -18,9 +20,9 @@
 *.ear
 *.zip
 *.tar.gz
-<<<<<<< HEAD
 *.rar
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
@@ -510,6 +512,15 @@ hs_err_pid*
 >>>>>>> 6d102de24d580c4f9184595e8f121e998782e093
 >>>>>>> c2389525328235f43c6e773835656ed05ce274bc
 <<<<<<< HEAD
+/workshops/garciam/unit2/WSExtra/SmartHome/nbproject/private/
+/workshops/garciam/unit2/WSExtra/SmartHome/build/
+/workshops/garciam/unit2/WSExtra/WSExtra2/nbproject/private/
+/workshops/garciam/unit2/WSExtra/SmartHome2/nbproject/private/
+/workshops/garciam/unit2/WSExtra/SmartHome2/build/
+/assignments/garciam/unit2/HW09/Database2/nbproject/private/
+/assignments/garciam/unit2/HW09/Database2/build/
+=======
+<<<<<<< HEAD
 /assignments/bravok/unit2/HW09Farm/Farm/nbproject/private/
 /assignments/bravok/unit2/HW09Farm/Farm/build/
 =======
@@ -522,6 +533,12 @@ hs_err_pid*
 /assignments/guamana/unit2/HW10-SmartHome/SmartHome/nbproject/private/
 =======
 >>>>>>> 3401602eb573f41186e826ee0db10280bc8e53d3
+<<<<<<< HEAD
+/assignments/altamiranoc/Unit2/HW09Files/SmartHome/nbproject/private/
+/assignments/altamiranoc/Unit2/HW09Files/SmartHome/build/
+/assignments/altamiranoc/Unit2/HW10/Farm.01/nbproject/private/
+/assignments/altamiranoc/Unit2/HW10/Farm.01/build/
+=======
 <<<<<<< HEAD
 /assignments/caisatoas/Unit2/WS09Files/farm/build/
 /assignments/caisatoas/Unit2/WS09Files/farm/nbproject/private/
@@ -538,15 +555,47 @@ hs_err_pid*
 /workshops/zeasj/unit2/WS18Inheritance/02Inheritance/Farm/dist/
 =======
 >>>>>>> 62226d111c7cab8a37349457ef212f4e219dd31f
+<<<<<<< HEAD
+/assignments/sanchezj/unit2/HW09FARM/extraclass/devices/nbproject/private/
+/assignments/sanchezj/unit2/HW09FARM/extraclass/devices/build/
+/assignments/sanchezj/unit2/HW10PROJECT/Warehouse/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/maldonadom/unit2/WS18Exercise/02Inheritance/JavaApplication11/nbproject/private/
+/assignments/maldonadom/unit2/HW09/SmartHome/nbproject/private/
+/assignments/maldonadom/unit2/HW09/SmartHome/build/
+=======
 >>>>>>> 28c557a06626c4bfb8f1c4bdfa515489b584a3a2
+<<<<<<< HEAD
+/assignments/moralesa/unit2/HW09 excersice/SmartHome/nbproject/private/
+/assignments/moralesa/unit2/HW09 excersice/SmartHome/build/
+=======
 >>>>>>> 030cddf12b31bc6f39f5f9f988cfe496ecf9557f
 >>>>>>> 384b6af27824fb28f021250d3dd33e0f3bace8a0
 >>>>>>> b055f29c9fba5bb8de240ee8e1480df001b83a14
+<<<<<<< HEAD
+/assignments/zeasj/unit2/HW09Files/CateringPlanner/nbproject/private/
+/assignments/zeasj/unit2/ExtraClass/SmartHome/nbproject/private/
+/assignments/zeasj/unit2/ExtraClass/SmartHome/build/
+/assignments/zeasj/unit2/ExtraClass/SmartHome/dist/
+=======
 >>>>>>> f0444c8cf3e94fc21e099cc288f1659eb474dc24
 >>>>>>> 96f41549edfa0c47fe2a8686896113ef4fd883d5
 >>>>>>> 466fcee97c9470e8d3d0c4ffc518fa7f80e38b4c
+<<<<<<< HEAD
+/workshops/bravok/unit2/WSExtraClass/SmartHome/nbproject/private/
+/workshops/bravok/unit2/WSExtraClass/SmartHome/build/
+/assignments/bravok/unit2/HW10JSONProject/ProjectInventoryBilling/nbproject/private/
+/assignments/bravok/unit2/HW10JSONProject/ProjectInventoryBilling/build/
+=======
 >>>>>>> d7ba705c3a5f341192c0fd69eb6d685025eb5bcb
+<<<<<<< HEAD
+/assignments/landazurim/unit2/HW09Files/FARM/farm/nbproject/private/
+/assignments/landazurim/unit2/HW09Files/FARM/nbproject/private/
+/assignments/landazurim/unit2/HW09Files/farm/nbproject/private/
+=======
 >>>>>>> 93cd4dc97bac56aff351cc7fd7de7ae98a65bd66
+<<<<<<< HEAD
 /workshops/guamana/unit2/WS20/SmartHome_1/nbproject/private/
 /workshops/guamana/unit2/WS20/SmartHome/build/
 /workshops/guamana/unit2/WS20/SmartHome/nbproject/private/
@@ -567,3 +616,79 @@ hs_err_pid*
 /workshops/guamana/unit2/WS22-Mongo DB Compass/ContactsBook/build/
 /assignments/guamana/unit2/HW11-Proyect/Exercises Proyect/InventoryTireStore/build/
 /assignments/guamana/unit2/HW11-Proyect/Exercises Proyect/InventoryTireStore/nbproject/private/
+=======
+>>>>>>> ee5f78c87a4fc4781174cfea2ae929fd451dc5a1
+<<<<<<< HEAD
+>>>>>>> 84db2ff18d83cc2b6e8133334611cf12e7c9ddc1
+<<<<<<< HEAD
+/workshops/altamiranoc/Unit2/WS19/SmartHome/nbproject/private/
+/workshops/altamiranoc/Unit2/WS19/SmartHome/build/
+/assignments/altamiranoc/Unit2/HW10CsvProyect/House/nbproject/private/
+=======
+=======
+<<<<<<< HEAD
+/workshops/landazurim/unit2/WS019AbsInthe/SmartHome/build/
+/workshops/landazurim/unit2/WS019AbsInthe/SmartHome/nbproject/private/
+=======
+>>>>>>> 84db2ff18d83cc2b6e8133334611cf12e7c9ddc1
+<<<<<<< HEAD
+/assignments/tayos/Unit2/HM09FarmMenuandData/farm/farm/build/
+=======
+>>>>>>> 6688f579db3d45294a25b6987437ece62a5368d2
+<<<<<<< HEAD
+/workshops/garciam/unit2/WSExtra/SmartHome2/dist/
+/workshops/garciam/unit2/WS19/SmartHome2/nbproject/private/
+/workshops/garciam/unit2/WS19/SmartHome2/build/
+=======
+>>>>>>> 29c923963ddcf2aa9f788e9bd12d99fb90596f39
+<<<<<<< HEAD
+/workshops/mantuanol/unit2/SmartHome/target/
+/workshops/mantuanol/unit2/WS19/SmartHome/target/
+=======
+>>>>>>> 5eb2dc10cd6006fadae68d3048a050a8a389a2d3
+<<<<<<< HEAD
+/workshops/sanchezj/unit2/WS18/EXTRACLASS/SmartHome/SmartHome/build/
+/workshops/sanchezj/unit2/WS18/EXTRACLASS/SmartHome/SmartHome/nbproject/private/
+/assignments/sanchezj/unit2/HW10PROJECT/Warehouse/build/
+=======
+>>>>>>> dd1f13dc2434d50458fc0abbc08df113a1b064db
+<<<<<<< HEAD
+/workshops/tayos/Unit2/WS19InheretanceAndAbstractions/SmartHouse/nbproject/private/
+/workshops/tayos/Unit2/WS19InheretanceAndAbstractions/SmartHouse/build/
+=======
+>>>>>>> 3565a2ba66d9081c9d14a2bb564c0efd5b1885a8
+<<<<<<< HEAD
+/workshops/bravok/unit2/WS19ABSINPOLI/SmartHome/nbproject/private/
+/workshops/bravok/unit2/WS19ABSINPOLI/SmartHome/build/
+=======
+>>>>>>> a6ba1ea1e4f2b5d8179bcccad0a7c1e94012158a
+>>>>>>> 83f7e1e08ea77a7e4bd9e52e20c06f6544e0e433
+>>>>>>> 99519e0cc00b77b56c6dbcbc30cd3bb18805346a
+>>>>>>> 99e8422cf7ba8b603423b9af69b0e852283d2117
+<<<<<<< HEAD
+/assignments/moralesa/unit2/HW09/FarmMenu/build/
+=======
+<<<<<<< HEAD
+/assignments/guitarraj/unit2/HW09 - InheritanceJsonfarm/farm/target/
+=======
+/assignments/delacruza/unit2/HW07/InventaryData/build/
+/assignments/delacruza/unit2/HW07/InventaryData/nbproject/private/
+/workshops/delacruza/unit2/WS18/Farmanimal/build/
+/assignments/delacruza/unit2/HW09/farm/nbproject/private/
+/assignments/delacruza/unit2/HW09/farm/build/
+>>>>>>> 0e7cd5de7a9b9922b1b1aaffd4b8ef4e121394e5
+>>>>>>> afc51bd1ac3f13dc9a5947eca9013f1eb213975d
+>>>>>>> e828caaf873bd65b1bba91832795804cb07538be
+>>>>>>> edcb3a1a24b1c7f8a44edb308f0fb7c23b4f91af
+>>>>>>> ca70ee7719272ddf6dffb46ae047d6e4defccc6e
+>>>>>>> 26ed122708c410352098d7efa01b515bd38bfa41
+/workshops/shugulia/unit2/WS21/ContactsBook/nbproject/private/
+/workshops/shugulia/unit2/WS21/ContactsBook/build/
+/workshops/shugulia/unit2/WS21/ContactsBook/dist/
+=======
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/build/
+/assignments/quingal/unit2/WS19Absinpoli/SmartHome/nbproject/private/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/build/
+/assignments/quingal/unit2/WS22Menus/CateringPlanner/nbproject/private/
+>>>>>>> 0e1421cc8db2b8945f58908008c2786c25f77eeb
+>>>>>>> 25960bfe229e33866a03b1b512d711d9edbf2429

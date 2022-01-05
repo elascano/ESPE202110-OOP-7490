@@ -1,0 +1,20 @@
+Inheritance Parent-children
+Polymorphism
+Abstract classes, abstract methods
+Interfaces
+
+Data Formats: plain text, csv, XML, Json
+Persistence : Files, Data bases -> MongoDB (no-SQL); MySQL, POstgreSQL, SQL Server (SQL)
+
+Exceptions
+
+Unit Tests
+CUI -> GUI
+Command-line User Interfaces -> Desktop applications
+Graphical User Interfaces    -> Desktop applications
+
+Mobile applications (apps)  apk (Android), iOS
+Web Applications: Python, PHP, JSP, Ruby, etc.A
+
+OOP Languages
+C++, C#, Python, ...

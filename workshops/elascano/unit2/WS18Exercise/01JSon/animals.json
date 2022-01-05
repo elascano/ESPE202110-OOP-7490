@@ -1,0 +1,62 @@
+{"animals":[
+{"id":"001","breed":"Holstein","bornOn":"12/12/2020","isProducingMilk":"true"},
+{"id":"002","breed":"Plymouth","bornOn":"06/27/2020","isMolting":"false"},
+{"id":"003","breed":"Dorper","bornOn":"12/12/2020","lastSheeringDate":"10/10/2021"},
+{"id":"004","breed":"large White","bornOn":"12/12/2020","weight":50}
+]
+}
+
+{"animals":
+
+[
+    {
+id":"001"
+"name":"Holstain"
+"born":"12/12/20"
+molting:"true"
+},
+ {
+ 	"id": "001",
+ 	"name": "Holstain",
+ 	"born": "12/12/20",
+ 	"molting": "true"
+ },
+
+{
+"id":"002"
+"name":"Playmount"
+"born":"06/27/2020"
+"molting":"true"
+},
+{
+	"id": "002",
+	"name": "Playmount",
+	"born": "06/27/2020",
+	"molting": "true"
+}
+
+{
+"id":"003"
+"breed":"Dorper"
+"born":"01/30/2019"
+}
+{
+	"id": "003",
+	"breed": "Dorper",
+	"born": "01/30/2019"
+}
+{
+"id": "004"
+"breed":"Large White"
+"bornOn": "09/25/2021"
+"shering": "50"
+}
+{
+	"id": "004",
+	"breed": "Large White",
+	"bornOn": "09/25/2021",
+	"shering": "50"
+}
+]
+}
+
