@@ -2,6 +2,9 @@ package ec.edu.espe.smart.view;
 
 import com.google.gson.Gson;
 import ec.edu.espe.smart.model.Device;
+import ec.edu.espe.smart.model.MicrowaveOven;
+import ec.edu.espe.smart.model.TxBox;
+import java.util.ArrayList;
 import utils.FileManager;
 
 /**
@@ -11,43 +14,33 @@ import utils.FileManager;
 public class SmartHome {
 
     public static void main(String[] args) {
-        System.out.println("HW10 Files --> Camila Teca <--");
-        System.out.println("List of devices from my home");
-        String devices;
-        String fileName = ("data/devices.csv");
-        FileManager.read(fileName);
-        devices = FileManager.read(fileName);
-        System.out.println(" --> DEVICES \n" + devices);
-
-        //menu
-        //codigo para ingresar datos
-        // String device = "06;home theater;living room;on;80";
-        //FileManager.save("data/devices.csv", device);
+        ArrayList<String> channels = new ArrayList<>();
+        TxBox txBox;
         
-        //FILE IN JSON
-        //    String device = "";
-        System.out.println("List of devices from my home in json format");
-        devices = "";
-        fileName = ("data/devices.json");
-        devices = FileManager.read(fileName);
-        System.out.println(" --> DEVICES \n" + devices);
-
-//        device = "{\"id\":\"03\",\"description\":\"fridge\",\"room\":\"bedroom\",\"status\":\"true\",\"workingData\":\"10\"}";
-//        FileManager.save("data/devices.json", device);
-//        devices = FileManager.read(fileName);
-//        System.out.println(" --> DEVICES \n" + devices);
-
-        Device device;
-        device = new Device(01,"printer", "study room ", true, 120);
+        txBox = new TxBox(10, 50, channels, 1, "samsung 52 inches", "bedroom", true, 5);
+        String status = "";
         
-        Gson gson;
-        gson = new Gson();
+        System.out.println("WS19AbsInhPoly --> Camila Teca <--");
+        System.out.println("Device class ----->" + txBox.getClass());
+        System.out.println("Device Id   ------>" + txBox.getId());
+        System.out.println("Device description " + txBox.getDescription());
         
-        String jsonDevice = gson.toJson(device);
-        FileManager.save(fileName, jsonDevice);
+        if(txBox.isStatus()){
+            status= "on";
+            
+        }else{
+            status ="off";
+        }
+        System.out.println("Device " + txBox.getClass().getSimpleName() +" is --->" + status);
         
+        System.out.println("Device volume --->" + txBox.getVolume());
+        System.out.println("Tv is sleeping ");
+        txBox.sleep(20);
         
-        
+        MicrowaveOven microwaveOven = new  MicrowaveOven(0, 0, 0, 0, "", "", true, 0);
+        System.out.println("Microwave is sleeping");
+        microwaveOven.sleep(20);
     }
 
+   
 }

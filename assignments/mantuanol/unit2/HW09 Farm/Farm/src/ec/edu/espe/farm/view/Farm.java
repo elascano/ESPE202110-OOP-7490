@@ -40,20 +40,20 @@ public class Farm {
         System.out.println("Born On --> " + farmAnimal.getBornOn());
 
         do{
-	System.out.println("\n*******************Assigment 5*******************\n");
-	System.out.println("******Sebastian Bernardo Caisatoa Ramirez******");
-	System.out.println("\n\tOption menu: \n");
-	System.out.println("\t1. Add Chicken and add them to a CSV file: \n");
-	System.out.println("\t2. Add Sheep and add them to a CSV file: \n");
-	System.out.println("\t3. Add Pig and add them to a CSV file: \n");
-	System.out.println("\t4. Add Cow and add them to a CSV file: \n");
+    System.out.println("\n*******************Assigment 5*******************\n");
+    System.out.println("******Sebastian Bernardo Caisatoa Ramirez******");
+    System.out.println("\n\tOption menu: \n");
+    System.out.println("\t1. Add Chicken and add them to a CSV file: \n");
+    System.out.println("\t2. Add Sheep and add them to a CSV file: \n");
+    System.out.println("\t3. Add Pig and add them to a CSV file: \n");
+    System.out.println("\t4. Add Cow and add them to a CSV file: \n");
         
         int option;
         option = read.nextInt();
         DateTimeFormatter formatter =  DateTimeFormatter.ofPattern("d/MM/yyyy");
 
-	boolean opc = (option <= 4);
-	if (opc) {
+    boolean opc = (option <= 4);
+    if (opc) {
             
             switch(option){                
             case 1:
@@ -151,7 +151,7 @@ public class Farm {
                     String [] csv = pig.toCsvPig();
                     csvWriterPig.writeRecord(csv);
                 }
-                csvWriterPig.close();		
+                csvWriterPig.close();       
             break;
             case 4:
                 int idCow = 0;
@@ -180,7 +180,7 @@ public class Farm {
                     String [] csv = cow.toCsvCow();
                     csvWriterCow.writeRecord(csv);
                 }
-                csvWriterCow.close();	
+                csvWriterCow.close();   
                 
             break;
             }
@@ -190,8 +190,8 @@ public class Farm {
             System.out.println("\n\tDo you want to do any other option?\n");
             System.out.println("\t\t1. If you enter the 's'");
             System.out.println("\t\t2. Do not enter the 'n'");
-		
+        
             tecla = new Scanner(System.in).nextLine();
- 	} while (tecla.equals("s") || tecla.equals("S"));
+    } while (tecla.equals("s") || tecla.equals("S"));
     }   
 }
