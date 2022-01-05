@@ -1,31 +1,29 @@
 
 package ec.edu.espe.smart.view;
 
-import ec.edu.espe.smart.model.ClassPro;
+import ec.edu.espe.smart.model.Products;
 import java.io.IOException;
 import java.util.Scanner;
 
 /**
  *
- * @author Angel guaman
+ * @author Angel Guaman
  */
-public class SmartHome {
+public class Inventory {
      public static void main(String[] args) throws IOException {
         Scanner read = new Scanner(System.in);
         String tecla = null;
-        ClassPro NaldrixClass = new ClassPro(); 
+        Products products = new Products(); 
 
     do{
 	
-	
-        System.out.println("\t\t Employee Information System\n\n");
-       
+        System.out.println("\t\t Inventary Shop\n\n");
         
-	System.out.println("1. ---> Add New Product to CSV<------ ");
-	System.out.println("2.  View All CSV Products---> ");	
-	System.out.println("3. Delete Data in CSV --->");
-	System.out.println("4.  Search Product from CSV---> ");
-	System.out.println("5.  Update Product from CSV --->");	        
+	System.out.println("1 ===> Add New Product ");
+	System.out.println("2 ===> View All Product ");	
+	System.out.println("3 ===> Delete All Data in CSV ");
+	System.out.println("4 ===> Search the Product by ID ");
+	System.out.println("5 ===> Update the Product Data ");	        
 	    
 	System.out.print("\n\n");
 	System.out.println("Enter your choice: ");
@@ -36,19 +34,19 @@ public class SmartHome {
 	if (opc) {
             switch(option){                
             case 1: 
-                    NaldrixClass.AddRecord();
+                    products.AddProduct();
             break;
             case 2: 
-                    NaldrixClass.ViewAllRecord();
+                    products.ViewProduct();
             break;
             case 3:
-                    NaldrixClass.DeleteRecordByID();                
+                    products.DeleteProduct();
             break;
             case 4: 
-                    NaldrixClass.SearchRecordbyID();                
+                    products.SearchProductID();
             break;
             case 5: 
-                    NaldrixClass.updateRecordbyID();
+                    products.updateProductID();
             break;
             }
             } else {
