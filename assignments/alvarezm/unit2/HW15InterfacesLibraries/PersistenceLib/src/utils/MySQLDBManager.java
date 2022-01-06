@@ -5,9 +5,9 @@ import java.util.ArrayList;
 
 /**
  *
- * @author mealvarez
+ * @author malvarez
  */
-public class MongoDBManager implements DataBase{
+public class MySQLDBManager implements DataBase{
     
     String connectionString;
 
@@ -50,5 +50,7 @@ public class MongoDBManager implements DataBase{
     public String find(String table, String search) {
         return "Found";
     }
+    
+
     
 }
