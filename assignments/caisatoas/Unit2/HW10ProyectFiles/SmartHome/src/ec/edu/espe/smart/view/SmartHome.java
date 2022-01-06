@@ -8,7 +8,7 @@ import utils.FileManager;
 
 /**
  *
- * @author Alexander Ruano
+ * @author Caisatoa
  */
 public class SmartHome {
 
