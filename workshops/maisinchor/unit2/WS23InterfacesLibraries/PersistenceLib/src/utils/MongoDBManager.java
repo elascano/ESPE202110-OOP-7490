@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author USER
+ * @author ramaisincho
  */
 public class MongoDBManager implements DataBase{
 
