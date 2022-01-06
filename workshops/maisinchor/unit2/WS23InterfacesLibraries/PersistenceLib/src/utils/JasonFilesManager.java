@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author USER
+ * @author ramaisincho
  */
 public class JasonFilesManager implements FileManager{
 
