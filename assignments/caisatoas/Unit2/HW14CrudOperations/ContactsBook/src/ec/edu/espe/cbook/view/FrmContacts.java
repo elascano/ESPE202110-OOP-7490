@@ -85,7 +85,6 @@ public class FrmContacts extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         btnAdd = new javax.swing.JButton();
         btnRemove = new javax.swing.JButton();
-        btnFind = new javax.swing.JButton();
         btnListContacts = new javax.swing.JButton();
         btnExit = new javax.swing.JToggleButton();
         btnUpload = new javax.swing.JToggleButton();
@@ -197,11 +196,12 @@ public class FrmContacts extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel9)
-                            .addComponent(txtHobby, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel2))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel9)
+                                .addComponent(txtHobby, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(18, 18, 18)
@@ -252,8 +252,6 @@ public class FrmContacts extends javax.swing.JFrame {
             }
         });
 
-        btnFind.setText("Find");
-
         btnListContacts.setText("List Contacts");
         btnListContacts.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -298,10 +296,7 @@ public class FrmContacts extends javax.swing.JFrame {
                         .addGap(81, 81, 81)
                         .addComponent(btnExit))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(79, 79, 79)
-                        .addComponent(btnFind))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(58, 58, 58)
+                        .addGap(67, 67, 67)
                         .addComponent(btnListContacts)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -312,13 +307,11 @@ public class FrmContacts extends javax.swing.JFrame {
                 .addComponent(btnAdd)
                 .addGap(18, 18, 18)
                 .addComponent(btnRemove)
-                .addGap(18, 18, 18)
-                .addComponent(btnFind)
-                .addGap(18, 18, 18)
+                .addGap(33, 33, 33)
                 .addComponent(btnUpload)
-                .addGap(18, 18, 18)
+                .addGap(31, 31, 31)
                 .addComponent(btnListContacts)
-                .addGap(18, 18, 18)
+                .addGap(31, 31, 31)
                 .addComponent(btnExit)
                 .addContainerGap(81, Short.MAX_VALUE))
         );
@@ -547,7 +540,6 @@ public class FrmContacts extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
     private javax.swing.JToggleButton btnExit;
-    private javax.swing.JButton btnFind;
     private javax.swing.JButton btnListContacts;
     private javax.swing.JButton btnRemove;
     private javax.swing.JToggleButton btnUpload;
