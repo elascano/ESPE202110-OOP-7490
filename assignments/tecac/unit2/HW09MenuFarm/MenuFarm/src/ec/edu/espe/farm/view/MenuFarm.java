@@ -9,6 +9,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 import utils.FileManager;
+import com.google.gson.Gson;
 
 /**
  *
@@ -82,16 +83,17 @@ public class MenuFarm {
                 chickens = FileManager.read(fileName);
                 System.out.println(" --> CHICKENS \n" + "Id;Breed;Born On;Is Molting \n" + chickens);
                 
-
-                chickens = "{" + "Id: " + "" + chicken.getId() + "" + ",\n" + "Breed:" + "" + chicken.getBreed() + "" + ",\n"
-                        + "Born On: " + "" + year + "-" + month + "-" + dayOfMonth + "" + ",\n" + "Is Molting: " + "" + chicken.isIsMolting() + "" + "}";
-                FileManager.save("data/chickens.json", chickens);
-
+                Gson gson;
+                gson = new Gson();
+                chicken = new Chicken(isMolting, id, beed, bornOn);
+                String jsonChickens = gson.toJson(chicken);
+                FileManager.save("data/chickens.json", jsonChickens);
+                
+                
                 System.out.println("\n List of my chickens in json format");
-                chickens = "";
                 fileName = ("data/chickens.json");
-                chickens = FileManager.read(fileName);
-                System.out.println(" --> CHICKENS \n" + chickens);
+                jsonChickens = FileManager.read(fileName);
+                System.out.println(" --> CHICKENS \n" + jsonChickens);
 
             }
             if (option == 2) {
@@ -132,15 +134,17 @@ public class MenuFarm {
                 cows = FileManager.read(fileName);
                 System.out.println(" --> COWS \n" + "Id;Breed;Born On;Producing Milk \n" + cows);
 
-                cows = "{" + "Id: " + "" + cow.getId() + "" + ",\n" + "Breed:" + "" + cow.getBreed() + "" + ",\n"
-                        + "Born On: " + "" + year + "-" + month + "-" + dayOfMonth + "" + ",\n" + "Producing Milk: " + "" + cow.isIsProducingMilk() + "" + "}";
-                FileManager.save("data/cows.json", cows);
-
+                Gson gson;
+                gson = new Gson();
+                cow = new Cow(isProducingMilk, id, beed, bornOn);
+                String jsonCows = gson.toJson(cow);
+                FileManager.save("data/cows.json", jsonCows);
+                
+                
                 System.out.println("\n List of my cows in json format");
-                cows = "";
                 fileName = ("data/cows.json");
-                cows = FileManager.read(fileName);
-                System.out.println(" --> COWS \n" + cows);
+                jsonCows = FileManager.read(fileName);
+                System.out.println(" --> COWS \n" + jsonCows);
 
             }
             if (option == 3) {
@@ -181,15 +185,17 @@ public class MenuFarm {
                 pigs = FileManager.read(fileName);
                 System.out.println(" --> PIGS \n" + "Id;Breed;Born On;Weight \n" + pigs);
 
-                pigs = "{" + "Id: " + "" + pig.getId() + "" + ",\n" + "Breed:" + "" + pig.getBreed() + "" + ",\n"
-                        + "Born On: " + "" + year + "-" + month + "-" + dayOfMonth + "" + ",\n" + "Weight: " + "" + pig.getWeight() + "" + "}";
-                FileManager.save("data/pigs.json", pigs);
-
+                Gson gson;
+                gson = new Gson();
+                pig = new Pig(weight, id, beed, bornOn);
+                String jsonPigs = gson.toJson(pig);
+                FileManager.save("data/pigs.json", jsonPigs);
+                
+                
                 System.out.println("\n List of my pigs in json format");
-                pigs = "";
                 fileName = ("data/pigs.json");
-                pigs = FileManager.read(fileName);
-                System.out.println(" --> PIGS \n" + pigs);
+                jsonPigs = FileManager.read(fileName);
+                System.out.println(" --> PIGS \n" + jsonPigs);
             }
 
             if (option == 4) {
@@ -236,15 +242,17 @@ public class MenuFarm {
                 sheeps = FileManager.read(fileName);
                 System.out.println(" --> SHEEPS \n" + "Id;Breed;Born On;Last Sheering\n" + sheeps);
 
-                sheeps = "{" + "Id: " + "" + sheep.getId() + "" + ",\n" + "Breed:" + "" + sheep.getBreed() + "" + ",\n"
-                        + "Born On: " + "" + year + "-" + month + "-" + dayOfMonth + "" + ",\n" + "Last Sheering: " + "" + yearSheering + "-" + monthSheering + "-" + dayOfMonthSheering + "" + "}";
-                FileManager.save("data/sheeps.json", sheeps);
-
+                Gson gson;
+                gson = new Gson();
+                sheep = new Sheep(lastSheering, id, beed, bornOn);
+                String jsonSheeps = gson.toJson(sheep);
+                FileManager.save("data/sheeps.json", jsonSheeps);
+                
+                
                 System.out.println("\n List of my sheeps in json format");
-                sheeps = "";
                 fileName = ("data/sheeps.json");
-                sheeps = FileManager.read(fileName);
-                System.out.println(" --> SHEEPS \n" + sheeps);
+                jsonSheeps = FileManager.read(fileName);
+                System.out.println(" --> SHEEPS \n" + jsonSheeps);
             }
             if (option == 5) {
                 break;

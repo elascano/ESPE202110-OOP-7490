@@ -80,11 +80,11 @@
                   <Component id="btnRemove" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnAdd" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane2" min="-2" pref="170" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
               <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="18" max="32767" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -113,6 +113,11 @@
       </Layout>
       <SubComponents>
         <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="33" type="rgb"/>
+            </Property>
+          </Properties>
 
           <Layout>
             <DimensionLayout dim="0">
@@ -292,7 +297,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Algerian" size="18" style="2"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Welcome to the next program"/>
+                <Property name="text" type="java.lang.String" value="program"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel2">
@@ -401,7 +406,7 @@
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="txtSex"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Masculine"/>
+                <Property name="text" type="java.lang.String" value="men"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JRadioButton" name="txtFeminine">
@@ -409,7 +414,7 @@
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="txtSex"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Feminine"/>
+                <Property name="text" type="java.lang.String" value="woman"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JRadioButton" name="txtOthers">
@@ -523,6 +528,9 @@
     </Container>
     <Component class="javax.swing.JButton" name="btnRemove">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="cc" red="ff" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Remove"/>
       </Properties>
       <Events>

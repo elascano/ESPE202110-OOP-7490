@@ -95,8 +95,10 @@ public class FrmContacts extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
+
         jLabel1.setFont(new java.awt.Font("Algerian", 2, 18)); // NOI18N
-        jLabel1.setText("Welcome to the next program");
+        jLabel1.setText("program");
 
         jLabel2.setText("Id:");
 
@@ -130,10 +132,10 @@ public class FrmContacts extends javax.swing.JFrame {
         txtGroup.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Family", "University", "Jobs" }));
 
         txtSex.add(txtMasculine);
-        txtMasculine.setText("Masculine");
+        txtMasculine.setText("men");
 
         txtSex.add(txtFeminine);
-        txtFeminine.setText("Feminine");
+        txtFeminine.setText("woman");
 
         txtSex.add(txtOthers);
         txtOthers.setText("Others");
@@ -330,6 +332,7 @@ public class FrmContacts extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(tblContacts);
 
+        btnRemove.setBackground(new java.awt.Color(255, 204, 102));
         btnRemove.setText("Remove");
         btnRemove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -390,11 +393,11 @@ public class FrmContacts extends javax.swing.JFrame {
                     .addComponent(btnUpload)
                     .addComponent(btnRemove)
                     .addComponent(btnAdd))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(34, 34, 34)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         pack();
