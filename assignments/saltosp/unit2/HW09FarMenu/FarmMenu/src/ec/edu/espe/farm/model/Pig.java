@@ -6,7 +6,7 @@ import java.time.LocalDate;
  *
  * @author Paul Saltos
  */
-public class Pig {
+public class Pig extends FarmAnimal{
 
     private float whigth;
 
