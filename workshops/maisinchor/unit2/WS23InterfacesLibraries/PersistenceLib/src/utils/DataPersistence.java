@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Leonel Mantuano
+ * @author ramaisincho
  */
 public interface DataPersistence {
     public void add(String data, String table);
