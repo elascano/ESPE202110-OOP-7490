@@ -6,7 +6,7 @@ import java.time.LocalDate;
  *
  * @author Paul Saltos
  */
-public class Chicken {
+public class Chicken extends FarmAnimal{
     
      private boolean isMolting;
 
@@ -29,6 +29,5 @@ public class Chicken {
     public void setIsMolting(boolean isMolting) {
         this.isMolting = isMolting;
     }
-    
-    
+     
 }
