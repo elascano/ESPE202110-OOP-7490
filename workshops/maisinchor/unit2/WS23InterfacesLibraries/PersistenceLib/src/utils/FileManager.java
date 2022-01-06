@@ -3,7 +3,7 @@ package utils;
 
 /**
  *
- * @author USER
+ * @author ramaisincho
  */
 public interface FileManager extends DataPersistence{
     public boolean open(String fileName);
