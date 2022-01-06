@@ -110,6 +110,11 @@ public class Upload extends javax.swing.JDialog {
         jLabel8.setText("Birth Date:");
 
         txtMasculine.setText("Masculine");
+        txtMasculine.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtMasculineActionPerformed(evt);
+            }
+        });
 
         jLabel9.setText("Hobby:");
 
@@ -268,13 +273,17 @@ public class Upload extends javax.swing.JDialog {
         if(answer.getMatchedCount()==1){
             JOptionPane.showMessageDialog(this, "Success got Updated");
         } else {
-            JOptionPane.showMessageDialog(this, "Error Could not Update");
+            JOptionPane.showMessageDialog(this, "Error, not Update");
         }
     }//GEN-LAST:event_btnUploadActionPerformed
 
     private void btnReturnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReturnActionPerformed
         dispose();
     }//GEN-LAST:event_btnReturnActionPerformed
+
+    private void txtMasculineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMasculineActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtMasculineActionPerformed
 
     /**
      * @param args the command line arguments
