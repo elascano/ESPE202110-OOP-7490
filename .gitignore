@@ -929,6 +929,11 @@ hs_err_pid*
 =======
 >>>>>>> 17a895b40381cf52ba87061f2f3508a537f1a85c
 <<<<<<< HEAD
+/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/nbproject/private/
+/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/build/
+/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/dist/
+=======
+<<<<<<< HEAD
 /workshops/sanchezj/unit2/ws23interface/PersistenceLib/nbproject/private/
 /workshops/sanchezj/unit2/ws23interface/PersistenceLib/dist/
 /workshops/sanchezj/unit2/ws23interface/PersistenceLib/build/
@@ -971,3 +976,4 @@ hs_err_pid*
 >>>>>>> 96b30f274fe7156b2c7592f44bb58d7368f1e0cd
 >>>>>>> e01e336b0e7bca82cc7713ddbc5a873df71cc461
 >>>>>>> de213630b45736027cd6b048ea432d64329c441d
+>>>>>>> 4bf9aca281e6c86aa9100ac8837727585ce49402
