@@ -526,6 +526,32 @@ hs_err_pid*
 >>>>>>> da8444eae88d7a50a36ef991ffd39dbb737e8b0a
 >>>>>>> d39d74f9ce7319940a709f7a4514d64129511922
 >>>>>>> 6d102de24d580c4f9184595e8f121e998782e093
+<<<<<<< HEAD
+/workshops/paucara/unit2/WS19Files/SmartHome/nbproject/private/
+/workshops/paucara/unit2/WS19Files/SmartHome/build/
+/workshops/paucara/unit2/WS19Files/SmartHome/dist/
+/assignments/paucara/unit2/HW09Files/Warehouse/nbproject/private/
+/assignments/paucara/unit2/HW09Files/Warehouse/build/
+/workshops/paucara/unit2/WS19/SmartHome/nbproject/private/
+/workshops/paucara/unit2/WS19/SmartHome/build/
+/workshops/paucara/unit2/WS21ContactsBook/ContacsBook/nbproject/private/
+/workshops/paucara/unit2/WS22/CateringPlanner/nbproject/private/
+/workshops/paucara/unit2/WS22/CateringPlanner/build/
+/assignments/paucara/unit2/HW11ProjectClassJson/JavaApplication19/nbproject/private/
+/assignments/paucara/unit2/HW11ProjectClassJson/JavaApplication19/build/
+/assignments/paucara/unit2/HW09Inheritance/FarmAnimal/nbproject/private/
+/assignments/paucara/unit2/HW09Inheritance/FarmAnimal/build/
+/assignments/paucara/unit2/HW09Inheritance/FarmAnimal/dist/
+/assignments/paucara/unit2/HW10Files/FarmAnimal/nbproject/private/
+/assignments/paucara/unit2/HW10Files/SmartHome/nbproject/private/
+/assignments/paucara/unit2/HW10Files/SmartHome/build/
+/assignments/paucara/unit2/HW10Files/SmartHome/dist/
+/assignments/paucara/unit2/HW12MongoDBShell/Warehouse/nbproject/private/
+/assignments/paucara/unit2/HW12MongoDBShell/WarehouseMongo/target/
+/assignments/paucara/unit2/SmartHome/nbproject/private/
+/assignments/paucara/unit2/HW14CRUDOperations/WareHouse/nbproject/private/
+/assignments/paucara/unit2/HW14CRUDOperations/WareHouse/build/
+=======
 >>>>>>> c2389525328235f43c6e773835656ed05ce274bc
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -811,6 +837,10 @@ hs_err_pid*
 >>>>>>> d6e132ed1e7a9d3bd593e8617df74f68b2e8cebf
 >>>>>>> d54c1aeb05b2885900e3b2f1c5bd93927a544b9d
 >>>>>>> 24b4c6cfcf1916c92f08aab027594e47629009fa
+<<<<<<< HEAD
+/assignments/maldonadom/unit2/Hw14/ContactsBook/build/
+/assignments/maldonadom/unit2/Hw14/ContactsBook/nbproject/private/
+=======
 >>>>>>> 7a94ee28e9586d7ce7a3c1b38af6f811b7bec4b1
 <<<<<<< HEAD
 /workshops/moralesa/unit2/WS21/ContactsBook/build/
@@ -833,6 +863,16 @@ hs_err_pid*
 /workshops/garciam/unit2/WS16Collection/Farm/build/
 /workshops/garciam/unit2/WS16Collection/Farm/dist/
 /workshops/garciam/unit2/WS16Collection/Farm/nbproject/private/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 16996045d2a6dadcd207c2ce3557dc1ad931968c
+>>>>>>> c6fbdc0e618a4ef8cbc0bee61eccb3fe91794087
+>>>>>>> 0d350f8107481bc3bbd93ed6833e365415839607
+/workshops/caisatoas/Unit2/WS23InterfacesLibraries/PersistenceLib/nbproject/private/
+/workshops/caisatoas/Unit2/WS23InterfacesLibraries/PersistenceLib/build/
+/workshops/caisatoas/Unit2/WS23InterfacesLibraries/PersistenceLib/dist/
+=======
 /assignments/garciam/unit2/HW05MenuAddRemove/Farm/nbproject/private/
 /workshops/garciam/unit2/WS22Extra/CateringPlanner/build/
 /assignments/garciam/unit2/HW05MenuAddRemove/Farm/dist/
@@ -843,6 +883,12 @@ hs_err_pid*
 /assignments/garciam/unit2/HW09 Farm/Farm/build/
 >>>>>>> 0c75ececc7778688c6553ed79f589d22092886c0
 >>>>>>> 15d010d67e8895d5a47f3862601d04cabe0923cf
+<<<<<<< HEAD
+>>>>>>> afafc124f6d8fe4bae9a566e030604c8ec236d68
+/workshops/calderona/unit2/WS23-Interfaces/Persistence/nbproject/private/
+/workshops/calderona/unit2/WS23-Interfaces/Persistence/dist/
+/workshops/calderona/unit2/WS23-Interfaces/Persistence/build/
+=======
 /assignments/lincangoj/unit2/HW09file/JavaMongo/nbproject/private/
 =======
 >>>>>>> f1253cb5a9f402a013b26ebd4c16c0f5d4279cec
@@ -868,6 +914,11 @@ hs_err_pid*
 /assignments/quingal/unit2/WS22Menus/CateringPlanner/build/
 /assignments/quingal/unit2/WS22Menus/CateringPlanner/nbproject/private/
 <<<<<<< HEAD
+/workshops/simbañaj/unit2/WS23InterfacesLibreries/PersistenceLib/nbproject/private/
+/workshops/simbañaj/unit2/WS23InterfacesLibreries/PersistenceLib/build/
+/workshops/simbañaj/unit2/WS23InterfacesLibreries/PersistenceLib/dist/
+=======
+<<<<<<< HEAD
 /assignments/quingal/unit2/HW10FilesProject/SmartHome/build/
 /assignments/quingal/unit2/HW10FilesProject/SmartHome/nbproject/private/
 =======
@@ -876,7 +927,53 @@ hs_err_pid*
 =======
 >>>>>>> 0e1421cc8db2b8945f58908008c2786c25f77eeb
 >>>>>>> 25960bfe229e33866a03b1b512d711d9edbf2429
+<<<<<<< HEAD
+/workshops/guamana/unit2/WS24-InterfacesLibrearies/PersistenceLib/nbproject/private/
+/workshops/guamana/unit2/WS24-InterfacesLibrearies/PersistenceLib/build/
+/workshops/guamana/unit2/WS24-InterfacesLibrearies/PersistenceLib/dist/
+/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/build/
+/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/nbproject/private/
+/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/dist/
+=======
+<<<<<<< HEAD
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistenceLib/nbproject/private/
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/build/
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/nbproject/private/
+/workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/dist/
+=======
 >>>>>>> 17a895b40381cf52ba87061f2f3508a537f1a85c
+<<<<<<< HEAD
+/assignments/teranm/unit2/HW14CRUD-Operations/HW14CrudOperations/ContactsBook/build/
+/assignments/teranm/unit2/HW14CRUD-Operations/HW14CrudOperations/ContactsBook/nbproject/private/
+/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/ContactsBook/build/
+/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/ContactsBook/nbproject/private/
+/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/build/
+/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/nbproject/private/
+/workshops/teranm/unit2/WS23/Persistence/nbproject/private/
+/workshops/teranm/unit2/WS23/PersistenceLib/nbproject/private/
+/workshops/teranm/unit2/WS23/PersistenceLib/build/
+/workshops/teranm/unit2/WS23/PersistenceLib/dist/
+/assignments/teranm/unit2/HW15/PersistenceLib/nbproject/private/
+/assignments/teranm/unit2/HW15/PersistenceLib/build/
+/assignments/teranm/unit2/HW15/PersistenceLib/dist/
+/assignments/teranm/unit2/HW15InterfacesLibraries/PersistenceLib/build/
+/assignments/teranm/unit2/HW15InterfacesLibraries/PersistenceLib/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/moralesa/unit2/WS23Interfaces/PersistenceLib/nbproject/private/
+/workshops/moralesa/unit2/WS23Interfaces/PersistenceLib/build/
+/workshops/moralesa/unit2/WS23Interfaces/PersistenceLib/dist/
+=======
+<<<<<<< HEAD
+/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/nbproject/private/
+/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/build/
+/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/dist/
+=======
+<<<<<<< HEAD
+/workshops/sanchezj/unit2/ws23interface/PersistenceLib/nbproject/private/
+/workshops/sanchezj/unit2/ws23interface/PersistenceLib/dist/
+/workshops/sanchezj/unit2/ws23interface/PersistenceLib/build/
+=======
 <<<<<<< HEAD
 /assignments/alvarezm/unit2/HW10ProjectFiles/House/nbproject/private/
 /assignments/alvarezm/unit2/HW10ProjectFiles/House/build/
@@ -891,13 +988,28 @@ hs_err_pid*
 /assignments/saltosp/unit2/HW09FarMenu/FarmMenu/nbproject/private/
 =======
 >>>>>>> b84b98eff92e91fa59156ae4d10e151ffdddf973
+<<<<<<< HEAD
+/workshops/alvarezm/unit2/WS23InterfacesLibraries/PersistenceLib/nbproject/private/
+/workshops/alvarezm/unit2/WS23InterfacesLibraries/PersistenceLib/build/
+/workshops/alvarezm/unit2/WS23InterfacesLibraries/PersistenceLib/dist/
+=======
 >>>>>>> 343f09567f53190358823187b5181d46f5f30403
 /assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactBookCrud/nbproject/private/
 >>>>>>> 38b511d862a75f72696a1fd52019ddb51ad7ae91
 >>>>>>> 8abf2bcec4db18ff9dfcdc94f942373ba0893f48
 >>>>>>> 96f9fedd985bb765250149ab6c8f1dc1402328c6
 >>>>>>> 3900bd5d4aafdac5f12665e9c15e0129cfb049c8
+<<<<<<< HEAD
+/workshops/paucara/unit2/WS23InterfacesLibraries/Persistance/nbproject/private/
+/workshops/paucara/unit2/WS23InterfacesLibraries/PersistanceLib/nbproject/private/
+/workshops/paucara/unit2/WS23InterfacesLibraries/PersistanceLib/build/
+/workshops/paucara/unit2/WS23InterfacesLibraries/PersistanceLib/dist/
+/assignments/paucara/unit2/HW15InterfacesLibraries/PersistanceLib/build/
+/assignments/paucara/unit2/HW15InterfacesLibraries/PersistanceLib/nbproject/private/
+/assignments/paucara/unit2/HW15InterfacesLibraries/PersistanceLib/dist/
+=======
 >>>>>>> d51cb3b37ec2388e289a9bbe99655f0f79be85cf
+<<<<<<< HEAD
 /workshops/saltosp/unit2/WS23Interfaces/PersistenceLib/nbproject/private/
 /workshops/saltosp/unit2/WS23Interfaces/PersistenceLib/dist/
 /workshops/saltosp/unit2/WS23Interfaces/PersistenceLib/build/
@@ -906,3 +1018,39 @@ hs_err_pid*
 /assignments/saltosp/unit2/HW10File/SmartHome/build/
 /workshops/saltosp/unit2/WS19/SmartHomeAbst/nbproject/private/
 /workshops/saltosp/unit2/WS19/SmartHomeAbst/build/
+=======
+>>>>>>> b5719c0d653f6d981031c6ee5b0d40476cccade8
+/assignments/maldonadom/unit2/HW14CrudOperations/ContactsBook/build/
+/assignments/maldonadom/unit2/HW14CrudOperations/ContactsBook/nbproject/private/
+<<<<<<< HEAD
+/workshops/maldonadom/unit2/WS23InterfacesLibraries/PersisitenceLib/nbproject/private/
+/workshops/maldonadom/unit2/WS23InterfacesLibraries/PersisitenceLib/build/
+/workshops/maldonadom/unit2/WS23InterfacesLibraries/PersisitenceLib/dist/
+=======
+>>>>>>> 23bc2c4ad5ec5eab0e2a68903a331b209cbf2caa
+>>>>>>> 2c5cf69fbaad07489de46079415d200d88756d48
+<<<<<<< HEAD
+/workshops/bustillosp/unit2/WS23/PersistanceLib/build/
+/workshops/bustillosp/unit2/WS23/PersistanceLib/nbproject/private/
+/workshops/bustillosp/unit2/WS23/PersistanceLib/dist/
+=======
+>>>>>>> 96b30f274fe7156b2c7592f44bb58d7368f1e0cd
+<<<<<<< HEAD
+/workshops/shugulia/unit2/WS22Menus/CateringPlanner/dist/
+/workshops/shugulia/unit2/WS19AbsinPoly/SmarthHome/dist/
+/workshops/shugulia/unit2/WS18Json/Farm/build/
+/workshops/shugulia/unit2/WS18Json/Farm/dist/
+/workshops/shugulia/unit2/WS18Json/Farm/nbproject/private/
+=======
+>>>>>>> e01e336b0e7bca82cc7713ddbc5a873df71cc461
+>>>>>>> de213630b45736027cd6b048ea432d64329c441d
+>>>>>>> 4bf9aca281e6c86aa9100ac8837727585ce49402
+>>>>>>> 0b499e3ac387f6d4582179093c58dd8da8d5372d
+>>>>>>> 76228c6d49a6243a7b8112f27259206298a4540b
+>>>>>>> 165822f8d8d708e36f3fa095b8358d51e1cbda3e
+>>>>>>> 5c7a422eac7e6f238630c99e12f7bb49447afcdf
+>>>>>>> 4850ff5c923d29f75ecd0401ecd2a7468ee38931
+>>>>>>> 5a62ac2aa443d713c04cfe8f4416b64d79e73e33
+>>>>>>> 7c95ddc2dd8900e772625af937d1f2573a485e0c
+>>>>>>> 02d2d0cb7a0ead034d43f42538660dab2555cb46
+>>>>>>> 337c2c171b1a3292c3bd910f31e474b071aa2432
