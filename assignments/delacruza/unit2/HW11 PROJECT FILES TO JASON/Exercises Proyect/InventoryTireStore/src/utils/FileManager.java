@@ -1,4 +1,3 @@
-
 package utils;
 
 import java.io.File;
@@ -10,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author EivarJaime
+ * @author ALEJANDRO DE LACRUZ
  */
 public class FileManager {
     //Crud operations

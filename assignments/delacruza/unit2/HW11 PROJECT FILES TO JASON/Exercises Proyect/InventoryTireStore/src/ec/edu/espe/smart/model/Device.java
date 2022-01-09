@@ -1,4 +1,3 @@
-
 package ec.edu.espe.smart.model;
 
 import java.time.LocalDate;
@@ -6,7 +5,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author EivarJaime
+ * @author ALEJANDRO DE LACRUZ
  */
 public class Device {
     private int id;

@@ -1,4 +1,3 @@
-
 package ec.edu.espe.smart.model;
 
 import java.io.BufferedReader;
@@ -12,7 +11,7 @@ import java.util.StringTokenizer;
 
 /**
  *
- * @author EivarJaime
+ * @author ALEJANDRO DE LACRUZ
  */
 public class Products {
         

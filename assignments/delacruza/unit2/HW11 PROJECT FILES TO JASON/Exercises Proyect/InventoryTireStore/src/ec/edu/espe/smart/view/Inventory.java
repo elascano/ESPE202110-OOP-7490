@@ -1,4 +1,3 @@
-
 package ec.edu.espe.smart.view;
 
 import ec.edu.espe.smart.model.Products;
@@ -7,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author EivarJaime
+ * @author ALEJANDRO DE LACRUZ
  */
 public class Inventory {
      public static void main(String[] args) throws IOException {
