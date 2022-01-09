@@ -23,6 +23,12 @@
 *.rar
 
 <<<<<<< HEAD
+/workshops/mantuanol/unit2/HumanResources/target/
+/workshops/mantuanol/unit2/WS23/PersistenceLib/nbproject/private/
+/workshops/mantuanol/unit2/WS23/PersistenceLib/build/
+/workshops/mantuanol/unit2/WS23/PersistenceLib/dist/
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/nbproject/private/
 /workshops/alvarezm/unit2/WS18Exercise/02/Farm/build/
@@ -1084,6 +1090,10 @@ hs_err_pid*
 /workshops/garciam/unit2/WS23ProgramInterfaces/PersistenceLib/nbproject/private/
 /workshops/garciam/unit2/WS23ProgramInterfaces/PersistenceLib/dist/
 /workshops/garciam/unit2/WS23ProgramInterfaces/PersistenceLib/build/
+<<<<<<< HEAD
 /assignments/palaciosd/unit2/HW15 INTERFACES LIBRARIES/PersistenceLib/build/
 /assignments/palaciosd/unit2/HW15 INTERFACES LIBRARIES/PersistenceLib/nbproject/private/
 /assignments/palaciosd/unit2/HW15 INTERFACES LIBRARIES/PersistenceLib/dist/
+=======
+>>>>>>> 28f098478f02cbf71dbf7e988a56041d70956cf2
+>>>>>>> 58679426d5c4a874169ed3b5e1aeb427134b9767
