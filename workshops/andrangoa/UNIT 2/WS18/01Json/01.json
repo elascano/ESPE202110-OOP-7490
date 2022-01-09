@@ -1,0 +1,30 @@
+{"animals":	[
+
+	{
+		"id":"001",
+		"breed":"Holsein",
+		"bornOn":"12/12/2020",
+		"isProducingMilk":"true"
+
+	},
+	{
+		"id":"002",
+		"breed":"Plymouth",
+		"bornOn":"06/27/2020", 
+		"isMolting":"false"
+	},
+	{
+		"id":"003",
+		"breed":"Dorper",
+		"bornOn":"01/30/2019",
+		"lastSheering":"10/10/10/2021"
+	},
+	{
+		"id":"004",
+		"breed":"Large Withe",
+		"bornOn":"09/25/2021",
+		"weight":50
+	}
+
+		]
+}

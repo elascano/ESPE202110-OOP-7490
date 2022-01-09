@@ -7,15 +7,12 @@ package ec.edu.espe.cbook.view;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import ec.edu.espe.cbook.model.Connection;
 import ec.edu.espe.cbook.model.Contact;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.bson.Document;
@@ -37,16 +34,16 @@ public class FrmContacts extends javax.swing.JFrame {
     
     public FrmContacts() {
             
-        DefaultTableModel mod = new DefaultTableModel();
+        
         
         initComponents();
           
-       
-       this.jTableContact.setModel(mod);        
-        mod.addColumn("Id");
-        mod.addColumn("Name");
-        mod.addColumn("Cell Phone");
-       mod.addColumn("Salary");
+       this.jTableContact.setModel(tabla);
+        
+        tabla.addColumn(" ");tabla.addColumn("ID");tabla.addColumn("NAME");tabla.addColumn("CELLPHONE");
+        ;tabla.addColumn("SALARY");tabla.addColumn("SEX");tabla.addColumn("GROUP");
+        tabla.addColumn("BIRTHDATE");tabla.addColumn("HOBBY");tabla.addColumn("COMENTS");
+
       
     }
     
@@ -129,7 +126,7 @@ public class FrmContacts extends javax.swing.JFrame {
             }
         });
 
-        btnGuardar.setText("Guardar");
+        btnGuardar.setText("Save");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnGuardarActionPerformed(evt);
@@ -447,10 +444,24 @@ public class FrmContacts extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnAddActionPerformed
 
+    public void view(){
+        
+        MongoCursor<Document> consult = contacts.find().iterator();
+        
+        int total = tabla.getRowCount();
+        for(int i = 0; i<total; i++){
+            tabla.removeRow(0);
+        }
+        while(consult.hasNext()){
+            ArrayList<Object> doc = new ArrayList<Object>(consult.next().values());
+            tabla.addRow(doc.toArray());
+        }
+        
+    }
+    
     private void btnListContactsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListContactsActionPerformed
         
-        
-        
+        view();
         
         if(txtName.getText().equals("")||txtId.getText().equals("")||txtCellphone.getText().equals("")||txtSalary.getText().equals("")){
             
@@ -461,6 +472,8 @@ public class FrmContacts extends javax.swing.JFrame {
             DefaultTableModel tblModel = (DefaultTableModel)jTableContact.getModel();
         
             tblModel.addRow(data);
+            
+            contacts.find();
             
             JOptionPane.showMessageDialog(this, "Add Data");
             
