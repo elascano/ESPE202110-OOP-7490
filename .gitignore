@@ -22,3 +22,7 @@
 *.tar.gz
 *.rar
 
+/workshops/mantuanol/unit2/HumanResources/target/
+/workshops/mantuanol/unit2/WS23/PersistenceLib/nbproject/private/
+/workshops/mantuanol/unit2/WS23/PersistenceLib/build/
+/workshops/mantuanol/unit2/WS23/PersistenceLib/dist/
