@@ -1,13 +1,12 @@
-
 package utils;
 
 import java.util.ArrayList;
 
 /**
  *
- * @author mealvarez
+ * @author ALEJANDRO DELACRUZ
  */
-public class JsonFilesManager implements FileManager {
+public class JsonFilesManager implements FileManager{
 
     @Override
     public boolean open(String fileName) {
@@ -21,7 +20,7 @@ public class JsonFilesManager implements FileManager {
 
     @Override
     public void add(String data, String table) {
-        System.out.println("Adding " + data + " in file -> " + table);
+         System.out.println("adding" + data + " in the file -> " + table);
     }
 
     @Override
@@ -31,17 +30,17 @@ public class JsonFilesManager implements FileManager {
 
     @Override
     public void update(String table, String search, String data) {
-        System.out.println("Updating file -> " + table + " record -> " + search);
+        System.out.println("updating file -> " + table + " record ----> " +search);
     }
 
     @Override
     public void delete(String table, String search) {
-        System.out.println("Deleting file -> " + table + " the record -> " + search);
+        System.out.println("deleting from file -> " + table + " the record -----> " +search);
     }
 
     @Override
     public String find(String table, String search) {
-        return "Found";
+        return "found";
     }
     
 }
