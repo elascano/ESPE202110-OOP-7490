@@ -40,6 +40,11 @@ public class FrmCateringPlanner extends javax.swing.JFrame {
         MenuCatreingPlanner.setText("Catering Planner");
 
         itmAbout.setText("About");
+        itmAbout.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itmAboutActionPerformed(evt);
+            }
+        });
         MenuCatreingPlanner.add(itmAbout);
 
         itmExit.setText("Exit");
@@ -118,6 +123,10 @@ public class FrmCateringPlanner extends javax.swing.JFrame {
         frmEvents.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_itmEventsActionPerformed
+
+    private void itmAboutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itmAboutActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_itmAboutActionPerformed
 
     /**
      * @param args the command line arguments
