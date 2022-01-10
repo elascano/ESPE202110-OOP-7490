@@ -21,6 +21,7 @@
 *.zip
 *.tar.gz
 *.rar
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -955,3 +956,5 @@ hs_err_pid*
 >>>>>>> 2c5cf69fbaad07489de46079415d200d88756d48
 >>>>>>> 96b30f274fe7156b2c7592f44bb58d7368f1e0cd
 /assignments/paucara/unit2/HW14CRUDOperations/WareHouse/dist/
+=======
+>>>>>>> afa91ccee3101efb66b27e2b784d93a84d001496

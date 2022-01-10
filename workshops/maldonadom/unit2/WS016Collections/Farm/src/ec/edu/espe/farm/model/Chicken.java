@@ -23,7 +23,6 @@ public class Chicken {
     }
     
     
-    
 =======
         return "\n\tChicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
     }
