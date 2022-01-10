@@ -12,32 +12,26 @@ import java.util.ArrayList;
  * @author Usuario
  */
 public class TvBox extends Device{
-    private int volume;
+    private int volumen;
     private int channelsQuantity;
     private ArrayList<String> channels;
+  
+    @Override
+    public void sleep(int time) {
+        System.out.println("set the time for sleeping a TvBox in "+ time+"minutes");
+        
+    }
+    
+    public void sleep(){
+        System.out.println(""); 
+    }
 
-    public TvBox(int volume, int channelsQuantity, ArrayList<String> channels, int id, String description, String rook, boolean status, int workingData) {
-        super(id, description, rook, status, workingData);
-        this.volume = volume;
+    public TvBox(int volumen, int channelsQuantity, ArrayList<String> channels, int id, String description, String room, boolean status, int workingData) {
+        super(id, description, room, status, workingData);
+        this.volumen = volumen;
         this.channelsQuantity = channelsQuantity;
         this.channels = channels;
-    }
-  
-
-    
-    /**
-     * @return the volume
-     */
-    public int getVolume() {
-        return volume;
-    }
-
-    /**
-     * @param volume the volume to set
-     */
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
+    }           
 
     /**
      * @return the channelsQuantity
@@ -67,6 +61,21 @@ public class TvBox extends Device{
         this.channels = channels;
     }
 
+    /**
+     * @return the volumen
+     */
+    public int getVolumen() {
+        return volumen;
+    }
+
+    /**
+     * @param volumen the volumen to set
+     */
+    public void setVolumen(int volumen) {
+        this.volumen = volumen;
+    }
+
+   
     
     
     
