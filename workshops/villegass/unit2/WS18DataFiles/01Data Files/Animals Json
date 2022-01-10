@@ -1,0 +1,30 @@
+{
+	"animals": [{
+			"id": "001",
+			"breed": "Holstein",
+			"birthDate": "12/12/2020",
+			"milkProduction": "true"
+		},
+
+		{
+			"id": "002",
+			"breed": "Plymouth",
+			"birthDate": "06/27/2020",
+			"molting": "false"
+		},
+
+		{
+			"id": "003",
+			"breed": "Dorper",
+			"birthDate": "01/30/2019",
+			"date": "10/10/2021"
+		},
+
+		{
+			"id": "004",
+			"breed": "large white",
+			"birthDate": "09/25/2021",
+			"pounds": "50"
+		}
+	]
+}

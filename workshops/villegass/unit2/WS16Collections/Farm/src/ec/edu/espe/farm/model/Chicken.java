@@ -1,9 +1,12 @@
 
+Alexis, [13/12/2021 16:07]
 package ec.edu.espe.farm.model;
 
-/**
+
+
+/
  *
- * @author Salma Villegas
+ * @author Alexander Ruano
  */
 public class Chicken {
     private int id;
@@ -12,15 +15,10 @@ public class Chicken {
     private int age;
     private boolean molting;
 
-    public Chicken() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     @Override
     public String toString() {
-        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
+        return "\n\nChicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
     }
-    
 
     public Chicken(int id, String name, String color, int age, boolean molting) {
         this.id = id;
@@ -29,66 +27,66 @@ public class Chicken {
         this.age = age;
         this.molting = molting;
     }
-    
-    
 
-    /**
+
+
+    /
      * @return the id
      */
     public int getId() {
         return id;
     }
 
-    /**
+    /
      * @param id the id to set
      */
     public void setId(int id) {
         this.id = id;
     }
 
-    /**
+    /
      * @return the name
      */
     public String getName() {
         return name;
     }
 
-    /**
+    /
      * @param name the name to set
      */
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * @return the color
+    /
+     * @return the Color
      */
     public String getColor() {
         return color;
     }
 
-    /**
-     * @param color the color to set
+    /
+     * @param Color the Color to set
      */
-    public void setColor(String color) {
-        this.color = color;
+    public void setColor(String Color) {
+        this.color = Color;
     }
 
-    /**
+    /
      * @return the age
      */
     public int getAge() {
         return age;
     }
 
-    /**
+    /
      * @param age the age to set
      */
     public void setAge(int age) {
         this.age = age;
     }
 
-    /**
+    /
      * @return the molting
      */
     public boolean isMolting() {
