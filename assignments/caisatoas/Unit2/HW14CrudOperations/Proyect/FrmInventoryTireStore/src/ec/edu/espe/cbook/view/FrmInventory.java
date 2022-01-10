@@ -343,7 +343,7 @@ public class FrmInventory extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "The data was added correctly");
            
         } catch(Exception err){
-            JOptionPane.showMessageDialog(this, "ERROR: "+err.getMessage());
+            JOptionPane.showMessageDialog(this, "Error could not connect to database");
         }
     }//GEN-LAST:event_btnAddActionPerformed
 
