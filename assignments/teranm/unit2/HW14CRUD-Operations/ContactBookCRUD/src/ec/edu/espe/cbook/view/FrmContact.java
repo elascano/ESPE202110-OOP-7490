@@ -24,7 +24,7 @@ public class FrmContact extends javax.swing.JFrame {
     DefaultTableModel table = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column) {
-            return false; //To change body of generated methods, choose Tools | Templates.
+            return false;
         }
         
     };
@@ -331,7 +331,7 @@ public class FrmContact extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-       String sex;
+       String sex = null;
         if(rbMale.isSelected()){
                 sex = "Male";
             }else if (rbFemale.isSelected()){
@@ -344,7 +344,7 @@ public class FrmContact extends javax.swing.JFrame {
             data.put("name", txtName.getText());
             data.put("hobby", lstHobby.getSelectedValuesList().toString());
             data.put("cellphone", txtCellPhone.getText());
-            data.put("sex", rbFemale.getSelectedIcon());
+            data.put("sex", sex);
             data.put("group", cboxGroup.getSelectedItem().toString());
             data.put("salary", Float.parseFloat(txtSalary.getText()));
             data.put("birthdate", cdrBirthDate.getDate().toString());
@@ -380,20 +380,15 @@ public class FrmContact extends javax.swing.JFrame {
     }//GEN-LAST:event_btnRemoveActionPerformed
 
     private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
-        MongoCursor<Document> consulta = Contact.find().iterator();
         
     }//GEN-LAST:event_btnFindActionPerformed
 
     private void btnListContactsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListContactsActionPerformed
-        MongoCursor<Document> consulta = Contact.find().iterator();
-        
-        int total = table.getRowCount();
-        for(int i = 0; i<total; i++){
-            table.removeRow(0);
-        }
-        while(consulta.hasNext()){
-            ArrayList<Object> doc = new ArrayList<Object>(consulta.next().values());
-            table.addRow(doc.toArray());
+        MongoCursor<Document> contactQuery = Contact.find().iterator();
+       
+        while(contactQuery.hasNext()){
+            ArrayList<Object> contactDoc = new ArrayList<Object>(contactQuery.next().values());
+            table.addRow(contactDoc.toArray());
         }
     }//GEN-LAST:event_btnListContactsActionPerformed
 
