@@ -1,7 +1,6 @@
 
 package ec.edu.espe.cbook.model;
 
-import java.time.LocalDate;
 
 /**
  *
@@ -16,10 +15,9 @@ public class Contact {
     private String group;
     private float salary;
     private String birthDate;
-    //private LocalDate birthDate;
     private String comments;
 
-    public Contact(int id, String name, String hobby, String cellphoneNumber, String sex, String group, float salary, /*LocalDate birthDate,*/String birthDate, String comments) {
+    public Contact(int id, String name, String hobby, String cellphoneNumber, String sex, String group, float salary, String birthDate, String comments) {
         this.id = id;
         this.name = name;
         this.hobby = hobby;
@@ -28,7 +26,6 @@ public class Contact {
         this.group = group;
         this.salary = salary;
         this.birthDate= birthDate;
-        //this.birthDate = birthDate;
         this.comments = comments;
     }
     
@@ -146,20 +143,6 @@ public class Contact {
         this.birthDate = birthDate;
     }
     
-
-    /**
-     * @return the birthDate
-     */
-  /*  public LocalDate getBirthDate() {
-        return birthDate;
-    }
-
-    /**
-     * @param birthDate the birthDate to set
-     */
-   /* public void setBirthDate(LocalDate birthDate) {
-        this.birthDate = birthDate;
-    }
 
     /**
      * @return the comments

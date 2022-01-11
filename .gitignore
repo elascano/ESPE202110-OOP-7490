@@ -21,6 +21,7 @@
 *.zip
 *.tar.gz
 *.rar
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,16 +864,6 @@ hs_err_pid*
 /workshops/garciam/unit2/WS16Collection/Farm/build/
 /workshops/garciam/unit2/WS16Collection/Farm/dist/
 /workshops/garciam/unit2/WS16Collection/Farm/nbproject/private/
-<<<<<<< HEAD
-=======
-
->>>>>>> 16996045d2a6dadcd207c2ce3557dc1ad931968c
->>>>>>> c6fbdc0e618a4ef8cbc0bee61eccb3fe91794087
->>>>>>> 0d350f8107481bc3bbd93ed6833e365415839607
-/workshops/caisatoas/Unit2/WS23InterfacesLibraries/PersistenceLib/nbproject/private/
-/workshops/caisatoas/Unit2/WS23InterfacesLibraries/PersistenceLib/build/
-/workshops/caisatoas/Unit2/WS23InterfacesLibraries/PersistenceLib/dist/
-=======
 /assignments/garciam/unit2/HW05MenuAddRemove/Farm/nbproject/private/
 /workshops/garciam/unit2/WS22Extra/CateringPlanner/build/
 /assignments/garciam/unit2/HW05MenuAddRemove/Farm/dist/
@@ -883,12 +874,6 @@ hs_err_pid*
 /assignments/garciam/unit2/HW09 Farm/Farm/build/
 >>>>>>> 0c75ececc7778688c6553ed79f589d22092886c0
 >>>>>>> 15d010d67e8895d5a47f3862601d04cabe0923cf
-<<<<<<< HEAD
->>>>>>> afafc124f6d8fe4bae9a566e030604c8ec236d68
-/workshops/calderona/unit2/WS23-Interfaces/Persistence/nbproject/private/
-/workshops/calderona/unit2/WS23-Interfaces/Persistence/dist/
-/workshops/calderona/unit2/WS23-Interfaces/Persistence/build/
-=======
 /assignments/lincangoj/unit2/HW09file/JavaMongo/nbproject/private/
 =======
 >>>>>>> f1253cb5a9f402a013b26ebd4c16c0f5d4279cec
@@ -914,11 +899,6 @@ hs_err_pid*
 /assignments/quingal/unit2/WS22Menus/CateringPlanner/build/
 /assignments/quingal/unit2/WS22Menus/CateringPlanner/nbproject/private/
 <<<<<<< HEAD
-/workshops/simbañaj/unit2/WS23InterfacesLibreries/PersistenceLib/nbproject/private/
-/workshops/simbañaj/unit2/WS23InterfacesLibreries/PersistenceLib/build/
-/workshops/simbañaj/unit2/WS23InterfacesLibreries/PersistenceLib/dist/
-=======
-<<<<<<< HEAD
 /assignments/quingal/unit2/HW10FilesProject/SmartHome/build/
 /assignments/quingal/unit2/HW10FilesProject/SmartHome/nbproject/private/
 =======
@@ -928,47 +908,12 @@ hs_err_pid*
 >>>>>>> 0e1421cc8db2b8945f58908008c2786c25f77eeb
 >>>>>>> 25960bfe229e33866a03b1b512d711d9edbf2429
 <<<<<<< HEAD
-/workshops/guamana/unit2/WS24-InterfacesLibrearies/PersistenceLib/nbproject/private/
-/workshops/guamana/unit2/WS24-InterfacesLibrearies/PersistenceLib/build/
-/workshops/guamana/unit2/WS24-InterfacesLibrearies/PersistenceLib/dist/
-/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/build/
-/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/nbproject/private/
-/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/dist/
-=======
-<<<<<<< HEAD
 /workshops/asumazad/unit2/WS23InterfaceLibrary/PersistenceLib/nbproject/private/
 /workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/build/
 /workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/nbproject/private/
 /workshops/asumazad/unit2/WS23InterfaceLibrary/PersistanceLib/dist/
 =======
 >>>>>>> 17a895b40381cf52ba87061f2f3508a537f1a85c
-<<<<<<< HEAD
-/assignments/teranm/unit2/HW14CRUD-Operations/HW14CrudOperations/ContactsBook/build/
-/assignments/teranm/unit2/HW14CRUD-Operations/HW14CrudOperations/ContactsBook/nbproject/private/
-/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/ContactsBook/build/
-/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/ContactsBook/nbproject/private/
-/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/build/
-/assignments/teranm/unit2/HW14CRUD-Operations/ContactsBook/nbproject/private/
-/workshops/teranm/unit2/WS23/Persistence/nbproject/private/
-/workshops/teranm/unit2/WS23/PersistenceLib/nbproject/private/
-/workshops/teranm/unit2/WS23/PersistenceLib/build/
-/workshops/teranm/unit2/WS23/PersistenceLib/dist/
-/assignments/teranm/unit2/HW15/PersistenceLib/nbproject/private/
-/assignments/teranm/unit2/HW15/PersistenceLib/build/
-/assignments/teranm/unit2/HW15/PersistenceLib/dist/
-/assignments/teranm/unit2/HW15InterfacesLibraries/PersistenceLib/build/
-/assignments/teranm/unit2/HW15InterfacesLibraries/PersistenceLib/nbproject/private/
-=======
-<<<<<<< HEAD
-/workshops/moralesa/unit2/WS23Interfaces/PersistenceLib/nbproject/private/
-/workshops/moralesa/unit2/WS23Interfaces/PersistenceLib/build/
-/workshops/moralesa/unit2/WS23Interfaces/PersistenceLib/dist/
-=======
-<<<<<<< HEAD
-/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/nbproject/private/
-/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/build/
-/workshops/tayos/Unit2/WS23InterfacesAndLibraries/PersistanceLib/dist/
-=======
 <<<<<<< HEAD
 /workshops/sanchezj/unit2/ws23interface/PersistenceLib/nbproject/private/
 /workshops/sanchezj/unit2/ws23interface/PersistenceLib/dist/
@@ -988,22 +933,8 @@ hs_err_pid*
 /assignments/saltosp/unit2/HW09FarMenu/FarmMenu/nbproject/private/
 =======
 >>>>>>> b84b98eff92e91fa59156ae4d10e151ffdddf973
-<<<<<<< HEAD
-/workshops/alvarezm/unit2/WS23InterfacesLibraries/PersistenceLib/nbproject/private/
-/workshops/alvarezm/unit2/WS23InterfacesLibraries/PersistenceLib/build/
-/workshops/alvarezm/unit2/WS23InterfacesLibraries/PersistenceLib/dist/
-=======
 >>>>>>> 343f09567f53190358823187b5181d46f5f30403
 /assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactBookCrud/nbproject/private/
-<<<<<<< HEAD
-/workshops/palaciosd/unit2/WS23 DIAGRAM/PersistenceLib/nbproject/private/
-/workshops/palaciosd/unit2/WS23 DIAGRAM/PersistenceLib/build/
-/workshops/palaciosd/unit2/WS23 DIAGRAM/PersistenceLib/dist/
-/assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactBookCrud/build/
-/assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactBookCrud/dist/
-/assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactsBook/nbproject/private/
-/assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactsBook/build/
-=======
 >>>>>>> 38b511d862a75f72696a1fd52019ddb51ad7ae91
 >>>>>>> 8abf2bcec4db18ff9dfcdc94f942373ba0893f48
 >>>>>>> 96f9fedd985bb765250149ab6c8f1dc1402328c6
@@ -1018,32 +949,13 @@ hs_err_pid*
 /assignments/paucara/unit2/HW15InterfacesLibraries/PersistanceLib/dist/
 =======
 >>>>>>> d51cb3b37ec2388e289a9bbe99655f0f79be85cf
-<<<<<<< HEAD
-/workshops/saltosp/unit2/WS23Interfaces/PersistenceLib/nbproject/private/
-/workshops/saltosp/unit2/WS23Interfaces/PersistenceLib/dist/
-/workshops/saltosp/unit2/WS23Interfaces/PersistenceLib/build/
-/assignments/saltosp/unit2/HW09FarMenu/FarmMenu/build/
-/assignments/saltosp/unit2/HW10File/SmartHome/nbproject/private/
-/assignments/saltosp/unit2/HW10File/SmartHome/build/
-/workshops/saltosp/unit2/WS19/SmartHomeAbst/nbproject/private/
-/workshops/saltosp/unit2/WS19/SmartHomeAbst/build/
-=======
 >>>>>>> b5719c0d653f6d981031c6ee5b0d40476cccade8
 /assignments/maldonadom/unit2/HW14CrudOperations/ContactsBook/build/
 /assignments/maldonadom/unit2/HW14CrudOperations/ContactsBook/nbproject/private/
-<<<<<<< HEAD
-/workshops/maldonadom/unit2/WS23InterfacesLibraries/PersisitenceLib/nbproject/private/
-/workshops/maldonadom/unit2/WS23InterfacesLibraries/PersisitenceLib/build/
-/workshops/maldonadom/unit2/WS23InterfacesLibraries/PersisitenceLib/dist/
-=======
 >>>>>>> 23bc2c4ad5ec5eab0e2a68903a331b209cbf2caa
 >>>>>>> 2c5cf69fbaad07489de46079415d200d88756d48
-<<<<<<< HEAD
-/workshops/bustillosp/unit2/WS23/PersistanceLib/build/
-/workshops/bustillosp/unit2/WS23/PersistanceLib/nbproject/private/
-/workshops/bustillosp/unit2/WS23/PersistanceLib/dist/
-=======
 >>>>>>> 96b30f274fe7156b2c7592f44bb58d7368f1e0cd
+<<<<<<< HEAD
 <<<<<<< HEAD
 /workshops/shugulia/unit2/WS22Menus/CateringPlanner/dist/
 /workshops/shugulia/unit2/WS19AbsinPoly/SmarthHome/dist/
@@ -1082,3 +994,19 @@ hs_err_pid*
 >>>>>>> 2d285b35f2d4be528c5885ce8e33a6c2f7c8458f
 >>>>>>> 81d34c26f5754d6e977bba8dbc7907d699fffdec
 /exams/tecac/unit2/QUESTION 38-51/QUESTION38-51/nbproject/private/
+=======
+/assignments/paucara/unit2/HW14CRUDOperations/WareHouse/dist/
+=======
+>>>>>>> afa91ccee3101efb66b27e2b784d93a84d001496
+/assignments/cadenab/Unit2/HW05MenuAddRemove/nbproject/private/
+/assignments/cadenab/Unit2/HW07ArrayListProject/nbproject/private/
+/assignments/cadenab/Unit2/HW09MenuToAddAnimalsFarm/nbproject/private/
+/assignments/cadenab/Unit2/HW09MenuToAddAnimalsFarm/build/
+/assignments/cadenab/Unit2/HW11ProjectFilesToJeason/nbproject/private/
+/assignments/cadenab/Unit2/HW12MongoShell/nbproject/private/
+/assignments/cadenab/Unit2/HW13MongoDBCompas/nbproject/private/
+/assignments/cadenab/Unit2/HW14CrudOperations/nbproject/private/
+/assignments/cadenab/Unit2/HW15InterfacesLibraries/build/
+/assignments/cadenab/Unit2/HW15InterfacesLibraries/dist/
+/assignments/cadenab/Unit2/HW15InterfacesLibraries/nbproject/private/
+>>>>>>> 5b6986c5f27e22318f9bc6e0100d020b342812a4
