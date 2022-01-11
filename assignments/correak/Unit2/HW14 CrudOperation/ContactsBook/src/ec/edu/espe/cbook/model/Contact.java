@@ -41,10 +41,10 @@ public class Contact {
 
    
 
-//    @Override
-//    public String toString() {
-//        return "{" + "id "+":" + id + ", name "+":" + name + ", hobby "+":" + hobby + ", cellPhoneNumber "+":" + cellPhoneNumber + ", sex "+":" + sex + ", group "+":" + group + ", salary "+":" + salary + ", birthDate "+":" + birthDate + ", coments "+":" + coments + '}';
-//    }
+    @Override
+    public String toString() {
+        return "{" + "id "+":" + id + ", name "+":" + name + ", hobby "+":" + hobby + ", cellPhoneNumber "+":" + cellPhoneNumber + ", sex "+":" + sex + ", group "+":" + group + ", salary "+":" + salary + ", birthDate "+":" + birthDate + ", coments "+":" + coments + '}';
+    }
     
     
     

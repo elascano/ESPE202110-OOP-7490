@@ -13,7 +13,7 @@ import utils.FileManager;
 
 /**
  *
- * @author Usuario
+ * @author Quinga Leandro
  */
 public class SmartHome {
     public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class SmartHome {
         System.out.println("Device id"+device.getId());
         
     }
-        public static void oldMain[]{
+        public static void oldMain(){
         System.out.println("list of devices from my home ");
         ArrayList<String> devices = new ArrayList<>();
         String fileName = "data/devices.csv";
@@ -64,7 +64,7 @@ public class SmartHome {
 //         System.out.println(" --> DEVICES \n "+ devices);
          
         Device device;
-        device = new Device(01,"printer","study room",true,120);
+        device = new Device(01,"printer","study room",true,120) {};
         
         Gson gson;
         gson = new Gson();
