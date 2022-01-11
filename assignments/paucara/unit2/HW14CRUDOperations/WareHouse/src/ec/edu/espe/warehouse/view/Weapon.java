@@ -16,7 +16,7 @@ package ec.edu.espe.warehouse.view;
 
 /**
  *
- * @author javie
+ * @author Javier Paucar
  */
 public class Weapon extends javax.swing.JFrame {
     DB db;
@@ -29,7 +29,7 @@ public class Weapon extends javax.swing.JFrame {
         try {
             Mongo mongo = new Mongo("localhost",27017);
             db = mongo.getDB("warehouse");
-            table=db.getCollection("table");
+            table=db.getCollection("Weapon");
         } catch (UnknownHostException ex) {
             Logger.getLogger(Weapon.class.getName()).log(Level.SEVERE, null, ex);
         }
