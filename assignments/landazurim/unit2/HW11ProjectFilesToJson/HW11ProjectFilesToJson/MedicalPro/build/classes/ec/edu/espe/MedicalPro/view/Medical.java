@@ -1,4 +1,4 @@
-papackage ec.edu.espe.MedicalPro.view;
+package ec.edu.espe.MedicalPro.view;
 
 import com.google.gson.Gson;
 import ec.edu.espe.MedicalPro.model.Login;
