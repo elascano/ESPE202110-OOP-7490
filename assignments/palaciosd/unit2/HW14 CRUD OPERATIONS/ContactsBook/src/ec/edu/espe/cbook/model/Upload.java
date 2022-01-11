@@ -83,7 +83,7 @@ public class Upload extends javax.swing.JDialog {
 
         jLabel2.setText("Id:");
 
-        txtHobby.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Play Soccer", "Play Instrument", "Sing", "Video Games", "" }));
+        txtHobby.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Play Soccer", "Play Instrument", "Sing", "Video Games", "Whatch Movies" }));
         txtHobby.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtHobbyActionPerformed(evt);
