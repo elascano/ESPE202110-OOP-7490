@@ -1,29 +1,73 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:assignments/villegass/unit2/HW05ChickenCollections/MenuChicken/src/ec/edu/espe/menu/model/Chicken.java
+package ec.edu.espe.menu.model;
+
+/**
+ *
+ * @author Salma Villegas
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
 
 package ec.edu.espe.farm.model;
 
 /**
  *
  * @author alan
+<<<<<<< HEAD
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/shugulia/unit2/WS16Collection/Farm/src/ec/edu/espe/farm/model/Chicken.java
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
  */
 public class Chicken {
     private int id;
     private String name;
     private String color;
     private int age;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:assignments/villegass/unit2/HW05ChickenCollections/MenuChicken/src/ec/edu/espe/menu/model/Chicken.java
+    private boolean isMolting;
+
+    @Override
+    public String toString() {
+        return "Chicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", isMolting=" + isMolting + '}';
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
     private boolean molting;
     
     @Override
     public String toString() {
         return "\n\t\tChicken{" + "id=" + id + ", name=" + name + ", color=" + color + ", age=" + age + ", molting=" + molting + '}';
+<<<<<<< HEAD
     }
         
 
     public Chicken(int id, String name, String color, int age, boolean molting) {
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/shugulia/unit2/WS16Collection/Farm/src/ec/edu/espe/farm/model/Chicken.java
+    }
+        
+
+<<<<<<< HEAD:assignments/villegass/unit2/HW05ChickenCollections/MenuChicken/src/ec/edu/espe/menu/model/Chicken.java
+    public Chicken(int id, String name, String color, int age, boolean isMolting) {
+=======
+    public Chicken(int id, String name, String color, int age, boolean molting) {
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/shugulia/unit2/WS16Collection/Farm/src/ec/edu/espe/farm/model/Chicken.java
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
         this.id = id;
         this.name = name;
         this.color = color;
         this.age = age;
+<<<<<<< HEAD
         this.molting = molting;
+=======
+<<<<<<< HEAD:assignments/villegass/unit2/HW05ChickenCollections/MenuChicken/src/ec/edu/espe/menu/model/Chicken.java
+        this.isMolting = isMolting;
+=======
+        this.molting = molting;
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/shugulia/unit2/WS16Collection/Farm/src/ec/edu/espe/farm/model/Chicken.java
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
     }
 
         
