@@ -6,12 +6,12 @@ import java.time.LocalDate;
  *
  * @author Paul Saltos
  */
-public class Cow {
+public class Cow extends FarmAnimal {
 
     private boolean isProducingMilk;
 
     public Cow(boolean isProducingMilk, int id, String breed, LocalDate bornOn) {
-        super(id, breed, bornOn);
+        super( id , breed , bornOn);
         this.isProducingMilk = isProducingMilk;
     }
 
