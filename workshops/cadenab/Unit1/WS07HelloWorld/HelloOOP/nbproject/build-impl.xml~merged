@@ -20,13 +20,13 @@ is divided into following sections:
 
         -->
 <<<<<<< HEAD
-<<<<<<< HEAD:workshops/cadenab/Unit1/WS11Asociation/Farm/nbproject/build-impl.xml
-<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="Farm-impl">
+<<<<<<< HEAD:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="HelloOOP-impl">
+=======
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="ExamUnit2-impl">
+>>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:exams/ruanoa/unit2/ExamUnit2/nbproject/build-impl.xml
 =======
 <project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="HelloOOP-impl">
->>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
-=======
-<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="Farm-impl">
 >>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f
     <fail message="Please build using Ant 1.8.0 or higher.">
         <condition>
@@ -628,13 +628,13 @@ is divided into following sections:
                 </union>
                 <taskdef classname="org.testng.TestNGAntTask" classpath="${run.test.classpath}" name="testng"/>
 <<<<<<< HEAD
-<<<<<<< HEAD:workshops/cadenab/Unit1/WS11Asociation/Farm/nbproject/build-impl.xml
-                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="Farm" testname="TestNG tests" workingDir="${work.dir}">
+<<<<<<< HEAD:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="HelloOOP" testname="TestNG tests" workingDir="${work.dir}">
+=======
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="ExamUnit2" testname="TestNG tests" workingDir="${work.dir}">
+>>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:exams/ruanoa/unit2/ExamUnit2/nbproject/build-impl.xml
 =======
                 <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="HelloOOP" testname="TestNG tests" workingDir="${work.dir}">
->>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
-=======
-                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="Farm" testname="TestNG tests" workingDir="${work.dir}">
 >>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f
                     <xmlfileset dir="${build.test.classes.dir}" includes="@{testincludes}"/>
                     <propertyset>
@@ -733,13 +733,13 @@ is divided into following sections:
                     <isset property="test.method"/>
                 </condition>
 <<<<<<< HEAD
-<<<<<<< HEAD:workshops/cadenab/Unit1/WS11Asociation/Farm/nbproject/build-impl.xml
-                <condition else="-suitename Farm -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+<<<<<<< HEAD:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
+                <condition else="-suitename HelloOOP -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+=======
+                <condition else="-suitename ExamUnit2 -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
+>>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:exams/ruanoa/unit2/ExamUnit2/nbproject/build-impl.xml
 =======
                 <condition else="-suitename HelloOOP -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
->>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
-=======
-                <condition else="-suitename Farm -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
 >>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f
                     <matches pattern=".*\.xml" string="@{testClass}"/>
                 </condition>
@@ -1082,13 +1082,13 @@ is divided into following sections:
     </target>
     <target if="already.built.jar.${basedir}" name="-warn-already-built-jar">
 <<<<<<< HEAD
-<<<<<<< HEAD:workshops/cadenab/Unit1/WS11Asociation/Farm/nbproject/build-impl.xml
-        <echo level="warn" message="Cycle detected: Farm was already built"/>
+<<<<<<< HEAD:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
+        <echo level="warn" message="Cycle detected: HelloOOP was already built"/>
+=======
+        <echo level="warn" message="Cycle detected: ExamUnit2 was already built"/>
+>>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:exams/ruanoa/unit2/ExamUnit2/nbproject/build-impl.xml
 =======
         <echo level="warn" message="Cycle detected: HelloOOP was already built"/>
->>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
-=======
-        <echo level="warn" message="Cycle detected: Farm was already built"/>
 >>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f
     </target>
     <target depends="init,-deps-jar-init" name="deps-jar" unless="no.deps">
@@ -1761,13 +1761,13 @@ is divided into following sections:
     </target>
     <target if="already.built.clean.${basedir}" name="-warn-already-built-clean">
 <<<<<<< HEAD
-<<<<<<< HEAD:workshops/cadenab/Unit1/WS11Asociation/Farm/nbproject/build-impl.xml
-        <echo level="warn" message="Cycle detected: Farm was already built"/>
+<<<<<<< HEAD:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
+        <echo level="warn" message="Cycle detected: HelloOOP was already built"/>
+=======
+        <echo level="warn" message="Cycle detected: ExamUnit2 was already built"/>
+>>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:exams/ruanoa/unit2/ExamUnit2/nbproject/build-impl.xml
 =======
         <echo level="warn" message="Cycle detected: HelloOOP was already built"/>
->>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/build-impl.xml
-=======
-        <echo level="warn" message="Cycle detected: Farm was already built"/>
 >>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f
     </target>
     <target depends="init,-deps-clean-init" name="deps-clean" unless="no.deps">
