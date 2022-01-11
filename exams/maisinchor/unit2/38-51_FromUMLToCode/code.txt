@@ -1,0 +1,16 @@
+public class A{
+
+}
+
+
+
+
+
+
+public interface H {
+
+}
+
+public class Gimplements h {
+
+}
