@@ -1,15 +1,42 @@
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:assignments/lincangoj/unit2/HW10Files/SmartHome/src/ec/edu/epe/smart/model/Device.java
+package ec.edu.epe.smart.model;
+
+/**
+ *
+ * @author Daniel Lincango
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
 package ec.edu.espe.smart.model;
 
 /**
  *
  * @author alex_
+<<<<<<< HEAD
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/andrangoa/UNIT 2/WS19/Smart Home/src/ec/edu/espe/smart/model/Device.java
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
  */
 public abstract class Device {
     
     private int id;
     private String description;
     private String room;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:assignments/lincangoj/unit2/HW10Files/SmartHome/src/ec/edu/epe/smart/model/Device.java
+    private boolean status;//tru-if the divice is on , false-if the divice is off
+    private int workingData;//tv,radio-volume,microwave-time,refrigerator-temperature
+
+    public void turnOn(){
+        if(status==false){
+            status=true;
+        }
+    }
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
     private boolean status;
     private int workingData;
     
@@ -22,11 +49,25 @@ public abstract class Device {
         }
     }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/andrangoa/UNIT 2/WS19/Smart Home/src/ec/edu/espe/smart/model/Device.java
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
     public void turnOff(){
         if(status==true){
             status=false;
         }
+<<<<<<< HEAD
     }
+=======
+<<<<<<< HEAD:assignments/lincangoj/unit2/HW10Files/SmartHome/src/ec/edu/epe/smart/model/Device.java
+            
+    }
+    
+=======
+    }
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/andrangoa/UNIT 2/WS19/Smart Home/src/ec/edu/espe/smart/model/Device.java
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
     public Device(int id, String description, String room, boolean status, int workingData) {
         this.id = id;
         this.description = description;
@@ -36,7 +77,10 @@ public abstract class Device {
     }
 
     
+<<<<<<< HEAD
     
+=======
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
     /**
      * @return the id
      */
@@ -108,6 +152,14 @@ public abstract class Device {
     }
     
     
+<<<<<<< HEAD
     
     
+=======
+<<<<<<< HEAD:assignments/lincangoj/unit2/HW10Files/SmartHome/src/ec/edu/epe/smart/model/Device.java
+=======
+    
+    
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066:workshops/andrangoa/UNIT 2/WS19/Smart Home/src/ec/edu/espe/smart/model/Device.java
+>>>>>>> 93d2f95dabc6fee54e745506630ffdc595f9c066
 }
