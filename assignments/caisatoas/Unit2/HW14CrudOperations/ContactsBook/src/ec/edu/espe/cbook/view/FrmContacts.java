@@ -45,7 +45,7 @@ public class FrmContacts extends javax.swing.JFrame {
         tabla.addColumn("SALARY");tabla.addColumn("BIRTHDATE");
         tabla.addColumn("COMMENTS");
         tblContacts.setModel(tabla);
-        mostrar();
+        view();
         
     }
 
@@ -130,6 +130,11 @@ public class FrmContacts extends javax.swing.JFrame {
 
         txtSex.add(txtMasculine);
         txtMasculine.setText("Masculine");
+        txtMasculine.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtMasculineActionPerformed(evt);
+            }
+        });
 
         txtSex.add(txtFeminine);
         txtFeminine.setText("Feminine");
@@ -349,16 +354,17 @@ public class FrmContacts extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(27, 27, 27)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -407,40 +413,16 @@ public class FrmContacts extends javax.swing.JFrame {
 
             Contact.insertOne(data);
             
-            JOptionPane.showMessageDialog(this, "EXITO");
+            JOptionPane.showMessageDialog(this, "Success");
            
         } catch(Exception err){
             JOptionPane.showMessageDialog(this, "ERROR: "+err.getMessage());
         }
-        /*
-        int id;
-        String name;
-        String hobby;
-        String cellPhoneNumber;
-        String group;
-        float salary;
-        String birthdate;
-        String comments;
-        Contact contact;
-        
-            id = Integer.valueOf(txtId.getText());
-            name = txtName.getText();
-            hobby = txtHobby.getSelectedItem().toString();
-            cellPhoneNumber = txtCellPhone.getText();
-            
-            group = txtGroup.getSelectedItem().toString();
-            salary = Integer.valueOf(txtSalary.getText());
-            birthdate = txtBirthdate.getDate().toString();
-            comments = txtComments.getText();
-            
-            contact = new Contact(id, name, hobby, cellPhoneNumber, sex, group, salary, birthdate, comments);   */
             
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnListContactsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListContactsActionPerformed
-               
-        mostrar();
-        
+           view();
     }//GEN-LAST:event_btnListContactsActionPerformed
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
@@ -450,18 +432,18 @@ public class FrmContacts extends javax.swing.JFrame {
     private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
         int renglon = tblContacts.getSelectedRow();
         if(renglon == -1){
-            JOptionPane.showMessageDialog(this, "Error, Selecciona el rengloa a Eliminar");
+            JOptionPane.showMessageDialog(this, "Error, select the line to delete");
             return;
         }
         String idRemove = tblContacts.getValueAt(renglon, 0).toString();
-        int respuesta = JOptionPane.showConfirmDialog(this, "Estas seguro de eliminar la ID?"+ idRemove);
+        int respuesta = JOptionPane.showConfirmDialog(this, "Are you sure to delete ID?"+ idRemove);
         if(respuesta == JOptionPane.OK_OPTION){
             boolean answerDelete = Delete(idRemove);
             if(answerDelete==true){
-                mostrar();
-                JOptionPane.showMessageDialog(this, "Se elimino Correctamente");
+                view();
+                JOptionPane.showMessageDialog(this, "was successfully removed");
             }else{
-                JOptionPane.showMessageDialog(this, "No se pudo eliminar");
+                JOptionPane.showMessageDialog(this, "could not be deleted");
 
             }
         }
@@ -479,9 +461,13 @@ public class FrmContacts extends javax.swing.JFrame {
         if(answer == JOptionPane.OK_OPTION){
             Upload upload = new Upload(this,true, Contact, idUpload);
             upload.setVisible(true);
-            mostrar();
+            view();
         }
     }//GEN-LAST:event_btnUploadActionPerformed
+
+    private void txtMasculineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMasculineActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtMasculineActionPerformed
 
     public boolean Delete(String id){
         DeleteResult answer = Contact.deleteOne(new Document("_id", new ObjectId(id)));
@@ -524,17 +510,17 @@ public class FrmContacts extends javax.swing.JFrame {
             }
         });
     }
-    public void mostrar(){
+    public void view(){
         
-        MongoCursor<Document> consulta = Contact.find().iterator();
+        MongoCursor<Document> contact = Contact.find().iterator();
         
         int total = tabla.getRowCount();
         for(int i = 0; i<total; i++){
             tabla.removeRow(0);
         }
-        while(consulta.hasNext()){
-            ArrayList<Object> doc = new ArrayList<Object>(consulta.next().values());
-            tabla.addRow(doc.toArray());
+        while(contact.hasNext()){
+            ArrayList<Object> document = new ArrayList<Object>(contact.next().values());
+            tabla.addRow(document.toArray());
         }
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
