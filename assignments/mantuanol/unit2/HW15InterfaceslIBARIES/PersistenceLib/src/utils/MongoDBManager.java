@@ -21,7 +21,7 @@ public class MongoDBManager implements DataBase{
 
     @Override
     public void generateConnection(String user, String password, String dataBase) {
-        System.out.println("Entre the user -> " + user + " Enter the password -> " + password + " the connection was made with -> " + dataBase);
+        System.out.println("Enter the user -> " + user + " Enter the password -> " + password + " the connection was made with -> " + dataBase);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class MongoDBManager implements DataBase{
 
     @Override
     public void delete(String table, String search) {
-        System.out.println("deleting from file -> " + table + " the record -> " +search);
+        System.out.println("deleting -> " + table + " the record -> " +search);
     }
 
     @Override
