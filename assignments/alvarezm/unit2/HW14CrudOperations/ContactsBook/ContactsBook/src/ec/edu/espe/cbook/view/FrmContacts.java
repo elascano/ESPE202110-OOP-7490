@@ -94,7 +94,6 @@ public class FrmContacts extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 204, 204));
-        setPreferredSize(new java.awt.Dimension(1000, 620));
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 204));
 
