@@ -131,15 +131,19 @@ public class FrmContacts extends javax.swing.JFrame {
 
         txtGroup.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Family", "University", "Jobs" }));
 
+        txtMasculine.setBackground(new java.awt.Color(255, 255, 0));
         txtSex.add(txtMasculine);
         txtMasculine.setText("men");
 
+        txtFeminine.setBackground(new java.awt.Color(255, 255, 0));
         txtSex.add(txtFeminine);
         txtFeminine.setText("woman");
 
+        txtOthers.setBackground(new java.awt.Color(255, 204, 0));
         txtSex.add(txtOthers);
         txtOthers.setText("Others");
 
+        txtBirthdate.setBackground(new java.awt.Color(153, 255, 51));
         txtBirthdate.setDateFormatString("yyyy/MM/dd");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -187,12 +191,15 @@ public class FrmContacts extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(txtOthers))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(txtFeminine)
-                                .addGap(163, 163, 163)
-                                .addComponent(jLabel8))
-                            .addComponent(txtGroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(txtFeminine)
+                                        .addGap(163, 163, 163)
+                                        .addComponent(jLabel8))
+                                    .addComponent(txtGroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(58, 58, 58)
+                                .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 69, Short.MAX_VALUE)))
                 .addGap(265, 265, 265))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(150, 150, 150)
