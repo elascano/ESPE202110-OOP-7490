@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JDialog.java to edit this template
- */
+
 package ec.edu.espe.cbook.model;
 
 import com.mongodb.client.MongoCollection;
@@ -29,16 +26,6 @@ public class Upload extends javax.swing.JDialog {
         this.Contact = Contact;
         
         Document answer = Contact.find(filter).first();
-        /*
-        txtId.setText(answer.getInteger("id").toString());
-        txtName.setText(answer.getString("name"));
-        txtHobby.setSelectedItem(answer.getString("hobby").toString());
-        txtCellPhone.setText(answer.getString("cellphone"));
-        txtMasculine.setText(answer.getInteger("sex").toString());
-        txtGroup.setSelectedItem(answer.getString("group"));
-        txtSalary.setText(answer.getInteger("salary").toString());
-        txtBirthdate.setDateFormatString(answer.getDate("birthdate").toString());
-        txtComments.setText(answer.getString("comment")); */
         this.setLocationRelativeTo(null);
     }
 
@@ -251,8 +238,6 @@ public class Upload extends javax.swing.JDialog {
 
     private void btnUploadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadActionPerformed
         Document dataUpload= new Document();
-        
-        
         
             dataUpload.put("id", Integer.parseInt(txtId.getText()));
             dataUpload.put("name", txtName.getText());

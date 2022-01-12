@@ -3,7 +3,15 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
+<<<<<<< HEAD:workshops/cadenab/Unit1/WS11Asociation/Farm/nbproject/project.xml
             <name>Farm</name>
+=======
+            <name>HelloOOP</name>
+>>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f:workshops/cadenab/Unit1/WS07HelloWorld/HelloOOP/nbproject/project.xml
+=======
+            <name>Farm</name>
+>>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
