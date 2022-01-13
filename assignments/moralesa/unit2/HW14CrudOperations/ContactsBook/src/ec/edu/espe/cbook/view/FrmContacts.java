@@ -203,9 +203,9 @@ public class FrmContacts extends javax.swing.JFrame {
                             .addComponent(jLabel4)
                             .addComponent(txtCellPhone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel7)
-                            .addComponent(txtSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel7)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(40, 40, 40)
@@ -331,7 +331,7 @@ public class FrmContacts extends javax.swing.JFrame {
                                 .addGap(52, 52, 52)
                                 .addComponent(btnRemove))
                             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(500, 500, 500))
+                .addGap(444, 444, 444))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -501,15 +501,15 @@ public class FrmContacts extends javax.swing.JFrame {
     }
     public void mostrar(){
         
-        MongoCursor<Document> consulta = Contact.find().iterator();
+        MongoCursor<Document> contactQuery = Contact.find().iterator();
         
         int total = tabla.getRowCount();
         for(int i = 0; i<total; i++){
             tabla.removeRow(0);
         }
-        while(consulta.hasNext()){
-            ArrayList<Object> doc = new ArrayList<Object>(consulta.next().values());
-            tabla.addRow(doc.toArray());
+        while(contactQuery.hasNext()){
+            ArrayList<Object> contactDoc = new ArrayList<Object>(contactQuery.next().values());
+            tabla.addRow(contactDoc.toArray());
         }
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
