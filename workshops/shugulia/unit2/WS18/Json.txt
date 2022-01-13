@@ -1,0 +1,29 @@
+001,Holstein,12/12/2020,true
+002,Plymouth,06/27/2020,false
+003,Dorper,01/30/2019,10/10/2020
+004,Lorge White,09/25/2021,50
+
+        {
+		"id":"001",
+		"breed":"Holstein",
+		"date":"12/12/2020",
+		"molting":"true"
+		 }
+		 {
+		"id":"002",
+		"breed":"Plymouth",
+		"date":"06/27/2020",
+		"molting":"false"
+		}
+		{
+		"id":"003",
+		"breed":"Dorper",
+		"date Inicio":"01/30/2019",
+		"data Final":"10/10/2020"
+		}
+		"id":"004",
+		"breed":"Lorge White",
+		"date Inicio":"09/25/2021",
+		"Produce":"50"
+		}
+ 
