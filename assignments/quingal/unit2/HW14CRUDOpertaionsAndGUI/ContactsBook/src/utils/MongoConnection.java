@@ -8,17 +8,16 @@ import com.mongodb.client.MongoDatabase;
 
 /**
  *
- * @author Alexander Ruano
+ * @author Leandro Quinga 
  */
 public class MongoConnection {
 
         ConnectionString connectionString = new ConnectionString("mongodb+srv://lionarts16:1234587616Leoxo@clusteroop.oqwk9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
-        MongoClientSettings settings = MongoClientSettings.builder()
-         .applyConnectionString(connectionString)
-          .build();
-        MongoClient mongoClient = MongoClients.create(settings);
-        MongoDatabase database = mongoClient.getDatabase("Supplies");
-
+    MongoClientSettings settings = MongoClientSettings.builder()
+            .applyConnectionString(connectionString)
+            .build();
+    MongoClient mongoClient = MongoClients.create(settings);
+    MongoDatabase database = mongoClient.getDatabase("test");
     
     
     public MongoDatabase obtenerDB(){

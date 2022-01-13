@@ -17,6 +17,14 @@ import org.bson.Document;
 import org.bson.types.ObjectId;
 import utils.MongoConnection;
 
+/*import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
+import com.mongodb.client.result.DeleteResult;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.text.Document;
+import utils.MongoConnection;*/
 
 
 /**
@@ -320,6 +328,14 @@ public class FrnComputerManagement extends javax.swing.JFrame {
             }
         });
     }
+    
+    public boolean Delete(String id){
+        DeleteResult answer = ComputerManagement.deleteOne(new Document("Serial Number", new ObjectId()));
+        if(answer.getDeletedCount()==1){
+            return true;
+        }
+        return false;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
@@ -340,8 +356,4 @@ public class FrnComputerManagement extends javax.swing.JFrame {
     private javax.swing.JTextField txtSerialNumber;
     private javax.swing.JTextField txtStorage;
     // End of variables declaration//GEN-END:variables
-
-    private boolean Delete(String serialNumber) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }

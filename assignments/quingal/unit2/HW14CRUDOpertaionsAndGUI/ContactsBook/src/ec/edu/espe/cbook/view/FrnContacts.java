@@ -8,17 +8,15 @@ package ec.edu.espe.cbook.view;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
-import ec.edu.espe.cbook.model.Contact;
-import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.bson.Document;
 import org.bson.types.ObjectId;
-import static sun.net.www.MimeTable.loadTable;
 import utils.MongoConnection;
+
 
 /**
  *
@@ -138,6 +136,11 @@ public class FrnContacts extends javax.swing.JFrame {
         });
 
         btnRemove.setText("Remove");
+        btnRemove.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRemoveActionPerformed(evt);
+            }
+        });
 
         btnFind.setText("Find");
         btnFind.addActionListener(new java.awt.event.ActionListener() {
@@ -359,15 +362,35 @@ public class FrnContacts extends javax.swing.JFrame {
             Contacts.insertOne(data);
             JOptionPane.showMessageDialog(this,  "CONTACTS ADDED");
             
-        }catch(Exception ex){
-            Logger.getLogger(FrnContacts.class.getName()).log(Level.SEVERE, null, ex);
-            JOptionPane.showMessageDialog(null, "ERROR: "+ex.getMessage());
+        }catch(Exception err){
+            JOptionPane.showMessageDialog(this, "error: " + err.getMessage());
         }
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnFindActionPerformed
+
+    private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
+
+    int renglon = tblDatos.getSelectedRow();
+        if(renglon == -1){
+            JOptionPane.showMessageDialog(this, "Error ");
+            return;
+        }
+        String id = tblDatos.getValueAt(renglon, 0).toString();
+        int respuesta = JOptionPane.showConfirmDialog(this, "REMOVE ID"+ id);
+        if(respuesta == JOptionPane.OK_OPTION){
+            boolean answerDelete = Delete(id);
+            if(answerDelete==true){
+                JOptionPane.showMessageDialog(this, "correct delete");
+            }else{
+                JOptionPane.showMessageDialog(this, "no delete");
+
+            }
+        }
+                                           
+    }//GEN-LAST:event_btnRemoveActionPerformed
 
     /**
      * @param args the command line arguments
