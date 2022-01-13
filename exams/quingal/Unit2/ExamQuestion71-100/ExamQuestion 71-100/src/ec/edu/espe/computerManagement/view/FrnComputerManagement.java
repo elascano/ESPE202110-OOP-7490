@@ -9,10 +9,15 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.text.Document;
+import org.bson.Document;
+import org.bson.types.ObjectId;
 import utils.MongoConnection;
+
+
 
 /**
  *
@@ -56,7 +61,7 @@ public class FrnComputerManagement extends javax.swing.JFrame {
             table.addRow(doc.toArray());
         }
     }
-
+     
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -228,16 +233,37 @@ public class FrnComputerManagement extends javax.swing.JFrame {
 
         try{
            org.bson.Document data = new org.bson.Document();
-           
+           data.put("SERIAL NUMBER", txtSerialNumber);
+           data.put("BRAND", txtModel);
+           data.put("MODEL", txtModel);
+           data.put("RAM", txtRam);
+           data.put("STORAGE", txtStorage);
            ComputerManagement.insertOne(data);
             JOptionPane.showMessageDialog(this,  "AMMUNITION ADDED");
-        }catch(Exception ex){
-            
+        }catch(Exception err){
+            JOptionPane.showMessageDialog(this, "error: " + err.getMessage());
         }
+       
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
 
+        int renglon = tblComputerManagement.getSelectedRow();
+        if(renglon == -1){
+            JOptionPane.showMessageDialog(this, "Error ");
+            return;
+        }
+        String serialNumber = tblComputerManagement.getValueAt(renglon, 0).toString();
+        int respuesta = JOptionPane.showConfirmDialog(this, "Serial Number"+ serialNumber);
+        if(respuesta == JOptionPane.OK_OPTION){
+            boolean answerDelete = Delete(serialNumber);
+            if(answerDelete==true){
+                JOptionPane.showMessageDialog(this, "correct delete");
+            }else{
+                JOptionPane.showMessageDialog(this, "no delete");
+
+            }
+        }
     }//GEN-LAST:event_btnRemoveActionPerformed
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
@@ -314,4 +340,8 @@ public class FrnComputerManagement extends javax.swing.JFrame {
     private javax.swing.JTextField txtSerialNumber;
     private javax.swing.JTextField txtStorage;
     // End of variables declaration//GEN-END:variables
+
+    private boolean Delete(String serialNumber) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

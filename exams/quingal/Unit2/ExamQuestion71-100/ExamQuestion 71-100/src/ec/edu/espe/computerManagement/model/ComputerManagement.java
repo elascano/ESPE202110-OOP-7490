@@ -15,6 +15,17 @@ public class ComputerManagement {
     private String model;
     private int ram;
     private int storage;
+    
+    public void Delete(){
+        
+    }
+
+    @Override
+    public String toString() {
+        return "ComputerManagement{" + "serialNumber=" + serialNumber + ", brand=" + brand + ", model=" + model + ", ram=" + ram + ", storage=" + storage + '}';
+    }
+    
+    
 
     public ComputerManagement(int serialNumber, String brand, String model, int ram, int storage) {
         this.serialNumber = serialNumber;
