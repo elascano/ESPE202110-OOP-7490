@@ -259,7 +259,16 @@ public class FrmComputer extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
+          MongoCursor<Document> query = Computer.find().iterator();
 
+        int total = table.getRowCount();
+        for (int i = 0; i < total; i++) {
+            table.removeRow(0);
+        }
+        while (query.hasNext()) {
+            ArrayList<Object> doc = new ArrayList<Object>(query.next().values());
+            table.addRow(doc.toArray());
+        }
 
     }//GEN-LAST:event_btnUpdateActionPerformed
 

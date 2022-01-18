@@ -1,0 +1,45 @@
+
+package ec.edu.espe.farm.view;
+
+import ec.edu.espe.farm.control.Chicken;
+import ec.edu.espe.farm.control.FarmAnimal;
+import java.time.LocalDate;
+
+/**
+ *
+ * @author darling.cruz
+ */
+public class Farm {
+    public static void main(String[] args) {
+        FarmAnimal farmAnimal;
+        int id =0;
+        String breed ="badbunny";
+        LocalDate bornOn = LocalDate.of(2021,12,15);
+        
+        farmAnimal = new FarmAnimal(0,breed,bornOn);
+        System.out.println("farmAnimal is a "+farmAnimal.getClass());
+        System.out.println("farAnimal  ->");
+        System.out.println("id      ->"+farmAnimal.getId());
+        System.out.println("breed   ->"+farmAnimal.getBreed());
+        System.out.println("born On ->"+farmAnimal.getBornOn());
+        
+        id =1;
+        breed ="badbunny";
+        bornOn = LocalDate.of(2001,03,04);
+        boolean isMolting = false;
+        
+        farmAnimal = new Chicken(id,breed,bornOn,isMolting);
+        
+        System.out.println("farmAnimal is a "+farmAnimal.getClass());
+        
+        Chicken chicken = new Chicken(id,breed,bornOn,isMolting);
+        System.out.println("farmAnimal is a "+chicken.getClass());       
+        
+        System.out.println("farAnimal  ->");
+        System.out.println("id      ->"+chicken.getId());
+        System.out.println("breed   ->"+chicken.getBreed());
+        System.out.println("born On ->"+chicken.getBornOn());
+        System.out.println("isMolting ->"+chicken.isIsMolting());
+        
+    }
+}
