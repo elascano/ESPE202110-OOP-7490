@@ -2,15 +2,15 @@ package ec.edu.espe.question.model;
 
 /**
  *
-* @author Altamirano Cristhian
+* @author mealvarez
  */
-public class J {       //Name 0.8/0.8
+public class J {
 
     public J() {
     }
 
     @Override
-    public String toString() {    //To String 0.2/0.2
+    public String toString() {
         return "J{" + '}';
     }
     
