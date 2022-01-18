@@ -1,3 +1,5 @@
+package ec.edu.espe.model;
+
 
 import java.util.ArrayList;
 

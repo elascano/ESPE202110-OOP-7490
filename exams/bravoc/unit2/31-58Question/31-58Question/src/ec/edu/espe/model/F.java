@@ -1,14 +1,16 @@
+package ec.edu.espe.model;
+
 
 
 /**
  *
  * @author Christian Bravo
  */
-public class E {
+public class F {
 
     @Override
     public String toString() {
-        return "E{" + '}';
+        return "F{" + '}';
     }
     
 }
