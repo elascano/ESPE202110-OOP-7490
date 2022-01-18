@@ -5,13 +5,18 @@
  */
 package ec.edu.espe.cbook.view;
 
-import ec.edu.espe.cbook.model.Contact;
-import java.time.LocalDate;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
+import com.mongodb.client.result.DeleteResult;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import static sun.net.www.MimeTable.loadTable;
+import org.bson.Document;
+import org.bson.types.ObjectId;
+import utils.MongoConnection;
+
 
 /**
  *
@@ -19,11 +24,46 @@ import static sun.net.www.MimeTable.loadTable;
  */
 public class FrnContacts extends javax.swing.JFrame {
 
+    MongoCollection<Document> Contacts = new MongoConnection().obtenerDB().getCollection("Ammunition");
+    DefaultTableModel table = new DefaultTableModel() {
+
+        @Override
+        public boolean isCellEditable(int row, int column) {
+            return false;
+        }
+
+    };
     /**
      * Creates new form FrnContacts
      */
     public FrnContacts() {
         initComponents();
+        table.addColumn("NAME");
+        table.addColumn("ID");
+        table.addColumn("HOBBY");
+        table.addColumn("CELL PHONE");
+        table.addColumn("SEX");
+        table.addColumn("ROUP");
+        table.addColumn("SALARY");
+        table.addColumn("BIRTH DATA");
+        table.addColumn("COMMENTS");
+        tblDatos.setModel(table);
+        
+        toContacts();
+        
+    }
+    
+    public void toContacts(){
+         MongoCursor<Document> query = Contacts.find().iterator();
+
+        int total = table.getRowCount();
+        for (int i = 0; i < total; i++) {
+            table.removeRow(0);
+        }
+        while (query.hasNext()) {
+            ArrayList<Object> doc = new ArrayList<Object>(query.next().values());
+            table.addRow(doc.toArray());
+        }
     }
 
    
@@ -62,7 +102,7 @@ public class FrnContacts extends javax.swing.JFrame {
         listHobbies = new javax.swing.JList<>();
         rbtnMale = new javax.swing.JRadioButton();
         rbtnFeminine = new javax.swing.JRadioButton();
-        jCalendar1 = new com.toedter.calendar.JCalendar();
+        CalendarBirthData = new com.toedter.calendar.JCalendar();
         jScrollPane2 = new javax.swing.JScrollPane();
         tblDatos = new javax.swing.JTable();
 
@@ -96,6 +136,11 @@ public class FrnContacts extends javax.swing.JFrame {
         });
 
         btnRemove.setText("Remove");
+        btnRemove.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRemoveActionPerformed(evt);
+            }
+        });
 
         btnFind.setText("Find");
         btnFind.addActionListener(new java.awt.event.ActionListener() {
@@ -203,7 +248,7 @@ public class FrnContacts extends javax.swing.JFrame {
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel9)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jCalendar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(CalendarBirthData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(30, 30, 30)
                                 .addComponent(btnAdd)
@@ -262,18 +307,22 @@ public class FrnContacts extends javax.swing.JFrame {
                         .addGap(21, 21, 21)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel8)
-                            .addComponent(txtComments, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(45, 45, 45)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel10)
-                            .addComponent(txtSalary, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnAdd)
-                            .addComponent(btnRemove)
-                            .addComponent(btnFind)
-                            .addComponent(btnListContacts)))
+                            .addComponent(txtSalary, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(45, 45, 45)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel10)
+                                    .addComponent(btnAdd)
+                                    .addComponent(btnRemove)
+                                    .addComponent(btnFind)
+                                    .addComponent(btnListContacts)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(35, 35, 35)
+                                .addComponent(txtComments, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(12, 12, 12)
-                        .addComponent(jCalendar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(CalendarBirthData, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(87, 87, 87))
@@ -298,26 +347,50 @@ public class FrnContacts extends javax.swing.JFrame {
         
        
         try{
-            Integer id=Integer.parseInt(txtId.getText());
-            String name = txtName.getName();
-            String hobby = listHobbies.getSelectedValue();
-            String cellPhone = txtCellPhone.getText();
-            String sex = rbtnMale.getActionCommand();
-            String sex2 = rbtnFeminine.getActionCommand();
-            String group = cmbGroup.getActionCommand();
+            Document data = new Document();
+            data.put("ID", txtId.getText());
+            data.put("NAME", txtName.getText());
+            data.put("HOBBIES", listHobbies.getSelectedValuesList());
+            data.put("CELL PHONE", txtCellPhone.getText());
+            data.put("SEX", rbtnMale.getActionCommand());
+            data.put("SEX", rbtnFeminine.getActionCommand());
+            data.put("GROUP", cmbGroup.getAccessibleContext());
+            data.put("SALARY", txtSalary.getText());
+            data.put("BITH DATA", CalendarBirthData.getCalendar());
+            data.put("COMMENTS", txtComments.getText());                      
             
-            Contact contact = new Contact(id, name, hobby, cellPhone, sex, group, 0, LocalDate.MIN, name);
+            Contacts.insertOne(data);
+            JOptionPane.showMessageDialog(this,  "CONTACTS ADDED");
             
-            
-        }catch(Exception ex){
-            Logger.getLogger(FrnContacts.class.getName()).log(Level.SEVERE, null, ex);
-            JOptionPane.showMessageDialog(null, "ERROR: "+ex.getMessage());
+        }catch(Exception err){
+            JOptionPane.showMessageDialog(this, "error: " + err.getMessage());
         }
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnFindActionPerformed
+
+    private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
+
+    int renglon = tblDatos.getSelectedRow();
+        if(renglon == -1){
+            JOptionPane.showMessageDialog(this, "Error ");
+            return;
+        }
+        String id = tblDatos.getValueAt(renglon, 0).toString();
+        int respuesta = JOptionPane.showConfirmDialog(this, "REMOVE ID"+ id);
+        if(respuesta == JOptionPane.OK_OPTION){
+            boolean answerDelete = Delete(id);
+            if(answerDelete==true){
+                JOptionPane.showMessageDialog(this, "correct delete");
+            }else{
+                JOptionPane.showMessageDialog(this, "no delete");
+
+            }
+        }
+                                           
+    }//GEN-LAST:event_btnRemoveActionPerformed
 
     /**
      * @param args the command line arguments
@@ -353,15 +426,22 @@ public class FrnContacts extends javax.swing.JFrame {
             }
         });
     }
+    public boolean Delete(String id){
+        DeleteResult answer = Contacts.deleteOne(new Document("_id", new ObjectId(id)));
+        if(answer.getDeletedCount()==1){
+            return true;
+        }
+        return false;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private com.toedter.calendar.JCalendar CalendarBirthData;
     private javax.swing.ButtonGroup GroupSex;
     private javax.swing.JButton btnAdd;
     private javax.swing.JButton btnFind;
     private javax.swing.JButton btnListContacts;
     private javax.swing.JButton btnRemove;
     private javax.swing.JComboBox<String> cmbGroup;
-    private com.toedter.calendar.JCalendar jCalendar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
