@@ -175,14 +175,19 @@
                                       <Component id="txtOthers" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="txtFeminine" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="txtFeminine" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtGroup" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                      <Component id="txtBirthdate" min="-2" pref="172" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="txtGroup" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="txtBirthdate" min="-2" pref="172" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="69" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
@@ -403,6 +408,9 @@
             </Component>
             <Component class="javax.swing.JRadioButton" name="txtMasculine">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="txtSex"/>
                 </Property>
@@ -411,6 +419,9 @@
             </Component>
             <Component class="javax.swing.JRadioButton" name="txtFeminine">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="txtSex"/>
                 </Property>
@@ -419,6 +430,9 @@
             </Component>
             <Component class="javax.swing.JRadioButton" name="txtOthers">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="cc" red="ff" type="rgb"/>
+                </Property>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="txtSex"/>
                 </Property>
@@ -427,6 +441,9 @@
             </Component>
             <Component class="com.toedter.calendar.JDateChooser" name="txtBirthdate">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="ff" red="99" type="rgb"/>
+                </Property>
                 <Property name="dateFormatString" type="java.lang.String" value="yyyy/MM/dd"/>
               </Properties>
             </Component>

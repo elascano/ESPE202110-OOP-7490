@@ -989,6 +989,9 @@ hs_err_pid*
 >>>>>>> 76228c6d49a6243a7b8112f27259206298a4540b
 >>>>>>> 165822f8d8d708e36f3fa095b8358d51e1cbda3e
 >>>>>>> 5c7a422eac7e6f238630c99e12f7bb49447afcdf
+<<<<<<< HEAD
+/exams/moralesa/unit2/ExamQuestion/nbproject/private/
+=======
 >>>>>>> 4850ff5c923d29f75ecd0401ecd2a7468ee38931
 >>>>>>> 5a62ac2aa443d713c04cfe8f4416b64d79e73e33
 >>>>>>> 7c95ddc2dd8900e772625af937d1f2573a485e0c
@@ -1001,6 +1004,13 @@ hs_err_pid*
 /workshops/garciam/unit2/WS23ProgramInterfaces/PersistenceLib/nbproject/private/
 /workshops/garciam/unit2/WS23ProgramInterfaces/PersistenceLib/dist/
 /workshops/garciam/unit2/WS23ProgramInterfaces/PersistenceLib/build/
+<<<<<<< HEAD
+/exams/teranm/unit2/UmlToCode/nbproject/private/
+/exams/teranm/unit2/UmlToCode/dist/
+=======
+<<<<<<< HEAD
+/exams/garciam/unit 2/Exam/nbproject/private/
+=======
 <<<<<<< HEAD
 /assignments/saltosp/unit2/HW15InterfacesLibrery/PersistenceLib/nbproject/private/
 /assignments/saltosp/unit2/HW15InterfacesLibrery/PersistenceLib1/nbproject/private/
@@ -1016,10 +1026,29 @@ hs_err_pid*
 =======
 >>>>>>> 28f098478f02cbf71dbf7e988a56041d70956cf2
 >>>>>>> 58679426d5c4a874169ed3b5e1aeb427134b9767
+<<<<<<< HEAD
+/assignments/palaciosd/unit2/HW14 CRUD OPERATIONS/ContactsBook/dist/
+/exams/palaciosd/unit2/71-100ExecutableCode/Computer/nbproject/private/
+/exams/palaciosd/unit2/Nueva carpeta/Computer/nbproject/private/
+/exams/palaciosd/unit2/71-100 Code/Computer/nbproject/private/
+=======
 >>>>>>> 1afa681ddc714188e373460728b5d5ca66f6647c
+<<<<<<< HEAD
+/exams/maldonadom/unit2/Prueba/nbproject/private/
+=======
+<<<<<<< HEAD
+/exams/asumazad/unit2/31-58/nbproject/private/
+=======
 >>>>>>> cf4ae9202e001fcaa3d92214c02e3a71bd4f0ce5
 >>>>>>> 2f6dccf50e10a2afad43cfb333cb3af554228140
+<<<<<<< HEAD
+/exams/quingal/Unit2/ExamQuestion38-51/ClassDiagram/nbproject/private/
+=======
 >>>>>>> db081066e1c18f0669f666885dc2419cda248d61
+<<<<<<< HEAD
+>>>>>>> 19a47be2251dc4ed4ca119d154aea423d575df93
+/exams/almachea/Unit2/Question38-51/nbproject/private/
+=======
 /workshops/lincangoj/unit2/WS23/UmlClass/nbproject/private/
 =======
 /exams/tecac/unit2/QUESTION 38-51/QUESTION38-51/nbproject/private/
@@ -1042,8 +1071,134 @@ hs_err_pid*
 >>>>>>> ee579ed4451f768a7eaa7933beb53de3c52f219f
 =======
 >>>>>>> 5b6986c5f27e22318f9bc6e0100d020b342812a4
+<<<<<<< HEAD
+/exams/tecac/unit2/Question 71-100/ManageComputers/nbproject/private/
+/exams/tecac/unit2/Question 71-100/ManageComputers/build/
+=======
 >>>>>>> eeb7335fb4d4d1fc653ecfc91270e86925ae8517
+<<<<<<< HEAD
+/assignments/altamiranoc/Unit2/HW14CrudOperations/SaleComputers/nbproject/private/
+/exams/altamiranoc/Unit2/Question71_100/SaleComputers/nbproject/private/
+=======
+<<<<<<< HEAD
+>>>>>>> 173e005e1ae92c29cb51c654c709a16ba1d6f4da
+=======
 >>>>>>> f590b90b49e557d9d61866c0aa080342b963ea45
+<<<<<<< HEAD
 /workshops/lincangoj/unit2/WS23/Exam/nbproject/private/
 /exams/lincangoj/unit2/JavaApplication27/nbproject/private/
 /exams/lincangoj/unit2/ComputerManagement/nbproject/private/
+=======
+>>>>>>> f0542de2be004b05f6fff011fe919e755d428eb6
+<<<<<<< HEAD
+/exams/calderona/unit2/Connection/nbproject/private/
+/exams/calderona/unit2/Connection/build/
+=======
+<<<<<<< HEAD
+/workshops/moralesa/unit2/WS18Excercise/02Farm/Farm/dist/
+/workshops/moralesa/unit1/WS07Helloworld/HelloOOP/dist/
+/workshops/moralesa/unit1/WS10ChickenFarmer/dist/
+/exams/moralesa/unit2/ComputerInformation/nbproject/private/
+/exams/moralesa/unit2/ComputerInformation/build/
+=======
+/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/build/
+/assignments/guamana/unit2/HW15-InterfaceLibrarie/PersistenceLib/nbproject/private/
+/assignments/simbañaj/unit2/HW14CruedOperations/ContactBook/build/
+/workshops/altamiranoc/Unit2/WS22Menus/CateringPlanner/build/
+/workshops/altamiranoc/Unit2/WS22Menus/CateringPlanner/nbproject/private/
+/workshops/bustillosp/unit2/WS23/PersistanceLib/nbproject/private/
+/workshops/bustillosp/unit2/WS23/PersistanceLib/build/
+/workshops/altamiranoc/Unit2/WSContactsBook/ContactsBook/build/
+/workshops/altamiranoc/Unit2/WSContactsBook/ContactsBook/nbproject/private/
+/workshops/lincangoj/unit2/WS018JSON/Farm1/nbproject/private/
+/exams/ruanoa/unit2/ExamUnit2/nbproject/private/
+/workshops/calderona/unit2/WS23-Interfaces/Persistence/build/
+/workshops/calderona/unit2/WS23-Interfaces/Persistence/nbproject/private/
+<<<<<<< HEAD
+/exams/simbañaj/Exam/Exam/nbproject/private/
+/exams/simbañaj/Exam/Exam/build/
+=======
+>>>>>>> 24cc63f35219622dd8ce534defa2060924b7ea0f
+<<<<<<< HEAD
+/exams/asumazad/unit2/71-100ExecutableCode/71-100ExecutableCode/build/
+/exams/asumazad/unit2/71-100ExecutableCode/71-100ExecutableCode/nbproject/private/
+=======
+>>>>>>> 0cc0b18f6efab88d2b07a4646024a49acac572ac
+<<<<<<< HEAD
+/exams/saltosp/unit2/Examen2/Examen1OOP/nbproject/private/
+=======
+<<<<<<< HEAD
+/exams/garciam/unit 2/ExamCode/InformationOfcomputers/nbproject/private/
+/exams/garciam/unit 2/ExamCode/InformationOfcomputers/build/
+=======
+>>>>>>> 6984887c422265082251c48a540a61892a05ee3f
+<<<<<<< HEAD
+/exams/teranm/unit2/Exam/nbproject/private/
+/exams/teranm/unit2/Exam/build/
+/exams/teranm/unit2/Exam/dist/
+/exams/teranm/unit2/Nueva Carpeta/Exam/build/
+/exams/teranm/unit2/Nueva Carpeta/Exam/dist/
+/exams/teranm/unit2/Nueva Carpeta/Exam/nbproject/private/
+=======
+>>>>>>> c6d08c7fe614883039735e9a3f02a04ad9a2217e
+<<<<<<< HEAD
+/exams/tayos/Unit2/Question71-100/ComputerInformation/nbproject/private/
+/exams/tayos/Unit2/Question71-100/ComputerInformation/build/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/exams/maldonadom/unit2/70-/Infomration of computers/nbproject/private/
+/exams/maldonadom/unit2/Second part/Infomration of computers/nbproject/private/
+/exams/maldonadom/unit2/Second part/ContactsBook/build/
+/exams/maldonadom/unit2/Second part/ContactsBook/nbproject/private/
+/exams/maldonadom/unit2/Second part/ContactsBook/dist/
+/exams/maldonadom/unit2/Second part/Infomration of computers/build/
+/exams/maldonadom/unit2/Second part/MaldonadoMateo71-100/Infomration of computers/build/
+/exams/maldonadom/unit2/Second part/MaldonadoMateo71-100/Infomration of computers/nbproject/private/
+=======
+/exams/zeasj/unit2/Neatbeans38-51/Question38-51/nbproject/private/
+>>>>>>> 8be0e9bf638e30850cc2e3230010cfefdaae94a1
+=======
+/assignments/sanchezj/unit2/HW14-CRUDOPERATIONS/crud/HW14-CrudOperations/HW14-CrudOperations/ContactsBook/ContactsBook/build/
+/assignments/sanchezj/unit2/HW14-CRUDOPERATIONS/crud/HW14-CrudOperations/HW14-CrudOperations/ContactsBook/ContactsBook/dist/
+/assignments/sanchezj/unit2/HW14-CRUDOPERATIONS/crud/HW14-CrudOperations/HW14-CrudOperations/ContactsBook/ContactsBook/nbproject/private/
+=======
+/exams/zeasj/unit2/Neatbeans38-51/Question38-51/nbproject/private/
+<<<<<<< HEAD
+<<<<<<< HEAD
+/exams/zeasj/unit2/Q61-70/ComputerData/ComputerData/nbproject/private/
+/exams/zeasj/unit2/Q61-70/ComputerData/ComputerData/build/
+/exams/zeasj/unit2/Q61-70/ComputerData/ComputerData/dist/
+=======
+>>>>>>> 87082649bcd1df50dae45fb97c54eebe2d69eb0d
+/exams/quingal/Unit2/ExamQuestion71-100/ExamQuestion 71-100/nbproject/private/
+>>>>>>> ab3d10f1e20cb85f90addd327d9938541d16a568
+=======
+>>>>>>> d5ecf602e02b8e235982dc4a39e416dd754c4534
+>>>>>>> cd51fde9749290d81137beaf8637fed378f8256b
+>>>>>>> c4ece63ec2439b65a81874a515e48d690ff2c89d
+>>>>>>> cb29cddbf308fecc85921b99360121eb5cd1fb82
+>>>>>>> 90499611241fb8b21f231b3aa98aaa0970c21ed9
+>>>>>>> 2b685a30938c3a42327284c62b1fe576a4621b23
+>>>>>>> 6e04cbb3462a4e8b25e4a005c30973c254d7a0ed
+<<<<<<< HEAD
+/exams/saltosp/unit2/Examen1/Examen 38-51/nbproject/private/
+=======
+>>>>>>> a0aa50f26d4399e4711cbb4550a559125e367116
+>>>>>>> 21eab887aadb3284cf918d28dda729bc74df1cfc
+>>>>>>> 7e760ff02292b4dc0ea898afbd712237b6077642
+>>>>>>> f8878ad6b52f855f87c7398eceb1fedd400f7720
+>>>>>>> 489e65800ecd87273d19d24315d929c7d644c880
+<<<<<<< HEAD
+/exams/zeasj/unit2/Q61-70/ComputerData/ComputersData/nbproject/private/
+/exams/zeasj/unit2/Q61-70/ComputerData/ComputersData/build/
+/exams/zeasj/unit2/71-100ExecutableCode/ComputerData/build/
+/exams/zeasj/unit2/71-100ExecutableCode/ComputerData/dist/
+/exams/zeasj/unit2/71-100ExecutableCode/ComputerData/nbproject/private/
+=======
+>>>>>>> e543f6d0130885cd3ac68f999ab7a3f9dd65fb70
+/exams/quingal/Unit2/ExamQuestion71-100/ExamQuestion 71-100/build/
+>>>>>>> ab3d10f1e20cb85f90addd327d9938541d16a568
+>>>>>>> 13919d16525d2c5bdc0da89332a9968abc413acf
+/exams/bravoc/unit2/31-58Question/31-58Question/nbproject/private/
+>>>>>>> f82461dd6c23bf6eac4901f1d7ff3dbe5f036ec3
