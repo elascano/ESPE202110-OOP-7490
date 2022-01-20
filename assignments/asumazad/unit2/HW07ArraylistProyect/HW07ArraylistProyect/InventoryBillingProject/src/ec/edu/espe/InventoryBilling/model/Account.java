@@ -3,7 +3,7 @@ package ec.edu.espe.InventoryBilling.model;
 
 /**
  *
- * @author dylanasumaza
+ * @author Asumaza,Bustillos,BravoC,BravoK
  */
 public class Account {
      private String name_of_account;
