@@ -7,5 +7,4 @@ package ec.edu.espe.exam.model;
  */
 public class A {
     
-    
 }
