@@ -1,5 +1,9 @@
-
-package ec.edu.espe.exam.model;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package utils;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
@@ -9,19 +13,20 @@ import com.mongodb.client.MongoDatabase;
 
 /**
  *
- * @author Andy Calderon
+ * @author USUARIO
  */
 public class Connection {
     
     ConnectionString connectionString = new ConnectionString("mongodb+srv://KerlyCorrea:kerly@cluster0.bioem.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
-    MongoClientSettings settings = MongoClientSettings.builder()
+MongoClientSettings settings = MongoClientSettings.builder()
         .applyConnectionString(connectionString)
         .build();
-    MongoClient mongoClient = MongoClients.create(settings);
-    MongoDatabase database = mongoClient.getDatabase("Exam");
+MongoClient mongoClient = MongoClients.create(settings);
+MongoDatabase database = mongoClient.getDatabase("Fruit");
+
     
     public MongoDatabase obtenerDB(){
         return database;
     }
-
+    
 }
