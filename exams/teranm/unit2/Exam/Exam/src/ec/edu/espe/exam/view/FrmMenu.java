@@ -54,7 +54,7 @@ public class FrmMenu extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Emoji", 0, 14)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Welcome to your Catering Planner");
+        jLabel1.setText("Welcome to your Computer Manager");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Emoji", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(153, 0, 51));

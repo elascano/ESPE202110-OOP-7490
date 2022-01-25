@@ -1,11 +1,11 @@
 
-package ec.edu.espe.ManageInformationComputers.model;
+package ec.edu.espe.Computer.model;
 
 /**
  *
  * @author Mateo Landazuri OOP
  */
-public class ManageInformationComputers {
+public class Computer {
 
     private int serialNumber;
     private String brand;
@@ -14,7 +14,7 @@ public class ManageInformationComputers {
     private int storage;
     private int price;
 
-    public ManageInformationComputers(int serialNumber, String brand, String model, int ram, int storage, int price) {
+    public Computer(int serialNumber, String brand, String model, int ram, int storage, int price) {
         this.serialNumber = serialNumber;
         this.brand = brand;
         this.model = model;
