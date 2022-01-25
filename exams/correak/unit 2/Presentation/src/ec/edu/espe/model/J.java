@@ -10,5 +10,7 @@ package ec.edu.espe.model;
  * @author USUARIO
  */
 public class J {
-    
+    public String to String(){
+        return "J"
+    }
 }

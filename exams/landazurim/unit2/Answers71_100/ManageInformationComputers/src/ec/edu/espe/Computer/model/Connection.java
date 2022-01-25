@@ -1,5 +1,5 @@
 
-package ec.edu.espe.ManageInformationComputers.model;
+package ec.edu.espe.Computer.model;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
@@ -14,7 +14,7 @@ import com.mongodb.client.MongoDatabase;
 public class Connection {
     
     
-ConnectionString connectionString = new ConnectionString("mongodb+srv://mlandazuri:mlandazuri@cluster0.joijd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+ConnectionString connectionString = new ConnectionString("mongodb+srv://jdlincango:jdlinango@cluster0.rk58t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 MongoClientSettings settings = MongoClientSettings.builder()
         .applyConnectionString(connectionString)
         .build();

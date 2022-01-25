@@ -5,6 +5,6 @@ package ec.edu.espe.question.model;
  *
  * @author Camila
  */
-public class C {
+public class C {        //0
     
 }
