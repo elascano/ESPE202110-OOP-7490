@@ -6,8 +6,8 @@ import java.util.ArrayList;
  *
  * @author Altamirano Cristhian
  */
-public class B extends A{
-        private ArrayList<H> hs = new ArrayList<>(); 
+public class B extends A{             //  0.2/0.5 You do not need the extends
+        private ArrayList<H> hs = new ArrayList<>(); // OK  0.5/0.5
 
     public B() {
     }
