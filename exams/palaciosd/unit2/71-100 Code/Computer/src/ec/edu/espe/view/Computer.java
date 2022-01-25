@@ -2,8 +2,13 @@
 package ec.edu.espe.view;
         
 
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
+import ec.edu.espe.model.Connection;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+import org.bson.Document;
 
 
 /**
@@ -12,6 +17,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class Computer extends javax.swing.JFrame {
     
+     MongoCollection<Document> Computer = new Connection().obtenerDB().getCollection("Contact");
     DefaultTableModel tabla = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column) {
@@ -245,7 +251,24 @@ public class Computer extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
+      
         
+        try {
+            Document data = new Document();
+            
+            data.put("Name", txtSerialNumber.getText());
+            data.put("Id", txtBrend.getText());
+            data.put("Gender", txtModel.getText());
+            data.put("Age", txtRAM.getText());
+            data.put("Age", txtStorage.getText());
+            Computer.insertOne(data);
+            
+            JOptionPane.showMessageDialog(this, "EXITO01");
+           
+        } catch(Exception err){
+            JOptionPane.showMessageDialog(this, "ERROR: "+err.getMessage());
+        }
+                
               
             
     }//GEN-LAST:event_btnAddActionPerformed
@@ -311,6 +334,7 @@ public class Computer extends javax.swing.JFrame {
     }
     public void mostrar(){
         
+         MongoCursor<Document> consulta = Computer.find().iterator();
                
         int total = tabla.getRowCount();
         for(int i = 0; i<total; i++){
