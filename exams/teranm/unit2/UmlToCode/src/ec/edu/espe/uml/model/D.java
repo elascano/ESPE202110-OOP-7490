@@ -6,7 +6,7 @@ import java.util.ArrayList;
  *
  * @author Melanie
  */
-public class D extends A{
-    ArrayList<F> fs = new ArrayList<>();
-    ArrayList<E> es = new ArrayList<>();
+public class D extends A{  //0.4
+    ArrayList<F> fs;
+    
 }

@@ -4,13 +4,11 @@ package ec.edu.espe.question.model;
  *
  * @author Altamirano Cristhian
  */
-public class E {
+public class E {    // Name 0.8/0.8
 
-    public E() {
-    }
 
     @Override
-    public String toString() {
+    public String toString() {    //To String 0.2/0.2
         return "E{" + '}';
     }
     
