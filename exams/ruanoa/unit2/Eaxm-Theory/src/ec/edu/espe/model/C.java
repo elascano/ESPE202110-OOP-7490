@@ -3,8 +3,8 @@ package ec.edu.espe.model;
 
 /**
  *
- * @author ASUS
+ * @author Ruano 
  */
-public class C {
+public class C extends A { //0.5
     
 }
