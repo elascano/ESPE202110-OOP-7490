@@ -311,6 +311,11 @@ public class FrmContacts extends javax.swing.JFrame {
         );
 
         btnFind.setText("Find");
+        btnFind.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFindActionPerformed(evt);
+            }
+        });
 
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
@@ -515,6 +520,10 @@ public class FrmContacts extends javax.swing.JFrame {
     private void txtGroupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtGroupActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtGroupActionPerformed
+
+    private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnFindActionPerformed
 
     public boolean Delete(String id){
         DeleteResult answer = Contact.deleteOne(new Document("_id", new ObjectId(id)));
