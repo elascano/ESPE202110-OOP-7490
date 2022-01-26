@@ -1,5 +1,5 @@
 
-package ec.edu.espe.ManageInformationComputers.model;
+package ec.edu.espe.Computers.model;
 
 /**
  *

@@ -1,5 +1,5 @@
 
-package ec.edu.espe.cbook.model;
+package ec.edu.espe.employes.utils;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
@@ -13,14 +13,12 @@ import com.mongodb.client.MongoDatabase;
  */
 public class Connection {
     
-    
-ConnectionString connectionString = new ConnectionString("mongodb+srv://mlandazuri:mlandazuri@cluster0.joijd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
-MongoClientSettings settings = MongoClientSettings.builder()
+    ConnectionString connectionString = new ConnectionString("mongodb+srv://mlandazuri:mlandazuri@cluster0.joijd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+    MongoClientSettings settings = MongoClientSettings.builder()
         .applyConnectionString(connectionString)
         .build();
-MongoClient mongoClient = MongoClients.create(settings);
-MongoDatabase database = mongoClient.getDatabase("ExamUnit2");
-
+    MongoClient mongoClient = MongoClients.create(settings);
+    MongoDatabase database = mongoClient.getDatabase("Empleoyes");
     
     public MongoDatabase obtenerDB(){
         return database;
