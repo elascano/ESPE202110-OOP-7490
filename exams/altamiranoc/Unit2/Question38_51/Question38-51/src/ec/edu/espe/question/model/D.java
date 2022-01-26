@@ -6,11 +6,11 @@ import java.util.ArrayList;
  *
  * @author Altamirano Cristhian
  */
-public class D extends A {  
+public class D extends A {                          // 0.4/0.4
     private ArrayList<F> fs = new ArrayList<>();
     private ArrayList<E> es = new ArrayList<>(); 
 
-    public D() {
+    public D() {                     //This constructor must have the ArrayList from F and A    0.1/0.4
     }
 
     @Override
@@ -21,7 +21,7 @@ public class D extends A {
     /**
      * @return the fs
      */
-    public ArrayList<F> getFs() {
+    public ArrayList<F> getFs() {     //0.2/0.2 Setter and getters
         return fs;
     }
 
