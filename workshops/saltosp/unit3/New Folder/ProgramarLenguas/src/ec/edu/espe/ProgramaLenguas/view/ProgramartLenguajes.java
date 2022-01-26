@@ -1,5 +1,5 @@
 
-package ec.edu.espe.view;
+package ec.edu.espe.ProgramaLenguas.view;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
  *
  * @author Anderson
  */
-public class InventoryConexion extends javax.swing.JFrame {
+public class ProgramartLenguajes extends javax.swing.JFrame {
 DB db;
 DBCollection products;
  BasicDBObject document = new BasicDBObject();
@@ -27,7 +27,7 @@ DBCollection products;
      * Creates new form InventoryConexion
      * @throws java.net.UnknownHostException
      */
-    public InventoryConexion() throws UnknownHostException{
+    public ProgramartLenguajes() throws UnknownHostException{
         
     try {
         Mongo mongo = new Mongo("localhost",27017);
@@ -35,7 +35,7 @@ DBCollection products;
         products=db.getCollection("products");
         
     } catch (UnknownHostException ex) {
-        Logger.getLogger(InventoryConexion.class.getName()).log(Level.SEVERE, null, ex);
+        Logger.getLogger(ProgramartLenguajes.class.getName()).log(Level.SEVERE, null, ex);
     }
         
         
@@ -51,34 +51,48 @@ DBCollection products;
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        jComboBox3 = new javax.swing.JComboBox<>();
+        jComboBox4 = new javax.swing.JComboBox<>();
+        jComboBox5 = new javax.swing.JComboBox<>();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jComboBox7 = new javax.swing.JComboBox<>();
+        jComboBox8 = new javax.swing.JComboBox<>();
         PnlInputs = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
         idProvider = new javax.swing.JLabel();
         txtid = new javax.swing.JTextField();
         txtname = new javax.swing.JTextField();
         txtbrand = new javax.swing.JTextField();
-        txtpurchasePrice = new javax.swing.JTextField();
-        txtquantity = new javax.swing.JTextField();
-        txtidProviders = new javax.swing.JTextField();
         PnlButton = new javax.swing.JPanel();
-        btmdisplay = new javax.swing.JButton();
-        btmsave = new javax.swing.JButton();
         btmdelete = new javax.swing.JButton();
-        btmupdate = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        idProvider1 = new javax.swing.JLabel();
+        jComboBox10 = new javax.swing.JComboBox<>();
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel3.setText("SISTEM IVENTORY");
-
-        jLabel4.setText("Add Products:");
+        jLabel3.setText("ProgrammigLanguaje");
 
         jLabel5.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jLabel5.setText("ID:");
@@ -87,36 +101,26 @@ DBCollection products;
         jLabel6.setText("Name:");
 
         jLabel7.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        jLabel7.setText("Brand:");
-
-        jLabel8.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        jLabel8.setText("Purchase Price:");
-
-        jLabel9.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        jLabel9.setText("Quantity:");
 
         idProvider.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        idProvider.setText("ID Provider:");
+        idProvider.setText("Operation:");
 
-        txtquantity.addActionListener(new java.awt.event.ActionListener() {
+        txtbrand.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtquantityActionPerformed(evt);
+                txtbrandActionPerformed(evt);
             }
         });
 
-        btmdisplay.setText("DISPLAY");
-        btmdisplay.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btmdisplayActionPerformed(evt);
-            }
-        });
-
-        btmsave.setText("SAVE");
-        btmsave.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btmsaveActionPerformed(evt);
-            }
-        });
+        javax.swing.GroupLayout PnlButtonLayout = new javax.swing.GroupLayout(PnlButton);
+        PnlButton.setLayout(PnlButtonLayout);
+        PnlButtonLayout.setHorizontalGroup(
+            PnlButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        PnlButtonLayout.setVerticalGroup(
+            PnlButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 98, Short.MAX_VALUE)
+        );
 
         btmdelete.setText("DELETE");
         btmdelete.addActionListener(new java.awt.event.ActionListener() {
@@ -125,39 +129,15 @@ DBCollection products;
             }
         });
 
-        btmupdate.setText("UPDATE");
-        btmupdate.addActionListener(new java.awt.event.ActionListener() {
+        idProvider1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        idProvider1.setText("Type:");
+
+        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btmupdateActionPerformed(evt);
+                jComboBox10ActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout PnlButtonLayout = new javax.swing.GroupLayout(PnlButton);
-        PnlButton.setLayout(PnlButtonLayout);
-        PnlButtonLayout.setHorizontalGroup(
-            PnlButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PnlButtonLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btmsave, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btmdelete)
-                .addGap(18, 18, 18)
-                .addComponent(btmupdate)
-                .addGap(18, 18, 18)
-                .addComponent(btmdisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        PnlButtonLayout.setVerticalGroup(
-            PnlButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PnlButtonLayout.createSequentialGroup()
-                .addGap(31, 31, 31)
-                .addGroup(PnlButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btmsave)
-                    .addComponent(btmdisplay)
-                    .addComponent(btmdelete)
-                    .addComponent(btmupdate))
-                .addGap(0, 44, Short.MAX_VALUE))
-        );
 
         javax.swing.GroupLayout PnlInputsLayout = new javax.swing.GroupLayout(PnlInputs);
         PnlInputs.setLayout(PnlInputsLayout);
@@ -166,53 +146,47 @@ DBCollection products;
             .addGroup(PnlInputsLayout.createSequentialGroup()
                 .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(PnlInputsLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(PnlButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(PnlInputsLayout.createSequentialGroup()
                         .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(PnlInputsLayout.createSequentialGroup()
+                                .addGap(22, 22, 22)
+                                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel6)
+                                    .addComponent(jLabel5)
+                                    .addComponent(jLabel7))
+                                .addGap(41, 41, 41))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlInputsLayout.createSequentialGroup()
                                 .addContainerGap()
                                 .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel4)
-                                    .addGroup(PnlInputsLayout.createSequentialGroup()
-                                        .addGap(12, 12, 12)
-                                        .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addGroup(PnlInputsLayout.createSequentialGroup()
-                                                .addComponent(idProvider)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(txtidProviders))
-                                            .addGroup(PnlInputsLayout.createSequentialGroup()
-                                                .addComponent(jLabel9)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(txtquantity, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(PnlInputsLayout.createSequentialGroup()
-                                                .addComponent(jLabel8)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(txtpurchasePrice, javax.swing.GroupLayout.PREFERRED_SIZE, 63, Short.MAX_VALUE))
-                                            .addGroup(PnlInputsLayout.createSequentialGroup()
-                                                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(jLabel6)
-                                                    .addComponent(jLabel5)
-                                                    .addComponent(jLabel7))
-                                                .addGap(30, 30, 30)
-                                                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(txtbrand)
-                                                    .addComponent(txtname)
-                                                    .addComponent(txtid)))))))
+                                    .addComponent(idProvider1)
+                                    .addComponent(idProvider))
+                                .addGap(18, 18, 18)))
+                        .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(PnlInputsLayout.createSequentialGroup()
-                                .addGap(143, 143, 143)
-                                .addComponent(jLabel3)))
-                        .addGap(0, 194, Short.MAX_VALUE))
-                    .addGroup(PnlInputsLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(PnlButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtbrand, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)
+                                    .addComponent(txtname)
+                                    .addComponent(txtid))
+                                .addGap(0, 5, Short.MAX_VALUE))
+                            .addGroup(PnlInputsLayout.createSequentialGroup()
+                                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel3)
+                                    .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 0, Short.MAX_VALUE)))))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlInputsLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(btmdelete)
+                .addGap(69, 69, 69))
         );
         PnlInputsLayout.setVerticalGroup(
             PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PnlInputsLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(36, 36, 36)
                 .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(txtid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -223,78 +197,36 @@ DBCollection products;
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
-                    .addComponent(txtbrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(txtbrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(idProvider))
+                .addGap(18, 18, 18)
                 .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(txtpurchasePrice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(txtquantity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(idProvider)
-                    .addComponent(txtidProviders, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                    .addComponent(idProvider1)
+                    .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                .addComponent(btmdelete)
+                .addGap(26, 26, 26)
                 .addComponent(PnlButton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(65, 65, 65)
                 .addComponent(PnlInputs, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 682, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(19, 19, 19))
+                .addGap(72, 72, 72))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(PnlInputs, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 12, Short.MAX_VALUE)
+                .addComponent(PnlInputs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    private void btmsaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmsaveActionPerformed
-
-       
-document.put("ID",  txtid.getText());
-document.put("Name",  txtname.getText());
-document.put("Bran",  txtbrand.getText());        
-document.put("Purchase Price",  txtpurchasePrice.getText());    
-document.put("Quantity", txtquantity.getText());   
-document.put("Id Provider",  txtidProviders.getText());   
-products.insert(document);
-
-//TODO add your handling code here;
-        
-        
-        
-    }//GEN-LAST:event_btmsaveActionPerformed
-
-    private void btmdisplayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmdisplayActionPerformed
-        
-     DBCursor cursor = products.find();
-     while(cursor.hasNext()){
-         jTextArea1.setText(jTextArea1.getText() + "\n" + cursor.next());
-     }
-        
-  
-    }//GEN-LAST:event_btmdisplayActionPerformed
-
-    private void txtquantityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtquantityActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtquantityActionPerformed
 
     private void btmdeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmdeleteActionPerformed
     String id = JOptionPane.showInputDialog("Enter ID");
@@ -306,29 +238,13 @@ products.insert(document);
 // TODO add your handling code here:
     }//GEN-LAST:event_btmdeleteActionPerformed
 
-    private void btmupdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btmupdateActionPerformed
-        
-    if (txtid.getText().equals("")){
-        JOptionPane.showMessageDialog(null, "Enter ID","Conexio", JOptionPane.ERROR_MESSAGE);
-        
-        
-    }else{
-        document.put("ID", txtid.getText());
-        
-        BasicDBObject documentN = new BasicDBObject();
-       
-documentN.put("ID",  txtid.getText());
-documentN.put("Name",  txtname.getText());
-documentN.put("Bran",  txtbrand.getText());        
-documentN.put("Purchase Price",  txtpurchasePrice.getText());    
-documentN.put("Quantity", txtquantity.getText());   
-documentN.put("Id Provider",  txtidProviders.getText());   
-products.update(document,documentN);
-
-    }
-    
+    private void txtbrandActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtbrandActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btmupdateActionPerformed
+    }//GEN-LAST:event_txtbrandActionPerformed
+
+    private void jComboBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox10ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -347,23 +263,24 @@ products.update(document,documentN);
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(InventoryConexion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProgramartLenguajes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(InventoryConexion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProgramartLenguajes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(InventoryConexion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProgramartLenguajes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(InventoryConexion.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ProgramartLenguajes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    new InventoryConexion().setVisible(true);
+                    new ProgramartLenguajes().setVisible(true);
                 } catch (UnknownHostException ex) {
-                    Logger.getLogger(InventoryConexion.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(ProgramartLenguajes.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         });
@@ -373,24 +290,24 @@ products.update(document,documentN);
     private javax.swing.JPanel PnlButton;
     private javax.swing.JPanel PnlInputs;
     private javax.swing.JButton btmdelete;
-    private javax.swing.JButton btmdisplay;
-    private javax.swing.JButton btmsave;
-    private javax.swing.JButton btmupdate;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel idProvider;
+    private javax.swing.JLabel idProvider1;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox10;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JComboBox<String> jComboBox4;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox7;
+    private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField txtbrand;
     private javax.swing.JTextField txtid;
-    private javax.swing.JTextField txtidProviders;
     private javax.swing.JTextField txtname;
-    private javax.swing.JTextField txtpurchasePrice;
-    private javax.swing.JTextField txtquantity;
     // End of variables declaration//GEN-END:variables
 }

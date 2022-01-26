@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ec.edu.espe.model;
+package ec.edu.espe.ProgramaLenguas.model;
 
 /**
  *
- * @author Ruano 
+ * @author Paul Saltos
  */
-public class A { //0.5
+public class ProgrammigLanguaje {
     
 }
