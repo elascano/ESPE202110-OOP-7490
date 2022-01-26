@@ -34,6 +34,11 @@ public class FrmReservation extends javax.swing.JFrame {
         jLabel1.setText("RESERVATIONS");
 
         BtnCateringPlanner.setText("CATERING PLANNER");
+        BtnCateringPlanner.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnCateringPlannerActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -59,6 +64,10 @@ public class FrmReservation extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BtnCateringPlannerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnCateringPlannerActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnCateringPlannerActionPerformed
 
     /**
      * @param args the command line arguments

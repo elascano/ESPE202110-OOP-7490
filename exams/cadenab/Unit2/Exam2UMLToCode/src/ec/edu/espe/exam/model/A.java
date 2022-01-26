@@ -8,6 +8,10 @@ package ec.edu.espe.exam.model;
  *
  * @author Benjamin Cadena OOPTech ESPE-DCCO
  */
+<<<<<<< HEAD
 public class A {
+=======
+public class G {
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
     
 }

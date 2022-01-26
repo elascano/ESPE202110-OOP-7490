@@ -22,6 +22,7 @@
 *.tar.gz
 *.rar
 <<<<<<< HEAD
+<<<<<<< HEAD
 /exams/altamiranoc/Unit2/Question38-51/Question38-51/nbproject/private/
 /exams/altamiranoc/Unit2/Question38-51/Question38-51/build/
 =======
@@ -1249,3 +1250,5 @@ hs_err_pid*
 /workshops/caisatoas/Unit3/SmartCity/build/
 /workshops/caisatoas/Unit3/ES29SmartCity/SmartCity/build/
 /workshops/caisatoas/Unit3/ES29SmartCity/SmartCity/nbproject/private/
+=======
+>>>>>>> 284a4ddc67bcc25cceb590019cb3b83787bd1ce7

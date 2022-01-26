@@ -7,9 +7,9 @@ import java.util.ArrayList;
  *
  * @author melig
  */
-public class C extends A {
+public class C extends A {          //0.5
 
-    private ArrayList<E> es = new ArrayList<>();
+    private ArrayList<E> es = new ArrayList<>();       //0.0
 
     public C() {
     }
@@ -19,7 +19,7 @@ public class C extends A {
         return "C{" + "es=" + es + '}';
     }
 
-    
+                                                     //0.0
     
     /**
      * @return the es
@@ -28,10 +28,10 @@ public class C extends A {
         return es;
     }
 
-    /**
+    /**                                              
      * @param es the es to set
-     */
-    public void setEs(ArrayList<E> es) {
+     */ 
+    public void setEs(ArrayList<E> es) {                  //0.1
         this.es = es;
     }
 
