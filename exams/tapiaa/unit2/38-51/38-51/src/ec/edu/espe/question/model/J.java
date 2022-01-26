@@ -5,7 +5,11 @@ package ec.edu.espe.question.model;
  *
  * @author Andrea Tapia
  */
-public class J {
+/*name 			0.8/0.8
+to String		0.2/0.2	
+Total                   1/1
+*/
+public class J {  
 
     public J() {
     }
