@@ -125,65 +125,20 @@ public class Mountain extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUpgradeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpgradeActionPerformed
-        MongoCursor<Document> query = Mountain.find().iterator();
-
-               int total = table.getRowCount();
-               for (int i = 0; i < total; i++) {
-                   table.removeRow(0);
-               }
-               while (query.hasNext()) {
-                   ArrayList<Object> doc = new ArrayList<Object>(query.next().values());
-                   table.addRow(doc.toArray());
-               }
-       
-        
-        
-        
+     
         
     }//GEN-LAST:event_btnUpgradeActionPerformed
 
     private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
-        int renglon = tblComputer.getSelectedRow();                //Nombre de la JTabla
-        if(renglon == -1){
-            JOptionPane.showMessageDialog(this, "Error, Select the user to delete");
-            return;
-        }
-        String idRemove = tblComputer.getValueAt(renglon, 0).toString();
-        int respuesta = JOptionPane.showConfirmDialog(this, "Are you shure to delete the user" + idRemove);  //Opcional
-        if(respuesta == JOptionPane.OK_OPTION){
-            boolean answerDelete = Delete(idRemove);
-            if(answerDelete==true){
-                view();
-                JOptionPane.showMessageDialog(this, "The user was successfully deleted");
-            }else{
-                JOptionPane.showMessageDialog(this, "No se pudo eliminar");
-            }
-        }     
+      
         // TODO add your handling code here:
     }//GEN-LAST:event_btnRemoveActionPerformed
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
- Document data = new Document();
-            
-            data.put("id", Integer.parseInt(txtId.getText()));
-            data.put("name", txtModel.getText());
-            data.put("mark", txtMark.getText());
-            data.put("ram", Integer.parseInt (txtRam.getText()));
-            data.put("Storage", Integer.parseInt(txtId.getText()));
-            data.put("Cost", Integer.parseInt(txtId.getText()));
 
-            Computer.insertOne(data);
-            
-            JOptionPane.showMessageDialog(this, "EXITO");
-           
-        } catch(Exception err){
-            JOptionPane.showMessageDialog(this, "ERROR: ");
-        }
-        
     }//GEN-LAST:event_btnAddActionPerformed
 
-    /**
-     * @param args the command line arguments
+    /**     * @param args the command line arguments
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
