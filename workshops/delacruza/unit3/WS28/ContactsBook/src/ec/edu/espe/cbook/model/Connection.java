@@ -1,5 +1,5 @@
 
-package ec.edu.espe.exam.model;
+package ec.edu.espe.cbook.model;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
@@ -9,7 +9,7 @@ import com.mongodb.client.MongoDatabase;
 
 /**
  *
- * @author DELACRUZALEJANDRO
+ * @author ALEJANDRODELACRUZ
  */
 public class Connection {
     
@@ -19,8 +19,7 @@ MongoClientSettings settings = MongoClientSettings.builder()
         .applyConnectionString(connectionString)
         .build();
 MongoClient mongoClient = MongoClients.create(settings);
-MongoDatabase database = mongoClient.getDatabase("Exam2");
-
+MongoDatabase database = mongoClient.getDatabase("wildanimal");
 
     
     public MongoDatabase obtenerDB(){
