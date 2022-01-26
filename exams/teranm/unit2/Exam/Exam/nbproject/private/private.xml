@@ -3,7 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Melanie/OneDrive/Documentos/OOP/Código/ESPE202110-OOP-7490/exams/teranm/unit2/Exam/src/ec/edu/espe/exam/view/FrmView.java</file>
+<<<<<<< HEAD
+            <file>file:/C:/Users/LENOVO/Desktop/SegundoSemestre/POO/Repository/ESPE202110-OOP-TC-7490/exams/teranm/unit2/Exam/Exam/src/ec/edu/espe/exam/view/FrmMenu.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/SegundoSemestre/POO/Repository/ESPE202110-OOP-TC-7490/exams/teranm/unit2/Exam/Exam/src/ec/edu/espe/exam/view/FrmAbout.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/SegundoSemestre/POO/Repository/ESPE202110-OOP-TC-7490/exams/teranm/unit2/Exam/Exam/src/utils/MongoConnection.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/SegundoSemestre/POO/Repository/ESPE202110-OOP-TC-7490/exams/teranm/unit2/Exam/Exam/src/ec/edu/espe/exam/view/FrmComputer.java</file>
+=======
+            <file>file:/C:/Users/Melanie/OneDrive/Documentos/OOP/Código/ESPE202110-OOP-7490/exams/teranm/unit2/Exam/Exam/src/ec/edu/espe/exam/view/FrmComputer.java</file>
+            <file>file:/C:/Users/Melanie/OneDrive/Documentos/OOP/Código/ESPE202110-OOP-7490/exams/teranm/unit2/Exam/Exam/src/utils/MongoConnection.java</file>
+>>>>>>> a8a7c0391d0e968313f7042f7b2607a2350358fe
         </group>
     </open-files>
 </project-private>

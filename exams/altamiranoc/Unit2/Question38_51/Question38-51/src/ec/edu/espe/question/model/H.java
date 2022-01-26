@@ -4,9 +4,9 @@ package ec.edu.espe.question.model;
  *
  * @author Altamirano Cristhian
  */
-public class H {
+public class H {    // It must be Interface       0.5/1.0
 
-    public H() {
+    public H() {                        // You need the public void m
     }
 
     @Override
