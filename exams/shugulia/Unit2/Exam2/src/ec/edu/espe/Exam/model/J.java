@@ -8,6 +8,6 @@ package ec.edu.espe.Exam.model;
  *
  * @author DARK
  */
-public class J {
-    
+public class J {   //0.8
+                   //0
 }
