@@ -66,6 +66,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButtonUpdate = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
+        jButton2 = new javax.swing.JButton();
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -183,6 +187,11 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
+=======
+        jButton2.setText("DELETE");
+
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -191,6 +200,11 @@ public class Menu extends javax.swing.JFrame {
                 .addGap(42, 42, 42)
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+<<<<<<< HEAD
+=======
+                .addComponent(jButton2)
+                .addGap(148, 148, 148)
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
                 .addComponent(jButtonUpdate)
                 .addGap(48, 48, 48))
         );
@@ -200,7 +214,12 @@ public class Menu extends javax.swing.JFrame {
                 .addGap(21, 21, 21)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
+<<<<<<< HEAD
                     .addComponent(jButtonUpdate))
+=======
+                    .addComponent(jButtonUpdate)
+                    .addComponent(jButton2))
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
                 .addContainerGap(21, Short.MAX_VALUE))
         );
 
@@ -249,6 +268,7 @@ public class Menu extends javax.swing.JFrame {
         Document dataUpload= new Document();
 
             
+<<<<<<< HEAD
             dataUpload.put,"SERIAL NUMBER", Integer.parseInt() );
             dataUpload.put("NAME", txtName.getText());
             dataUpload.put("QUANTITY", Integer.parseInt(txtQuantity.getText()));
@@ -264,6 +284,23 @@ public class Menu extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Error Could not Update");
         }
     }                                   
+=======
+//            dataUpload.put,"SERIAL NUMBER", Integer.parseInt() );
+//            dataUpload.put("NAME", txtName.getText());
+//            dataUpload.put("QUANTITY", Integer.parseInt(txtQuantity.getText()));
+//            dataUpload.put("PRICE", txtPrice.getText());
+//            dataUpload.put("CONDITION", txtCondition.getSelectedItem().toString());
+//            dataUpload.put("DATE", txtDate.getDate().toString());
+//            dataUpload.put("COMMENTS", txtComments.getText());
+//        
+//        UpdateResult answer = .updateOne(filter, new Document("$set",dataUpload));
+//        if(answer.getMatchedCount()==1){
+//            JOptionPane.showMessageDialog(this, "Success got Updated");
+//        } else {
+//            JOptionPane.showMessageDialog(this, "Error Could not Update");
+//        }
+//    }                                   
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
     }//GEN-LAST:event_jButtonUpdateActionPerformed
 
     /**
@@ -303,6 +340,10 @@ public class Menu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+<<<<<<< HEAD
+=======
+    private javax.swing.JButton jButton2;
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
     private javax.swing.JButton jButtonUpdate;
     private javax.swing.JComboBox jComboBox2;
     private javax.swing.JComboBox jComboRam;

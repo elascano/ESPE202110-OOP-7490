@@ -7,7 +7,7 @@ import java.util.ArrayList;
  *
  * @author Camila
  */
-public class B {
-    ArrayList<H> = new ArrayList<H>();
+public class B {                            //0.5
+    ArrayList<H> = new ArrayList<H>();      //0.5
     
 }

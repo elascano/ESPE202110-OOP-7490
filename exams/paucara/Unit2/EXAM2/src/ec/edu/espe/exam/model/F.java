@@ -3,8 +3,8 @@ package ec.edu.espe.exam.model;
 
 /**
  *
- * @author javie
+ * @author Javier Paucar
  */
 public class F {
-    
+
 }

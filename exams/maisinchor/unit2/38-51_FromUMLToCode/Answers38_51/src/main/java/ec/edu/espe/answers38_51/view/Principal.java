@@ -45,7 +45,7 @@ public static void main (){
 	}
 
 	puclic class J(){
-
+            
 	}
 }
 }
