@@ -3,7 +3,7 @@ package ec.edu.espe.model;
 
 /**
  *
- * @author ASUS
+ * @author Ruano
  */
 public class I {
     
