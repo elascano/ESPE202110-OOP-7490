@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.theory.model;
 
 /**
  *
  * @author Salma Villegas
  */
-public class F {
+public class F {     //0.8
     
 }
