@@ -1,11 +1,15 @@
 
+<<<<<<< HEAD:exams/landazurim/unit2/Answers71_100/ManageInformationComputers/src/ec/edu/espe/Computers/model/ManageInformationComputers.java
 package ec.edu.espe.Computers.model;
+=======
+package ec.edu.espe.Computer.model;
+>>>>>>> 0ea249654e197ce4a651699a90c9d28d0daecd6a:exams/landazurim/unit2/Answers71_100/ManageInformationComputers/src/ec/edu/espe/Computer/model/Computer.java
 
 /**
  *
  * @author Mateo Landazuri OOP
  */
-public class ManageInformationComputers {
+public class Computer {
 
     private int serialNumber;
     private String brand;
@@ -14,7 +18,7 @@ public class ManageInformationComputers {
     private int storage;
     private int price;
 
-    public ManageInformationComputers(int serialNumber, String brand, String model, int ram, int storage, int price) {
+    public Computer(int serialNumber, String brand, String model, int ram, int storage, int price) {
         this.serialNumber = serialNumber;
         this.brand = brand;
         this.model = model;

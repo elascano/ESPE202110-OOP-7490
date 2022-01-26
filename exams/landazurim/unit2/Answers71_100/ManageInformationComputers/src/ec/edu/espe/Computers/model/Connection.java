@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD:exams/landazurim/unit2/Answers71_100/ManageInformationComputers/src/ec/edu/espe/Computers/model/Connection.java
 package ec.edu.espe.Computers.model;
+=======
+package ec.edu.espe.Computer.model;
+>>>>>>> 0ea249654e197ce4a651699a90c9d28d0daecd6a:exams/landazurim/unit2/Answers71_100/ManageInformationComputers/src/ec/edu/espe/Computer/model/Connection.java
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
@@ -14,7 +18,7 @@ import com.mongodb.client.MongoDatabase;
 public class Connection {
     
     
-ConnectionString connectionString = new ConnectionString("mongodb+srv://mlandazuri:mlandazuri@cluster0.joijd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+ConnectionString connectionString = new ConnectionString("mongodb+srv://jdlincango:jdlinango@cluster0.rk58t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 MongoClientSettings settings = MongoClientSettings.builder()
         .applyConnectionString(connectionString)
         .build();

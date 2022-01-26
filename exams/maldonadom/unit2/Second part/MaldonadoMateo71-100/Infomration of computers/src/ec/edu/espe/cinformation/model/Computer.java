@@ -10,9 +10,9 @@ package ec.edu.espe.cinformation.model;
  */
 public class Computer {
     
-     int SerialNumber;
+    int SerialNumber;
     String Brand;
-     String Model;
+    String Model;
     int Ram;
     int Storage;
     float Price;
