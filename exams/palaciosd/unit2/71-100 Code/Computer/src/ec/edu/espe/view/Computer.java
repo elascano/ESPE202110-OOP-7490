@@ -2,8 +2,12 @@
 package ec.edu.espe.view;
         
 
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
+import ec.edu.espe.model.Connection;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
+import org.bson.Document;
 
 
 /**
@@ -11,6 +15,8 @@ import javax.swing.table.DefaultTableModel;
  * @author Sebastian Palacios
  */
 public class Computer extends javax.swing.JFrame {
+    
+    MongoCollection<Document> Computer = new Connection().obtenerDB().getCollection("Contact");
     
     DefaultTableModel tabla = new DefaultTableModel(){
         @Override
@@ -311,7 +317,8 @@ public class Computer extends javax.swing.JFrame {
     }
     public void mostrar(){
         
-               
+        MongoCursor<Document> consulta = Computer.find().iterator();
+        
         int total = tabla.getRowCount();
         for(int i = 0; i<total; i++){
             tabla.removeRow(0);
