@@ -17,7 +17,12 @@ import org.bson.Document;
  */
 public class Computer extends javax.swing.JFrame {
     
+<<<<<<< HEAD
      MongoCollection<Document> Computer = new Connection().obtenerDB().getCollection("Contact");
+=======
+    MongoCollection<Document> Computer = new Connection().obtenerDB().getCollection("Contact");
+    
+>>>>>>> 81ff00713206e5716f77491d99c21374c75b729c
     DefaultTableModel tabla = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column) {
@@ -334,8 +339,13 @@ public class Computer extends javax.swing.JFrame {
     }
     public void mostrar(){
         
+<<<<<<< HEAD
          MongoCursor<Document> consulta = Computer.find().iterator();
                
+=======
+        MongoCursor<Document> consulta = Computer.find().iterator();
+        
+>>>>>>> 81ff00713206e5716f77491d99c21374c75b729c
         int total = tabla.getRowCount();
         for(int i = 0; i<total; i++){
             tabla.removeRow(0);
