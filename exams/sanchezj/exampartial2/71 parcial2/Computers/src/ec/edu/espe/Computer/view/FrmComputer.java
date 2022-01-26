@@ -7,7 +7,6 @@ package ec.edu.espe.Computer.view;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
-import ec.edu.espe.Computer.model.Computer;
 import ec.edu.espe.Computer.model.Connection;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -86,7 +85,7 @@ public class FrmComputer extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(153, 255, 153));
         jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(51, 51, 255));
-        jLabel1.setText("COMPUTER");
+        jLabel1.setText("Stoves Sanchez");
 
         jLabel2.setText("id");
 
@@ -178,6 +177,11 @@ public class FrmComputer extends javax.swing.JFrame {
         });
 
         btnRead.setText("Read");
+        btnRead.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnReadActionPerformed(evt);
+            }
+        });
 
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -317,6 +321,10 @@ public class FrmComputer extends javax.swing.JFrame {
 
         // TODO add your handling code here:
     }//GEN-LAST:event_btnRemoveActionPerformed
+
+    private void btnReadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReadActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnReadActionPerformed
 
     /**
      * @param args the command line arguments

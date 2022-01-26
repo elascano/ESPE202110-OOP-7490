@@ -9,13 +9,13 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.bson.Document;
 import org.bson.types.ObjectId;
+
 import utils.MongoConnection;
+
 
 /*import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
@@ -33,7 +33,7 @@ import utils.MongoConnection;*/
  */
 public class FrnComputerManagement extends javax.swing.JFrame {
 
-    MongoCollection<org.bson.Document> ComputerManagement = new MongoConnection().obtenerDB().getCollection("Ammunition");
+    MongoCollection<Document> ComputerManagement = new MongoConnection().obtenerDB().getCollection("Ammunition");
     DefaultTableModel table = new DefaultTableModel() {
 
         @Override
@@ -48,28 +48,41 @@ public class FrnComputerManagement extends javax.swing.JFrame {
     public FrnComputerManagement() {
         initComponents();
         
-         table.addColumn("SERIAL NUMBER");
-         table.addColumn("BRAND");
-          table.addColumn("MODEL");
-           table.addColumn("RAM");
-            table.addColumn("STORAGE");
+        table.addColumn("SERIAL NUMBER");
+        table.addColumn("BRAND");
+        table.addColumn("MODEL");
+        table.addColumn("RAM");
+        table.addColumn("STORAGE");
             
-            toComputerManagement();
+            toProject();
+            count();
     }
     
-     public void toComputerManagement(){
-         MongoCursor<org.bson.Document> query = ComputerManagement.find().iterator();
+     public void toProject(){
+         MongoCursor<Document> consulta = ComputerManagement.find().iterator();
 
-        int total = table.getRowCount();
+       int total = table.getRowCount();
         for (int i = 0; i < total; i++) {
             table.removeRow(0);
         }
-        while (query.hasNext()) {
-            ArrayList<Object> doc = new ArrayList<Object>(query.next().values());
+        while (consulta.hasNext()) {
+            ArrayList<Object> doc = new ArrayList<Object>(consulta.next().values());
             table.addRow(doc.toArray());
         }
     }
      
+     public void count() {
+        for (int i = 0; i <= tblComputerManagement.getRowCount(); i++) {
+            txtTotal.setText("" + i);
+        }
+    }    
+     public boolean Delete(String id) {
+        DeleteResult answer = ComputerManagement.deleteOne(new Document("_id", new ObjectId(id)));
+        if (answer.getDeletedCount() == 1) {
+            return true;
+        }
+        return false;
+    }    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -96,6 +109,7 @@ public class FrnComputerManagement extends javax.swing.JFrame {
         txtStorage = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblComputerManagement = new javax.swing.JTable();
+        txtTotal = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -169,18 +183,6 @@ public class FrnComputerManagement extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(txtSerialNumber, javax.swing.GroupLayout.DEFAULT_SIZE, 557, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnAdd)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnRemove)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnUpdate)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnRead)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel5)
                         .addGap(48, 48, 48)
                         .addComponent(txtRam, javax.swing.GroupLayout.DEFAULT_SIZE, 557, Short.MAX_VALUE))
@@ -191,12 +193,26 @@ public class FrnComputerManagement extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel6)
                         .addGap(32, 32, 32)
-                        .addComponent(txtStorage, javax.swing.GroupLayout.DEFAULT_SIZE, 557, Short.MAX_VALUE)))
+                        .addComponent(txtStorage, javax.swing.GroupLayout.DEFAULT_SIZE, 557, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btnAdd)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(btnRemove)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(btnUpdate)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnRead))
+                            .addComponent(txtTotal)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(57, 57, 57)
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addGap(212, 212, 212))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(117, 117, 117)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -229,9 +245,14 @@ public class FrnComputerManagement extends javax.swing.JFrame {
                     .addComponent(btnRemove)
                     .addComponent(btnUpdate)
                     .addComponent(btnRead))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(98, 98, 98))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(29, 29, 29)
+                        .addComponent(txtTotal))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(93, 93, 93))
         );
 
         pack();
@@ -240,14 +261,20 @@ public class FrnComputerManagement extends javax.swing.JFrame {
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
 
         try{
-           org.bson.Document data = new org.bson.Document();
+           Document data = new Document();
            data.put("SERIAL NUMBER", txtSerialNumber);
            data.put("BRAND", txtModel);
            data.put("MODEL", txtModel);
            data.put("RAM", txtRam);
            data.put("STORAGE", txtStorage);
            ComputerManagement.insertOne(data);
-            JOptionPane.showMessageDialog(this,  "AMMUNITION ADDED");
+            toProject();
+        count();
+        txtSerialNumber.setText("");
+        txtBarnd.setText("");
+        txtModel.setText("");
+        txtRam.setText("");
+            JOptionPane.showMessageDialog(this,  "MANAGEMENT ADDED");
         }catch(Exception err){
             JOptionPane.showMessageDialog(this, "error: " + err.getMessage());
         }
@@ -276,7 +303,7 @@ public class FrnComputerManagement extends javax.swing.JFrame {
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
                 
-        MongoCursor<org.bson.Document> query = ComputerManagement.find().iterator();
+        MongoCursor<Document> query = ComputerManagement.find().iterator();
 
         int total = table.getRowCount();
         for(int i = 0; i<total; i++){
@@ -291,7 +318,7 @@ public class FrnComputerManagement extends javax.swing.JFrame {
 
     private void btnReadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReadActionPerformed
 
-        MongoCursor<org.bson.Document> query = ComputerManagement.find().iterator();
+        MongoCursor<Document> query = ComputerManagement.find().iterator();
     }//GEN-LAST:event_btnReadActionPerformed
 
     /**
@@ -329,13 +356,7 @@ public class FrnComputerManagement extends javax.swing.JFrame {
         });
     }
     
-    public boolean Delete(String id){
-        DeleteResult answer = ComputerManagement.deleteOne(new Document("Serial Number", new ObjectId()));
-        if(answer.getDeletedCount()==1){
-            return true;
-        }
-        return false;
-    }
+   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
@@ -355,5 +376,6 @@ public class FrnComputerManagement extends javax.swing.JFrame {
     private javax.swing.JTextField txtRam;
     private javax.swing.JTextField txtSerialNumber;
     private javax.swing.JTextField txtStorage;
+    private javax.swing.JLabel txtTotal;
     // End of variables declaration//GEN-END:variables
 }

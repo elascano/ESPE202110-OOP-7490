@@ -22,6 +22,7 @@
 *.tar.gz
 *.rar
 <<<<<<< HEAD
+<<<<<<< HEAD
 /exams/altamiranoc/Unit2/Question38-51/Question38-51/nbproject/private/
 /exams/altamiranoc/Unit2/Question38-51/Question38-51/build/
 =======
@@ -1200,7 +1201,19 @@ hs_err_pid*
 /exams/quingal/Unit2/ExamQuestion71-100/ExamQuestion 71-100/build/
 >>>>>>> ab3d10f1e20cb85f90addd327d9938541d16a568
 <<<<<<< HEAD
+/exams/garciam/unit 2/.petmp7F0953/ExamCode/InformationOfcomputers/build/
+/exams/garciam/unit 2/.petmp7F0953/ExamCode/InformationOfcomputers/nbproject/private/
+/exams/garciam/unit 2/ExamCode/InformationOfcomputers/dist/
+/workshops/garciam/unit3/UpdateVehicle/Vehicles/nbproject/private/
+/workshops/garciam/unit3/UpdateVehicle/Vehicles/build/
+/workshops/garciam/unit3/UpdateVehicle/Vehicles/dist/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/exams/tecac/unit2/QUESTION 38-51/QUESTION38-51/build/
+=======
 /exams/mantuanol/Unit 2/Applicationofcomputer71_100/target/
+>>>>>>> fcc42dd46f3fe0ca504b2b2eb4b2ad070cf73a15
 =======
 >>>>>>> 13919d16525d2c5bdc0da89332a9968abc413acf
 <<<<<<< HEAD
@@ -1212,6 +1225,34 @@ hs_err_pid*
 =======
 /exams/bravoc/unit2/31-58Question/31-58Question/nbproject/private/
 >>>>>>> f82461dd6c23bf6eac4901f1d7ff3dbe5f036ec3
+<<<<<<< HEAD
+/workshops/caisatoas/Unit3/Exercises/nbproject/private/
+/workshops/caisatoas/Unit3/Exercises/build/
+=======
+<<<<<<< HEAD
+/exams/correak/unit 2/Exam/InformationComputer/build/
+=======
+<<<<<<< HEAD
+>>>>>>> 8babdb12917579797ac6e86f0b972dd999010895
+=======
 >>>>>>> c59dff1abcd97d3791bf6e4d39092a932c7a79d3
 >>>>>>> 1689257cddd03de458d7cf66e4f064723095ffd2
+<<<<<<< HEAD
 /workshops/andradea/Unit 3/WHS/nbproject/private/
+=======
+<<<<<<< HEAD
+/workshops/alvarezm/unit3/WS/Microwave/nbproject/private/
+/workshops/alvarezm/unit3/WS/Microwave/build/
+=======
+>>>>>>> fcc42dd46f3fe0ca504b2b2eb4b2ad070cf73a15
+>>>>>>> 920aa9a863f53671365fe20e206d5c01c4292520
+>>>>>>> a743e7fdc7880741f89de4ccf5e498fea045cabc
+>>>>>>> 4df3d3fdf1cafd549d390add384ebdec834e49a5
+>>>>>>> 70efdfe462049087770fd19db471318f40b5c5b8
+/workshops/caisatoas/Unit3/SmartCity/nbproject/private/
+/workshops/caisatoas/Unit3/SmartCity/build/
+/workshops/caisatoas/Unit3/ES29SmartCity/SmartCity/build/
+/workshops/caisatoas/Unit3/ES29SmartCity/SmartCity/nbproject/private/
+=======
+>>>>>>> 284a4ddc67bcc25cceb590019cb3b83787bd1ce7
+>>>>>>> dfa1f5c3835cbb083e5ddbff97035010185f282a
