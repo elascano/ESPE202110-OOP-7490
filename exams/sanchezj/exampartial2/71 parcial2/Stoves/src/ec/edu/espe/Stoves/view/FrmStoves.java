@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package ec.edu.espe.Computer.view;
+package ec.edu.espe.Stoves.view;
 
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
-import ec.edu.espe.Computer.model.Connection;
+import ec.edu.espe.Stoves.model.Connection;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -18,10 +18,10 @@ import org.bson.types.ObjectId;
  *
  * @author José
  */
-public class FrmComputer extends javax.swing.JFrame {
+public class FrmStoves extends javax.swing.JFrame {
     
     
-    MongoCollection<Document> Computer = new Connection().obtenerDB().getCollection("Computer");
+    MongoCollection<Document> Stove = new Connection().obtenerDB().getCollection("Stoves");
     DefaultTableModel table = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column) {
@@ -34,17 +34,17 @@ public class FrmComputer extends javax.swing.JFrame {
     /**
      * Creates new form FrmComputer
      */
-    public FrmComputer() {
+    public FrmStoves() {
         initComponents();
         tblComputer.setModel(table);
         
         table.addColumn("ID CLOUD");
         table.addColumn("ID");
         table.addColumn("model");
-        table.addColumn("mark");
-        table.addColumn("Ram");
-        table.addColumn("Storage");
-        table.addColumn("Cost");
+        table.addColumn("size");
+        table.addColumn("color");
+        table.addColumn("weight");
+
         view();
         
     }
@@ -69,9 +69,7 @@ public class FrmComputer extends javax.swing.JFrame {
         txtMark = new javax.swing.JTextField();
         txtRam = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
         txtStorage = new javax.swing.JTextField();
-        txtCost = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         btnAdd = new javax.swing.JButton();
         btnRead = new javax.swing.JButton();
@@ -85,15 +83,15 @@ public class FrmComputer extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(153, 255, 153));
         jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(51, 51, 255));
-        jLabel1.setText("Stoves Sanchez");
+        jLabel1.setText("Stoves Sanchez ");
 
         jLabel2.setText("id");
 
         jLabel3.setText("model");
 
-        jLabel4.setText("mark");
+        jLabel4.setText("Size");
 
-        jLabel5.setText("Ram");
+        jLabel5.setText("Color");
 
         txtId.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,9 +99,13 @@ public class FrmComputer extends javax.swing.JFrame {
             }
         });
 
-        jLabel6.setText("Storage");
+        jLabel6.setText("Weight");
 
-        jLabel7.setText("Cost");
+        txtStorage.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtStorageActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -129,14 +131,10 @@ public class FrmComputer extends javax.swing.JFrame {
                             .addComponent(txtMark)
                             .addComponent(txtRam, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))
                         .addGap(41, 41, 41)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel7))
+                        .addComponent(jLabel6)
                         .addGap(45, 45, 45)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtStorage, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
-                            .addComponent(txtCost))))
-                .addContainerGap(182, Short.MAX_VALUE))
+                        .addComponent(txtStorage, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(185, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -152,9 +150,7 @@ public class FrmComputer extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
-                    .addComponent(txtModel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel7)
-                    .addComponent(txtCost, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtModel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
@@ -177,11 +173,6 @@ public class FrmComputer extends javax.swing.JFrame {
         });
 
         btnRead.setText("Read");
-        btnRead.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnReadActionPerformed(evt);
-            }
-        });
 
         btnUpdate.setText("Update");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -263,7 +254,7 @@ public class FrmComputer extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
-          MongoCursor<Document> query = Computer.find().iterator();
+          MongoCursor<Document> query = Stove.find().iterator();
 
         int total = table.getRowCount();
         for (int i = 0; i < total; i++) {
@@ -287,7 +278,7 @@ public class FrmComputer extends javax.swing.JFrame {
             data.put("Storage", Integer.parseInt(txtId.getText()));
             data.put("Cost", Integer.parseInt(txtId.getText()));
 
-            Computer.insertOne(data);
+            Stove.insertOne(data);
             
             JOptionPane.showMessageDialog(this, "EXITO");
            
@@ -322,9 +313,9 @@ public class FrmComputer extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnRemoveActionPerformed
 
-    private void btnReadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReadActionPerformed
+    private void txtStorageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtStorageActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnReadActionPerformed
+    }//GEN-LAST:event_txtStorageActionPerformed
 
     /**
      * @param args the command line arguments
@@ -343,27 +334,28 @@ public class FrmComputer extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FrmComputer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmStoves.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FrmComputer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmStoves.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FrmComputer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmStoves.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FrmComputer.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmStoves.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FrmComputer().setVisible(true);
+                new FrmStoves().setVisible(true);
             }
         });
     }
 
     public void view(){
         
-        MongoCursor<Document> consulta = Computer.find().iterator();
+        MongoCursor<Document> consulta = Stove.find().iterator();
         
         int total = table.getRowCount();
         for(int i = 0; i<total; i++){
@@ -376,7 +368,7 @@ public class FrmComputer extends javax.swing.JFrame {
     }
 
         public boolean Delete(String id){
-        DeleteResult answer = Computer.deleteOne(new Document("_id", new ObjectId(id)));
+        DeleteResult answer = Stove.deleteOne(new Document("_id", new ObjectId(id)));
         if(answer.getDeletedCount()==1){
             return true;
         }
@@ -394,12 +386,10 @@ public class FrmComputer extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tblComputer;
-    private javax.swing.JTextField txtCost;
     private javax.swing.JTextField txtId;
     private javax.swing.JTextField txtMark;
     private javax.swing.JTextField txtModel;
