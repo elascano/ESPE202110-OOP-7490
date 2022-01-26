@@ -83,13 +83,13 @@ public class deleteOperation extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         btnDelete = new javax.swing.JButton();
         txtSerialNumber = new javax.swing.JTextField();
-        txtBrad = new javax.swing.JTextField();
+        txtBrand = new javax.swing.JTextField();
         txtModel = new javax.swing.JTextField();
         txtRam = new javax.swing.JTextField();
         txtStorage = new javax.swing.JTextField();
         txtPrice = new javax.swing.JTextField();
         btnAdd = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        btnUpdate = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblDelete = new javax.swing.JTable();
         jLabel7 = new javax.swing.JLabel();
@@ -124,7 +124,12 @@ public class deleteOperation extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("UPDATE");
+        btnUpdate.setText("UPDATE");
+        btnUpdate.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUpdateActionPerformed(evt);
+            }
+        });
 
         tblDelete.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -175,14 +180,14 @@ public class deleteOperation extends javax.swing.JFrame {
                                     .addGap(18, 18, 18)
                                     .addComponent(jLabel2)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(txtBrad, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(txtBrand, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(121, 121, 121)
                                 .addComponent(btnAdd)
                                 .addGap(61, 61, 61)
                                 .addComponent(btnDelete)
                                 .addGap(52, 52, 52)
-                                .addComponent(jButton2)))
+                                .addComponent(btnUpdate)))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
             .addGroup(layout.createSequentialGroup()
                 .addGap(54, 54, 54)
@@ -201,7 +206,7 @@ public class deleteOperation extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(txtSerialNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2)
-                    .addComponent(txtBrad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtBrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -222,7 +227,7 @@ public class deleteOperation extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAdd)
                     .addComponent(btnDelete)
-                    .addComponent(jButton2))
+                    .addComponent(btnUpdate))
                 .addContainerGap(104, Short.MAX_VALUE))
         );
 
@@ -252,8 +257,39 @@ public class deleteOperation extends javax.swing.JFrame {
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
         // TODO add your handling code here:
+          try {
+            Document data;
+            data = new Document() {};
+
+            data.put("SerialNumber", txtSerialNumber.getText());
+            data.put("Brand", txtBrand.getText());
+            data.put("Model",txtModel.getText());
+            data.put("RAM", txtRam.getText());
+            data.put("Storage", txtStorage.getText());
+            data.put("Price", txtPrice.getText());
+
+            Computer.insertOne(data);
+            JOptionPane.showMessageDialog(this,  "Data Computer Added");
+
+        } catch (Exception err) {
+            JOptionPane.showMessageDialog(this, "error: " + err.getMessage());
+        }
         
     }//GEN-LAST:event_btnAddActionPerformed
+
+    private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
+        // TODO add your handling code here:
+          MongoCursor<Document> query = Computer.find().iterator();
+        
+        int total = table.getRowCount();
+        for(int i = 0; i<total; i++){
+            table.removeRow(0);
+        }
+        while(query.hasNext()){
+            ArrayList<Object> doc = new ArrayList<Object>(query.next().values());
+            table.addRow(doc.toArray());
+        }
+    }//GEN-LAST:event_btnUpdateActionPerformed
 
     /**
      * @param args the command line arguments
@@ -293,7 +329,7 @@ public class deleteOperation extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
     private javax.swing.JButton btnDelete;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton btnUpdate;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -303,7 +339,7 @@ public class deleteOperation extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tblDelete;
-    private javax.swing.JTextField txtBrad;
+    private javax.swing.JTextField txtBrand;
     private javax.swing.JTextField txtModel;
     private javax.swing.JTextField txtPrice;
     private javax.swing.JTextField txtRam;
