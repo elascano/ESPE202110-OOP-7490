@@ -82,7 +82,6 @@ public class FrmContacts extends javax.swing.JFrame {
         txtMasculine = new javax.swing.JRadioButton();
         txtFeminine = new javax.swing.JRadioButton();
         txtOthers = new javax.swing.JRadioButton();
-        txtBirthdate = new com.toedter.calendar.JDateChooser();
         btnFind = new javax.swing.JButton();
         btnExit = new javax.swing.JToggleButton();
         btnListContacts = new javax.swing.JButton();
@@ -149,8 +148,6 @@ public class FrmContacts extends javax.swing.JFrame {
         txtSex.add(txtOthers);
         txtOthers.setText("Others");
 
-        txtBirthdate.setDateFormatString("yyyy/MM/dd");
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -200,7 +197,6 @@ public class FrmContacts extends javax.swing.JFrame {
                                     .addComponent(txtCellPhone))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtHobby, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtSalary, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -243,8 +239,8 @@ public class FrmContacts extends javax.swing.JFrame {
                 .addGap(25, 25, 25)
                 .addComponent(txtMasculine)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
                         .addComponent(jLabel8))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(9, 9, 9)
@@ -548,7 +544,6 @@ public class FrmContacts extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable tblContacts;
-    private com.toedter.calendar.JDateChooser txtBirthdate;
     private javax.swing.JTextField txtCellPhone;
     private javax.swing.JTextArea txtComments;
     private javax.swing.JRadioButton txtFeminine;

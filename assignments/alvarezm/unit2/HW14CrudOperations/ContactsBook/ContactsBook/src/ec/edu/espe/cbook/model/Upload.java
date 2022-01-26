@@ -53,7 +53,6 @@ public class Upload extends javax.swing.JDialog {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         txtComments = new javax.swing.JTextArea();
-        txtBirthdate = new com.toedter.calendar.JDateChooser();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         txtHobby = new javax.swing.JComboBox<>();
@@ -81,8 +80,6 @@ public class Upload extends javax.swing.JDialog {
         txtComments.setColumns(20);
         txtComments.setRows(5);
         jScrollPane1.setViewportView(txtComments);
-
-        txtBirthdate.setDateFormatString("yyyy/MM/dd");
 
         jLabel1.setText("CONTACTS");
 
@@ -175,10 +172,8 @@ public class Upload extends javax.swing.JDialog {
                         .addComponent(txtHobby, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(167, 167, 167))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(81, 81, 81))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(87, 87, 87))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(btnUpload)
                         .addGap(26, 26, 26)
@@ -190,7 +185,6 @@ public class Upload extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addGap(18, 18, 18)
@@ -324,7 +318,6 @@ public class Upload extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
-    private com.toedter.calendar.JDateChooser txtBirthdate;
     private javax.swing.JTextField txtCellPhone;
     private javax.swing.JTextArea txtComments;
     private javax.swing.JRadioButton txtFeminine;
