@@ -85,6 +85,12 @@ public class FrmProgram extends javax.swing.JFrame {
 
         jLabel4.setText("Model:");
 
+        txtModel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtModelActionPerformed(evt);
+            }
+        });
+
         jLabel11.setText("RAM:");
 
         jLabel12.setText("Price:");
@@ -335,6 +341,10 @@ public class FrmProgram extends javax.swing.JFrame {
             view();
         }
     }//GEN-LAST:event_btnUploadActionPerformed
+
+    private void txtModelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtModelActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtModelActionPerformed
 
     public boolean Delete(String id){
         DeleteResult answer = exercise.deleteOne(new Document("_id", new ObjectId(id)));

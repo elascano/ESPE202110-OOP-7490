@@ -7,12 +7,12 @@ import java.util.ArrayList;
  *
  * @author Melissa Gómez
  */
-public abstract class A {
+public abstract class A {                      //0.5
 
-    private ArrayList<A> as = new ArrayList<>();
+    private ArrayList<A> as = new ArrayList<>();//0.2
 
     @Override
-    public String toString() {
+    public String toString() {                 //0.2
         return "A{" + "as=" + as + '}';
     }
 
@@ -25,7 +25,7 @@ public abstract class A {
     public ArrayList<A> getAs() {
         return as;
     }
-
+                                    //0.1
     /**
      * @param as the as to set
      */
