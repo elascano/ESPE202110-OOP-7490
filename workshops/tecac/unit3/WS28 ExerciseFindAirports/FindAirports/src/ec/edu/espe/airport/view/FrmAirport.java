@@ -3,13 +3,17 @@ package ec.edu.espe.airport.view;
 
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
-import ec.edu.espe.airport.controller.AirportController;
-import ec.edu.espe.airport.model.Airport;
+
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.bson.Document;
 import utils.DBManager;
+
+import javax.swing.table.TableRowSorter;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent; 
+import javax.swing.RowFilter; 
 
 /**
  *
@@ -18,12 +22,14 @@ import utils.DBManager;
 public class FrmAirport extends javax.swing.JFrame {
     MongoCollection<Document> Airports = new DBManager().find().getCollection("Airports");
     DefaultTableModel tableAirports = new DefaultTableModel();
-
+    private TableRowSorter airportFilter; 
+    String filter;
     /**
      * Creates new form FrmAirport
      */
     public FrmAirport() {
         initComponents();
+        tableAirports.addColumn("ID Cloud");
         tableAirports.addColumn("Name");
         tableAirports.addColumn("Origin");
         tableAirports.addColumn("Destination");
@@ -31,7 +37,7 @@ public class FrmAirport extends javax.swing.JFrame {
         tableAirports.addColumn("Airline");
         tableAirports.addColumn("Ticket Value");
         tblFind.setModel(tableAirports);
-        
+        seeTable();
     }
 
     /**
@@ -47,7 +53,6 @@ public class FrmAirport extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblFind = new javax.swing.JTable();
         btnExit = new javax.swing.JButton();
-        lblFind = new javax.swing.JLabel();
         txtFind = new javax.swing.JTextField();
         btnFind = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
@@ -90,8 +95,11 @@ public class FrmAirport extends javax.swing.JFrame {
             }
         });
 
-        lblFind.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        lblFind.setText("Find to: ");
+        txtFind.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                txtFindKeyTyped(evt);
+            }
+        });
 
         btnFind.setText("Find");
         btnFind.addActionListener(new java.awt.event.ActionListener() {
@@ -112,9 +120,7 @@ public class FrmAirport extends javax.swing.JFrame {
                                 .addContainerGap()
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 627, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                                .addGap(56, 56, 56)
-                                .addComponent(lblFind)
-                                .addGap(40, 40, 40)
+                                .addGap(125, 125, 125)
                                 .addComponent(txtFind, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(54, 54, 54)
                                 .addComponent(btnFind)))
@@ -130,7 +136,6 @@ public class FrmAirport extends javax.swing.JFrame {
                 .addContainerGap(32, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtFind, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblFind)
                     .addComponent(btnFind))
                 .addGap(27, 27, 27)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -276,12 +281,12 @@ public class FrmAirport extends javax.swing.JFrame {
         txtTicketValue.getText();
         
         Object airport[] = new Object[7];
-        airport[0]= txtName.getText();
-        airport[1]=cmbOrigin.getSelectedItem();
-        airport[2]=cmbDestination.getSelectedItem();
-        airport[3]=txtIdAirline.getText();
-        airport[4]=txtAirline.getText();
-        airport[5]=txtTicketValue.getText();
+        airport[1]= txtName.getText();
+        airport[2]=cmbOrigin.getSelectedItem();
+        airport[3]=cmbDestination.getSelectedItem();
+        airport[4]=txtIdAirline.getText();
+        airport[5]=txtAirline.getText();
+        airport[6]=txtTicketValue.getText();
         tableAirports.addRow(airport);
         
         try {
@@ -305,10 +310,28 @@ public class FrmAirport extends javax.swing.JFrame {
     }//GEN-LAST:event_btnExitActionPerformed
 
     private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
-       JOptionPane.showMessageDialog(this, "Successful Search");
+      JOptionPane.showMessageDialog(this, "Please write the name of the Airport");
+        txtFind.addKeyListener(new KeyAdapter(){
+        @Override
+        public void keyReleased(final KeyEvent e){
+            String cadena = txtFind.getText();
+            txtFind.setText(cadena);
+            repaint();
+            filter();
+        }
+        });
        
     }//GEN-LAST:event_btnFindActionPerformed
-   
+
+    private void txtFindKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtFindKeyTyped
+        airportFilter = new TableRowSorter(tblFind.getModel());
+        tblFind.setRowSorter(airportFilter);
+    }//GEN-LAST:event_txtFindKeyTyped
+     public void filter() {
+        filter = txtFind.getText();
+        airportFilter.setRowFilter(RowFilter.regexFilter(txtFind.getText(), 1));
+
+    }
     /**
      * @param args the command line arguments
      */
@@ -343,6 +366,18 @@ public class FrmAirport extends javax.swing.JFrame {
             }
         });
     }
+    public void seeTable() {
+        MongoCursor<Document> airportQuery = Airports.find().iterator();
+
+        int total = tableAirports.getRowCount();
+        for (int i = 0; i < total; i++) {
+            tableAirports.removeRow(0);
+        }
+        while (airportQuery.hasNext()) {
+            ArrayList<Object> airportDoc = new ArrayList<Object>(airportQuery.next().values());
+            tableAirports.addRow(airportDoc.toArray());
+        }
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
@@ -353,7 +388,6 @@ public class FrmAirport extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel lblFind;
     private javax.swing.JLabel lblFind1;
     private javax.swing.JLabel lblFind2;
     private javax.swing.JLabel lblFind3;
