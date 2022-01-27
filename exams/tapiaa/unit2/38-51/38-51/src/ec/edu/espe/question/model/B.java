@@ -7,6 +7,11 @@ import java.util.ArrayList;
  *
  * @author Andrea Tapia
  */
+/*
+name			0.5/0.5
+attribute		0.3/0.5
+total                   0.8/1	
+*/
 public class B {
     private ArrayList<H> h = new ArrayList<>();
 
