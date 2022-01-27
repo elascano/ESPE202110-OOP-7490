@@ -4,9 +4,17 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Altamirano Cristhian
+ * @author Altamirano Cristhian         All the clases from A to J are complete
  */
-public abstract class A {
+       
+//name                   0.5 /0.5
+//attributes              0.2 /0.2
+//constructor            0.2 /0.2
+//setters & getters     0.1/0.1
+//You need the "To String"
+
+
+public abstract class A {    // Clase name
     private ArrayList<A> as = new ArrayList<>(); 
     private A a1;
     private A a2;

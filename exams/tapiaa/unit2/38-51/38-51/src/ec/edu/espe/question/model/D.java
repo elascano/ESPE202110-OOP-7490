@@ -7,6 +7,13 @@ import java.util.ArrayList;
  *
  * @author Andrea Tapia
  */
+
+/*
+Name                    0.4/0.4
+attributes              0.3/0.4
+setters & getters       0.2/0.2  
+*/
+
 public class D {
     private ArrayList<F> f = new ArrayList<>();
     private ArrayList<E> e = new ArrayList<>();
