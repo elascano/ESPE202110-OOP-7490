@@ -1,4 +1,3 @@
-
 package utils;
 
 import com.mongodb.ConnectionString;
@@ -9,23 +8,18 @@ import com.mongodb.client.MongoDatabase;
 
 /**
  *
- * @author Jose Sanchez 
+ * @author Jose Sánchez
  */
-public class MongoConnection {
-
-        ConnectionString connectionString;
+public class Connection {
+    
+         ConnectionString connectionString = new ConnectionString("mongodb+srv://jfsanchez15:jfsanchez15@cluster0.pvcrw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
         MongoClientSettings settings = MongoClientSettings.builder()
          .applyConnectionString(connectionString)
           .build();
         MongoClient mongoClient = MongoClients.create(settings);
-        MongoDatabase database = mongoClient.getDatabase("Lab");
-
-    public MongoConnection() {
-        this.connectionString = new ConnectionString("mongodb+srv://jfsanchez15:jfsanchez15@cluster0.pvcrw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
-    }
+        MongoDatabase database = mongoClient.getDatabase("SmartCity");
 
     
-
     
     public MongoDatabase obtenerDB(){
         return database;
