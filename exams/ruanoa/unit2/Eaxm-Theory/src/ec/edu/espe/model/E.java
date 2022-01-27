@@ -3,8 +3,8 @@ package ec.edu.espe.model;
 
 /**
  *
- * @author ASUS
+ * @author Ruano
  */
-public class E {
+public class E { //0.8
     
 }
