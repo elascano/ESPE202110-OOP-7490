@@ -10,11 +10,11 @@ package ec.edu.espe.computerManagement.model;
  * @author Leandro Quinga 
  */
 public class ComputerManagement {
-    private int serialNumber;
+    private String serialNumber;
     private String brand;
     private String model;
-    private int ram;
-    private int storage;
+    private String ram;
+    private String storage;
     
     public void Delete(){
         
@@ -24,10 +24,8 @@ public class ComputerManagement {
     public String toString() {
         return "ComputerManagement{" + "serialNumber=" + serialNumber + ", brand=" + brand + ", model=" + model + ", ram=" + ram + ", storage=" + storage + '}';
     }
-    
-    
 
-    public ComputerManagement(int serialNumber, String brand, String model, int ram, int storage) {
+    public ComputerManagement(String serialNumber, String brand, String model, String ram, String storage) {
         this.serialNumber = serialNumber;
         this.brand = brand;
         this.model = model;
@@ -35,75 +33,46 @@ public class ComputerManagement {
         this.storage = storage;
     }
 
-    /**
-     * @return the serialNumber
-     */
-    public int getSerialNumber() {
+    public String getSerialNumber() {
         return serialNumber;
     }
 
-    /**
-     * @param serialNumber the serialNumber to set
-     */
-    public void setSerialNumber(int serialNumber) {
+    public void setSerialNumber(String serialNumber) {
         this.serialNumber = serialNumber;
     }
 
-    /**
-     * @return the brand
-     */
     public String getBrand() {
         return brand;
     }
 
-    /**
-     * @param brand the brand to set
-     */
     public void setBrand(String brand) {
         this.brand = brand;
     }
 
-    /**
-     * @return the model
-     */
     public String getModel() {
         return model;
     }
 
-    /**
-     * @param model the model to set
-     */
     public void setModel(String model) {
         this.model = model;
     }
 
-    /**
-     * @return the ram
-     */
-    public int getRam() {
+    public String getRam() {
         return ram;
     }
 
-    /**
-     * @param ram the ram to set
-     */
-    public void setRam(int ram) {
+    public void setRam(String ram) {
         this.ram = ram;
     }
 
-    /**
-     * @return the storage
-     */
-    public int getStorage() {
+    public String getStorage() {
         return storage;
     }
 
-    /**
-     * @param storage the storage to set
-     */
-    public void setStorage(int storage) {
+    public void setStorage(String storage) {
         this.storage = storage;
     }
     
-    
 }
+
+    

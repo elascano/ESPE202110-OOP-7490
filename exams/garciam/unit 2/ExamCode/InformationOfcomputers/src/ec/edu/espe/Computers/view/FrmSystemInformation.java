@@ -2,9 +2,16 @@
 package ec.edu.espe.Computers.view;
 
 import com.mongodb.client.MongoCollection;
+<<<<<<< HEAD
+import com.mongodb.connection.Connection;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+=======
 import com.mongodb.client.MongoCursor;
 import ec.edu.espe.Computers.controller.Connection;
 import java.util.ArrayList;
+>>>>>>> 572ec6923440ec59764b74b17ec769c196f163d0
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.bson.Document;
