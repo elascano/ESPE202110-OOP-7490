@@ -17,7 +17,7 @@ public class Connection {
          .applyConnectionString(connectionString)
           .build();
         MongoClient mongoClient = MongoClients.create(settings);
-        MongoDatabase database = mongoClient.getDatabase("PlanetList");
+        MongoDatabase database = mongoClient.getDatabase("SmartCityPlanet");
     
     public MongoDatabase obtenerDB(){
         return database;

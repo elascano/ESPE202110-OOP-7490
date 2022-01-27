@@ -1,17 +1,11 @@
 package ec.edu.espe.smartcity.model;
 
-import org.bson.Document;
-
 /**
  *
  * @author Joel Zeas
  */
 public class Planet {
 
-    public static void insertOne(Document data) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-   
     private String name;
     private String size;
     private String type;
