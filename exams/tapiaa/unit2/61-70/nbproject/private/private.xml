@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+<<<<<<< HEAD
+=======
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/codigo%20s2/ESPE202110-OOP-7490/exams/tapiaa/unit2/61-70/src/ec/edu/espe/exam/model/Computer.java</file>
@@ -8,4 +10,5 @@
             <file>file:/D:/codigo%20s2/ESPE202110-OOP-7490/exams/tapiaa/unit2/61-70/src/ec/edu/espe/exam/view/FrmComputer.java</file>
         </group>
     </open-files>
+>>>>>>> 6f1e116188effbf540563d32be6e045fb0c6d0d4
 </project-private>
