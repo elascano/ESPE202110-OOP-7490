@@ -14,7 +14,7 @@ import utils.Connection;
  * @author ALEJANDRODELACRUZ
  */
 public class Farmwildshield extends javax.swing.JFrame {
-    MongoCollection<Document> wilshiled = new Connection().obtenerDB().getCollection("Smartcity");
+    MongoCollection<Document> wilshield = new Connection().obtenerDB().getCollection("Smartcity");
     DefaultTableModel table = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column) {
@@ -291,7 +291,7 @@ public class Farmwildshield extends javax.swing.JFrame {
     }//GEN-LAST:event_txtId1ActionPerformed
     public void View(){
         
-        MongoCursor<Document> consult = wilshiled.find().iterator();
+        MongoCursor<Document> consult = wilshield.find().iterator();
         
         int total = table.getRowCount();
         for(int i = 0; i<total; i++){
@@ -312,7 +312,7 @@ public class Farmwildshield extends javax.swing.JFrame {
             data.put("Brand", txtBrand.getText());
             data.put("Price", Integer.parseInt(txtId.getText()));
 
-            wilshiled.insertOne(data);
+            wilshield.insertOne(data);
             View();
             JOptionPane.showMessageDialog(this, "Added correctly");
            
