@@ -1,13 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ec.edu.espe.theory.model;
+
+import java.util.ArrayList;
 
 /**
  *
- * @author LENOVO
+ * @author Salma Villegas
  */
-public class A {
+public class A {                     //0.5
+    private ArrayList<A> as;
+
+    /**                              //0.1
+     * @return the as
+     */
+    public ArrayList<A> getAs() {
+        return as;
+    }
+
+    /**
+     * @param as the as to set
+     */
+    public void setAs(ArrayList<A> as) {
+        this.as = as;
+    }
+    
     
 }
