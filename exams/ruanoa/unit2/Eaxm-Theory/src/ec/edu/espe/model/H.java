@@ -3,8 +3,8 @@ package ec.edu.espe.model;
 
 /**
  *
- * @author ASUS
+ * @author Ruano
  */
-public interface H {
+public interface H {//1.0
     
 }
