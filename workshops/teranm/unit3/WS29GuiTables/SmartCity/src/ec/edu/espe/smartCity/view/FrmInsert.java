@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
+=======
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
 package ec.edu.espe.smartCity.view;
 
 import com.mongodb.client.MongoCollection;
@@ -57,6 +60,10 @@ public class FrmInsert extends javax.swing.JFrame {
         rbtnFir = new javax.swing.JRadioButton();
         rbtnArtificial = new javax.swing.JRadioButton();
         btnInsert = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
+        btnUpdate = new javax.swing.JButton();
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -91,6 +98,16 @@ public class FrmInsert extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
+=======
+        btnUpdate.setText("Update");
+        btnUpdate.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUpdateActionPerformed(evt);
+            }
+        });
+
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -119,11 +136,22 @@ public class FrmInsert extends javax.swing.JFrame {
                                 .addComponent(rbtnLarge)
                                 .addComponent(txtColor))
                             .addComponent(rbtnFir)
+<<<<<<< HEAD
                             .addComponent(rbtnArtificial)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(125, 125, 125)
                         .addComponent(btnInsert)))
                 .addContainerGap(89, Short.MAX_VALUE))
+=======
+                            .addComponent(rbtnArtificial))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addComponent(btnInsert)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
+                .addComponent(btnUpdate)
+                .addGap(70, 70, 70))
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -158,9 +186,17 @@ public class FrmInsert extends javax.swing.JFrame {
                 .addComponent(rbtnFir)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(rbtnArtificial)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnInsert)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnInsert)
+                    .addComponent(btnUpdate))
+                .addContainerGap(16, Short.MAX_VALUE))
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
         );
 
         pack();
@@ -174,6 +210,7 @@ public class FrmInsert extends javax.swing.JFrame {
             size = "Medium";
         } else if (rbtnLarge.isSelected()) {
             size = "Large";
+<<<<<<< HEAD
          String type = null;
             if (rbtnPine.isSelected()) {
                 size = "Pine";
@@ -202,6 +239,44 @@ public class FrmInsert extends javax.swing.JFrame {
     /**
              * @param args the command line arguments
              */
+=======
+        }
+        String type = null;
+        if (rbtnPine.isSelected()) {
+            type = "Pine tree";
+        } else if (rbtnFir.isSelected()) {
+            type = "Fir tree";
+        } else if (rbtnArtificial.isSelected()) {
+            type = "Artificial tree";
+        }
+        try {
+            Document data = new Document();
+
+            data.put("Code", txtCode.getText());
+            data.put("Price", Float.valueOf(txtPrice.getText()));
+            data.put("Size", size);
+            data.put("Color", txtColor.getText());
+            data.put("Type", type);
+            ChristmasTree.insertOne(data);
+
+            JOptionPane.showMessageDialog(this, "**Christmas Tree Added**");
+
+        } catch (Exception err) {
+            JOptionPane.showMessageDialog(this, "ERROR!: " + err.getMessage());
+        }
+
+    }//GEN-LAST:event_btnInsertActionPerformed
+
+    private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
+        FrmChristmasTree frmChristmasTree = new FrmChristmasTree();
+        frmChristmasTree.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_btnUpdateActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -236,6 +311,10 @@ public class FrmInsert extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnInsert;
+<<<<<<< HEAD
+=======
+    private javax.swing.JButton btnUpdate;
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

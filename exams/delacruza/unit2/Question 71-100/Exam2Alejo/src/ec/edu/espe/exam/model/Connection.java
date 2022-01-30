@@ -13,14 +13,21 @@ import com.mongodb.client.MongoDatabase;
  */
 public class Connection {
     
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
 ConnectionString connectionString = new ConnectionString("mongodb+srv://asde2:AlE_12AlE@clusteroop.ofume.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 MongoClientSettings settings = MongoClientSettings.builder()
         .applyConnectionString(connectionString)
         .build();
 MongoClient mongoClient = MongoClients.create(settings);
+<<<<<<< HEAD
+MongoDatabase database = mongoClient.getDatabase("test");
+=======
 MongoDatabase database = mongoClient.getDatabase("Exam2");
 
+>>>>>>> 6cc144153178c382f9eebcd761914ddea62ed9fa
 
     
     public MongoDatabase obtenerDB(){

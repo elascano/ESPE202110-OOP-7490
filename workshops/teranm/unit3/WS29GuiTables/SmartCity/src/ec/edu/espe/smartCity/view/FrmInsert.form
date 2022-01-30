@@ -53,12 +53,24 @@
                           <Component id="rbtnArtificial" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+<<<<<<< HEAD
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
                       <Component id="btnInsert" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="89" max="32767" attributes="0"/>
+=======
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Component id="btnInsert" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="98" max="32767" attributes="0"/>
+              <Component id="btnUpdate" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
           </Group>
       </Group>
     </DimensionLayout>
@@ -100,9 +112,18 @@
               <Component id="rbtnFir" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="rbtnArtificial" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="btnInsert" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+=======
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnInsert" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
           </Group>
       </Group>
     </DimensionLayout>
@@ -182,5 +203,16 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnInsertActionPerformed"/>
       </Events>
     </Component>
+<<<<<<< HEAD
+=======
+    <Component class="javax.swing.JButton" name="btnUpdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
+      </Events>
+    </Component>
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
   </SubComponents>
 </Form>
