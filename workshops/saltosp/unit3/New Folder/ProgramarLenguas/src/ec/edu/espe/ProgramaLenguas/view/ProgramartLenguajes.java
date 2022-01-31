@@ -72,7 +72,8 @@ DBCollection products;
         PnlButton = new javax.swing.JPanel();
         btmdelete = new javax.swing.JButton();
         idProvider1 = new javax.swing.JLabel();
-        jComboBox10 = new javax.swing.JComboBox<>();
+        btnAdd = new javax.swing.JButton();
+        btnRemove = new javax.swing.JButton();
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -132,10 +133,19 @@ DBCollection products;
         idProvider1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         idProvider1.setText("Type:");
 
-        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox10.addActionListener(new java.awt.event.ActionListener() {
+        btnAdd.setBackground(new java.awt.Color(51, 255, 0));
+        btnAdd.setForeground(new java.awt.Color(255, 255, 255));
+        btnAdd.setText("ADD");
+        btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox10ActionPerformed(evt);
+                btnAddActionPerformed(evt);
+            }
+        });
+
+        btnRemove.setText("REMOVE");
+        btnRemove.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRemoveActionPerformed(evt);
             }
         });
 
@@ -145,9 +155,6 @@ DBCollection products;
             PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PnlInputsLayout.createSequentialGroup()
                 .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PnlInputsLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(PnlButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(PnlInputsLayout.createSequentialGroup()
                         .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(PnlInputsLayout.createSequentialGroup()
@@ -171,15 +178,19 @@ DBCollection products;
                                     .addComponent(txtid))
                                 .addGap(0, 5, Short.MAX_VALUE))
                             .addGroup(PnlInputsLayout.createSequentialGroup()
-                                .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel3)
-                                    .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 0, Short.MAX_VALUE)))))
+                                .addComponent(jLabel3)
+                                .addGap(0, 0, Short.MAX_VALUE))))
+                    .addGroup(PnlInputsLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PnlInputsLayout.createSequentialGroup()
+                                .addComponent(btmdelete)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnAdd)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnRemove))
+                            .addComponent(PnlButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PnlInputsLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(btmdelete)
-                .addGap(69, 69, 69))
         );
         PnlInputsLayout.setVerticalGroup(
             PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -200,12 +211,13 @@ DBCollection products;
                     .addComponent(txtbrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(idProvider))
                 .addGap(18, 18, 18)
+                .addComponent(idProvider1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
                 .addGroup(PnlInputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(idProvider1)
-                    .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
-                .addComponent(btmdelete)
-                .addGap(26, 26, 26)
+                    .addComponent(btmdelete)
+                    .addComponent(btnAdd)
+                    .addComponent(btnRemove))
+                .addGap(28, 28, 28)
                 .addComponent(PnlButton, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -242,9 +254,55 @@ DBCollection products;
         // TODO add your handling code here:
     }//GEN-LAST:event_txtbrandActionPerformed
 
-    private void jComboBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox10ActionPerformed
+    private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
+
+        try {
+            Document data = new Document();
+
+            data.put("NAME", txtName.getText());
+            data.put("COLOR", txtColor.getText());
+            data.put("MODEL",txtModel.getText());
+            data.put("VALUE",txtValue.getText());
+            data.put("DAY OF EXIT", txtExiDay.getDate().toString());
+            data.put("DELIVERY DAY", txtDeliDay.getDate().toString());
+
+            Ammunition.insertOne(data);
+            JOptionPane.showMessageDialog(this,  "AMMUNITION ADDED");
+
+        } catch (Exception err) {
+            JOptionPane.showMessageDialog(this, "error: " + err.getMessage());
+        }
+        toProject();
+        count();
+
+        txtName.setText("");
+        txtColor.setText("");
+        txtModel.setText("");
+        txtValue.setText("");
+
+    }//GEN-LAST:event_btnAddActionPerformed
+
+    private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
+        int renglon = tblAmmunition.getSelectedRow();
+        if(renglon == -1){
+            JOptionPane.showMessageDialog(this, "Error ");
+            return;
+        }
+        String idRemove = tblAmmunition.getValueAt(renglon, 0).toString();
+        int respuesta = JOptionPane.showConfirmDialog(this, "Remove id"+ idRemove);
+        if(respuesta == JOptionPane.OK_OPTION){
+            boolean answerDelete = Delete(idRemove);
+            if(answerDelete==true){
+                JOptionPane.showMessageDialog(this, "correct delete");
+            }else{
+                JOptionPane.showMessageDialog(this, "no delete");
+
+            }
+        }
+        toProject();
+        count();
+
+    }//GEN-LAST:event_btnRemoveActionPerformed
 
     /**
      * @param args the command line arguments
@@ -290,11 +348,12 @@ DBCollection products;
     private javax.swing.JPanel PnlButton;
     private javax.swing.JPanel PnlInputs;
     private javax.swing.JButton btmdelete;
+    private javax.swing.JButton btnAdd;
+    private javax.swing.JButton btnRemove;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel idProvider;
     private javax.swing.JLabel idProvider1;
     private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
