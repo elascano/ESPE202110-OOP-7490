@@ -463,7 +463,7 @@ public class FrmMicrowave extends javax.swing.JFrame {
             data.put("Price", Integer.parseInt(TxtPrice.getText()));
 
             Microwave.insertOne(data);
-
+           
             JOptionPane.showMessageDialog(this, "Successfully");
 
         } catch (Exception err) {
