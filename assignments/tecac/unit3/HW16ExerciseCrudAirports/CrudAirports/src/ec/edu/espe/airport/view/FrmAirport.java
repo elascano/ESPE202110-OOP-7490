@@ -3,20 +3,18 @@ package ec.edu.espe.airport.view;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
-import ec.edu.espe.airport.controller.AirportController;import ec.edu.espe.airport.model.FrmUpdate;
-;
+import ec.edu.espe.airport.model.FrmUpdate;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import utils.DBManager;
-import java.util.ArrayList;
-import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
-import org.bson.Document;
-import org.bson.types.ObjectId;
-import utils.DBManager;
+
+import javax.swing.table.TableRowSorter;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent; 
+import javax.swing.RowFilter; 
 
 /**
  *
@@ -26,6 +24,8 @@ public class FrmAirport extends javax.swing.JFrame {
 
     MongoCollection<Document> Airports = new DBManager().find().getCollection("Airports");
     DefaultTableModel tableAirports = new DefaultTableModel();
+    private TableRowSorter airportFilter; 
+    String filter;
 
     /**
      * Creates new form FrmAirport
@@ -109,15 +109,14 @@ public class FrmAirport extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 761, Short.MAX_VALUE)
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(26, 26, 26)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addGap(0, 36, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         lblWelcome.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -140,6 +139,12 @@ public class FrmAirport extends javax.swing.JFrame {
 
         lblFind6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblFind6.setText("Ticket Value:");
+
+        txtName.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                txtNameKeyTyped(evt);
+            }
+        });
 
         cmbOrigin.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Option", "Ecuador", "Chile", "Spain", "Italy " }));
 
@@ -200,7 +205,7 @@ public class FrmAirport extends javax.swing.JFrame {
                     .addComponent(lblFind5)
                     .addComponent(cmbOrigin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblFind2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -285,6 +290,10 @@ public class FrmAirport extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(18, 18, 18))
+                    .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addComponent(btnInsert)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -296,11 +305,8 @@ public class FrmAirport extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnFind)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnExit))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGap(18, 18, 18)
+                        .addComponent(btnExit)
+                        .addGap(4, 4, 4)))
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -352,12 +358,20 @@ public class FrmAirport extends javax.swing.JFrame {
     }//GEN-LAST:event_btnExitActionPerformed
 
     private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
-        JOptionPane.showMessageDialog(this, "Successful Search -->");
-        
+        JOptionPane.showMessageDialog(this, "Please write the name of the Airport");
+        txtName.addKeyListener(new KeyAdapter(){
+        @Override
+        public void keyReleased(final KeyEvent e){
+            String cadena = txtName.getText();
+            txtName.setText(cadena);
+            repaint();
+            filter();
+        }
+        });
     }//GEN-LAST:event_btnFindActionPerformed
-    
+
     private void btnListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListActionPerformed
-         seeTable();
+        seeTable();
     }//GEN-LAST:event_btnListActionPerformed
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
@@ -369,13 +383,13 @@ public class FrmAirport extends javax.swing.JFrame {
         String idUpload = tblFind.getValueAt(renglon, 0).toString();
         int answer = JOptionPane.showConfirmDialog(this, "Are you sure to update the ID?" + idUpload);
         if (answer == JOptionPane.OK_OPTION) {
-            FrmUpdate upload = new  FrmUpdate(this,true, Airports, idUpload);
+            FrmUpdate upload = new FrmUpdate(this, true, Airports, idUpload);
             upload.setVisible(true);
             seeTable();
     }//GEN-LAST:event_btnUpdateActionPerformed
     }
 
-    
+
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
         int row = tblFind.getSelectedRow();
         if (row == -1) {
@@ -395,6 +409,17 @@ public class FrmAirport extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_btnDeleteActionPerformed
+
+    private void txtNameKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtNameKeyTyped
+        airportFilter = new TableRowSorter(tblFind.getModel());
+        tblFind.setRowSorter(airportFilter);
+    }//GEN-LAST:event_txtNameKeyTyped
+
+    public void filter() {
+        filter = txtName.getText();
+        airportFilter.setRowFilter(RowFilter.regexFilter(txtName.getText(), 1));
+
+    }
 
     public boolean Delete(String id) {
         DeleteResult answer = Airports.deleteOne(new Document("_id", new ObjectId(id)));
