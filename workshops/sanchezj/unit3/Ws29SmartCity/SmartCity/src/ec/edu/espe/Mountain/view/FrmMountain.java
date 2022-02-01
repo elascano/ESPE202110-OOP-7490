@@ -3,6 +3,7 @@ package ec.edu.espe.Mountain.view;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
+import ec.edu.espe.Mountain.model.Mountain;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
@@ -10,35 +11,31 @@ import org.bson.Document;
 import org.bson.types.ObjectId;
 import utils.Connection;
 
-
-
 /**
  *
  * @author José
  */
-
 public class FrmMountain extends javax.swing.JFrame {
 
-    MongoCollection<Document> Mountain = new Connection().obtenerDB().getCollection("Mountain");
-    DefaultTableModel table = new DefaultTableModel(){
+    MongoCollection<Document> Connection = new Connection().obtenerDB().getCollection("Mountain");
+    DefaultTableModel table = new DefaultTableModel() {
         @Override
         public boolean isCellEditable(int row, int column) {
             return false; //To change body of generated methods, choose Tools | Templates.
         }
-   };                                  // Cambiar “User” por el nombre del objeto o clase que deseo crear por Ejemplo en  mi UserListSmartHome (que es la Colección)
-                                // Cambiar “User” por el nombre del objeto o clase que deseo crear por Ejemplo en  mi UserListSmartHome (que es la Colección)
+    };                                  // Cambiar “User” por el nombre del objeto o clase que deseo crear por Ejemplo en  mi UserListSmartHome (que es la Colección)
+    // Cambiar “User” por el nombre del objeto o clase que deseo crear por Ejemplo en  mi UserListSmartHome (que es la Colección)
 
-    
     /**
      * Creates new form FrmMountain
      */
     public FrmMountain() {
-        this.Mountain = new Connection().obtenerDB().getCollection("Mountain");
-        
+        this.Connection = new Connection().obtenerDB().getCollection("Mountain");
+
         initComponents();
-        this.setTitle(" -------------------------->    SM@RTCITY <-------- BY Jose Sánchez");
+        this.setTitle(" -------------------------->    SM@RTCITY <-------- BY Jose Sánchez  ");
         tblMountain.setModel(table);
-        
+
         table.addColumn("ID CLOUD");
         table.addColumn("Id");
         table.addColumn("Name");
@@ -46,10 +43,8 @@ public class FrmMountain extends javax.swing.JFrame {
         table.addColumn("Height");
         table.addColumn("Location");
         view();
-       
-    }
 
-   
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -75,6 +70,7 @@ public class FrmMountain extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         txtHeight = new javax.swing.JTextField();
         txtLocation = new javax.swing.JTextField();
+        btnFind = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblMountain = new javax.swing.JTable();
@@ -116,6 +112,13 @@ public class FrmMountain extends javax.swing.JFrame {
 
         jLabel5.setText("Location");
 
+        btnFind.setText("Find");
+        btnFind.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFindActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -149,12 +152,16 @@ public class FrmMountain extends javax.swing.JFrame {
                                 .addGap(72, 72, 72)
                                 .addComponent(btnUpdate)))
                         .addGap(25, 25, 25)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnRemove)
-                            .addComponent(txtHeight, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
-                            .addComponent(txtLocation)))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(txtHeight, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
+                                .addComponent(txtLocation))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(btnRemove)
+                                .addGap(35, 35, 35)
+                                .addComponent(btnFind))))
                     .addComponent(txtType, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(115, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -181,7 +188,8 @@ public class FrmMountain extends javax.swing.JFrame {
                     .addComponent(btnUpdate)
                     .addComponent(btnRemove)
                     .addComponent(btnRead)
-                    .addComponent(btnAdd))
+                    .addComponent(btnAdd)
+                    .addComponent(btnFind))
                 .addGap(29, 29, 29))
         );
 
@@ -236,7 +244,7 @@ public class FrmMountain extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
-         MongoCursor<Document> query = Mountain.find().iterator();
+        MongoCursor<Document> query = Connection.find().iterator();
 
         int total = table.getRowCount();
         for (int i = 0; i < total; i++) {
@@ -245,7 +253,7 @@ public class FrmMountain extends javax.swing.JFrame {
         while (query.hasNext()) {
             ArrayList<Object> doc = new ArrayList<Object>(query.next().values());
             table.addRow(doc.toArray());
-        }  
+        }
     }//GEN-LAST:event_btnUpdateActionPerformed
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
@@ -259,7 +267,7 @@ public class FrmMountain extends javax.swing.JFrame {
             data.put("height", Integer.parseInt(txtHeight.getText()));
             data.put("location", txtLocation.getText());
 
-            Mountain.insertOne(data);
+            Connection.insertOne(data);
 
             JOptionPane.showMessageDialog(this, "EXITO");
 
@@ -270,29 +278,45 @@ public class FrmMountain extends javax.swing.JFrame {
 
     private void btnRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoveActionPerformed
         int renglon = tblMountain.getSelectedRow();                //Nombre de la JTabla
-        if(renglon == -1){
+        if (renglon == -1) {
             JOptionPane.showMessageDialog(this, "Error, Select the user to delete");
             return;
         }
         String idRemove = tblMountain.getValueAt(renglon, 0).toString();
         int respuesta = JOptionPane.showConfirmDialog(this, "Are you shure to delete the user" + idRemove);  //Opcional
-        if(respuesta == JOptionPane.OK_OPTION){
+        if (respuesta == JOptionPane.OK_OPTION) {
             boolean answerDelete = Delete(idRemove);
-            if(answerDelete==true){
+            if (answerDelete == true) {
                 view();
                 JOptionPane.showMessageDialog(this, "The user was successfully deleted");
-            }else{
+            } else {
                 JOptionPane.showMessageDialog(this, "No se pudo eliminar");
             }
-        }     
+        }
         // TODO add your handling code here:                                       
-       
+
     }//GEN-LAST:event_btnRemoveActionPerformed
 
-/**
- * @param args the command line arguments
- */
-public static void main(String args[]) {
+    private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
+        int id;
+        Mountain mountain;
+
+        id = Integer.parseInt(JOptionPane.showInputDialog("Enter the Id Number, to find a sock"));
+
+        mountain = findMountains(id);
+
+        txtId.setText(String.valueOf(mountain.getId()));
+        txtName.setText(mountain.getName());
+        txtType.setText(mountain.getType());
+        txtHeight.setText(mountain.getHeight());
+        txtLocation.setText(mountain.getLocation());
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnFindActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -306,28 +330,19 @@ public static void main(String args[]) {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FrmMountain
-
-.class
-.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmMountain.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FrmMountain
-
-.class
-.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmMountain.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FrmMountain
-
-.class
-.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmMountain.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FrmMountain
-
-.class
-.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmMountain.class
+                    .getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        
-        
+
         //</editor-fold>
 
         /* Create and display the form */
@@ -338,30 +353,66 @@ public static void main(String args[]) {
         });
     }
 
-  public final void view(){
-        
-        MongoCursor<Document> consulta = Mountain.find().iterator();
-        
+    public final void view() {
+
+        MongoCursor<Document> consulta = Connection.find().iterator();
+
         int total = table.getRowCount();
-        for(int i = 0; i<total; i++){
+        for (int i = 0; i < total; i++) {
             table.removeRow(0);
         }
-        while(consulta.hasNext()){
+        while (consulta.hasNext()) {
             ArrayList<Object> doc = new ArrayList<Object>(consulta.next().values());
             table.addRow(doc.toArray());
         }
     }
 
-        public boolean Delete(String id){
-        DeleteResult answer = Mountain.deleteOne(new Document("_id", new ObjectId(id)));
-        if(answer.getDeletedCount()==1){
+    public boolean Delete(String id) {
+        DeleteResult answer = Connection.deleteOne(new Document("_id", new ObjectId(id)));
+        if (answer.getDeletedCount() == 1) {
             return true;
         }
         return false;
     }
 
+    public ArrayList<Mountain> returnMountains() {
+
+        ArrayList<Mountain> mountains;
+        mountains = new ArrayList<>();
+        MongoCursor<Document> consulta = Connection.find().iterator();
+
+        while (consulta.hasNext()) {
+            ArrayList<Object> doc = new ArrayList<Object>(consulta.next().values());
+
+            int id = Integer.parseInt(doc.get(1).toString());
+            String name = doc.get(2).toString();
+            String type = doc.get(3).toString();
+            String height = doc.get(4).toString();
+            String location = doc.get(5).toString();
+
+            Mountain mountain = new Mountain(id, name, type, height, location);
+            mountains.add(mountain);
+        }
+        return mountains;
+    }
+
+    public Mountain findMountains(int id) {
+        ArrayList<Mountain> mountains;
+        mountains = new ArrayList<>();
+        mountains = returnMountains();
+
+        for (Mountain mountain : mountains) {
+            if (mountain.getId() == id) {
+                return mountain;
+            }
+        }
+        return null;
+    }
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
+    private javax.swing.JButton btnFind;
     private javax.swing.JButton btnRead;
     private javax.swing.JButton btnRemove;
     private javax.swing.JButton btnUpdate;
