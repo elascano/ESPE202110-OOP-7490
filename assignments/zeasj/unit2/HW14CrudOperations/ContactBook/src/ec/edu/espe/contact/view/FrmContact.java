@@ -110,13 +110,29 @@ public class FrmContact extends javax.swing.JFrame {
 
         jLabel10.setText("Comments:");
 
+        txtCellPhone.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCellPhoneActionPerformed(evt);
+            }
+        });
+
         cboxGroup.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Family", "University", "Job" }));
 
         grpSex.add(rbMale);
         rbMale.setText("Male");
+        rbMale.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rbMaleActionPerformed(evt);
+            }
+        });
 
         grpSex.add(rbFemale);
         rbFemale.setText("Female");
+        rbFemale.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rbFemaleActionPerformed(evt);
+            }
+        });
 
         txtComments.setColumns(20);
         txtComments.setRows(5);
@@ -398,6 +414,18 @@ public class FrmContact extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_btnAddActionPerformed
+
+    private void rbFemaleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbFemaleActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rbFemaleActionPerformed
+
+    private void txtCellPhoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCellPhoneActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCellPhoneActionPerformed
+
+    private void rbMaleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbMaleActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rbMaleActionPerformed
 
     /**
      * @param args the command line arguments
