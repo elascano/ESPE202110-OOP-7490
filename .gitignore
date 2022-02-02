@@ -25,7 +25,6 @@
 #vpp temporal files
 *.bak_*
 
-*.rar
 
 
 /assignments/alvarezm/unit3/HW17EventsFieldsValidation/RegistrationValidation/build/
