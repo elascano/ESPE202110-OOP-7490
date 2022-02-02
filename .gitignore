@@ -21,8 +21,18 @@
 *.zip
 *.tar.gz
 *.rar
+<<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 #vpp temporal files
 *.bak_*
 *.rar
+=======
+
+#vpp temporal files
+*.bak_*
+
+
+
+
+>>>>>>> e8cd647c0d297bdb10be9dd1e42f120feedf329a

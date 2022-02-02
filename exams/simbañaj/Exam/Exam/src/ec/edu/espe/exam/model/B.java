@@ -5,6 +5,6 @@ package ec.edu.espe.exam.model;
  *
  * @author Simbaña J
  */
-public class B {
+public class B { //0.5
    
 }

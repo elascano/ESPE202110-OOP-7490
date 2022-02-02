@@ -2,10 +2,10 @@ package ec.edu.espe.question.model;
 
 /**
  *
- * @author Joel Zeas
+ * @author Joel Zeas 
  */
-public class G extends H{
-    public J m() {
+public class G implements H{   //0.5
+    public J m(){              //0.5
         return new J();
     }
 }

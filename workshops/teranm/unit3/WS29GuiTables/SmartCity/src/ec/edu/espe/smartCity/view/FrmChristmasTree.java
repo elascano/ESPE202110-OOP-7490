@@ -53,7 +53,10 @@ public class FrmChristmasTree extends javax.swing.JFrame {
         tblTree = new javax.swing.JTable();
         btnFields = new javax.swing.JButton();
         btnRefresh = new javax.swing.JButton();
+<<<<<<< HEAD
+=======
         btnInsert = new javax.swing.JButton();
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -97,6 +100,8 @@ public class FrmChristmasTree extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
+=======
         btnInsert.setText("Insert");
         btnInsert.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,6 +109,7 @@ public class FrmChristmasTree extends javax.swing.JFrame {
             }
         });
 
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -116,6 +122,19 @@ public class FrmChristmasTree extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(154, 154, 154)
+                                .addComponent(jLabel1))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(84, 84, 84)
+                                .addComponent(btnFields)
+                                .addGap(79, 79, 79)
+                                .addComponent(btnRefresh)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+=======
                         .addGap(154, 154, 154)
                         .addComponent(jLabel1)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -128,6 +147,7 @@ public class FrmChristmasTree extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnInsert)
                 .addGap(66, 66, 66))
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -141,8 +161,12 @@ public class FrmChristmasTree extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnFields)
+<<<<<<< HEAD
+                    .addComponent(btnRefresh))
+=======
                     .addComponent(btnRefresh)
                     .addComponent(btnInsert))
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
                 .addGap(60, 60, 60))
         );
 
@@ -171,12 +195,15 @@ public class FrmChristmasTree extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnRefreshActionPerformed
 
+<<<<<<< HEAD
+=======
     private void btnInsertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInsertActionPerformed
         FrmInsert frmInsert = new FrmInsert();
         frmInsert.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_btnInsertActionPerformed
 
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
     /**
      * @param args the command line arguments
      */
@@ -214,7 +241,10 @@ public class FrmChristmasTree extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnFields;
+<<<<<<< HEAD
+=======
     private javax.swing.JButton btnInsert;
+>>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
     private javax.swing.JButton btnRefresh;
     private javax.swing.ButtonGroup grpSize;
     private javax.swing.JLabel jLabel1;

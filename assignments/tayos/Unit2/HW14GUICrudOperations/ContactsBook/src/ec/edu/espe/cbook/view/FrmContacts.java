@@ -84,7 +84,6 @@ public class FrmContacts extends javax.swing.JFrame {
         txtOthers = new javax.swing.JRadioButton();
         txtBirthdate = new com.toedter.calendar.JDateChooser();
         jPanel3 = new javax.swing.JPanel();
-        btnFind = new javax.swing.JButton();
         btnExit = new javax.swing.JToggleButton();
         btnListContacts = new javax.swing.JButton();
         btnUpload = new javax.swing.JToggleButton();
@@ -310,13 +309,6 @@ public class FrmContacts extends javax.swing.JFrame {
             .addGap(0, 321, Short.MAX_VALUE)
         );
 
-        btnFind.setText("Find");
-        btnFind.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnFindActionPerformed(evt);
-            }
-        });
-
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -386,9 +378,7 @@ public class FrmContacts extends javax.swing.JFrame {
                         .addComponent(btnUpload, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(85, 85, 85)
                         .addComponent(btnListContacts)
-                        .addGap(61, 61, 61)
-                        .addComponent(btnFind)
-                        .addGap(65, 65, 65)
+                        .addGap(181, 181, 181)
                         .addComponent(btnExit))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(81, 81, 81)
@@ -403,7 +393,6 @@ public class FrmContacts extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnExit)
-                    .addComponent(btnFind)
                     .addComponent(btnListContacts)
                     .addComponent(btnUpload)
                     .addComponent(btnRemove)
@@ -521,10 +510,6 @@ public class FrmContacts extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtGroupActionPerformed
 
-    private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnFindActionPerformed
-
     public boolean Delete(String id){
         DeleteResult answer = Contact.deleteOne(new Document("_id", new ObjectId(id)));
         if(answer.getDeletedCount()==1){
@@ -582,7 +567,6 @@ public class FrmContacts extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
     private javax.swing.JToggleButton btnExit;
-    private javax.swing.JButton btnFind;
     private javax.swing.JButton btnListContacts;
     private javax.swing.JButton btnRemove;
     private javax.swing.JToggleButton btnUpload;
