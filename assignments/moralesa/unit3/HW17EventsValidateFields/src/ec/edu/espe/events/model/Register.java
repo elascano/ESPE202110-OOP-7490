@@ -1,5 +1,5 @@
 
-package ec.edu.espe.contact.model;
+package ec.edu.espe.events.model;
 
 import java.util.Date;
 
@@ -8,6 +8,7 @@ import java.util.Date;
  * @author Anthony Morales
  */
 public class Register {
+    
     private int idNumber;
     private String lastName;
     private String name;
@@ -21,6 +22,7 @@ public class Register {
         this.birthdate = birthdate;
         this.salary = salary;
     }
+
     /**
      * @return the idNumber
      */
@@ -90,4 +92,5 @@ public class Register {
     public void setSalary(float salary) {
         this.salary = salary;
     }
+    
 }
