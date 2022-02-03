@@ -21,21 +21,18 @@
 *.zip
 *.tar.gz
 *.rar
+<<<<<<< HEAD
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+#vpp temporal files
+*.bak_*
+*.rar
+=======
 
 #vpp temporal files
 *.bak_*
 
 
 
-<<<<<<< HEAD
->>>>>>> 18f7cf48c9c948a2cf0e7e1bfe78a7d97e9802c4
-/assignments/mantuanol/unit3/HW16Individual/HeadPhones2/nbproject/private/
->>>>>>> f5cfda9a13ba548a91f55652c3b48dfda30f3ab0
->>>>>>> f6e34339b2817c58284584c58ff758fe9c04a7d6
->>>>>>> 433491cb1672cee1627563f790d6597cdaed82d1
-/assignments/moralesa/unit3/HW17Register/Register/nbproject/private/
-/assignments/moralesa/unit3/HW17Register/Register/build/
-=======
-/assignments/alvarezm/unit3/HW17EventsFieldsValidation/RegistrationValidation/build/
-/assignments/alvarezm/unit3/HW17EventsFieldsValidation/RegistrationValidation/nbproject/private/
->>>>>>> 6f6dd3daac7749e11e55b1601385a33b45f6b83b
+
+>>>>>>> e8cd647c0d297bdb10be9dd1e42f120feedf329a
