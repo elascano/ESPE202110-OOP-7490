@@ -6,8 +6,8 @@ package ec.espe.edu.modelquestion;
 
 /**
  *
- * @author ASUS
+ * @author pc
  */
-public class C { //0.5
+public class D {
     
 }
