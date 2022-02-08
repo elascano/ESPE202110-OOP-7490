@@ -25,8 +25,7 @@ public class FrmComputer extends javax.swing.JFrame {
         public boolean isCellEditable(int row, int column) {
             return false; //To change body of generated methods, choose Tools | Templates.
         }
-   };                                  // Cambiar “User” por el nombre del objeto o clase que deseo crear por Ejemplo en  mi UserListSmartHome (que es la Colección)
-
+   };                                  
     
     
     /**
@@ -91,6 +90,12 @@ public class FrmComputer extends javax.swing.JFrame {
             }
         });
 
+        txtRam.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtRamActionPerformed(evt);
+            }
+        });
+
         jLabel6.setText("SerialNumber");
 
         txtBrandmodel.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +106,19 @@ public class FrmComputer extends javax.swing.JFrame {
 
         jLabel7.setText("Storage(GB)");
 
+        txtStorage.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtStorageActionPerformed(evt);
+            }
+        });
+
         jLabel8.setText("Price");
+
+        Price.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PriceActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -200,21 +217,26 @@ public class FrmComputer extends javax.swing.JFrame {
                 .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(84, 84, 84)
                 .addComponent(btnRead, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(98, 98, 98)
+                .addGap(92, 92, 92)
                 .addComponent(btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(86, 86, 86)
                 .addComponent(btnRemove, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(80, 80, 80))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAdd)
-                    .addComponent(btnRead)
-                    .addComponent(btnUpdate)
-                    .addComponent(btnRemove))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnAdd)
+                            .addComponent(btnRead)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnUpdate)
+                            .addComponent(btnRemove))))
                 .addContainerGap(58, Short.MAX_VALUE))
         );
 
@@ -315,6 +337,18 @@ public class FrmComputer extends javax.swing.JFrame {
     private void txtBrandmodelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtBrandmodelActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtBrandmodelActionPerformed
+
+    private void txtRamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRamActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtRamActionPerformed
+
+    private void PriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PriceActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PriceActionPerformed
+
+    private void txtStorageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtStorageActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtStorageActionPerformed
 
     /**
      * @param args the command line arguments

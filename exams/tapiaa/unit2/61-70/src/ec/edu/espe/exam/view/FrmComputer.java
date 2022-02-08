@@ -10,6 +10,8 @@ import ec.edu.espe.exam.model.Upload;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
+import org.bson.Document;
+
 /**
  *
  * @author Iván
@@ -50,12 +52,13 @@ public class FrmComputer extends javax.swing.JFrame {
         txtSerialNumber = new javax.swing.JTextField();
         txtBrand = new javax.swing.JComboBox<>();
         txtModel = new javax.swing.JTextField();
-        txt = new javax.swing.JTextField();
+        txtRam = new javax.swing.JTextField();
         txtStorage = new javax.swing.JTextField();
         txtPrice = new javax.swing.JTextField();
         txtUpload = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         txtTable = new javax.swing.JTable();
+        txtAdd = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -117,6 +120,13 @@ public class FrmComputer extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(txtTable);
 
+        txtAdd.setText("Add");
+        txtAdd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAddActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -137,12 +147,14 @@ public class FrmComputer extends javax.swing.JFrame {
                             .addComponent(txtBrand, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtSerialNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtModel, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txt, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtRam, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtStorage, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(205, 205, 205)
-                        .addComponent(txtUpload))
+                        .addComponent(txtUpload)
+                        .addGap(26, 26, 26)
+                        .addComponent(txtAdd))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(23, 23, 23)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 516, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -166,7 +178,7 @@ public class FrmComputer extends javax.swing.JFrame {
                 .addGap(6, 6, 6)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(txt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtRam, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(6, 6, 6)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
@@ -176,7 +188,9 @@ public class FrmComputer extends javax.swing.JFrame {
                     .addComponent(jLabel7)
                     .addComponent(txtPrice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(txtUpload)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtUpload)
+                    .addComponent(txtAdd))
                 .addGap(31, 31, 31)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(38, Short.MAX_VALUE))
@@ -219,6 +233,23 @@ public class FrmComputer extends javax.swing.JFrame {
             mostrar();
         }
     }//GEN-LAST:event_txtUploadActionPerformed
+
+    private void txtAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAddActionPerformed
+        {
+            Document data = new Document();
+
+            data.put("Serial Number", Integer.parseInt(txtSerialNumber.getText()));
+            data.put("Brand", txtBrand.getActionCommand());
+            data.put("Model", txtModel.getText());
+            data.put("Ram", txtRam.getText());
+            data.put("Storage", txtStorage.getUIClassID());
+            data.put("Price", txtPrice.getText());
+
+            Computer.insertOne(data);
+            JOptionPane.showMessageDialog(this, "Successfull");
+
+    }//GEN-LAST:event_txtAddActionPerformed
+    }
 
     /**
      * @param args the command line arguments
@@ -266,10 +297,11 @@ public class FrmComputer extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField txt;
+    private javax.swing.JButton txtAdd;
     private javax.swing.JComboBox<String> txtBrand;
     private javax.swing.JTextField txtModel;
     private javax.swing.JTextField txtPrice;
+    private javax.swing.JTextField txtRam;
     private javax.swing.JTextField txtSerialNumber;
     private javax.swing.JTextField txtStorage;
     private javax.swing.JTable txtTable;

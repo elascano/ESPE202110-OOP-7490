@@ -59,6 +59,15 @@ public class FrmCateringPlanner extends javax.swing.JFrame {
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem1.setText("Reservations");
+        jMenuItem1.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                jMenuItem1AncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -123,6 +132,10 @@ public class FrmCateringPlanner extends javax.swing.JFrame {
         this.setVisible(false);
         
     }//GEN-LAST:event_itmEventsActionPerformed
+
+    private void jMenuItem1AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jMenuItem1AncestorAdded
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem1AncestorAdded
 
     /**
      * @param args the command line arguments
