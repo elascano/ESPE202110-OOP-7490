@@ -15,6 +15,7 @@ public class FrmUpdate extends javax.swing.JDialog {
 
     Document filter;
     MongoCollection<Document> Microwave;
+    
     public FrmUpdate(java.awt.Frame parent, boolean modal, MongoCollection<Document> Microwave, String id) {
         
         super(parent, modal);
