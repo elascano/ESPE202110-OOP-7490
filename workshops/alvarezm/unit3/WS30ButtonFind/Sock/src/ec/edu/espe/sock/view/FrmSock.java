@@ -356,6 +356,7 @@ public class FrmSock extends javax.swing.JFrame {
             float price = Float.parseFloat(doc.get(5).toString());
             
             Sock sock = new Sock(id, color, size, material, price);
+            
             socks.add(sock);
         }
         return socks;

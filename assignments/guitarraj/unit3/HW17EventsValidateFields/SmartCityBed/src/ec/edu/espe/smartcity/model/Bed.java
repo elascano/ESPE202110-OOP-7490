@@ -1,0 +1,133 @@
+package ec.edu.espe.smartcity.model;
+
+import com.mongodb.client.MongoCollection;
+import java.time.LocalDate;
+import javax.swing.JOptionPane;
+import org.bson.Document;
+import utils.Connection;
+
+/**
+ *
+ * @author Guitarra Jhon
+ */
+public class Bed {
+    
+   private float price;
+   private int Serial ;
+   private String mattressType;
+   private String frames;
+   private String materials;
+   private String plazas;
+   private String personalizedBed;
+
+    public Bed(float price, int Serial, String mattressType, String frames, String materials, String plazas, String personalizedBed) {
+        this.price = price;
+        this.Serial = Serial;
+        this.mattressType = mattressType;
+        this.frames = frames;
+        this.materials = materials;
+        this.plazas = plazas;
+        this.personalizedBed = personalizedBed;
+    }
+
+    /**
+     * @return the price
+     */
+    public float getPrice() {
+        return price;
+    }
+
+    /**
+     * @param price the price to set
+     */
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    /**
+     * @return the Serial
+     */
+    public int getSerial() {
+        return Serial;
+    }
+
+    /**
+     * @param Serial the Serial to set
+     */
+    public void setSerial(int Serial) {
+        this.Serial = Serial;
+    }
+
+    /**
+     * @return the mattressType
+     */
+    public String getMattressType() {
+        return mattressType;
+    }
+
+    /**
+     * @param mattressType the mattressType to set
+     */
+    public void setMattressType(String mattressType) {
+        this.mattressType = mattressType;
+    }
+
+    /**
+     * @return the frames
+     */
+    public String getFrames() {
+        return frames;
+    }
+
+    /**
+     * @param frames the frames to set
+     */
+    public void setFrames(String frames) {
+        this.frames = frames;
+    }
+
+    /**
+     * @return the materials
+     */
+    public String getMaterials() {
+        return materials;
+    }
+
+    /**
+     * @param materials the materials to set
+     */
+    public void setMaterials(String materials) {
+        this.materials = materials;
+    }
+
+    /**
+     * @return the plazas
+     */
+    public String getPlazas() {
+        return plazas;
+    }
+
+    /**
+     * @param plazas the plazas to set
+     */
+    public void setPlazas(String plazas) {
+        this.plazas = plazas;
+    }
+
+    /**
+     * @return the personalizedBed
+     */
+    public String getPersonalizedBed() {
+        return personalizedBed;
+    }
+
+    /**
+     * @param personalizedBed the personalizedBed to set
+     */
+    public void setPersonalizedBed(String personalizedBed) {
+        this.personalizedBed = personalizedBed;
+    }
+   
+   
+
+}
