@@ -8,6 +8,6 @@ package ec.espe.edu.modelquestion;
  *
  * @author ASUS
  */
-public class C {
+public class C { //0.5
     
 }
