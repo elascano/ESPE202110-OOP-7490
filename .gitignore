@@ -21,9 +21,13 @@
 *.zip
 *.tar.gz
 *.rar
-
+<<<<<<< HEAD
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 #vpp temporal files
 *.bak_*
+*.rar
+=======
 
 <<<<<<< HEAD
 >>>>>>> 86ee1c1f135fdb657200991741285df7f822a842
@@ -542,13 +546,15 @@
 /exams/saltosp/unit2/Examen1/Examen 38-51/nbproject/private/
 =======
 >>>>>>> a0aa50f26d4399e4711cbb4550a559125e367116
-<<<<<<< HEAD
-/workshops/calderona/unit3/WS - UpdateFood/UpdateFood/nbproject/private/
-=======
 >>>>>>> 21eab887aadb3284cf918d28dda729bc74df1cfc
 >>>>>>> 7e760ff02292b4dc0ea898afbd712237b6077642
 >>>>>>> f8878ad6b52f855f87c7398eceb1fedd400f7720
 >>>>>>> 489e65800ecd87273d19d24315d929c7d644c880
+<<<<<<< HEAD
+/workshops/almachea/Unit3/Computers/nbproject/private/
+/workshops/almachea/Unit3/WS29/SmartCity/nbproject/private/
+/workshops/almachea/Unit3/WS29/SmartCity/build/
+=======
 <<<<<<< HEAD
 /exams/zeasj/unit2/Q61-70/ComputerData/ComputersData/nbproject/private/
 /exams/zeasj/unit2/Q61-70/ComputerData/ComputersData/build/
@@ -560,9 +566,12 @@
 /exams/quingal/Unit2/ExamQuestion71-100/ExamQuestion 71-100/build/
 >>>>>>> ab3d10f1e20cb85f90addd327d9938541d16a568
 <<<<<<< HEAD
-/exams/gomezm/Unit 2/Question38_Melissa Gómez/AngelGuamanQuestion38_/nbproject/private/
-/workshops/guamana/unit3/WS25-Program/Aircrafts/nbproject/private/
-/assignments/alvarezm/unit2/HW14-CrudOperations/ContactsBook/ContactsBook_1/nbproject/private/
+<<<<<<< HEAD
+/exams/villegass/unit2/ExamTheory02/ExamTheory/build/
+/exams/zeasj/unit2/Q38-51/Neatbeans38-51/Question38-51/build/
+/workshops/zeasj/unit3/WS24CRUDOperation/Zoo/nbproject/private/
+/workshops/zeasj/unit3/WS24CRUDOperation/Zoo/build/
+/workshops/zeasj/unit3/WS24CRUDOperation/Zoo/dist/
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -580,13 +589,14 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 9651f28972115ecdb0e632af8e661ad441656d54
+=======
+>>>>>>> 688dc3607cb175cf0e2809e6d876f605c4199abd
 /exams/garciam/unit 2/.petmp7F0953/ExamCode/InformationOfcomputers/build/
 /exams/garciam/unit 2/.petmp7F0953/ExamCode/InformationOfcomputers/nbproject/private/
 /exams/garciam/unit 2/ExamCode/InformationOfcomputers/dist/
 /workshops/garciam/unit3/UpdateVehicle/Vehicles/nbproject/private/
 /workshops/garciam/unit3/UpdateVehicle/Vehicles/build/
 /workshops/garciam/unit3/UpdateVehicle/Vehicles/dist/
->>>>>>> fa2cc75fa8f102da7deaf95cf38a3a6ad00cd6cd
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -597,11 +607,6 @@
 =======
 >>>>>>> 13919d16525d2c5bdc0da89332a9968abc413acf
 <<<<<<< HEAD
-/exams/palaciosd/unit2/71-100 Code/Computer/build/
-/exams/palaciosd/unit2/71-100 Code/Computer/dist/
-/workshops/palaciosd/unit3/WS26 Dj Mixer/DjMixer/nbproject/private/
-=======
-<<<<<<< HEAD
 /exams/altamiranoc/Unit2/Question71_100/SaleComputers/build/
 /exams/altamiranoc/Unit2/Question71_100/Question71_100/SaleComputers/build/
 /exams/altamiranoc/Unit2/Question71_100/Question71_100/SaleComputers/nbproject/private/
@@ -610,6 +615,9 @@
 =======
 /exams/bravoc/unit2/31-58Question/31-58Question/nbproject/private/
 >>>>>>> f82461dd6c23bf6eac4901f1d7ff3dbe5f036ec3
+<<<<<<< HEAD
+/exams/sanchezj/exampartial2/71 parcial2/Computers/dist/
+=======
 <<<<<<< HEAD
 /workshops/caisatoas/Unit3/Exercises/nbproject/private/
 /workshops/caisatoas/Unit3/Exercises/build/
@@ -623,28 +631,18 @@
 >>>>>>> c59dff1abcd97d3791bf6e4d39092a932c7a79d3
 >>>>>>> 1689257cddd03de458d7cf66e4f064723095ffd2
 <<<<<<< HEAD
+/workshops/andradea/Unit 3/WHS/nbproject/private/
+=======
+<<<<<<< HEAD
 /workshops/alvarezm/unit3/WS/Microwave/nbproject/private/
 /workshops/alvarezm/unit3/WS/Microwave/build/
 =======
 >>>>>>> fcc42dd46f3fe0ca504b2b2eb4b2ad070cf73a15
-<<<<<<< HEAD
-/workshops/bravok/unit3/WS28ClassIndividualExcersice/UpdatePrinter/nbproject/private/
-/workshops/bravok/unit3/WS28ClassIndividualExcersice/UpdatePrinters/nbproject/private/
-=======
-<<<<<<< HEAD
-/exams/teranm/unit2/HighSchool/nbproject/private/
-/exams/teranm/unit2/HighSchool/build/
-/workshops/teranm/unit2/HighSchool/HighSchool/nbproject/private/
-/workshops/teranm/unit2/HighSchool/HighSchool/build/
-/assignments/teranm/unit3/Excercise/HighSchool/nbproject/private/
-/workshops/teranm/unit3/WS28IndividualExcercise/HighSchool/nbproject/private/
-=======
 >>>>>>> 920aa9a863f53671365fe20e206d5c01c4292520
 >>>>>>> a743e7fdc7880741f89de4ccf5e498fea045cabc
-<<<<<<< HEAD
-=======
 >>>>>>> 4df3d3fdf1cafd549d390add384ebdec834e49a5
 >>>>>>> 70efdfe462049087770fd19db471318f40b5c5b8
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fa2cc75fa8f102da7deaf95cf38a3a6ad00cd6cd
 =======
@@ -661,46 +659,70 @@
 >>>>>>> e656f3b1c1f1644aeaa70eaf647b2fa3b4fb1066
 >>>>>>> 9651f28972115ecdb0e632af8e661ad441656d54
 >>>>>>> 850b275c74651b18f0bca18773f0ce4b416cb455
+<<<<<<< HEAD
+/workshops/zeasj/unit3/WS29/SmartCity/nbproject/private/
+/workshops/zeasj/unit3/WS29/SmartCity/build/
+/workshops/zeasj/unit3/WS29/SmartCity/dist/
+=======
+<<<<<<< HEAD
+/assignments/teranm/unit3/HW17Excercise/HighSchool/build/
+/workshops/teranm/unit3/WS29GuiTables/SmartCity/nbproject/private/
+/workshops/teranm/unit3/WS29GuiTables/SmartCity/build/
+/workshops/teranm/unit3/WS29GuiTables/SmartCity/dist/
+=======
 >>>>>>> f778cb9702081d99486faa80f57a6ec435b24659
+<<<<<<< HEAD
+/workshops/guamana/unit3/WS29/SmartCity/nbproject/private/
+/workshops/guamana/unit3/WS29/SmartCity1/nbproject/private/
+=======
 >>>>>>> 81ff00713206e5716f77491d99c21374c75b729c
 <<<<<<< HEAD
-/workshops/tayos/Unit3/WS29/SmartCity/nbproject/private/
-/workshops/tayos/Unit3/WS29/SmartCity/build/
-/assignments/tayos/Unit3/HW16ConnectionPractice/FlightsAplication/build/
-/workshops/tayos/Unit3/WS30/New Folder/ProyectPractice/nbproject/private/
-/workshops/tayos/Unit3/WS30/ProyectPractice/nbproject/private/
-/workshops/tayos/Unit3/WS29SmartCity/SmartCity/dist/
-/assignments/tayos/Unit3/HW17/ContactBook/nbproject/private/
-/assignments/tayos/Unit3/HW17/ContactBook/build/
+/workshops/lincangoj/unit3/SmartCity/nbproject/private/
+/workshops/lincangoj/unit3/SmartCity/build/
+=======
+<<<<<<< HEAD
+/workshops/palaciosd/unit3/WS29 SmartCity/Castle/nbproject/private/
+/workshops/palaciosd/unit3/WS29 SmartCity/Castle/build/
+/workshops/palaciosd/unit3/WS29 SmartCity/Castle/dist/
 =======
 >>>>>>> d0fb8e90cfcbe8eaf716e06dd1b6bcfd32192dc9
+<<<<<<< HEAD
+/workshops/maldonadom/unit3/WS28 Class Individual/ListShoes/dist/
+/workshops/maldonadom/unit3/WS29 Smart Cities/Truck/nbproject/private/
+/workshops/maldonadom/unit3/WS29 Smart Cities/Truck/build/
+=======
 >>>>>>> 669845e1d972a2374ee40a8725d31a98caa68591
 <<<<<<< HEAD
+/workshops/garciam/unit3/WS29Gui/SmartCity/nbproject/private/
+/workshops/garciam/unit3/WS29Gui/SmartCity/build/
+/workshops/garciam/unit3/WS29Gui/SmartCity/dist/
+=======
 >>>>>>> 552249b5ac1733f8a4b227dd8bd918aaa21dbff3
->>>>>>> 404bacf0e5bf1b20c539083c10941a40e8d70717
->>>>>>> 842d473abe3f13648b5046073ff2871243ff99cc
->>>>>>> 96d879337bd483b0e19df5d2ba25450135c976d8
-/workshops/maldonadom/unit3/WS29 Smart Cities/Truck/dist/
-=======
-/workshops/mantuanol/unit3/WS30/BusFind/nbproject/private/
-/workshops/mantuanol/unit3/WS30/BusFind/build/
-/workshops/mantuanol/unit3/WS29Smartcity/Vehicles/nbproject/private/
-/workshops/mantuanol/unit3/WS28Class/Headphones/build/
-/workshops/mantuanol/unit3/WS28Class/Headphones/nbproject/private/
-/workshops/mantuanol/unit3/WS30Bottonfind/JavaApplication3/nbproject/private/
-=======
 <<<<<<< HEAD
+/workshops/moralesa/unit3/WSSmartCity/SemiTruck/nbproject/private/
+/workshops/moralesa/unit3/WSSmartCity/SemiTruck/build/
+=======
+>>>>>>> 404bacf0e5bf1b20c539083c10941a40e8d70717
+<<<<<<< HEAD
+/workshops/alvarezm/unit3/WS29SmartCity/Microwave/build/
+/workshops/alvarezm/unit3/WS29SmartCity/Microwave/nbproject/private/
+/workshops/alvarezm/unit3/WS29SmartCity/Sock/build/
+/workshops/alvarezm/unit3/WS29SmartCity/Sock/nbproject/private/
+=======
+>>>>>>> 842d473abe3f13648b5046073ff2871243ff99cc
+<<<<<<< HEAD
+/workshops/saltosp/unit3/WS29/Cow/nbproject/private/
+=======
+>>>>>>> 96d879337bd483b0e19df5d2ba25450135c976d8
+<<<<<<< HEAD
+=======
 >>>>>>> 3b33e3b99a101b68c0d5ec69958f6938de623e46
 >>>>>>> 4c50ec78615a504045404bf20d359e88d9602e0e
 >>>>>>> e2b1bdd6788a2488fecdc5779a795d0422a8c86c
 >>>>>>> a4af988229062230010972995a61d443c1ea1ad2
 >>>>>>> 8ffc413e0507a9f1908a35f792a46532e125967f
 >>>>>>> f09a23e2d37e87e438f009903c813f2bee6c7fce
->>>>>>> 385ae2a54d9cfcb7343d8ff894f66e9fdaccab2d
-/workshops/bravok/unit3/WS29SmatCity/SmartCityBBQ/build/
-/workshops/bravok/unit3/WS30ButtonFind/SmartCityBed/nbproject/private/
 =======
-<<<<<<< HEAD
 /workshops/caisatoas/Unit3/SmartCity/nbproject/private/
 /workshops/caisatoas/Unit3/SmartCity/build/
 /workshops/caisatoas/Unit3/ES29SmartCity/SmartCity/build/
@@ -711,45 +733,60 @@
 >>>>>>> c50923a3e00f9fd0ab967c71fc1ecc60facd57af
 >>>>>>> 7f30a9c647c77be28ba7bd04567915ceae9034b0
 >>>>>>> 6c4aadac69222ff1789027cd17203f1a19d67ae6
-<<<<<<< HEAD
-/workshops/guamana/unit3/WS30/SmartCity/nbproject/private/
-/assignments/guamana/unit3/HW17-/Register/build/
-/assignments/guamana/unit3/HW17-/Register/nbproject/private/
-=======
 >>>>>>> 688dc3607cb175cf0e2809e6d876f605c4199abd
 >>>>>>> b0dbe012c88b0f58ad923f98dd193348e065b91c
-<<<<<<< HEAD
 >>>>>>> ea3f0aaf5c6012376e42861e9c8636d422f2fea2
-<<<<<<< HEAD
 >>>>>>> 08269246f350ed95d17c2a8740117cc86fea4c6b
->>>>>>> f7a7ac90af492bcf1162dae4031202a6f9346c48
-/assignments/calderona/unit3/HW17-Events Validate Fields/SmartCity/nbproject/private/
-/assignments/calderona/unit3/HW17-Events Validate Fields/Resg/nbproject/private/
-/assignments/calderona/unit3/HW17-Events Validate Fields/Resgistration/nbproject/private/
+/workshops/shugulia/unit3/Circle Perimeter/nbproject/private/
+/workshops/shugulia/unit3/Tases/nbproject/private/
+/workshops/shugulia/unit3/WS-33Unit Tases/Tases/nbproject/private/
+/workshops/shugulia/unit3/WS-33Unit Tases/Tases/build/
+/workshops/shugulia/unit3/WS-33Unit Tases/Tases/dist/
+/workshops/shugulia/unit3/WS-28ClassIndividualExercise/Wheelchair/Wheelchairs/WheelchairList/NbaTeams/build/
+/workshops/shugulia/unit3/WS-28ClassIndividualExercise/Wheelchair/Wheelchairs/WheelchairList/NbaTeams/dist/
+/workshops/shugulia/unit3/WS-28ClassIndividualExercise/Wheelchair/Wheelchairs/WheelchairList/NbaTeams/nbproject/private/
+/workshops/shugulia/unit3/WS-28ClassIndividualExercise/Wheelchair/Wheelchairs/build/
+/workshops/shugulia/unit3/WS-28ClassIndividualExercise/Wheelchair/Wheelchairs/dist/
+/workshops/shugulia/unit3/WS-28ClassIndividualExercise/Wheelchair/Wheelchairs/nbproject/private/
+/workshops/shugulia/unit3/PerimeterCircle/nbproject/private/
+/workshops/shugulia/unit3/PerimeterCircle/build/
+/workshops/shugulia/unit3/PerimeterCircle/JavaApplication23/nbproject/private/
+/workshops/shugulia/unit3/PerimeterCircle/JavaApplication23/build/
+/workshops/shugulia/unit3/PerimeterCircle/JavaApplication23/dist/
 =======
-/assignments/garciam/unit3/HW17ValidateFields/ProyectoRepaso/nbproject/private/
-/assignments/garciam/unit3/HW17ValidateFields/ProyectoRepaso/build/
-/assignments/garciam/unit3/HW17ValidateFields/ProyectoRepaso/dist/
-=======
-/workshops/moralesa/unit3/WS30/SmartCity/nbproject/private/
-/workshops/moralesa/unit3/WS30/SmartCity/build/
-/workshops/moralesa/unit3/WS29SmartCity/SemiTruck/dist/
-=======
-*.rar
+
+#vpp temporal files
+*.bak_*
 
 
+
+<<<<<<< HEAD
+/assignments/alvarezm/unit3/HW17EventsFieldsValidation/RegistrationValidation/build/
+/assignments/alvarezm/unit3/HW17EventsFieldsValidation/RegistrationValidation/nbproject/private/
+/workshops/alvarezm/unit3/WS33UnitTest/MathOperations/nbproject/private/
+/workshops/alvarezm/unit3/WS33UnitTest/MathOperations/build/
+/workshops/alvarezm/unit3/WS33UnitTest/MathOperations/dist/
+=======
+<<<<<<< HEAD
+
+>>>>>>> e8cd647c0d297bdb10be9dd1e42f120feedf329a
+/workshops/moralesa/unit3/WS33UnitTest/mathOperations/nbproject/private/
+/workshops/moralesa/unit3/WS33UnitTest/mathOperations/build/
+/workshops/moralesa/unit3/WS33UnitTest/mathOperations/dist/
+=======
+<<<<<<< HEAD
 >>>>>>> 18f7cf48c9c948a2cf0e7e1bfe78a7d97e9802c4
 /assignments/mantuanol/unit3/HW16Individual/HeadPhones2/nbproject/private/
 >>>>>>> f5cfda9a13ba548a91f55652c3b48dfda30f3ab0
 >>>>>>> f6e34339b2817c58284584c58ff758fe9c04a7d6
 >>>>>>> 433491cb1672cee1627563f790d6597cdaed82d1
 >>>>>>> 7e82fcec1ca223923077e4f62729c375be95a6f3
->>>>>>> d9a50c8f4464db76b1c6de1e70a0d6b4d776470c
 <<<<<<< HEAD
-/assignments/maldonadom/unit3/HW17 Events Validate Fields/Trucks/Register/build/
-/assignments/maldonadom/unit3/HW17 Events Validate Fields/Trucks/Register/nbproject/private/
-/assignments/maldonadom/unit3/HW17 Events Validate Fields/Trucks/Copia de Register/nbproject/private/
+/workshops/garciam/unit3/WS33UnitTest/mathOperations/nbproject/private/
+/workshops/garciam/unit3/WS33UnitTest/mathOperations/build/
+/workshops/garciam/unit3/WS33UnitTest/mathOperations/dist/
 =======
+<<<<<<< HEAD
 >>>>>>> 4fa31da51fd984bc639ce6ea6f03ebb1e02cfb77
 >>>>>>> ba3a11be2fd8845c4aba4b16af6e1ae75c80ce76
 >>>>>>> de5f47ccab7f75891ec53978db9117c196146203
@@ -758,3 +795,14 @@
 /workshops/maldonadom/unit3/WS33UnitTest/mathOperations/dist/
 /assignments/maldonadom/unit3/HW20 Individual Exercise Test Cases/VolumeOfCone/nbproject/private/
 /assignments/maldonadom/unit3/HW20 Individual Exercise Test Cases/VolumeOfCone/build/
+=======
+>>>>>>> d9a50c8f4464db76b1c6de1e70a0d6b4d776470c
+/workshops/sanchezj/unit3/WS33/mathOperations/nbproject/private/
+/workshops/sanchezj/unit3/WS33/mathOperations/build/
+=======
+>>>>>>> 0d5c6e5b91682f72aa01d96a7ed01e17df366d98
+>>>>>>> 16985de4818cc6c536bc5d1d85b9a85c3b7bc37d
+>>>>>>> 3d0b5b29849eef850beb28dd91c93ee3b1e17104
+>>>>>>> 73a72ac9395706419e5eb22e3fc9db034579c997
+>>>>>>> cbddf5f3adb11ea142be3be12f13416dc46be744
+>>>>>>> bf9506c96a42c76b773e7c89d3f9216be9168ad7
