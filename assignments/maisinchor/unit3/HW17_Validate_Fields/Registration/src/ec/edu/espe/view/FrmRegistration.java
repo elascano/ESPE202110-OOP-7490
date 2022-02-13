@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author ALEXA
+ * @author Richar Maisincho
  */
 public class FrmRegistration extends javax.swing.JFrame {
     

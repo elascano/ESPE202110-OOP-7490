@@ -2,10 +2,13 @@ package ec.edu.espe.smartcity.view;
 
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
+import com.mongodb.client.result.DeleteResult;
 import java.util.ArrayList;
 import ec.edu.espe.smartcity.model.Planet;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.bson.Document;
+import org.bson.types.ObjectId;
 import utils.DBManager;
 /**
  *
@@ -23,6 +26,13 @@ public class FrmListPlanet extends javax.swing.JFrame {
         initComponents();
         table();
         uploadData();
+    }
+        public boolean Delete(String id) {
+        DeleteResult answer = Planet.deleteOne(new Document("_id", new ObjectId(id)));
+        if (answer.getDeletedCount() == 1) {
+            return true;
+        }
+        return false;
     }
      public void table(){
         String data[][]={};
@@ -55,6 +65,7 @@ public class FrmListPlanet extends javax.swing.JFrame {
         tblListOfPlanet = new javax.swing.JTable();
         btnRefresh = new javax.swing.JButton();
         btnReturn = new javax.swing.JButton();
+        btnDelete = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -89,26 +100,34 @@ public class FrmListPlanet extends javax.swing.JFrame {
             }
         });
 
+        btnDelete.setBackground(new java.awt.Color(255, 0, 0));
+        btnDelete.setText("Delete");
+        btnDelete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDeleteActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(233, 233, 233)
-                        .addComponent(btnRefresh)
-                        .addGap(148, 148, 148)
-                        .addComponent(btnReturn)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap()
+                .addComponent(jScrollPane1)
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 151, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(128, 128, 128))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(186, 186, 186)
+                .addComponent(btnRefresh)
+                .addGap(69, 69, 69)
+                .addComponent(btnDelete)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnReturn)
+                .addGap(175, 175, 175))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -120,7 +139,8 @@ public class FrmListPlanet extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnReturn)
-                    .addComponent(btnRefresh))
+                    .addComponent(btnRefresh)
+                    .addComponent(btnDelete))
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
@@ -156,6 +176,33 @@ public class FrmListPlanet extends javax.swing.JFrame {
             systems.addRow(seesystems.toArray());
         }
     }//GEN-LAST:event_btnRefreshActionPerformed
+
+    private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
+        
+        int row = tblListOfPlanet.getSelectedRow();
+        if (row == -1) {
+            JOptionPane.showMessageDialog(this, "Error,Select the row to delete");
+            return;
+        }
+        String idRemove = tblListOfPlanet.getValueAt(row, 0).toString();
+        int answer = JOptionPane.showConfirmDialog(this, "Are you sure to delete the ID?" + idRemove);
+        if (answer == JOptionPane.OK_OPTION) {
+            boolean answerDelete = Delete(idRemove);
+            btnReturn.setEnabled(false);
+            btnRefresh.setEnabled(false);
+            if (answerDelete == true) {
+                table();
+                JOptionPane.showMessageDialog(this, "Was successfully removed");
+                btnReturn.setEnabled(true);
+                btnRefresh.setEnabled(true);
+            } else {
+                JOptionPane.showMessageDialog(this, "Id has not been removed");
+                btnReturn.setEnabled(true);
+                btnRefresh.setEnabled(false);
+            }
+        }
+        
+    }//GEN-LAST:event_btnDeleteActionPerformed
 
     /**
      * @param args the command line arguments
@@ -193,6 +240,7 @@ public class FrmListPlanet extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnDelete;
     private javax.swing.JButton btnRefresh;
     private javax.swing.JButton btnReturn;
     private javax.swing.JLabel jLabel1;

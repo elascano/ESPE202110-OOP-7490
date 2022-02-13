@@ -10,7 +10,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author ALEXA
+ * @author maisincho richar
  */
 public class FrmRegistrationFind extends javax.swing.JFrame {
 
