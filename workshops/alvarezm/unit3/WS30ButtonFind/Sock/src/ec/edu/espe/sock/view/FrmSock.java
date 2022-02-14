@@ -344,10 +344,10 @@ public class FrmSock extends javax.swing.JFrame {
         
         ArrayList<Sock> socks;
         socks = new ArrayList<>();
-        MongoCursor<Document> consulta = Sock.find().iterator();
+        MongoCursor<Document> query = Sock.find().iterator();
         
-        while(consulta.hasNext()){
-            ArrayList<Object> doc = new ArrayList<Object>(consulta.next().values());
+        while(query.hasNext()){
+            ArrayList<Object> doc = new ArrayList<Object>(query.next().values());
             
             int id = Integer.parseInt(doc.get(1).toString());
             String color = doc.get(2).toString();
