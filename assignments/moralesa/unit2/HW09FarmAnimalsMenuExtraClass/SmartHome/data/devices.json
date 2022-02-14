@@ -1,4 +1,0 @@
-{"id":"01","description":"tv box","room":"bedroom","status":"off","workingdata":10}
-{"id":"02","description":"radio","room":"hallroom","status":"off","workingdata":90}
-{"id":"03","description":"refrigetrator","room":"kitchen","status":"on","workingdata":03}
-{"id":"04","description":"microwave","room":"kitchen","status":"on","workingdata":25}

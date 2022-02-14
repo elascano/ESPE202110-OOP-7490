@@ -1,2 +1,0 @@
-Leonel Mantuano OOP workshops
-
