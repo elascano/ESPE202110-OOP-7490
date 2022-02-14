@@ -1,0 +1,8 @@
+{"animals":[
+	{"id":"001","breed":"Holstein","born":"12/12/2020","produce":"true"},
+	{"id":"002","breed":"Plymouth","born":"06/27/2020","produce":"false"},
+	{"id":"003","breed":"Dorper","born":"01/30/2019","produce":"10/10/2021"},
+
+	{"id":"004","breed":"Large White","born":"09/25/2021","produce":50}
+]
+}

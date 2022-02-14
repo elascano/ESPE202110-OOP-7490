@@ -1,0 +1,34 @@
+001,Holstein,12/12/2020,true
+002,Plymouth,06/27/2021,false
+003,Dorper,01/30/2019,10/10/2021
+004,Large White,09/25/2021,50
+
+["Animals", {
+		"id": "001",
+		"race": "Plymouth",
+		"date": "12/12/2020",
+		"bool": "true"
+	},
+	{
+		"id": "002",
+		"race": "Holstein",
+		"date": "06 / 27 / 2020 ",
+		"bool": "false"
+	},
+	{
+		"id": "003",
+		"race": "Dorper ",
+		"date": "01 / 30 / 2019 ",
+		"cut": "10 / 10 / 2021 "
+	},
+	{
+		"id": "004",
+		"race": "Large White",
+		"date": "09/25/2021",
+		"weight": "50"
+	}
+]
+
+
+
+
