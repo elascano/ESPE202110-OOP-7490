@@ -1,11 +1,11 @@
 
-package ed.edu.espe.IndividualExerciseTestCases;
+package ed.edu.espe.ietc;
 
 /**
  *
  * @author mateo
  */
-public class IndividualExerciseTestCases {
+public class IETC {
     public float area(float base,float height)
     {
     float arear;
