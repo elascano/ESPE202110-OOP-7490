@@ -38,6 +38,7 @@ hs_err_pid*
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5f18b1ddb8af1067eb454d6e05db4b2ac6e7db44
 >>>>>>> 14627fca9ac1f4255a3c027bddcbd472329263f1
 >>>>>>> a38cf068ddf54854bc15c0a163d33be27a526b0d
@@ -92,3 +93,19 @@ hs_err_pid*
 /assignments/calderona/unit3/HW20-Individual Exercise Test Cases/AccelerationF/dist/
 /assignments/calderona/unit3/HW20-Individual Exercise Test Cases/AccelerationF/nbproject/private/
 /assignments/calderona/unit3/HW21-Project Test Cases/InventoryTireStoreOperation/build/
+=======
+>>>>>>> 5f18b1ddb8af1067eb454d6e05db4b2ac6e7db44
+>>>>>>> 14627fca9ac1f4255a3c027bddcbd472329263f1
+>>>>>>> a38cf068ddf54854bc15c0a163d33be27a526b0d
+/workshops/asumazad/unit3/WS33UnitTest/taxes/nbproject/private/
+/workshops/asumazad/unit3/WS33UnitTest/taxes/dist/
+/workshops/asumazad/unit3/WS33UnitTest/taxes/build/
+=======
+
+<<<<<<< HEAD
+#vpp temporal files
+*.bak_*
+
+
+>>>>>>> 51fdcffe5cc86c752eb9fd114e6ce221f58d429b
+>>>>>>> fe3af6e4b39386cb6cbc615a8541f129478311ab
