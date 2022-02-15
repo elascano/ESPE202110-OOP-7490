@@ -95,7 +95,7 @@
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-<<<<<<< HEAD:workshops/sanchezj/unit3/Ws29SmartCity/SmartCity/build/classes/ec/edu/espe/Mountain/view/FrmMountain.form
+<<<<<<< HEAD:workshops/sanchezj/unit3/Ws29SmartCity/SmartCity/src/ec/edu/espe/Mountain/view/FrmMountain.form
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -142,7 +142,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" pref="34" max="-2" attributes="0"/>
->>>>>>> c9daba3d1ae3ead060d6ad52a84cf1cef0d06a48:workshops/garciam/unit3/WS29SmartCity/SmartCity/build/classes/ec/edu/espe/CabinFilter/view/FrmCabinFilter.form
+>>>>>>> c9daba3d1ae3ead060d6ad52a84cf1cef0d06a48:workshops/garciam/unit3/WS29SmartCity/SmartCity/src/ec/edu/espe/CabinFilter/view/FrmCabinFilter.form
                       </Group>
                   </Group>
                   <EmptySpace pref="115" max="32767" attributes="0"/>
@@ -171,7 +171,7 @@
                   </Group>
                   <EmptySpace pref="15" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-<<<<<<< HEAD:workshops/sanchezj/unit3/Ws29SmartCity/SmartCity/build/classes/ec/edu/espe/Mountain/view/FrmMountain.form
+<<<<<<< HEAD:workshops/sanchezj/unit3/Ws29SmartCity/SmartCity/src/ec/edu/espe/Mountain/view/FrmMountain.form
                       <Component id="btnUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnRemove" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnRead" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -203,7 +203,7 @@
                           </Group>
                       </Group>
                       <Component id="txtColor" min="-2" max="-2" attributes="0"/>
->>>>>>> c9daba3d1ae3ead060d6ad52a84cf1cef0d06a48:workshops/garciam/unit3/WS29SmartCity/SmartCity/build/classes/ec/edu/espe/CabinFilter/view/FrmCabinFilter.form
+>>>>>>> c9daba3d1ae3ead060d6ad52a84cf1cef0d06a48:workshops/garciam/unit3/WS29SmartCity/SmartCity/src/ec/edu/espe/CabinFilter/view/FrmCabinFilter.form
                   </Group>
                   <EmptySpace min="-2" pref="264" max="-2" attributes="0"/>
               </Group>
@@ -261,7 +261,7 @@
         </Component>
         <Component class="javax.swing.JTextField" name="txtModel">
         </Component>
-<<<<<<< HEAD:workshops/sanchezj/unit3/Ws29SmartCity/SmartCity/build/classes/ec/edu/espe/Mountain/view/FrmMountain.form
+<<<<<<< HEAD:workshops/sanchezj/unit3/Ws29SmartCity/SmartCity/src/ec/edu/espe/Mountain/view/FrmMountain.form
         <Component class="javax.swing.JButton" name="btnFind">
           <Properties>
             <Property name="text" type="java.lang.String" value="Find"/>
@@ -301,7 +301,7 @@
       </Layout>
       <SubComponents>
 =======
->>>>>>> c9daba3d1ae3ead060d6ad52a84cf1cef0d06a48:workshops/garciam/unit3/WS29SmartCity/SmartCity/build/classes/ec/edu/espe/CabinFilter/view/FrmCabinFilter.form
+>>>>>>> c9daba3d1ae3ead060d6ad52a84cf1cef0d06a48:workshops/garciam/unit3/WS29SmartCity/SmartCity/src/ec/edu/espe/CabinFilter/view/FrmCabinFilter.form
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">
           <AuxValues>
             <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
