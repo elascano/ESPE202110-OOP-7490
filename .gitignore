@@ -29,11 +29,31 @@ hs_err_pid*
 *.rar
 =======
 
+
+
 #vpp temporal files
 *.bak_*
 
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 5f18b1ddb8af1067eb454d6e05db4b2ac6e7db44
+>>>>>>> 14627fca9ac1f4255a3c027bddcbd472329263f1
+>>>>>>> a38cf068ddf54854bc15c0a163d33be27a526b0d
+/workshops/calderona/unit3/WS33-UnitTest/Acceleration/nbproject/private/
+/workshops/calderona/unit3/WS33-UnitTest/Acceleration/build/
+=======
+<<<<<<< HEAD
+
+>>>>>>> e8cd647c0d297bdb10be9dd1e42f120feedf329a
+/workshops/moralesa/unit3/WS33UnitTest/mathOperations/nbproject/private/
+/workshops/moralesa/unit3/WS33UnitTest/mathOperations/build/
+/workshops/moralesa/unit3/WS33UnitTest/mathOperations/dist/
+=======
+=======
+>>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
 <<<<<<< HEAD
 >>>>>>> 18f7cf48c9c948a2cf0e7e1bfe78a7d97e9802c4
 /assignments/mantuanol/unit3/HW16Individual/HeadPhones2/nbproject/private/
@@ -41,19 +61,33 @@ hs_err_pid*
 >>>>>>> f6e34339b2817c58284584c58ff758fe9c04a7d6
 >>>>>>> 433491cb1672cee1627563f790d6597cdaed82d1
 >>>>>>> 7e82fcec1ca223923077e4f62729c375be95a6f3
->>>>>>> d9a50c8f4464db76b1c6de1e70a0d6b4d776470c
 <<<<<<< HEAD
-/assignments/maldonadom/unit3/HW17 Events Validate Fields/Trucks/Register/build/
-/assignments/maldonadom/unit3/HW17 Events Validate Fields/Trucks/Register/nbproject/private/
-/assignments/maldonadom/unit3/HW17 Events Validate Fields/Trucks/Copia de Register/nbproject/private/
+/workshops/garciam/unit3/WS33UnitTest/mathOperations/nbproject/private/
+/workshops/garciam/unit3/WS33UnitTest/mathOperations/build/
+/workshops/garciam/unit3/WS33UnitTest/mathOperations/dist/
 =======
->>>>>>> 4fa31da51fd984bc639ce6ea6f03ebb1e02cfb77
->>>>>>> ba3a11be2fd8845c4aba4b16af6e1ae75c80ce76
->>>>>>> de5f47ccab7f75891ec53978db9117c196146203
->>>>>>> 58ff7781a229efdd286f7d02d80b15b27fe9a614
-/assignments/zeasj/unit3/HW17EventsValidateFields_SmartCity/SmartCityPlanet/dist/
+>>>>>>> d9a50c8f4464db76b1c6de1e70a0d6b4d776470c
+/workshops/sanchezj/unit3/WS33/mathOperations/nbproject/private/
+/workshops/sanchezj/unit3/WS33/mathOperations/build/
+=======
+>>>>>>> 0d5c6e5b91682f72aa01d96a7ed01e17df366d98
+>>>>>>> 16985de4818cc6c536bc5d1d85b9a85c3b7bc37d
+>>>>>>> 3d0b5b29849eef850beb28dd91c93ee3b1e17104
+<<<<<<< HEAD
+>>>>>>> 73a72ac9395706419e5eb22e3fc9db034579c997
+>>>>>>> 1ed0b22e6cb109601a4e87db2fb8bde05ff26d26
+/assignments/calderona/unit3/HW20- Individual Exercise Test Cases/AccelerationF/nbproject/private/
+/assignments/calderona/unit3/HW20- Individual Exercise Test Cases/AccelerationF/build/
+/assignments/calderona/unit3/HW20- Individual Exercise Test Cases/AccelerationF/dist/
+/assignments/calderona/unit3/HW21-Project Test Cases/InventoryTireStoreOperation/nbproject/private/
+=======
+/assignments/garciam/unit3/HW19IndividualExerciseTestCases/circleArea/nbproject/private/
+/assignments/garciam/unit3/HW19IndividualExerciseTestCases/circleArea/build/
+/assignments/garciam/unit3/HW19IndividualExerciseTestCases/circleArea/dist/
+/assignments/garciam/unit3/HW21ProjectTestCases/Inventary/nbproject/private/
 =======
 
+<<<<<<< HEAD
 >>>>>>> e8cd647c0d297bdb10be9dd1e42f120feedf329a
 >>>>>>> d82f81cd57219c427d0b5e21d9829d65f0d1ab74
 /workshops/zeasj/unit3/WS33/Amperage/nbproject/private/
@@ -69,3 +103,54 @@ hs_err_pid*
 /workshops/zeasj/unit3/WS33/Amperage/mathOperations/build/
 /workshops/zeasj/unit3/WS33/Amperage/mathOperations/nbproject/private/
 /workshops/zeasj/unit3/WS33/Amperage/mathOperations/dist/
+=======
+>>>>>>> b25039e007ab0092153ee714752b2f58699160e3
+>>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+/assignments/calderona/unit3/HW20-Individual Exercise Test Cases/AccelerationF/build/
+/assignments/calderona/unit3/HW20-Individual Exercise Test Cases/AccelerationF/dist/
+/assignments/calderona/unit3/HW20-Individual Exercise Test Cases/AccelerationF/nbproject/private/
+/assignments/calderona/unit3/HW21-Project Test Cases/InventoryTireStoreOperation/build/
+=======
+>>>>>>> 5f18b1ddb8af1067eb454d6e05db4b2ac6e7db44
+>>>>>>> 14627fca9ac1f4255a3c027bddcbd472329263f1
+>>>>>>> a38cf068ddf54854bc15c0a163d33be27a526b0d
+/workshops/asumazad/unit3/WS33UnitTest/taxes/nbproject/private/
+/workshops/asumazad/unit3/WS33UnitTest/taxes/dist/
+/workshops/asumazad/unit3/WS33UnitTest/taxes/build/
+=======
+
+<<<<<<< HEAD
+#vpp temporal files
+*.bak_*
+
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3b33e3b99a101b68c0d5ec69958f6938de623e46
+>>>>>>> 4c50ec78615a504045404bf20d359e88d9602e0e
+>>>>>>> e2b1bdd6788a2488fecdc5779a795d0422a8c86c
+/workshops/lincangoj/unit3/WS29 SMART CITY/SmartCity/dist/
+/workshops/lincangoj/unit3/WS28  CLASS INDIVIDUAL EXCERCISE/VehicleManufacture/build/
+/workshops/lincangoj/unit3/WS33UnitTest/JavaLibrary1/nbproject/private/
+/workshops/lincangoj/unit3/WS33UnitTest/mathOperation/nbproject/private/
+/workshops/lincangoj/unit3/WS33UnitTest/mathOperation/build/
+=======
+>>>>>>> 18f7cf48c9c948a2cf0e7e1bfe78a7d97e9802c4
+/assignments/mantuanol/unit3/HW16Individual/HeadPhones2/nbproject/private/
+>>>>>>> f5cfda9a13ba548a91f55652c3b48dfda30f3ab0
+>>>>>>> f6e34339b2817c58284584c58ff758fe9c04a7d6
+>>>>>>> 433491cb1672cee1627563f790d6597cdaed82d1
+>>>>>>> 7e82fcec1ca223923077e4f62729c375be95a6f3
+>>>>>>> d9a50c8f4464db76b1c6de1e70a0d6b4d776470c
+/workshops/guamana/unit3/WS33-UnitTest/taxes/nbproject/private/
+/workshops/guamana/unit3/WS33-UnitTest/mathOperations/nbproject/private/
+/workshops/guamana/unit3/WS33-UnitTest/taxes/build/
+/assignments/guamana/unit3/New Folder/DistanceOperation/nbproject/private/
+/assignments/guamana/unit3/New Folder/DistanceOperation/build/
+=======
+>>>>>>> 51fdcffe5cc86c752eb9fd114e6ce221f58d429b
+>>>>>>> fe3af6e4b39386cb6cbc615a8541f129478311ab
+>>>>>>> 0df41e9c1d34b423269da8b5c511f49de04f4c9c
+>>>>>>> 715e053b494f15bba4eac2f4faebda85b7306265
+>>>>>>> 1c42ae02aebbd6e9657f720eb21ee023a04c9faf

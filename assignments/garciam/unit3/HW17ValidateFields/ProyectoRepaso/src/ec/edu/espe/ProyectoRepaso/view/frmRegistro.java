@@ -4,6 +4,8 @@ import utils.DBConnection;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 import org.bson.Document;
 
@@ -12,11 +14,13 @@ import org.bson.Document;
  * @author mayer
  */
 public class frmRegistro extends javax.swing.JFrame {
-MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCollection("MongoConnection");
+
+    Calendar fecha_actual = new GregorianCalendar();
+    MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCollection("MongoConnection");
     String id;
     String lastName;
     String Name;
-    String DateofBirth;
+    //String DateofBirth;
     String Salary;
 
     /**
@@ -48,7 +52,6 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         txtid = new javax.swing.JTextField();
         txtLastName = new javax.swing.JTextField();
         txtName = new javax.swing.JTextField();
-        txtDateofBirth = new javax.swing.JTextField();
         txtSalary = new javax.swing.JTextField();
         btnRegister = new javax.swing.JButton();
         btnFind = new javax.swing.JButton();
@@ -57,6 +60,7 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         lblErrorId = new javax.swing.JLabel();
         btnValidate = new javax.swing.JButton();
         lblWarning = new javax.swing.JLabel();
+        jDateChooser1 = new com.toedter.calendar.JDateChooser();
 
         jLabel7.setText("jLabel7");
 
@@ -96,12 +100,6 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         txtName.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 txtNameFocusLost(evt);
-            }
-        });
-
-        txtDateofBirth.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtDateofBirthFocusLost(evt);
             }
         });
 
@@ -157,32 +155,29 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(210, 210, 210))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(txtid, javax.swing.GroupLayout.PREFERRED_SIZE, 432, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(lblErrorId, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblWarning, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                        .addGap(451, 451, 451))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(txtLastName, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 432, Short.MAX_VALUE)
-                            .addComponent(txtSalary, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtDateofBirth, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtName, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                                .addComponent(lblWarning))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(0, 8, Short.MAX_VALUE)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblErrorId, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtid, javax.swing.GroupLayout.PREFERRED_SIZE, 445, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(txtLastName, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 445, Short.MAX_VALUE)
+                                        .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(txtName, javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jDateChooser1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(txtSalary, javax.swing.GroupLayout.Alignment.LEADING)))))
+                        .addContainerGap(18, Short.MAX_VALUE))))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -210,14 +205,6 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
                 .addGap(29, 29, 29)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2)
-                            .addComponent(lblWarning, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblErrorId, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(77, 77, 77)
                         .addComponent(jLabel3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -225,15 +212,23 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
                         .addGap(18, 18, 18)
                         .addComponent(jLabel4)
                         .addGap(13, 13, 13)
-                        .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtDateofBirth, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(7, 7, 7)
-                        .addComponent(jLabel6)
-                        .addGap(18, 18, 18)
-                        .addComponent(txtSalary, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)))
+                        .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel2)
+                            .addComponent(lblWarning, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblErrorId, javax.swing.GroupLayout.PREFERRED_SIZE, 12, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel6)
+                .addGap(18, 18, 18)
+                .addComponent(txtSalary, javax.swing.GroupLayout.DEFAULT_SIZE, 25, Short.MAX_VALUE)
                 .addGap(11, 11, 11)
                 .addComponent(btnValidate)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -251,7 +246,7 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 481, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -287,24 +282,23 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         option = JOptionPane.showConfirmDialog(this, "Are you sure want to register" + lastName);
         Name = txtName.getText();
         option = JOptionPane.showConfirmDialog(this, "Are you sure want to register" + Name);
-        DateofBirth= txtDateofBirth.getText();
-        option = JOptionPane.showConfirmDialog(this, "Are you sure want to register" + DateofBirth);
-        Salary= txtSalary.getText();
+        //DateofBirth = txtDateofBirth.getText();
+        //option = JOptionPane.showConfirmDialog(this, "Are you sure want to register" + DateofBirth);
+        Salary = txtSalary.getText();
         option = JOptionPane.showConfirmDialog(this, "Are you sure want to register" + Salary);
         if (option == 0) {
             JOptionPane.showMessageDialog(this, "Registering" + readInputs());
         } else if (option == JOptionPane.NO_OPTION) {
             JOptionPane.showMessageDialog(this, readInputs() + "was not registered");
         }
-       try {
+        try {
             org.bson.Document data = new org.bson.Document();
 
             data.put("id", Integer.parseInt(txtid.getText()));
             data.put("LastName", txtLastName.getText());
             data.put("Name", txtName.getText());
-            data.put("Date of Birth", txtDateofBirth.getText());
+            //data.put("Date of Birth", txtDateofBirth.getText());
             data.put("Salary", txtSalary.getText());
-            
 
             MongoConnection.insertOne(data);
             view();
@@ -315,11 +309,10 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         }
     }//GEN-LAST:event_btnRegisterActionPerformed
 
-    
     public void view() {
-    MongoCursor<Document> consult = MongoConnection.find().iterator();
+        MongoCursor<Document> consult = MongoConnection.find().iterator();
 
-    }    
+    }
     private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
 
         id = JOptionPane.showInputDialog("Enter your id");
@@ -369,13 +362,12 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
             JOptionPane.showMessageDialog(null, "data filled out correctly ", "Warning", JOptionPane.INFORMATION_MESSAGE);
             lblWarning.setVisible(false);
         }
-        
-        if (txtDateofBirth.getText().trim().isEmpty()) {
-            lblWarning.setVisible(true);
-        } else {
 
-            lblWarning.setVisible(false);
-        }
+        //if (txtDateofBirth.getText().trim().isEmpty()) {
+        //  lblWarning.setVisible(true);
+        // } else {
+        // lblWarning.setVisible(false);
+        // }
         if (txtSalary.getText().trim().isEmpty()) {
             lblWarning.setVisible(true);
         } else {
@@ -387,7 +379,7 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
     private void txtidFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtidFocusLost
         if (txtid.getText().trim().isEmpty()) {
             lblWarning.setVisible(true);
-            
+
         } else {
 
             lblWarning.setVisible(false);
@@ -413,15 +405,6 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         }
     }//GEN-LAST:event_txtNameFocusLost
 
-    private void txtDateofBirthFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtDateofBirthFocusLost
-        if (txtDateofBirth.getText().trim().isEmpty()) {
-            lblWarning.setVisible(true);
-        } else {
-
-            lblWarning.setVisible(false);
-        }
-    }//GEN-LAST:event_txtDateofBirthFocusLost
-
     private void txtSalaryFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtSalaryFocusLost
         if (txtSalary.getText().trim().isEmpty()) {
             lblWarning.setVisible(true);
@@ -436,7 +419,7 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         id = txtid.getText();
         lastName = txtLastName.getText();
         Name = txtName.getText();
-        DateofBirth = txtDateofBirth.getText();
+        //DateofBirth = txtDateofBirth.getText();
         Salary = txtSalary.getText();
 
         String data;
@@ -448,7 +431,7 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
         txtid.setText("");
         txtLastName.setText("");
         txtName.setText("");
-        txtDateofBirth.setText("");
+       // txtDateofBirth.setText("");
         txtSalary.setText("");
 
     }
@@ -494,6 +477,7 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
     private javax.swing.JButton btnRegister;
     private javax.swing.JButton btnUpdate;
     private javax.swing.JButton btnValidate;
+    private com.toedter.calendar.JDateChooser jDateChooser1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -504,7 +488,6 @@ MongoCollection<Document> MongoConnection = new DBConnection().obtenerDB().getCo
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblErrorId;
     private javax.swing.JLabel lblWarning;
-    private javax.swing.JTextField txtDateofBirth;
     private javax.swing.JTextField txtLastName;
     private javax.swing.JTextField txtName;
     private javax.swing.JTextField txtSalary;
