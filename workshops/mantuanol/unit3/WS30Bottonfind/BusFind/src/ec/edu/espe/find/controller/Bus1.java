@@ -3,7 +3,7 @@ package ec.edu.espe.find.controller;
 
 /**
  *
- * @author USER
+ * @author Leonel Mantuano
  */
 public class Bus1 {
     
