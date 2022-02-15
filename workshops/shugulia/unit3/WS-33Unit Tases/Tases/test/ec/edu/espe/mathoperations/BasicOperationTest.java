@@ -54,6 +54,7 @@ public class BasicOperationTest {
      */
     @Test
     public void testSubtruct() {
+
         System.out.println("subtruct");
         float minuend = 5.2F;
         float subtraend = 2.5F;
@@ -61,7 +62,6 @@ public class BasicOperationTest {
         float expResult = 2.7F;
         float result = instance.subtruct(minuend, subtraend);
         assertEquals(expResult, result, 0.001);
-
     }
     
 }
