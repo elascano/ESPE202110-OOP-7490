@@ -36,6 +36,16 @@ hs_err_pid*
 
 
 
+
+<<<<<<< HEAD
+>>>>>>> b25039e007ab0092153ee714752b2f58699160e3
+/workshops/alvarezm/unit3/WS33UnitTest/USTaxOregon/nbproject/private/
+/workshops/alvarezm/unit3/WS33UnitTest/USTaxOregon/build/
+=======
+#vpp temporal files
+*.bak_*
+
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 18f7cf48c9c948a2cf0e7e1bfe78a7d97e9802c4
@@ -44,25 +54,34 @@ hs_err_pid*
 >>>>>>> f6e34339b2817c58284584c58ff758fe9c04a7d6
 >>>>>>> 433491cb1672cee1627563f790d6597cdaed82d1
 >>>>>>> 7e82fcec1ca223923077e4f62729c375be95a6f3
-<<<<<<< HEAD
-/workshops/garciam/unit3/WS33UnitTest/mathOperations/nbproject/private/
-/workshops/garciam/unit3/WS33UnitTest/mathOperations/build/
-/workshops/garciam/unit3/WS33UnitTest/mathOperations/dist/
-=======
 >>>>>>> d9a50c8f4464db76b1c6de1e70a0d6b4d776470c
-/workshops/sanchezj/unit3/WS33/mathOperations/nbproject/private/
-/workshops/sanchezj/unit3/WS33/mathOperations/build/
+/workshops/guamana/unit3/WS33-UnitTest/taxes/nbproject/private/
+/workshops/guamana/unit3/WS33-UnitTest/mathOperations/nbproject/private/
+/workshops/guamana/unit3/WS33-UnitTest/taxes/build/
+/assignments/guamana/unit3/New Folder/DistanceOperation/nbproject/private/
+/assignments/guamana/unit3/New Folder/DistanceOperation/build/
 =======
->>>>>>> 0d5c6e5b91682f72aa01d96a7ed01e17df366d98
->>>>>>> 16985de4818cc6c536bc5d1d85b9a85c3b7bc37d
->>>>>>> 3d0b5b29849eef850beb28dd91c93ee3b1e17104
-/assignments/garciam/unit3/HW19IndividualExerciseTestCases/circleArea/nbproject/private/
-/assignments/garciam/unit3/HW19IndividualExerciseTestCases/circleArea/build/
-/assignments/garciam/unit3/HW19IndividualExerciseTestCases/circleArea/dist/
-/assignments/garciam/unit3/HW21ProjectTestCases/Inventary/nbproject/private/
+>>>>>>> 51fdcffe5cc86c752eb9fd114e6ce221f58d429b
+>>>>>>> fe3af6e4b39386cb6cbc615a8541f129478311ab
+>>>>>>> 0df41e9c1d34b423269da8b5c511f49de04f4c9c
+/workshops/guamana/unit3/WS34-DesigPatters/CalculatorUSTax/nbproject/private/
+/workshops/guamana/unit3/WS34-DesigPatters/CalculatorUSTax/build/
+/workshops/guamana/unit3/WS34-DesigPatters/CalculatorUSTax/dist/
 =======
-
+<<<<<<< HEAD
 >>>>>>> b25039e007ab0092153ee714752b2f58699160e3
+<<<<<<< HEAD
 /workshops/shugulia/unit3/WS-34/CalculatorAndUsTax/nbproject/private/
 /workshops/shugulia/unit3/WS-34/Calculator/nbproject/private/
 /workshops/shugulia/unit3/WS-34/Calculator/build/
+=======
+>>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+>>>>>>> ec06131dc1d9c0ee417f64f1101b4ba828ac7a5d
+>>>>>>> be9fe5bd5d57f9e6a06fd2d71cb7dfd325429c14
+/workshops/moralesa/unit3/WS34/Calculator/nbproject/private/
+/workshops/moralesa/unit3/WS34/Calculator/build/
+=======
+>>>>>>> 80b4ddda1c0aef650382c474d6d61ebc1677bc91
+>>>>>>> b41c5cdba8629b738b60392a181b20603bbee89f
+>>>>>>> 9d3844c8d928d6cece6550ba0bf825412c72e60a
+>>>>>>> 118b9b539e93115e01f701a61615bc447c6e8271
