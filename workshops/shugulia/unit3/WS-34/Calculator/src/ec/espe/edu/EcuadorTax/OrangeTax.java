@@ -20,22 +20,19 @@ public class OrangeTax {          //Tax is 6.00%
 
     public float salesTotal() {
                 
-        Scanner sc = new Scanner(System.in);
-        double precioUnidad, cantidad, iva, precioSinIva, totalIva;
-
-        System.out.print("Introduzca precio por unidad del producto: ");                                          
-        precioUnidad = sc.nextDouble();
-
-        System.out.print("Introduzca número de productos vendidos: ");
-        cantidad = sc.nextDouble();
-
-        System.out.print("Introduzca %IVA: ");
-        iva = sc.nextDouble();
-
-        precioSinIva = precioUnidad * cantidad;
-        totalIva = precioSinIva * iva / 100;
-
-        System.out.println("Precio de venta -> " + (precioSinIva + totalIva));
+        double taxtopay;
+        double taxeApliedToSale;
+        final double taxValueInOrange =(double) 0.6;
+        double sale;
+       
+        Scanner input = new Scanner (System.in);
+        System.out.print(" Please  enter the value of your sale --->  ");
+        sale = input.nextFloat();  
+       
+        taxeApliedToSale = sale * taxValueInOrange;
+        taxtopay= sale + taxeApliedToSale;
+        
+        System.out.println("In the state of Nevada, the total amount due, including the 6% tax, is:---> " + taxtopay + " dollars.");
         return 0;
     }
 }
