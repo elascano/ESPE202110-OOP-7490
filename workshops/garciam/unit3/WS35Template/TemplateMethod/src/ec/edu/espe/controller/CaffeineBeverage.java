@@ -1,4 +1,3 @@
-
 package ec.edu.espe.controller;
 
 /**
@@ -6,16 +5,33 @@ package ec.edu.espe.controller;
  * @author Mayerly Garcia
  */
 public abstract class CaffeineBeverage {
-  void prepareRecipe(){
-      boilWater();
-      brew();
-      pourlnCup();
-      if(wantsCondiments()){addCondiments();}
+
+   abstract void addCondiments();
+   abstract void brew();
+   
+   public final void prepareRecipe() {
+        boilWater();
+        brew();
+        pourlnCup();
+        if (wantsCondiments()) {
+            addCondiments();
+        }
+
+    }
+
+    void boilWater() {
+        System.out.println("Boilin water");
+    }
+
     
-}
-void boilWater(){System.out.println("Boilin water");}
-abstract void brew();
-void pourlnCup(){System.out.println("Pouring into cup");}
-abstract void addCondiments();
-boolean wantsCondiments(){return true;}
+
+    void pourlnCup() {
+        System.out.println("Pouring into cup");
+    }
+
+    
+
+    boolean wantsCondiments() {
+        return true;
+    }
 }

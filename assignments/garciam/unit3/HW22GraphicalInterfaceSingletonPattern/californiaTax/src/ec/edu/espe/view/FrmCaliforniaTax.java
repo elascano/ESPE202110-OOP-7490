@@ -1,5 +1,6 @@
 package ec.edu.espe.view;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
@@ -7,13 +8,13 @@ import javax.swing.JOptionPane;
  *
  * @author Mayerly Garcia
  */
-public class FrmCalifornaiaTax extends javax.swing.JFrame {
+public class FrmCaliforniaTax extends javax.swing.JFrame {
 
     /**
      * Creates new form FrmCalifornaiaTax
      */
-    public FrmCalifornaiaTax() {
-
+    public FrmCaliforniaTax() {
+        
         initComponents();
     }
 
@@ -29,23 +30,20 @@ public class FrmCalifornaiaTax extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         txtPrice = new javax.swing.JTextField();
-        txtNumber = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         btnCalculate = new javax.swing.JButton();
         txtTax = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(204, 0, 255));
+
         jLabel1.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jLabel1.setText("California Tax");
 
-        jLabel2.setFont(new java.awt.Font("Algerian", 1, 10)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jLabel2.setText("Enter price per unit of the product");
-
-        jLabel3.setFont(new java.awt.Font("Algerian", 1, 10)); // NOI18N
-        jLabel3.setText("Enter number of products sold");
 
         txtPrice.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,13 +51,7 @@ public class FrmCalifornaiaTax extends javax.swing.JFrame {
             }
         });
 
-        txtNumber.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNumberActionPerformed(evt);
-            }
-        });
-
-        jLabel4.setFont(new java.awt.Font("Algerian", 1, 10)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jLabel4.setText("Enter TAX");
 
         btnCalculate.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
@@ -88,18 +80,14 @@ public class FrmCalifornaiaTax extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(25, 25, 25)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 209, Short.MAX_VALUE)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(97, 97, 97)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtPrice)
-                            .addComponent(txtNumber)
-                            .addComponent(txtTax, javax.swing.GroupLayout.DEFAULT_SIZE, 188, Short.MAX_VALUE)))
+                            .addComponent(txtTax)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(201, 201, 201)
+                        .addGap(229, 229, 229)
                         .addComponent(btnCalculate, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(161, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,20 +95,16 @@ public class FrmCalifornaiaTax extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(txtPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(93, 93, 93)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(74, 74, 74)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtTax, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(33, 33, 33)
+                .addComponent(txtTax, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(45, 45, 45)
                 .addComponent(btnCalculate)
-                .addGap(50, 50, 50))
+                .addContainerGap(85, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -138,43 +122,30 @@ public class FrmCalifornaiaTax extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCalculateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalculateActionPerformed
-        Scanner sc = new Scanner(System.in);
-        double priceUnit, quantity, USTax, priceWithoutTax, totalTax;
-
+       double sale;
+        double taxValueInCalifornia;
+        double priceTotal;
+        double objectTax;
         
-//        System.out.print("Enter price per unit of the product: ");
-       priceUnit = sc.nextDouble();
-
-//        System.out.print("Enter number of products sold: ");
-       quantity = sc.nextDouble();
-
-        System.out.print("Enter TAX: ");
-        USTax = sc.nextDouble();
-
-        priceWithoutTax = priceUnit * quantity;
-        totalTax = priceWithoutTax * USTax / 100;
-JOptionPane.showMessageDialog(this, "The data was added correctly");
+        
+       taxValueInCalifornia = Double.parseDouble(txtTax.getText());
+        sale = Double.parseDouble(txtPrice.getText());
+        objectTax = sale * (taxValueInCalifornia/100);
+        priceTotal= sale + objectTax;
+        
+        DecimalFormat format = new DecimalFormat("#.00");
+        JOptionPane.showMessageDialog(null, "In California the total price is"
+                + format.format(priceTotal));
        // System.out.println("The Taxin  State o fCalifornia is -> " + (priceWithoutTax + totalTax));
     }//GEN-LAST:event_btnCalculateActionPerformed
 
     private void txtTaxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTaxActionPerformed
- Scanner sc = new Scanner(System.in);
-double USTax;
-        USTax = sc.nextDouble();
+ 
     }//GEN-LAST:event_txtTaxActionPerformed
 
     private void txtPriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPriceActionPerformed
-        Scanner sc = new Scanner(System.in);
-        double priceUnit;
-        priceUnit = sc.nextDouble();
+      
     }//GEN-LAST:event_txtPriceActionPerformed
-
-    private void txtNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumberActionPerformed
-        Scanner sc = new Scanner(System.in);
-        double quantity;
-        quantity = sc.nextDouble();
-        
-    }//GEN-LAST:event_txtNumberActionPerformed
 
     /**
      * @param args the command line arguments
@@ -193,20 +164,21 @@ double USTax;
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FrmCalifornaiaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCaliforniaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FrmCalifornaiaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCaliforniaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FrmCalifornaiaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCaliforniaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FrmCalifornaiaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCaliforniaTax.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FrmCalifornaiaTax().setVisible(true);
+                new FrmCaliforniaTax().setVisible(true);
             }
         });
     }
@@ -215,10 +187,8 @@ double USTax;
     private javax.swing.JButton btnCalculate;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField txtNumber;
     private javax.swing.JTextField txtPrice;
     private javax.swing.JTextField txtTax;
     // End of variables declaration//GEN-END:variables

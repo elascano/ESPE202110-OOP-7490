@@ -8,15 +8,15 @@ import ec.edu.espe.model.Tea;
  *
  * @author Mayerly Garcia
  */
-public  class BeverageTest {
+public abstract class BeverageTest {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
         
         Tea tea = new Tea() {};
-        Coffee coffee = new Coffee();
+        Coffee coffee = new Coffee() {};
         
         System.out.println("\nMaking tea...");
         tea.prepareRecipe();
