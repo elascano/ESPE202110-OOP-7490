@@ -4,7 +4,7 @@ package ec.edu.espe.view;
 
 /**
  *
- * @author Alexander Ruano, DEEL-ESPE
+ * @author Sebastian Tayo
  */
 public class FrmCalculator extends javax.swing.JFrame {
 
