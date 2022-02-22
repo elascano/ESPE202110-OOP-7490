@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
+=======
+
+>>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
 package ec.edu.espe.mathOperations;
 
 import org.junit.Test;
@@ -24,6 +28,7 @@ public class mathOperationTest {
         System.out.println("main");
         String[] args = null;
         double pi=3.14;
+<<<<<<< HEAD
         double radius= 5;
         double perimeter = 2*pi*radius;
         double expResult = 31.4;
@@ -54,10 +59,17 @@ public class mathOperationTest {
         double perimeter = 2*pi*radius;
         double expResult = 1256;
         double result = mathOperation.main(args, perimeter, (float) radius);
+=======
+        double diameter= 5;
+        double circumference = pi*diameter;
+        double expResult = 31.4;
+        double result = mathOperation.main(args, circumference, (float) diameter);
+>>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
         assertEquals(expResult, result, 0.001);
 
     }
     
+<<<<<<< HEAD
      @Test
     public void testNegative() {
         System.out.println("main");
@@ -143,3 +155,6 @@ public class mathOperationTest {
     }
 }
 
+=======
+}
+>>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
