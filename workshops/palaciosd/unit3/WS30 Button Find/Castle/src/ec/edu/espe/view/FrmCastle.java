@@ -1,37 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package ec.edu.espe.view;
 
+
 import com.mongodb.client.MongoCollection;
+import ec.edu.espe.model.Castle;
+import java.util.LinkedList;
 import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
-import org.bson.Document;
 import utils.DBManager;
+import org.bson.Document;
+
 
 /**
  *
- * @author USER
+ * @author Sebastian Palacios
  */
-public class Add extends javax.swing.JFrame {
-     MongoCollection<Document> Castles = new DBManager().obtenerDB().getCollection("Castles");
-    DefaultTableModel tabla = new DefaultTableModel(){
-        @Override
-        public boolean isCellEditable(int row, int column) {
-            return false; 
-        }
-        
-    };
+public class FrmCastle extends javax.swing.JFrame {
+    MongoCollection<Document> Castles = new DBManager().obtenerDB().getCollection("Castles");
+    public static LinkedList Castle = new LinkedList();
+    public int find;
+    
     /**
-     * Creates new form Add
+     * Creates new form FrmCastle
      */
-    public Add () {
+    public FrmCastle() {
         initComponents();
-    }
-
-    Add(FrmCastle aThis, boolean b, MongoCollection<Document> Castles, String idUpload) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
@@ -43,6 +34,10 @@ public class Add extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        btnList = new javax.swing.JButton();
+        btnFind = new javax.swing.JButton();
+        btnDelete = new javax.swing.JButton();
+        btnAdd = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -54,9 +49,41 @@ public class Add extends javax.swing.JFrame {
         txtNumberOfFloor = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         txtDimensions = new javax.swing.JTextField();
-        btnAdd = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        btnList.setBackground(new java.awt.Color(204, 204, 255));
+        btnList.setText("List Castle");
+        btnList.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnListActionPerformed(evt);
+            }
+        });
+
+        btnFind.setBackground(new java.awt.Color(204, 204, 255));
+        btnFind.setText("Find");
+        btnFind.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFindActionPerformed(evt);
+            }
+        });
+
+        btnDelete.setBackground(new java.awt.Color(204, 204, 255));
+        btnDelete.setText("Delete");
+        btnDelete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDeleteActionPerformed(evt);
+            }
+        });
+
+        btnAdd.setBackground(new java.awt.Color(204, 204, 255));
+        btnAdd.setText("Add");
+        btnAdd.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddActionPerformed(evt);
+            }
+        });
 
         jLabel3.setText("Name:");
 
@@ -117,12 +144,8 @@ public class Add extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnAdd.setText("Add");
-        btnAdd.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAddActionPerformed(evt);
-            }
-        });
+        jLabel6.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
+        jLabel6.setText("Castle");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -132,43 +155,99 @@ public class Add extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(26, 26, 26)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnAdd)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnList)
+                        .addGap(32, 32, 32)
+                        .addComponent(btnFind)
+                        .addGap(29, 29, 29)
+                        .addComponent(btnDelete))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(108, 108, 108)
-                        .addComponent(btnAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(34, Short.MAX_VALUE))
+                        .addGap(148, 148, 148)
+                        .addComponent(jLabel6))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(4, 4, 4)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(btnAdd)
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addGap(23, 23, 23)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnAdd)
+                    .addComponent(btnFind)
+                    .addComponent(btnList)
+                    .addComponent(btnDelete))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-       
+        String name= txtName.getText();
+        String country = txtCountry.getText();
+        String zipCode = txtZipCode.getText();
+        String dimensions = txtDimensions.getText();
+        String numberOfFloor = txtNumberOfFloor.getText();
+        
+        Castle castles = new Castle(name, country, zipCode, dimensions, numberOfFloor);
+        Castle.add(castles);
+        JOptionPane.showMessageDialog(this, name + " Correct Add");
+        
         try {
-            Document data = new Document();
-
-           data.put("Name", txtName.getText());
-            data.put("Id", txtCountry.getText());
-            data.put("PhoneNumber", txtZipCode.getText());
-            data.put("Price", txtDimensions.getText());
-            data.put("Specialty", txtNumberOfFloor.getText());
+            Document data = (Document) new org.bson.Document();
+            data.put("Name", txtName.getText());
+            data.put("Country", txtCountry.getText());
+            data.put("Zip Code", txtZipCode.getText());
+            data.put("Dimensions", txtDimensions.getText());
+            data.put("Number Of Floor", txtNumberOfFloor.getText());
             Castles.insertOne(data);
+            txtName.setText("");
+            txtCountry.setText("");
+            txtZipCode.setText("");
+            txtDimensions.setText("");
+            txtNumberOfFloor.setText("");
+            
 
-            JOptionPane.showMessageDialog(this, "CORRECT");
-
-        } catch(Exception err){
-            JOptionPane.showMessageDialog(this, "ERROR: "+err.getMessage());
+        } catch (Exception err) {
+            JOptionPane.showMessageDialog(this, "ERROR: " + err.getMessage());
         }
     }//GEN-LAST:event_btnAddActionPerformed
+
+    private void btnListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListActionPerformed
+        FrmListCastle show = new FrmListCastle();
+        show.setVisible(true);
+         this.setVisible (false);
+    }//GEN-LAST:event_btnListActionPerformed
+
+    private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
+        String name;
+        Castle castles;
+        name = JOptionPane.showInputDialog("Please Enter Name");
+        for(int i=0; i<Castle.size();i++){
+                castles=(Castle)Castle.get(i);
+                if(name.equalsIgnoreCase(castles.getName())){
+                    txtName.setText(castles.getName());
+                    txtCountry.setText(castles.getCountry());
+                    txtZipCode.setText(castles.getZipCode());
+                    txtDimensions.setText(castles.getDimensions());
+                    txtNumberOfFloor.setText(castles.getNumberOfFloor());
+                    find=1;
+                    break;
+                }
+            }
+        
+    }//GEN-LAST:event_btnFindActionPerformed
+
+    private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnDeleteActionPerformed
 
     /**
      * @param args the command line arguments
@@ -187,31 +266,36 @@ public class Add extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCastle.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCastle.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCastle.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Add.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FrmCastle.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Add().setVisible(true);
+                new FrmCastle().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAdd;
+    private javax.swing.JButton btnDelete;
+    private javax.swing.JButton btnFind;
+    private javax.swing.JButton btnList;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JTextField txtCountry;
     private javax.swing.JTextField txtDimensions;
