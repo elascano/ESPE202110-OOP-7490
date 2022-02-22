@@ -5,9 +5,12 @@ import java.util.Scanner;
  *
  * @author Alvarez Michelle DEEL-ESPE
  */
-public class OregonTax {          // Tax is 9.9%
+public class OregonTax {    // Tax is 9.9%
+    
     private static OregonTax instance;
-    private OregonTax(){}
+    
+    private OregonTax(){
+    }
     
     public static OregonTax getInstance(){
         
