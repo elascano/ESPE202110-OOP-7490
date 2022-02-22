@@ -12,15 +12,15 @@ import org.bson.types.ObjectId;
 
 /**
  *
- * @author andresmaldonado
+ * @author MateoMaldonado
  */
-public class Upload extends javax.swing.JDialog {
+public class Upload extends javax.swing.JFrame {
 
     Document filter;
     MongoCollection<Document> Workshop28;
     
     public Upload(java.awt.Frame parent, boolean modal, MongoCollection<Document> Workshop28, String id) {
-        super(parent, modal);
+        super();
         initComponents();
         filter = new Document("_id",new ObjectId(id));
         this.Workshop28 = Workshop28;

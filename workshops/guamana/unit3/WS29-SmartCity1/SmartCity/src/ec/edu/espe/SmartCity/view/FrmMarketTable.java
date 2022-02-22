@@ -5,12 +5,14 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.result.DeleteResult;
 import ec.edu.SmartCity.Utils.Connection;
+import ec.edu.espe.SmartCity.model.MarketTable;
 import ec.edu.espe.SmartCity.model.read;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+import jdk.jfr.Name;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 
@@ -23,7 +25,7 @@ import org.bson.types.ObjectId;
 public class FrmMarketTable extends javax.swing.JFrame {
     
     Calendar fecha_actual = new GregorianCalendar();
-    MongoCollection<Document> Contact = new Connection().obtenerDB().getCollection("ExerciseMarketTable");
+    MongoCollection<Document> Contact = new Connection().obtenerDB().getCollection("Find");
     DefaultTableModel tabla = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column) {
@@ -31,6 +33,7 @@ public class FrmMarketTable extends javax.swing.JFrame {
         }
         
     };
+    private String Name;
     
     public FrmMarketTable() {
         
@@ -81,6 +84,8 @@ public class FrmMarketTable extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         tblContacts = new javax.swing.JTable();
         txtAdd = new javax.swing.JButton();
+        btnFind = new javax.swing.JButton();
+        jTextField1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 204, 204));
@@ -262,6 +267,19 @@ public class FrmMarketTable extends javax.swing.JFrame {
             }
         });
 
+        btnFind.setText("Find");
+        btnFind.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFindActionPerformed(evt);
+            }
+        });
+
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -282,7 +300,11 @@ public class FrmMarketTable extends javax.swing.JFrame {
                         .addGap(87, 87, 87)
                         .addComponent(btnExit)
                         .addGap(82, 82, 82)
-                        .addComponent(txtAdd)))
+                        .addComponent(txtAdd)
+                        .addGap(71, 71, 71)
+                        .addComponent(btnFind)
+                        .addGap(33, 33, 33)
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(30, 34, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -295,7 +317,9 @@ public class FrmMarketTable extends javax.swing.JFrame {
                     .addComponent(btnExit)
                     .addComponent(btnListContacts)
                     .addComponent(btnUpload)
-                    .addComponent(txtAdd))
+                    .addComponent(txtAdd)
+                    .addComponent(btnFind)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(38, 38, 38)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(150, 150, 150))
@@ -359,6 +383,27 @@ public class FrmMarketTable extends javax.swing.JFrame {
                     // TODO add your handling code here:
     }//GEN-LAST:event_txtAddActionPerformed
 
+    private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
+        // TODO add your handling code here:
+        int id;
+        MarketTable markettable;
+        
+        id = Integer.parseInt(JOptionPane.showInputDialog("Enter the Id Number"));
+        
+        
+      
+      
+        
+     
+  
+    }//GEN-LAST:event_btnFindActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+       
+    
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
     public boolean Delete(String id){
         DeleteResult answer = Contact.deleteOne(new Document("_id", new ObjectId(id)));
         if(answer.getDeletedCount()==1){
@@ -418,6 +463,7 @@ public class FrmMarketTable extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JToggleButton btnExit;
+    private javax.swing.JButton btnFind;
     private javax.swing.JButton btnListContacts;
     private javax.swing.JToggleButton btnUpload;
     private javax.swing.JLabel jLabel1;
@@ -431,6 +477,7 @@ public class FrmMarketTable extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JTable tblContacts;
     private javax.swing.JButton txtAdd;
     private com.toedter.calendar.JDateChooser txtBirthdate;

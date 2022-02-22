@@ -1,0 +1,4 @@
+{"Microwave1": {"Id":01, "Brand":"LG", "Model":"7415", "Color":"Black", "Capacity": 25, "Potency": 1000, "EnergySave": "Yes", "Grill": "No", "Status": "On", "Price": 120} }
+
+
+{"Id":01, "Brand":"LG", "Model":7415, "Color":"Black", "Capacity": 25, "Potency": 1000, "EnergySave": "Yes", "Grill": "No", "Status": "On", "Price": 120} 
