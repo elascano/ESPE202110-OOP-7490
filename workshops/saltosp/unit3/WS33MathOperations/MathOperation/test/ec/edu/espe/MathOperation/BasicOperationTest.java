@@ -1,7 +1,6 @@
 
 package ec.edu.espe.MathOperation;
 
-import ec.edu.espe.MathOperation.BasicOperation;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
