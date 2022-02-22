@@ -1,0 +1,1 @@
+The singleton pattern will have a single instance and no matter how many times it is called from anywhere, it will return the same instance as created by the class at the beginning. The constructor must be encapsulated and global access must be granted to that single instance.
