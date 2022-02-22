@@ -22,6 +22,13 @@
 *.tar.gz
 *.rar
 <<<<<<< HEAD
+/workshops/altamiranoc/Unit3/WS33UnitTest/MathOperations/nbproject/private/
+/assignments/altamiranoc/Unit3/HW20TestCases/PerimeterOfRectangule/nbproject/private/
+/assignments/altamiranoc/Unit3/HW20TestCases/PerimeterOfRectangule/build/
+/assignments/altamiranoc/Unit3/HW22TaxCalculator/USTax/nbproject/private/
+/assignments/altamiranoc/Unit3/HW22TaxCalculator/USTax/build/
+=======
+<<<<<<< HEAD
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 #vpp temporal files
@@ -205,6 +212,12 @@ hs_err_pid*
 >>>>>>> 9d3844c8d928d6cece6550ba0bf825412c72e60a
 >>>>>>> 118b9b539e93115e01f701a61615bc447c6e8271
 >>>>>>> 3bb1ebf25c3184f587bbc9a8c498e4db06159830
+<<<<<<< HEAD
+/workshops/maldonadom/unit3/WS35/JavaApplication23/nbproject/private/
+/workshops/maldonadom/unit3/WS35/CaffeineBeverage/nbproject/private/
+/exams/maldonadom/unit3/Final ExamExercise/nbproject/private/
+/exams/maldonadom/unit3/Final ExamExercise/build/
+=======
 >>>>>>> d641b49499a873e455ef70f96167d243a69e9c06
 /assignments/bravok/unit3/HW22GraphicalInterfaceSingletonPattern/U.S.ACalculator/nbproject/private/
 /workshops/bravok/unit3/WS34SingletonPattern/CalculatorGeorgiaTax/nbproject/private/
@@ -233,3 +246,12 @@ hs_err_pid*
 >>>>>>> 3d777a4afaaf5b3ce79180e8938752bf3e065b24
 >>>>>>> 37985c3803fc43011415473aeab74d0e973db188
 >>>>>>> daf4e496d33408c6ae1b5d1ca905c61ec716c61e
+>>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
+<<<<<<< HEAD
+/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamAltamiranoCristhian/nbproject/private/
+/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamUnit3/nbproject/private/
+/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamAltamiranoCristhian/build/
+/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamUnit3/build/
+=======
+>>>>>>> ede1e45b0bac22c29bef0ce186692443a8571a80
+>>>>>>> 03b4cbd785633126e9a8f69d374c37eee97ab6fd

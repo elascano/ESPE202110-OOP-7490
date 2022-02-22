@@ -56,8 +56,11 @@ public class BasicOperationTest {
     public void testSubtruct() {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 
 >>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+>>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
         System.out.println("subtruct");
         float minuend = 5.2F;
         float subtraend = 2.5F;
@@ -68,7 +71,11 @@ public class BasicOperationTest {
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
+
+=======
 >>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+>>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
     }
     
 }

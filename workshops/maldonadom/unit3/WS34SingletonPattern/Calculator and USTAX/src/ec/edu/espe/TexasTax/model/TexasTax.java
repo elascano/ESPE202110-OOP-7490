@@ -1,4 +1,3 @@
-
 package ec.edu.espe.TexasTax.model;
 
 import java.util.Scanner;
@@ -41,5 +40,4 @@ public class TexasTax {
         System.out.println("In Texas State, the total amount to pay including the tax of 6.25% is ---> " + amoutToPayWithTaxe + " dollars.");
         return 0;
         }
-    
 }
