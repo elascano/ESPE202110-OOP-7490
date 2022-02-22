@@ -19,12 +19,12 @@ public class SortApp {
     public void insertData(){
         input=new Scanner(System.in);
         System.out.print("How many number are you goin to order: ");
-        int cant;
-        cant=input.nextInt();
-        data=new int[cant];
+        int quantity;
+        quantity=input.nextInt();
+        data=new int[quantity];
         System.out.print("Insert the numbers: ");
         for(int f=0;f<data.length;f++) {
-                        data[f]=input.nextInt();
+            data[f]=input.nextInt();
         }	
     }
 	
@@ -43,7 +43,7 @@ public class SortApp {
         
         SortingContext sc = new SortingContext();
         
-       // sortedList[] = sc.sort(data);
+        //sortedList[] = sc.sort(int[] data);
         
     }  
 }
