@@ -1,4 +1,7 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
+ */
 package ec.edu.espe.mathOperations;
 
 import org.junit.Test;
@@ -6,7 +9,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Alexander Ruano, DEEL-ESPE
+ * @author Jose Sanchez, DEEL-ESPE
  */
 public class BasicOperationTest {
     
@@ -19,12 +22,12 @@ public class BasicOperationTest {
     @Test
     public void testAdd() {
         System.out.println("add");
-        float addend1 = 1.2F;
-        float addend2 = 3.2F;
+        float addend1 = 1.0F;
+        float addend2 = 2.0F;
         BasicOperation instance = new BasicOperation();
-        float expResult = 4.4F;
+        float expResult = 3.0F;
         float result = instance.add(addend1, addend2);
-        assertEquals(expResult, result,0.0);
+        assertEquals(expResult, result, 0.0);
 
     }
 
@@ -34,13 +37,13 @@ public class BasicOperationTest {
     @Test
     public void testSubtruct() {
         System.out.println("subtruct");
-        float minuend = 5.2F;
-        float subtraend = 2.5F;
+        float minuend = 2.0F;
+        float subtraend = 1.0F;
         BasicOperation instance = new BasicOperation();
-        float expResult = 2.7F;
+        float expResult = 1.0F;
         float result = instance.subtruct(minuend, subtraend);
-        assertEquals(expResult, result, 0.1);
-
+        assertEquals(expResult, result, 0.0);
+    
     }
     
 }
