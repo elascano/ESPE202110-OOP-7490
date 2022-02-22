@@ -22,9 +22,9 @@ public class SortApp {
         int cant;
         cant=input.nextInt();
         data=new int[cant];
+        System.out.print("Insert the numbers: ");
         for(int f=0;f<data.length;f++) {
-            System.out.print("Insert the numbers: ");
-            data[f]=input.nextInt();
+                        data[f]=input.nextInt();
         }	
     }
 	
@@ -43,7 +43,7 @@ public class SortApp {
         
         SortingContext sc = new SortingContext();
         
-        sortedList[] = sc.sort(data);
+       // sortedList[] = sc.sort(data);
         
     }  
 }
