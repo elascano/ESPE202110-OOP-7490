@@ -30,7 +30,7 @@ MongoDatabase database = mongoClient.getDatabase("OilFilter");
 
 
     
-    public MongoDatabase obtenerDB(){
+    public MongoDatabase returnDB(){
         return database;
     }
 
