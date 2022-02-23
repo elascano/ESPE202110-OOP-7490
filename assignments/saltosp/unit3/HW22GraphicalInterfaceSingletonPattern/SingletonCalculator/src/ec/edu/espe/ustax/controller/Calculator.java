@@ -3,7 +3,7 @@ package ec.edu.espe.ustax.controller;
 
 /**
  *
- * @author Paul Saltos , DEEL-ESPE
+ * @author Paul Saltos , DEEE-ESPE
  */
 public class Calculator {
     public static float salesTotal(String base,float total) {
