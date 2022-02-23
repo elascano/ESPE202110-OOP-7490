@@ -1,0 +1,26 @@
+package ec.edu.espe.mathOperations;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author Alex Andrango
+ */
+public class BasicOperationTest {
+    
+    public BasicOperationTest() {
+    }
+
+    @Test
+    public void testAdd() {
+        System.out.println("add");
+        float addend1 = 1.2F;
+        float addend2 = 3.2F;
+        BasicOperation instance = new BasicOperation();
+        float expResult = 4.4F;
+        float result = instance.add(addend1, addend2);
+        assertEquals(expResult, result, 0.0);
+    }
+    
+}
