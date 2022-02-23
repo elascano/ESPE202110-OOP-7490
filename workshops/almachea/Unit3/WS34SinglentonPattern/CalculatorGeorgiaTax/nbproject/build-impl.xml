@@ -19,15 +19,7 @@ is divided into following sections:
   - cleanup
 
         -->
-<<<<<<< HEAD
-<<<<<<< HEAD:workshops/almachea/Unit3/WS28ClassIndividualExercise/WS28Computers/Cellphone/nbproject/build-impl.xml
-<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="Cellphone-impl">
-=======
-<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="Empleoyes-impl">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755:assignments/landazurim/unit3/HW17 Events Validate Fields/Empleoyes/nbproject/build-impl.xml
-=======
-<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="Cellphone-impl">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+<project xmlns:if="ant:if" xmlns:j2seproject1="http://www.netbeans.org/ns/j2se-project/1" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxrpc="http://www.netbeans.org/ns/j2se-project/jax-rpc" xmlns:unless="ant:unless" basedir=".." default="default" name="CalculatorGeorgiaTax-impl">
     <fail message="Please build using Ant 1.8.0 or higher.">
         <condition>
             <not>
@@ -627,15 +619,7 @@ is divided into following sections:
                     </fileset>
                 </union>
                 <taskdef classname="org.testng.TestNGAntTask" classpath="${run.test.classpath}" name="testng"/>
-<<<<<<< HEAD
-<<<<<<< HEAD:workshops/almachea/Unit3/WS28ClassIndividualExercise/WS28Computers/Cellphone/nbproject/build-impl.xml
-                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="Cellphone" testname="TestNG tests" workingDir="${work.dir}">
-=======
-                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="Empleoyes" testname="TestNG tests" workingDir="${work.dir}">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755:assignments/landazurim/unit3/HW17 Events Validate Fields/Empleoyes/nbproject/build-impl.xml
-=======
-                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="Cellphone" testname="TestNG tests" workingDir="${work.dir}">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+                <testng classfilesetref="test.set" failureProperty="tests.failed" listeners="org.testng.reporters.VerboseReporter" methods="${testng.methods.arg}" mode="${testng.mode}" outputdir="${build.test.results.dir}" suitename="CalculatorGeorgiaTax" testname="TestNG tests" workingDir="${work.dir}">
                     <xmlfileset dir="${build.test.classes.dir}" includes="@{testincludes}"/>
                     <propertyset>
                         <propertyref prefix="test-sys-prop."/>
@@ -732,15 +716,7 @@ is divided into following sections:
                 <condition else="-testclass @{testClass}" property="test.class.or.method" value="-methods @{testClass}.@{testMethod}">
                     <isset property="test.method"/>
                 </condition>
-<<<<<<< HEAD
-<<<<<<< HEAD:workshops/almachea/Unit3/WS28ClassIndividualExercise/WS28Computers/Cellphone/nbproject/build-impl.xml
-                <condition else="-suitename Cellphone -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
-=======
-                <condition else="-suitename Empleoyes -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755:assignments/landazurim/unit3/HW17 Events Validate Fields/Empleoyes/nbproject/build-impl.xml
-=======
-                <condition else="-suitename Cellphone -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+                <condition else="-suitename CalculatorGeorgiaTax -testname @{testClass} ${test.class.or.method}" property="testng.cmd.args" value="@{testClass}">
                     <matches pattern=".*\.xml" string="@{testClass}"/>
                 </condition>
                 <delete dir="${build.test.results.dir}" quiet="true"/>
@@ -1081,15 +1057,7 @@ is divided into following sections:
         <delete file="${built-jar.properties}" quiet="true"/>
     </target>
     <target if="already.built.jar.${basedir}" name="-warn-already-built-jar">
-<<<<<<< HEAD
-<<<<<<< HEAD:workshops/almachea/Unit3/WS28ClassIndividualExercise/WS28Computers/Cellphone/nbproject/build-impl.xml
-        <echo level="warn" message="Cycle detected: Cellphone was already built"/>
-=======
-        <echo level="warn" message="Cycle detected: Empleoyes was already built"/>
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755:assignments/landazurim/unit3/HW17 Events Validate Fields/Empleoyes/nbproject/build-impl.xml
-=======
-        <echo level="warn" message="Cycle detected: Cellphone was already built"/>
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+        <echo level="warn" message="Cycle detected: CalculatorGeorgiaTax was already built"/>
     </target>
     <target depends="init,-deps-jar-init" name="deps-jar" unless="no.deps">
         <mkdir dir="${build.dir}"/>
@@ -1760,15 +1728,7 @@ is divided into following sections:
         <delete file="${built-clean.properties}" quiet="true"/>
     </target>
     <target if="already.built.clean.${basedir}" name="-warn-already-built-clean">
-<<<<<<< HEAD
-<<<<<<< HEAD:workshops/almachea/Unit3/WS28ClassIndividualExercise/WS28Computers/Cellphone/nbproject/build-impl.xml
-        <echo level="warn" message="Cycle detected: Cellphone was already built"/>
-=======
-        <echo level="warn" message="Cycle detected: Empleoyes was already built"/>
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755:assignments/landazurim/unit3/HW17 Events Validate Fields/Empleoyes/nbproject/build-impl.xml
-=======
-        <echo level="warn" message="Cycle detected: Cellphone was already built"/>
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+        <echo level="warn" message="Cycle detected: CalculatorGeorgiaTax was already built"/>
     </target>
     <target depends="init,-deps-clean-init" name="deps-clean" unless="no.deps">
         <mkdir dir="${build.dir}"/>

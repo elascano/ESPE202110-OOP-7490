@@ -7,18 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<<<<<<< HEAD
-<<<<<<< HEAD:workshops/almachea/Unit3/WS28ClassIndividualExercise/WS28Computers/Cellphone/build.xml
-<project name="Cellphone" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Cellphone.</description>
-=======
-<project name="Empleoyes" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Empleoyes.</description>
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755:assignments/landazurim/unit3/HW17 Events Validate Fields/Empleoyes/build.xml
-=======
-<project name="Cellphone" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Cellphone.</description>
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+<project name="USTax" default="default" basedir=".">
+    <description>Builds, tests, and runs the project USTax.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -68,15 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-<<<<<<< HEAD
-<<<<<<< HEAD:workshops/almachea/Unit3/WS28ClassIndividualExercise/WS28Computers/Cellphone/build.xml
-        <target name="run" depends="Cellphone-impl.jar">
-=======
-        <target name="run" depends="Empleoyes-impl.jar">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755:assignments/landazurim/unit3/HW17 Events Validate Fields/Empleoyes/build.xml
-=======
-        <target name="run" depends="Cellphone-impl.jar">
->>>>>>> 6d78d237e8c4ff428be72de8fe460d0adb8bd755
+        <target name="run" depends="USTax-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
