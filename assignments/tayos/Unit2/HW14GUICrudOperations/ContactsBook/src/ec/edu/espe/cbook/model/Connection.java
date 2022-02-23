@@ -1,4 +1,3 @@
-
 package ec.edu.espe.cbook.model;
 
 import com.mongodb.ConnectionString;
@@ -12,17 +11,15 @@ import com.mongodb.client.MongoDatabase;
  * @author Sebas
  */
 public class Connection {
-    
-        ConnectionString connectionString = new ConnectionString("mongodb+srv://SebasTar:1993dragonballz@clusteroop.vlogp.mongodb.net/ClusterOOP?retryWrites=true&w=majority");
-        MongoClientSettings settings = MongoClientSettings.builder()
-         .applyConnectionString(connectionString)
-          .build();
-        MongoClient mongoClient = MongoClients.create(settings);
-        MongoDatabase database = mongoClient.getDatabase("Homework14");
 
-    
-    
-    public MongoDatabase obtenerDB(){
+    ConnectionString connectionString = new ConnectionString("mongodb+srv://SebasTar:1993dragonballz@clusteroop.vlogp.mongodb.net/ClusterOOP?retryWrites=true&w=majority");
+    MongoClientSettings settings = MongoClientSettings.builder()
+            .applyConnectionString(connectionString)
+            .build();
+    MongoClient mongoClient = MongoClients.create(settings);
+    MongoDatabase database = mongoClient.getDatabase("Homework14");
+
+    public MongoDatabase obtenerDB() {
         return database;
     }
 
