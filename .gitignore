@@ -22,28 +22,6 @@
 *.tar.gz
 *.rar
 <<<<<<< HEAD
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-#vpp temporal files
 *.bak_*
 *.rar
 =======
-
-
-
-#vpp temporal files
-*.bak_*
-
-
-
-
-<<<<<<< HEAD
->>>>>>> b25039e007ab0092153ee714752b2f58699160e3
-/workshops/alvarezm/unit3/WS33UnitTest/USTaxOregon/nbproject/private/
-/workshops/alvarezm/unit3/WS33UnitTest/USTaxOregon/build/
-=======
-#vpp temporal files
-*.bak_*
-
-
->>>>>>> 80b4ddda1c0aef650382c474d6d61ebc1677bc91
