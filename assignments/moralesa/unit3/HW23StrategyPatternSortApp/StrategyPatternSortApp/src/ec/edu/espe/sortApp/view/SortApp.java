@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Angel Guaman DEEL-ESPE
+ * @author Anthony Morales, DEEL-ESPE
  */
 
 public class SortApp {
