@@ -25,7 +25,6 @@
 *.bak_*
 *.rar
 =======
-<<<<<<< HEAD
 
 
 
@@ -34,6 +33,7 @@
 
 
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 >>>>>>> b25039e007ab0092153ee714752b2f58699160e3
@@ -270,3 +270,5 @@
 >>>>>>> c8ecf882995f2f4ce6bb0c395597f69c85f67caf
 >>>>>>> 32aa07f5bda5dfa52dbc8f2ac6698ae55f0f479b
 /exams/bravok/unit3/ExamFinalKatherinBravo/Exam_Final_Unit3/build/
+=======
+>>>>>>> 970f2b5001ebdef140737bcd3808f3c128299fe1
