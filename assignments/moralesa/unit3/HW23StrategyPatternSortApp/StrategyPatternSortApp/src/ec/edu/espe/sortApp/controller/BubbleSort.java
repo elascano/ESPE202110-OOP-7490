@@ -3,7 +3,7 @@ package ec.edu.espe.sortApp.controller;
 
 /**
  *
- * @author Angel Guaman DEEL-ESPE
+ * @author Anthony Morales, DEEL-ESPE
  */
 public class BubbleSort implements SortingStrategy{
     
@@ -21,6 +21,5 @@ public class BubbleSort implements SortingStrategy{
         }
         
         return data;
-       
     }
 }
