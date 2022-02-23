@@ -22,12 +22,10 @@
 *.tar.gz
 *.rar
 <<<<<<< HEAD
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-#vpp temporal files
 *.bak_*
 *.rar
 =======
+<<<<<<< HEAD
 
 
 
@@ -231,3 +229,5 @@ hs_err_pid*
 /workshops/shugulia/unit3/WS-35/TemplateMethod/dist/
 /exams/shugulia/Unit3/Exam/nbproject/private/
 /exams/shugulia/Unit3/Exam/build/
+=======
+>>>>>>> cdb0df7868f3b9531eafb174869da115131b8e24
