@@ -22,12 +22,10 @@
 *.tar.gz
 *.rar
 <<<<<<< HEAD
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-#vpp temporal files
 *.bak_*
 *.rar
 =======
+<<<<<<< HEAD
 
 
 
@@ -200,12 +198,49 @@ hs_err_pid*
 >>>>>>> 118b9b539e93115e01f701a61615bc447c6e8271
 >>>>>>> 3bb1ebf25c3184f587bbc9a8c498e4db06159830
 >>>>>>> d641b49499a873e455ef70f96167d243a69e9c06
+<<<<<<< HEAD
+/exams/garciam/Unit3Exam/bubbleSort/nbproject/private/
+/exams/garciam/Unit3Exam/bubbleSort/dist/
+/exams/garciam/Unit3Exam/bubbleSort/build/
+/exams/garciam/Unit3Exam/SortApp/nbproject/private/
+/exams/garciam/Unit3Exam/SortApp/build/
+=======
 /assignments/bravok/unit3/HW22GraphicalInterfaceSingletonPattern/U.S.ACalculator/nbproject/private/
 /workshops/bravok/unit3/WS34SingletonPattern/CalculatorGeorgiaTax/nbproject/private/
 /workshops/bravok/unit3/WS34SingletonPattern/CalculatorGeorgiaTax/build/
 /workshops/bravok/unit3/WS35TemplateMethodPattern/TemplateMethodPattern/nbproject/private/
 /workshops/bravok/unit3/WS35TemplateMethodPattern/TemplateMethodPattern/build/
+<<<<<<< HEAD
+/assignments/zeasj/unit3/HW22SingletonPattern/TaxCalculator/nbproject/private/
+/workshops/zeasj/unit3/WS34SingletonPattern/NewJerseyTax/nbproject/private/
+/workshops/zeasj/unit3/WS34SingletonPattern/NewJerseyTax/build/
+/workshops/zeasj/unit3/WS34SingletonPattern/NewJerseyTax/dist/
+/workshops/zeasj/unit3/WS35TemplateMethodPattern/CaffeShop/nbproject/private/
+/workshops/zeasj/unit3/WS35TemplateMethodPattern/CaffeShop/build/
+/workshops/zeasj/unit3/WS35TemplateMethodPattern/CaffeShop/dist/
+/assignments/zeasj/unit3/HW22SingletonPattern/U.S.ACalculator/build/
+/assignments/zeasj/unit3/HW22SingletonPattern/U.S.ACalculator/nbproject/private/
+/assignments/zeasj/unit3/HW22SingletonPattern/U.S.ACalculator/dist/
+/assignments/zeasj/unit3/HW22SingletonPattern/NewJerseyTaxCalculator/build/
+/assignments/zeasj/unit3/HW22SingletonPattern/NewJerseyTaxCalculator/dist/
+/assignments/zeasj/unit3/HW22SingletonPattern/NewJerseyTaxCalculator/nbproject/private/
+/assignments/zeasj/unit3/HW22SingletonPattern/U.S.A.Calculator/build/
+/assignments/zeasj/unit3/HW22SingletonPattern/U.S.A.Calculator/dist/
+/assignments/zeasj/unit3/HW22SingletonPattern/U.S.A.Calculator/nbproject/private/
+=======
 >>>>>>> 914b1f418ce0c3628c0b500991bdb8a90c16c106
 >>>>>>> 3d777a4afaaf5b3ce79180e8938752bf3e065b24
+<<<<<<< HEAD
 /exams/saltosp/unit3/Examen/Examen/nbproject/private/
 /exams/saltosp/unit3/Examen/Examen/build/
+=======
+>>>>>>> 37985c3803fc43011415473aeab74d0e973db188
+/workshops/shugulia/unit3/WS-35/TemplateMethod/nbproject/private/
+/workshops/shugulia/unit3/WS-35/TemplateMethod/build/
+/workshops/shugulia/unit3/WS-35/TemplateMethod/dist/
+/exams/shugulia/Unit3/Exam/nbproject/private/
+/exams/shugulia/Unit3/Exam/build/
+=======
+>>>>>>> cdb0df7868f3b9531eafb174869da115131b8e24
+>>>>>>> 745cca0d59281f122b7fb26c0e88b7cb5715f831
+>>>>>>> 0a8077be871d97010ae1afc8176567d02f59d86b
