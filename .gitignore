@@ -22,19 +22,10 @@
 *.tar.gz
 *.rar
 <<<<<<< HEAD
-/workshops/altamiranoc/Unit3/WS33UnitTest/MathOperations/nbproject/private/
-/assignments/altamiranoc/Unit3/HW20TestCases/PerimeterOfRectangule/nbproject/private/
-/assignments/altamiranoc/Unit3/HW20TestCases/PerimeterOfRectangule/build/
-/assignments/altamiranoc/Unit3/HW22TaxCalculator/USTax/nbproject/private/
-/assignments/altamiranoc/Unit3/HW22TaxCalculator/USTax/build/
-=======
-<<<<<<< HEAD
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-#vpp temporal files
 *.bak_*
 *.rar
 =======
+<<<<<<< HEAD
 
 
 
@@ -202,27 +193,18 @@ hs_err_pid*
 /workshops/moralesa/unit3/WS34/Calculator/build/
 =======
 >>>>>>> 80b4ddda1c0aef650382c474d6d61ebc1677bc91
-<<<<<<< HEAD
-/workshops/alvarezm/unit3/WS35TemplateMethodPattern/TemplateMethod/nbproject/private/
-/workshops/alvarezm/unit3/WS35TemplateMethodPattern/TemplateMethod/build/
-/assignments/alvarezm/unit3/HW23StrategyPatternSortApp/StrategyPatternSortApp/nbproject/private/
-/assignments/alvarezm/unit3/HW23StrategyPatternSortApp/StrategyPatternSortApp/build/
-=======
 >>>>>>> b41c5cdba8629b738b60392a181b20603bbee89f
 >>>>>>> 9d3844c8d928d6cece6550ba0bf825412c72e60a
-<<<<<<< HEAD
-/workshops/moralesa/unit3/WS35/CaffeineBeverage/nbproject/private/
-/assignments/moralesa/unit3/HW22/Singleton/nbproject/private/
-=======
 >>>>>>> 118b9b539e93115e01f701a61615bc447c6e8271
 >>>>>>> 3bb1ebf25c3184f587bbc9a8c498e4db06159830
-<<<<<<< HEAD
-/workshops/maldonadom/unit3/WS35/JavaApplication23/nbproject/private/
-/workshops/maldonadom/unit3/WS35/CaffeineBeverage/nbproject/private/
-/exams/maldonadom/unit3/Final ExamExercise/nbproject/private/
-/exams/maldonadom/unit3/Final ExamExercise/build/
-=======
 >>>>>>> d641b49499a873e455ef70f96167d243a69e9c06
+<<<<<<< HEAD
+/exams/garciam/Unit3Exam/bubbleSort/nbproject/private/
+/exams/garciam/Unit3Exam/bubbleSort/dist/
+/exams/garciam/Unit3Exam/bubbleSort/build/
+/exams/garciam/Unit3Exam/SortApp/nbproject/private/
+/exams/garciam/Unit3Exam/SortApp/build/
+=======
 /assignments/bravok/unit3/HW22GraphicalInterfaceSingletonPattern/U.S.ACalculator/nbproject/private/
 /workshops/bravok/unit3/WS34SingletonPattern/CalculatorGeorgiaTax/nbproject/private/
 /workshops/bravok/unit3/WS34SingletonPattern/CalculatorGeorgiaTax/build/
@@ -248,15 +230,17 @@ hs_err_pid*
 =======
 >>>>>>> 914b1f418ce0c3628c0b500991bdb8a90c16c106
 >>>>>>> 3d777a4afaaf5b3ce79180e8938752bf3e065b24
->>>>>>> 37985c3803fc43011415473aeab74d0e973db188
->>>>>>> daf4e496d33408c6ae1b5d1ca905c61ec716c61e
->>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
 <<<<<<< HEAD
-/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamAltamiranoCristhian/nbproject/private/
-/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamUnit3/nbproject/private/
-/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamAltamiranoCristhian/build/
-/exams/altamiranoc/Unit3/ExamAltamiranoCristhian/ExamUnit3/build/
+/exams/saltosp/unit3/Examen/Examen/nbproject/private/
+/exams/saltosp/unit3/Examen/Examen/build/
 =======
->>>>>>> ede1e45b0bac22c29bef0ce186692443a8571a80
->>>>>>> 03b4cbd785633126e9a8f69d374c37eee97ab6fd
->>>>>>> 962225dfcf932eda8442b1577224d69cab03643c
+>>>>>>> 37985c3803fc43011415473aeab74d0e973db188
+/workshops/shugulia/unit3/WS-35/TemplateMethod/nbproject/private/
+/workshops/shugulia/unit3/WS-35/TemplateMethod/build/
+/workshops/shugulia/unit3/WS-35/TemplateMethod/dist/
+/exams/shugulia/Unit3/Exam/nbproject/private/
+/exams/shugulia/Unit3/Exam/build/
+=======
+>>>>>>> cdb0df7868f3b9531eafb174869da115131b8e24
+>>>>>>> 745cca0d59281f122b7fb26c0e88b7cb5715f831
+>>>>>>> 0a8077be871d97010ae1afc8176567d02f59d86b
