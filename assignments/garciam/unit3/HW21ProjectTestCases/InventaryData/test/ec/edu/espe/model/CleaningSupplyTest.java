@@ -23,8 +23,12 @@ public class CleaningSupplyTest {
         String expResult = "";
         String result = instance.toString();
         assertEquals(expResult, result);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -37,8 +41,12 @@ public class CleaningSupplyTest {
         int expResult = 89645;
         int result = instance.getProduct_id();
         assertEquals(expResult, result,01);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -50,8 +58,12 @@ public class CleaningSupplyTest {
         int product_id = 0;
         CleaningSupply instance = new CleaningSupply();
         instance.setProduct_id(product_id);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -65,8 +77,12 @@ public class CleaningSupplyTest {
         String expResult = "mop";
         String result = instance.getCleaningSupply();
         assertEquals(expResult, "mop");
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -78,8 +94,12 @@ public class CleaningSupplyTest {
         String cleaningSupply = "";
         CleaningSupply instance = new CleaningSupply();
         instance.setCleaningSupply(cleaningSupply);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -92,8 +112,12 @@ public class CleaningSupplyTest {
         boolean expResult = false;
         boolean result = instance.isAvailability();
         assertEquals(expResult, result);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -105,8 +129,12 @@ public class CleaningSupplyTest {
         boolean availability = false;
         CleaningSupply instance = new CleaningSupply();
         instance.setAvailability(availability);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -119,8 +147,12 @@ public class CleaningSupplyTest {
         double expResult = 0.0;
         double result = instance.getPrice();
         assertEquals(expResult, result, 0.0);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
     /**
@@ -136,8 +168,12 @@ public class CleaningSupplyTest {
         double result;
         //double result = instance.getPrice(price);
          assertEquals(expResult, 0.0);
+<<<<<<< HEAD
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+=======
+        
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     }
 
    
