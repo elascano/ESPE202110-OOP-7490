@@ -23,6 +23,7 @@
 *.rar
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /workshops/altamiranoc/Unit3/WS33UnitTest/MathOperations/nbproject/private/
 /assignments/altamiranoc/Unit3/HW20TestCases/PerimeterOfRectangule/nbproject/private/
 /assignments/altamiranoc/Unit3/HW20TestCases/PerimeterOfRectangule/build/
@@ -250,9 +251,11 @@ hs_err_pid*
 >>>>>>> 2a48fe315b057cea1b00a3b6991733e8edab68af
 >>>>>>> ede1e45b0bac22c29bef0ce186692443a8571a80
 =======
+=======
+>>>>>>> 1a7dab7b37cef1ea7c9dedaa268daf34a1477c61
 *.bak_*
 *.rar
-=======
+
 
 
 
@@ -260,5 +263,8 @@ hs_err_pid*
 *.bak_*
 
 
+<<<<<<< HEAD
 
 >>>>>>> ce484174b950faef0a6691e272919111c42b3660
+=======
+>>>>>>> 1a7dab7b37cef1ea7c9dedaa268daf34a1477c61
