@@ -92,6 +92,11 @@ public class FrmContact extends javax.swing.JFrame {
 
         jLabel6.setText("Salary");
 
+        txtCedula.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCedulaActionPerformed(evt);
+            }
+        });
         txtCedula.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtCedulaKeyTyped(evt);
@@ -448,6 +453,10 @@ public class FrmContact extends javax.swing.JFrame {
         habilyInsert();
         habilyClean();
     }//GEN-LAST:event_txtSalaryKeyTyped
+
+    private void txtCedulaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCedulaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCedulaActionPerformed
     public boolean Delete(String id) {
         DeleteResult answer = Contacts.deleteOne(new Document("_id", new ObjectId(id)));
         if (answer.getDeletedCount() == 1) {

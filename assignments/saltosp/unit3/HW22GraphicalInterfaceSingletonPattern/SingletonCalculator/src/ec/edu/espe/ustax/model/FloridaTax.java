@@ -3,7 +3,7 @@ package ec.edu.espe.ustax.model;
 
 /**
  *
- * @author Paul Saltos, DEEL-ESPE
+ * @author Paul Saltos, DEEE-ESPE
  */
 public class FloridaTax {
     
