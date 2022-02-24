@@ -3,12 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/ESPE202110-OOP-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/ec/edu/espe/order/controller/QuickSort.java</file>
-            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/ESPE202110-OOP-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/ec/edu/espe/order/view/FrmOrder.java</file>
-            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/ESPE202110-OOP-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/ec/edu/espe/order/controller/InsertionSort.java</file>
-            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/ESPE202110-OOP-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/utils/MongoConnection.java</file>
-            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/ESPE202110-OOP-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/ec/edu/espe/order/model/Order.java</file>
-            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/ESPE202110-OOP-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/ec/edu/espe/order/controller/BubbleSort.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/OOP/ESPE202110-OOP-TC-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/ec/edu/espe/order/controller/BubbleSort.java</file>
+            <file>file:/C:/Users/Usuario/OneDrive/Documentos/ESPE/Semestre%202/POO/OOP/ESPE202110-OOP-TC-7490/exams/quingal/Unit3/StrategyPattern/StrategyPattern/src/ec/edu/espe/order/controller/QuickSort.java</file>
         </group>
     </open-files>
 </project-private>
