@@ -8,17 +8,17 @@ package ec.edu.espe.OilFilter.model;
 public class OilFilter {
     
     private int Id;
-    private float Weight; 
+    float  Weight; 
     private String Mark;
-    private boolean Type;
-    private boolean Visa;
+    private String Type;
+    private String Maker;
 
-    public OilFilter(int Id, float Weight, String Mark, boolean Type, boolean Visa) {
+    public OilFilter(int Id, float Weight, String Mark, String Type, String Maker) {
         this.Id = Id;
         this.Weight = Weight;
         this.Mark = Mark;
         this.Type = Type;
-        this.Visa = Visa;
+        this.Maker = Maker;
     }
 
     public void setId(int Id) {
@@ -33,12 +33,12 @@ public class OilFilter {
         this.Mark = Mark;
     }
 
-    public void setType(boolean Type) {
+    public void setType(String Type) {
         this.Type = Type;
     }
 
-    public void setVisa(boolean Visa) {
-        this.Visa = Visa;
+    public void setVisa(String Visa) {
+        this.Maker = Maker;
     }
 
     public int getId() {
@@ -53,12 +53,12 @@ public class OilFilter {
         return Mark;
     }
 
-    public boolean isType() {
+    public String isType() {
         return Type;
     }
 
-    public boolean isVisa() {
-        return Visa;
+    public String isMaker() {
+        return Maker;
     }
     
     

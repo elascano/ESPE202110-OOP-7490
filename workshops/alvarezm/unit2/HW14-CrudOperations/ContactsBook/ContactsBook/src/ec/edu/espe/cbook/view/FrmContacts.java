@@ -18,7 +18,7 @@ import org.bson.types.ObjectId;
 
 /**
  *
- * @author Angel Guaman
+ * @author mealvarez
  */
 public class FrmContacts extends javax.swing.JFrame {
     
@@ -281,6 +281,11 @@ public class FrmContacts extends javax.swing.JFrame {
 
         btnFind.setBackground(new java.awt.Color(255, 51, 255));
         btnFind.setText("Find");
+        btnFind.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFindActionPerformed(evt);
+            }
+        });
 
         btnExit.setBackground(new java.awt.Color(255, 51, 255));
         btnExit.setText("Exit");
@@ -472,6 +477,10 @@ public class FrmContacts extends javax.swing.JFrame {
     private void txtMasculineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtMasculineActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtMasculineActionPerformed
+
+    private void btnFindActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnFindActionPerformed
 
     public boolean Delete(String id){
         DeleteResult answer = Contact.deleteOne(new Document("_id", new ObjectId(id)));

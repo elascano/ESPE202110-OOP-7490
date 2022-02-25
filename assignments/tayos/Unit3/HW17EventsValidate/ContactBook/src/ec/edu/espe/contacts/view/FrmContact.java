@@ -92,6 +92,14 @@ public class FrmContact extends javax.swing.JFrame {
 
         jLabel6.setText("Salary");
 
+<<<<<<< HEAD
+=======
+        txtCedula.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtCedulaActionPerformed(evt);
+            }
+        });
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
         txtCedula.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtCedulaKeyTyped(evt);
@@ -219,10 +227,10 @@ public class FrmContact extends javax.swing.JFrame {
                         .addGap(135, 135, 135)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(41, 41, 41))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(273, 273, 273)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(231, 231, 231))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -448,6 +456,13 @@ public class FrmContact extends javax.swing.JFrame {
         habilyInsert();
         habilyClean();
     }//GEN-LAST:event_txtSalaryKeyTyped
+<<<<<<< HEAD
+=======
+
+    private void txtCedulaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCedulaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCedulaActionPerformed
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     public boolean Delete(String id) {
         DeleteResult answer = Contacts.deleteOne(new Document("_id", new ObjectId(id)));
         if (answer.getDeletedCount() == 1) {
