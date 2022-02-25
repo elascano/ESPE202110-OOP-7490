@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
+<testsuite errors="0" failures="9" hostname="DESKTOP-PJMIUO0" name="ec.edu.espe.model.CleaningSupplyTest" skipped="0" tests="9" time="0.091" timestamp="2022-02-13T04:17:12">
+=======
 <testsuite errors="0" failures="4" hostname="DESKTOP-PJMIUO0" name="ec.edu.espe.model.CleaningSupplyTest" skipped="0" tests="9" time="0.231" timestamp="2022-02-21T20:56:35">
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
   <properties>
     <property name="" value="======" />
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-12.5\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
@@ -21,7 +25,11 @@
     <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans-12.5\netbeans\java\modules\ext\docs\javax.persistence-2.2.1-doc.zip" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin" />
+<<<<<<< HEAD
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ec.edu.espe.model.CleaningSupplyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\build\test\results\TEST-ec.edu.espe.model.CleaningSupplyTest.xml crashfile=C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\build\junitvmwatcher13279051532810388991.properties propsfile=C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\build\junit15136880111934931273.properties" />
+=======
     <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ec.edu.espe.model.CleaningSupplyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\build\test\results\TEST-ec.edu.espe.model.CleaningSupplyTest.xml crashfile=C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\build\junitvmwatcher18418926356764300212.properties propsfile=C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\build\junit12667053672457835237.properties" />
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -42,7 +50,11 @@
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="sun.java2d.noddraw" value="true" />
     <property name="sun.zip.disableMemoryMapping" value="true" />
+<<<<<<< HEAD
+    <property name="jnidispatch.path" value="C:\Users\mayer\AppData\Local\Temp\jna-103673042\jna13843154895778478039.dll" />
+=======
     <property name="jnidispatch.path" value="C:\Users\mayer\AppData\Local\Temp\jna-103673042\jna4976232608582794371.dll" />
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.jsf12.src" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
@@ -238,7 +250,11 @@
     <property name="ant.file.type.InventaryData" value="file" />
     <property name="libs.JFormDesigner-SwingLayout.classpath" value="C:\Users\mayer\AppData\Roaming\NetBeans\12.5\redist\swing-layout.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-12.5\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
+<<<<<<< HEAD
+    <property name="javac.includesfile.binary" value="C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\null621723762" />
+=======
     <property name="javac.includesfile.binary" value="C:\Segundo nivel ESPE\OOP\código\ESPE202110-OOP-7490\assignments\garciam\unit3\HW21ProjectTestCases\InventaryData\null329425725" />
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-12.5\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -493,15 +509,25 @@
     <property name="libs.javaee-web-api-7.0.src" value="" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-12.5\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-12.5\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.5\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
+<<<<<<< HEAD
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testGetPrice" time="0.007">
+    <failure message="expected:&lt;0.0&gt; but was:&lt;2.4&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;0.0&gt; but was:&lt;2.4&gt;
+	at ec.edu.espe.model.CleaningSupplyTest.testGetPrice(CleaningSupplyTest.java:121)
+=======
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testGetPrice" time="0.018">
     <failure message="expected:&lt;0.0&gt; but was:&lt;2.4&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;0.0&gt; but was:&lt;2.4&gt;
 	at ec.edu.espe.model.CleaningSupplyTest.testGetPrice(CleaningSupplyTest.java:114)
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 </failure>
   </testcase>
+<<<<<<< HEAD
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testToString" time="0.011">
+=======
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testToString" time="0.022">
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
     <failure message="expected:&lt;[]&gt; but was:&lt;[cleaningSupply{product_id=89645, cleaningSupply=mop, availability=true, price=2.4}]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[]&gt; but was:&lt;[cleaningSupply{product_id=89645, cleaningSupply=mop, availability=true, price=2.4}]&gt;
 	at ec.edu.espe.model.CleaningSupplyTest.testToString(CleaningSupplyTest.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -509,22 +535,74 @@
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 </failure>
   </testcase>
+<<<<<<< HEAD
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testGetProduct_id" time="0.002">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at ec.edu.espe.model.CleaningSupplyTest.testGetProduct_id(CleaningSupplyTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetCleaningSupply" time="0.002">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at ec.edu.espe.model.CleaningSupplyTest.testSetCleaningSupply(CleaningSupplyTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetProduct_id" time="0.001">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at ec.edu.espe.model.CleaningSupplyTest.testSetProduct_id(CleaningSupplyTest.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testIsAvailability" time="0.001">
+    <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;false&gt; but was:&lt;true&gt;
+	at ec.edu.espe.model.CleaningSupplyTest.testIsAvailability(CleaningSupplyTest.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetAvailability" time="0.001">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at ec.edu.espe.model.CleaningSupplyTest.testSetAvailability(CleaningSupplyTest.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testGetCleaningSupply" time="0.001">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at ec.edu.espe.model.CleaningSupplyTest.testGetCleaningSupply(CleaningSupplyTest.java:69)
+=======
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testGetProduct_id" time="0.0" />
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetCleaningSupply" time="0.001" />
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetProduct_id" time="0.0" />
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testIsAvailability" time="0.002">
     <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;false&gt; but was:&lt;true&gt;
 	at ec.edu.espe.model.CleaningSupplyTest.testIsAvailability(CleaningSupplyTest.java:89)
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 </failure>
   </testcase>
+<<<<<<< HEAD
+  <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetPrice" time="0.001">
+    <failure message="Use assertEquals(expected, actual, delta) to compare floating-point numbers" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Use assertEquals(expected, actual, delta) to compare floating-point numbers
+	at ec.edu.espe.model.CleaningSupplyTest.testSetPrice(CleaningSupplyTest.java:138)
+=======
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetAvailability" time="0.0" />
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testGetCleaningSupply" time="0.0" />
   <testcase classname="ec.edu.espe.model.CleaningSupplyTest" name="testSetPrice" time="0.002">
     <failure message="Use assertEquals(expected, actual, delta) to compare floating-point numbers" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Use assertEquals(expected, actual, delta) to compare floating-point numbers
 	at ec.edu.espe.model.CleaningSupplyTest.testSetPrice(CleaningSupplyTest.java:130)
+>>>>>>> ce484174b950faef0a6691e272919111c42b3660
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

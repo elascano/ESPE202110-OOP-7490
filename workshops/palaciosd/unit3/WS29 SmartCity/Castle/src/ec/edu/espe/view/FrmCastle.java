@@ -129,8 +129,10 @@ public class FrmCastle extends javax.swing.JFrame {
     }//GEN-LAST:event_btnRefreshActionPerformed
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
-            Add add = new Add(this,true, Register, idUpload);
-            upload.setVisible(true);
+            int renglon = tblCastle.getSelectedRow();
+            String idUpload = tblCastle.getValueAt(renglon, 0).toString();
+            Add add = new Add(this,true, Castles, idUpload);
+            add.setVisible(true);
             mostrar();
     }//GEN-LAST:event_btnAddActionPerformed
 
