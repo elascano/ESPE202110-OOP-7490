@@ -259,7 +259,7 @@ public class DjMixer extends javax.swing.JFrame {
         try {
             Document data = new Document();
 
-           data.put("Name", txtName.getText());
+            data.put("Name", txtName.getText());
             data.put("Id", txtId.getText());
             data.put("PhoneNumber", txtPhoneNumber.getText());
             data.put("Price", txtprice.getText());
