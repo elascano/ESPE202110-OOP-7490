@@ -479,9 +479,9 @@ public class frmRegister extends javax.swing.JFrame {
             //Date birthdate = Integer.valueOf(doc.get(4).toString());
             float salary = Float.parseFloat(doc.get(5).toString());  
             
-            Register personData = new Register(idNumber, lastName, name, salary);        
+            //Register personData = new Register(idNumber, lastName, name, salary);        
             
-            person.add(personData);
+            //person.add(personData);
         }
         return person;
     }
