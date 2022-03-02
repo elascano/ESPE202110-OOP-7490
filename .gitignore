@@ -21,9 +21,9 @@
 *.zip
 *.tar.gz
 *.rar
-<<<<<<< HEAD
 *.bak_*
 *.rar
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -283,3 +283,5 @@
 >>>>>>> e89fb39bff702273fa615e2db60abf17a40cc5ed
 >>>>>>> c38320fc2dc1d4b4b7d87a06a30076ecd4f30ff8
 /assignments/moralesa/unit3/HW23StrategyPatternSortApp/StrategyPatternSortApp/build/
+=======
+>>>>>>> d4a0a0f66456e3db52f51e3829689e9b272d7ca4
