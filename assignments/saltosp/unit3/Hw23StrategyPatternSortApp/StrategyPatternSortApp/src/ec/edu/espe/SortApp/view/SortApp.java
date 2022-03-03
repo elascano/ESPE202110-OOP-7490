@@ -1,7 +1,7 @@
 
-package ec.edu.espe.Examen.view;
+package ec.edu.espe.SortApp.view;
 
-import ec.edu.espe.Examen.model.SortingContext;
+import ec.edu.espe.SortApp.model.SortingContext;
 import java.util.Scanner;
 
 /**
@@ -46,3 +46,5 @@ public class SortApp {
         
     }  
 }
+
+

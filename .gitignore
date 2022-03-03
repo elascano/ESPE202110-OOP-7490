@@ -23,3 +23,5 @@
 *.rar
 *.bak_*
 *.rar
+/exams/saltosp/unit3/Examen/correccion/nbproject/private/
+/assignments/saltosp/unit3/Hw23StrategyPatternSortApp/StrategyPatternSortApp/nbproject/private/

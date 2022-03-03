@@ -1,11 +1,15 @@
 
-package ec.edu.espe.Examen.controller;
+package ec.edu.espe.SortApp.controller;
 
 /**
  *
  * @author Paul Saltos , DEEE-ESPE
  */
-public class BublbleSort implements SortingStrategy {
+public class BubbleSort implements SortingStrategy {
+
+    public BubbleSort() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     @Override
     public int[] sort(int[] data) {
@@ -24,3 +28,6 @@ public class BublbleSort implements SortingStrategy {
        
     }
 }
+
+    
+

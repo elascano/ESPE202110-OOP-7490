@@ -1,12 +1,15 @@
 
-package ec.edu.espe.sortApp.controller;
+package ec.edu.espe.SortApp.controller;
 
 /**
  *
- * @author Jose Sanchez, DEEL-ESPE
+ * @author Paul Saltos , DEEE-ESPE
  */
-
 public class QuickSort implements SortingStrategy {
+
+    public QuickSort() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     @Override
     public int[] sort(int[] data) {
@@ -17,7 +20,6 @@ public class QuickSort implements SortingStrategy {
     
         
     public void quick(int[] data, int a, int b){
-        System.out.println("");
         data = new int[data.length];
         int buf;
         int from = a;
