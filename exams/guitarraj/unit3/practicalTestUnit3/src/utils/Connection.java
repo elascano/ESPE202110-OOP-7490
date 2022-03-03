@@ -18,7 +18,7 @@ MongoClientSettings settings = MongoClientSettings.builder()
         .applyConnectionString(connectionString)
         .build();
 MongoClient mongoClient = MongoClients.create(settings);
-MongoDatabase database = mongoClient.getDatabase("DataBaseUnsorted");
+MongoDatabase database = mongoClient.getDatabase("test");
     
     public MongoDatabase obtenerDB(){
         return database;
