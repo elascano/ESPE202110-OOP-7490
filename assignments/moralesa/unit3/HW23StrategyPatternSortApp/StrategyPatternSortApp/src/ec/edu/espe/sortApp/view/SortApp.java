@@ -43,7 +43,7 @@ public class SortApp {
         
         SortingContext sc = new SortingContext();
         
-        sortedList[] = sc.sort(data);
+        //sortedList[] = sc.sort(data);
         
     }  
 }

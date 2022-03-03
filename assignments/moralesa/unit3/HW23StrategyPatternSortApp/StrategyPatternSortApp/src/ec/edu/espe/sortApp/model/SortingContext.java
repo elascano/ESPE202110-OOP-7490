@@ -32,7 +32,5 @@ public class SortingContext {
         strategy = new QuickSort();}
 
         return strategy;
-    }
-
-       
+    }   
 }

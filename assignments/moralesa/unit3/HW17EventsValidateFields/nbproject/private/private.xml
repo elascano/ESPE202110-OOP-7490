@@ -2,6 +2,9 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+        <group/>
+=======
         <group>
 <<<<<<< HEAD
             <file>file:/C:/Users/LENOVO/Downloads/Documentos/Progra/Tomorrow/Copia%20de%20Register/src/utils/Connection.java</file>
@@ -11,5 +14,6 @@
             <file>file:/C:/POO/Codigos/ESPE202110-OOP-7490/assignments/moralesa/unit3/HW17EventsValidateFields/src/ec/edu/espe/events/view/frmRegister.java</file>
 >>>>>>> ce484174b950faef0a6691e272919111c42b3660
         </group>
+>>>>>>> d4a0a0f66456e3db52f51e3829689e9b272d7ca4
     </open-files>
 </project-private>
